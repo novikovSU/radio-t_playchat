@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/favicon.png" rel="icon">
+<style type="text/css">
+        html { background: #fff; font: .75em/1.5 Verdana, Arial, Helvetica, sans-serif; }
+        .message { clear: both; }
+        .message p { margin: 0; padding: 0; }
+        .message .date { color: #666; float: left; margin-right: 15px; }
+        .message .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
+        .message p:hover, .flashed { background-color: #f0f0f0; }
+        .message .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
+        a { color: #0066cc; }
+        </style>
+<style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style>
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+    <script src="./audio.js"></script>
+    <script>
+        audiojs.events.ready(function() {
+            var as = audiojs.createAll();
+        });
+    </script>
+    <script type="text/javascript">
+    	
+        Date.prototype.getLocalTime = function() {
+            h = (h = this.getHours()) < 10 ? ('0' + h) : h;
+            m = (m = this.getMinutes()) < 10 ? ('0' + m) : m;
+            s = (s = this.getSeconds()) < 10 ? ('0' + s) : s;
+
+            return h + ":" + m + ":" + s;
+        }
+
+        $.urlParam = function (name) {
+            return decodeURI( (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] );
+        }
+
+        $(document).ready(function(){
+     
+            var volume = $.urlParam('vol');
+
+            $('#totop').click(function(e){
+                e.preventDefault();
+                $("#messages").prop({ scrollTop: 0 });
+            });
+
+            $('#tobottom').click(function(e){
+                e.preventDefault();
+                $("#messages").prop({ scrollTop: $("#messages")[0].scrollHeight });
+            });
+
+            /*var idxDbLink = new Firebase('https://novikov-su.firebaseio.com/radio-t/index');
+
+            idxDbLink.once('value', function(snapshot) {
+                snapshot.val()
+            });
+            */
+
+            $('#picker_select').change(function(){
+                var num = $(this).val();
+                var chatDbLink = new Firebase('https://novikov-su.firebaseio.com/radio-t/' + num + '/chat');
+                var descDbLink = new Firebase('https://novikov-su.firebaseio.com/radio-t/' + num + '/desc');
+
+                $('.message').remove();
+                $('#numbers').css("display","inline-table");
+                $('#loaded').text('0');
+                $('#total').text('0');
+
+                descDbLink.once('value', function(snapshot) {
+                    $('#start_time').text(snapshot.val().start_time);
+                    $('#podcast').attr("src",snapshot.val().url);
+                    $('#total').text(snapshot.val().number_chat_messages);
+                });
+
+                chatDbLink.on('child_added', function(snapshot) {
+                    var message = snapshot.val();
+                    $('#messages').append('<div class="message t' + message.datetime + '"><p><span class="date">' + (new Date(message.datetime*1000).getLocalTime()) + '</span><span class="nickname ' + message.type + '">' + message.author + '</span><span class="text">' + message.text + '</span></p></div>');
+                    $('#loaded').text(parseInt($('#loaded').text())+1);
+                });
+            });
+
+            $('#loaded').bind('DOMSubtreeModified', function(e) {
+                if ((e.target.innerHTML == $('#total').text()) && ($('#total').text() != '0')) {
+                    window.setTimeout(function(){$('#numbers').css("display","none");},15000);
+                    var start_time = parseInt($('#start_time').text());
+                    for (var i = start_time - 10800; i < start_time; i++ ) {
+                        $('.t' + i).css("display","block");
+                    }
+                    $('#tobottom').click();
+                }
+            });
+
+            if(parseInt(volume) > 0) {
+                $("select#picker_select option").each(function() { this.selected = (this.text == volume); });
+                $('#picker_select').trigger('change');
+            }
+
+        });
+    </script>
+    <style type="text/css">
+        .audiojs { display: inline-table; margin: 0px; vertical-align: top;}
+        .audiojs .volume { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -10px -143px no-repeat; }
+        .audiojs .level { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -10px -123px no-repeat; }
+        .audiojs .play { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -3px no-repeat; }
+        .audiojs .loading { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -33px no-repeat; }
+        .audiojs .error { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -63px no-repeat; }
+        .audiojs .pause { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -93px no-repeat; }
+        .audiojs .pause:hover,.audiojs .pause:focus { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -33px -93px no-repeat; }
+        .audiojs .play:hover,.audiojs .play:focus { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -33px -3px no-repeat; }
+
+        #panel {
+            position: fixed;
+            z-index: 999;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 30px;
+            padding: 4px 4px 4px 4px;
+            background-color: white;
+            border-top: 1px dotted gray;
+        }
+
+        #picker { display:inline-table; margin: 0px; vertical-align: middle; }
+        #numbers { display:inline-table; padding-left:5px; padding-right:5px; margin: 0px; vertical-align: middle; color:silver;}
+        #controls { display:inline-table; margin: 0px; vertical-align: middle;}
+        #controls .link { padding-left:5px; padding-right:5px; text-decoration: none; cursor: pointer; color: blue;}
+        #controls .link:hover { text-decoration: underline; }
+
+        #messages {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 40px;
+            padding: 5px 10px 5px 5px;
+            overflow: auto;
+        }
+        .message { display: none; }
+        .message .listener { color: rgb(16,120,100); }
+        .message .bot { color: gray; }
+        .message .vip { color: rgb(130,10,0); }  
+    </style>
+	</head>
+
+	<body>
+        <div id="panel">
+            <div id="picker">
+                <select id="picker_select">
+                    <option>--</option>
+                    <option id="328" value="328">328</option>
+                    <option id="327" value="327">327</option>
+                    <option id="326" value="326">326</option>
+                    <option id="325" value="325">325</option>
+                </select>
+            </div>
+            <audio id="podcast" preload="none"></audio>
+            <div id="controls"><span class="link" id="totop">&uarr;Наверх</span> <span class="link" id="tobottom">&darr;Вниз</span></div>
+            <div id="numbers" style="display:none">загружено сообщений <span id="loaded">0</span> из <span id="total">0</span></div>
+            <span id="start_time" style="display:none"></span>
+            <span id="last_offset" style="display:none">0</span>
+        </div>
+        <div id="messages"></div>
+    </body>
+
+    <style type="text/css"></style>
+</html>
