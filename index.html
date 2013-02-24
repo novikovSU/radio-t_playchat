@@ -50,7 +50,7 @@
                 $("#messages").prop({ scrollTop: $("#messages")[0].scrollHeight });
             });
 
-            /*var idxDbLink = new Firebase('https://novikov-su.firebaseio.com/radio-t/index');
+            /*var idxDbLink = new Firebase('https://radio-t.firebaseio.com/index');
 
             idxDbLink.once('value', function(snapshot) {
                 snapshot.val()
@@ -59,8 +59,8 @@
 
             $('#picker_select').change(function(){
                 var num = $(this).val();
-                var chatDbLink = new Firebase('https://novikov-su.firebaseio.com/radio-t/' + num + '/chat');
-                var descDbLink = new Firebase('https://novikov-su.firebaseio.com/radio-t/' + num + '/desc');
+                var chatDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/chat');
+                var descDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/desc');
 
                 $('.message').remove();
                 $('#numbers').css("display","inline-table");
@@ -144,18 +144,19 @@
 	</head>
 
 	<body>
-	<a href="https://github.com/novikovSU/radio-t_playchat"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+	   <a href="https://github.com/novikovSU/radio-t_playchat"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:999" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
         <div id="panel">
             <div id="picker">
                 <select id="picker_select">
                     <option>--</option>
+                    <option value="329">329</option>
                     <option value="328">328</option>
                     <option value="327">327</option>
                     <option value="326">326</option>
                     <option value="325">325</option>
                 </select>
             </div>
-            <audio id="podcast" preload="none"></audio>
+            <audio id="podcast" preload="none" src="http://cdn.radio-t.com/rt_podcast326.mp3"></audio>
             <div id="controls"><span class="link" id="totop">&uarr;Наверх</span> <span class="link" id="tobottom">&darr;Вниз</span></div>
             <div id="numbers" style="display:none">загружено сообщений <span id="loaded">0</span> из <span id="total">0</span></div>
             <span id="start_time" style="display:none"></span>
