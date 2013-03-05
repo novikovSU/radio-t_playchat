@@ -2,137 +2,142 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="/assets/images/favicon.png" rel="icon">
-<style type="text/css">
-        html { background: #fff; font: .75em/1.5 Verdana, Arial, Helvetica, sans-serif; }
-        .message { clear: both; }
-        .message p { margin: 0; padding: 0; }
-        .message .date { color: #666; float: left; margin-right: 15px; }
-        .message .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
-        .message p:hover, .flashed { background-color: #f0f0f0; }
-        .message .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
-        a { color: #0066cc; }
-        </style>
-<style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style>
-	
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-	<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
-    <script src="./assets/audiojs/audio.js"></script>
-    <script>
-        audiojs.events.ready(function() {
-            var as = audiojs.createAll();
-        });
-    </script>
-    <script type="text/javascript">
-    	
-        Date.prototype.getLocalTime = function() {
-            h = (h = this.getHours()) < 10 ? ('0' + h) : h;
-            m = (m = this.getMinutes()) < 10 ? ('0' + m) : m;
-            s = (s = this.getSeconds()) < 10 ? ('0' + s) : s;
+        <style type="text/css">
+            html { background: #fff; font: .75em/1.5 Verdana, Arial, Helvetica, sans-serif; }
+            .message { clear: both; }
+            .message p { margin: 0; padding: 0; }
+            .message .date { color: #666; float: left; margin-right: 15px; }
+            .message .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
+            .message p:hover, .flashed { background-color: #f0f0f0; }
+            .message .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
+            a { color: #0066cc; }
 
-            return h + ":" + m + ":" + s;
-        }
-
-        $.urlParam = function (name) {
-            return decodeURI( (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] );
-        }
-
-        $(document).ready(function(){
-     
-            var volume = $.urlParam('vol');
-
-            $('#totop').click(function(e){
-                e.preventDefault();
-                $("#messages").prop({ scrollTop: 0 });
-            });
-
-            $('#tobottom').click(function(e){
-                e.preventDefault();
-                $("#messages").prop({ scrollTop: $("#messages")[0].scrollHeight });
-            });
-
-            /*var idxDbLink = new Firebase('https://radio-t.firebaseio.com/index');
-
-            idxDbLink.once('value', function(snapshot) {
-                snapshot.val()
-            });
-            */
-
-            $('#picker_select').change(function(){
-                var num = $(this).val();
-                var chatDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/chat');
-                var descDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/desc');
-
-                $('.message').remove();
-                $('#numbers').css("display","inline-table");
-                $('#loaded').text('0');
-                $('#total').text('0');
-
-                descDbLink.once('value', function(snapshot) {
-                    $('#start_time').text(snapshot.val().start_time);
-                    $('#podcast').attr("src",snapshot.val().url);
-                    $('#total').text(snapshot.val().number_chat_messages);
-                });
-
-                chatDbLink.on('child_added', function(snapshot) {
-                    var message = snapshot.val();
-                    $('#messages').append('<div class="message t' + message.datetime + '"><p><span class="date">' + (new Date(message.datetime*1000).getLocalTime()) + '</span><span class="nickname ' + message.type + '">' + message.author + '</span><span class="text">' + message.text + '</span></p></div>');
-                    $('#loaded').text(parseInt($('#loaded').text())+1);
-                });
-            });
-
-            $('#loaded').bind('DOMSubtreeModified', function(e) {
-                if ((e.target.innerHTML == $('#total').text()) && ($('#total').text() != '0')) {
-                    window.setTimeout(function(){$('#numbers').css("display","none");},15000);
-                    var start_time = parseInt($('#start_time').text());
-                    for (var i = start_time - 10800; i < start_time; i++ ) {
-                        $('.t' + i).css("display","block");
-                    }
-                    $('#tobottom').click();
-                }
-            });
-
-            if(parseInt(volume) > 0) {
-                $("select#picker_select option").each(function() { this.selected = (this.text == volume); });
-                $('#picker_select').trigger('change');
+            #panel {
+                position: fixed;
+                z-index: 999;
+                bottom: 0px;
+                left: 0px;
+                width: 100%;
+                height: 150px;
+                padding: 4px 4px 4px 4px;
+                background-color: white;
+                border-top: 1px dotted gray;
             }
 
-        });
-    </script>
-    <style type="text/css">
-        .audiojs { display: inline-table; margin: 0px; vertical-align: top;}
+            #picker { display:inline-table; margin: 0px; vertical-align: middle; }
+            #numbers { display:inline-table; padding-left:5px; padding-right:5px; margin: 0px; vertical-align: middle; color:silver;}
+            #controls { display:inline-table; margin: 0px; vertical-align: middle;}
+            #controls .link { padding-left:5px; padding-right:5px; text-decoration: none; cursor: pointer; color: blue;}
+            #controls .link:hover { text-decoration: underline; }
+
+            #messages {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                bottom: 40px;
+                padding: 5px 10px 5px 5px;
+                overflow: auto;
+            }
+            .message { display: none; }
+            .message .listener { color: rgb(16,120,100); }
+            .message .bot { color: gray; }
+            .message .vip { color: rgb(130,10,0); }
+        </style>
+        <link type="text/css" href="./assets/jplayer/skins/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
+        <style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style>
+	
+        <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+        <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+        <script type='text/javascript' src='./assets/jplayer/jquery.jplayer.min.js'></script>
+        <script type='text/javascript'>
+    	
+            Date.prototype.getLocalTime = function() {
+                h = (h = this.getHours()) < 10 ? ('0' + h) : h;
+                m = (m = this.getMinutes()) < 10 ? ('0' + m) : m;
+                s = (s = this.getSeconds()) < 10 ? ('0' + s) : s;
+
+                return h + ":" + m + ":" + s;
+            }
+
+            $.urlParam = function (name) {
+                return decodeURI( (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1] );
+            }
+
+            $(document).ready(function(){
+         
+                var volume = $.urlParam('vol');
+
+                $('#totop').click(function(e){
+                    e.preventDefault();
+                    $("#messages").prop({ scrollTop: 0 });
+                });
+
+                $('#tobottom').click(function(e){
+                    e.preventDefault();
+                    $("#messages").prop({ scrollTop: $("#messages")[0].scrollHeight });
+                });
+
+                /*var idxDbLink = new Firebase('https://radio-t.firebaseio.com/index');
+
+                idxDbLink.once('value', function(snapshot) {
+                    snapshot.val()
+                });
+                */
+
+                $("#jquery_jplayer_1").jPlayer({
+                    ready: function () {
+                      $(this).jPlayer("setMedia", {
+                        mp3: "http://cdn.radio-t.com/rt_podcast330.mp3"
+                      });
+                    },
+                    solution: "html, flash",
+                    swfPath: "/assets/jplayer",
+                    supplied: "mp3"
+                });
+
+                $('#picker_select').change(function(){
+                    var num = $(this).val();
+                    var chatDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/chat');
+                    var descDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/desc');
+
+                    $('.message').remove();
+                    $('#numbers').css("display","inline-table");
+                    $('#loaded').text('0');
+                    $('#total').text('0');
+
+                    descDbLink.once('value', function(snapshot) {
+                        $('#start_time').text(snapshot.val().start_time);
+                        $('#podcast').attr("src",snapshot.val().url);
+                        $('#total').text(snapshot.val().number_chat_messages);
+                    });
+
+                    chatDbLink.on('child_added', function(snapshot) {
+                        var message = snapshot.val();
+                        $('#messages').append('<div class="message t' + message.datetime + '"><p><span class="date">' + (new Date(message.datetime*1000).getLocalTime()) + '</span><span class="nickname ' + message.type + '">' + message.author + '</span><span class="text">' + message.text + '</span></p></div>');
+                        $('#loaded').text(parseInt($('#loaded').text())+1);
+                    });
+                });
+
+                $('#loaded').bind('DOMSubtreeModified', function(e) {
+                    if ((e.target.innerHTML == $('#total').text()) && ($('#total').text() != '0')) {
+                        window.setTimeout(function(){$('#numbers').css("display","none");},15000);
+                        var start_time = parseInt($('#start_time').text());
+                        for (var i = start_time - 10800; i < start_time; i++ ) {
+                            $('.t' + i).css("display","block");
+                        }
+                        $('#tobottom').click();
+                    }
+                });
+
+                if(parseInt(volume) > 0) {
+                    $("select#picker_select option").each(function() { this.selected = (this.text == volume); });
+                    $('#picker_select').trigger('change');
+                }
+
+            });
+        </script>
         
-        #panel {
-            position: fixed;
-            z-index: 999;
-            bottom: 0px;
-            left: 0px;
-            width: 100%;
-            height: 30px;
-            padding: 4px 4px 4px 4px;
-            background-color: white;
-            border-top: 1px dotted gray;
-        }
-
-        #picker { display:inline-table; margin: 0px; vertical-align: middle; }
-        #numbers { display:inline-table; padding-left:5px; padding-right:5px; margin: 0px; vertical-align: middle; color:silver;}
-        #controls { display:inline-table; margin: 0px; vertical-align: middle;}
-        #controls .link { padding-left:5px; padding-right:5px; text-decoration: none; cursor: pointer; color: blue;}
-        #controls .link:hover { text-decoration: underline; }
-
-        #messages {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            bottom: 40px;
-            padding: 5px 10px 5px 5px;
-            overflow: auto;
-        }
-        .message { display: none; }
-        .message .listener { color: rgb(16,120,100); }
-        .message .bot { color: gray; }
-        .message .vip { color: rgb(130,10,0); }  
-    </style>
 	</head>
 
 	<body>
@@ -149,7 +154,46 @@
                     <option value="325">325</option>
                 </select>
             </div>
-            <audio id="podcast" preload="none"></audio>
+            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+            <div id="jp_container_1" class="jp-audio">
+                <div class="jp-type-single">
+                  <div class="jp-gui jp-interface">
+                    <ul class="jp-controls">
+                      <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+                      <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+                      <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+                      <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+                      <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+                      <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
+                    </ul>
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                      </div>
+                    </div>
+                    <div class="jp-volume-bar">
+                      <div class="jp-volume-bar-value"></div>
+                    </div>
+                    <div class="jp-time-holder">
+                      <div class="jp-current-time"></div>
+                      <div class="jp-duration"></div>
+                      <ul class="jp-toggles">
+                        <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
+                        <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="jp-title">
+                    <ul>
+                      <li>Bubble</li>
+                    </ul>
+                  </div>
+                  <div class="jp-no-solution">
+                    <span>Update Required</span>
+                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                  </div>
+                </div>
+            </div>
             <div id="controls"><span class="link" id="totop">&uarr;Наверх</span> <span class="link" id="tobottom">&darr;Вниз</span></div>
             <div id="numbers" style="display:none">загружено сообщений <span id="loaded">0</span> из <span id="total">0</span></div>
             <span id="start_time" style="display:none"></span>
