@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="/favicon.png" rel="icon">
+        <link href="/assets/images/favicon.png" rel="icon">
 <style type="text/css">
         html { background: #fff; font: .75em/1.5 Verdana, Arial, Helvetica, sans-serif; }
         .message { clear: both; }
@@ -16,7 +16,7 @@
 	
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
-    <script src="./audio.js"></script>
+    <script src="./assets/audiojs/audio.js"></script>
     <script>
         audiojs.events.ready(function() {
             var as = audiojs.createAll();
@@ -100,15 +100,7 @@
     </script>
     <style type="text/css">
         .audiojs { display: inline-table; margin: 0px; vertical-align: top;}
-        .audiojs .volume { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -10px -143px no-repeat; }
-        .audiojs .level { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -10px -123px no-repeat; }
-        .audiojs .play { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -3px no-repeat; }
-        .audiojs .loading { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -33px no-repeat; }
-        .audiojs .error { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -63px no-repeat; }
-        .audiojs .pause { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -3px -93px no-repeat; }
-        .audiojs .pause:hover,.audiojs .pause:focus { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -33px -93px no-repeat; }
-        .audiojs .play:hover,.audiojs .play:focus { background:url("http://www.radio-t.com/assets/audiojs/player-graphics.gif") -33px -3px no-repeat; }
-
+        
         #panel {
             position: fixed;
             z-index: 999;
@@ -149,6 +141,7 @@
             <div id="picker">
                 <select id="picker_select">
                     <option>--</option>
+                    <option value="330">330</option>
                     <option value="329">329</option>
                     <option value="328">328</option>
                     <option value="327">327</option>
@@ -156,7 +149,7 @@
                     <option value="325">325</option>
                 </select>
             </div>
-            <audio id="podcast" preload="none" src="http://cdn.radio-t.com/rt_podcast326.mp3"></audio>
+            <audio id="podcast" preload="none"></audio>
             <div id="controls"><span class="link" id="totop">&uarr;Наверх</span> <span class="link" id="tobottom">&darr;Вниз</span></div>
             <div id="numbers" style="display:none">загружено сообщений <span id="loaded">0</span> из <span id="total">0</span></div>
             <span id="start_time" style="display:none"></span>
