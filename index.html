@@ -18,13 +18,15 @@
                 bottom: 0px;
                 left: 0px;
                 width: 100%;
-                height: 150px;
+                height: 80px;
                 padding: 4px 4px 4px 4px;
                 background-color: white;
                 border-top: 1px dotted gray;
             }
 
             #picker { display:inline-table; margin: 0px; vertical-align: middle; }
+            #jquery_jplayer_1 { display:inline-table; margin: 0px; vertical-align: middle; }
+            #jp_container_1 { display:inline-table; margin: 0px; vertical-align: middle; }
             #numbers { display:inline-table; padding-left:5px; padding-right:5px; margin: 0px; vertical-align: middle; color:silver;}
             #controls { display:inline-table; margin: 0px; vertical-align: middle;}
             #controls .link { padding-left:5px; padding-right:5px; text-decoration: none; cursor: pointer; color: blue;}
@@ -35,7 +37,7 @@
                 top: 0px;
                 left: 0px;
                 right: 0px;
-                bottom: 40px;
+                bottom: 90px;
                 padding: 5px 10px 5px 5px;
                 overflow: auto;
             }
@@ -45,11 +47,11 @@
             .message .vip { color: rgb(130,10,0); }
         </style>
         <link type="text/css" href="./assets/jplayer/skins/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
-        <style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style>
+        <!--style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style-->
 	
-        <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+        <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+        <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jplayer/2.2.0/jquery.jplayer.min.js'></script>
         <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
-        <script type='text/javascript' src='./assets/jplayer/jquery.jplayer.min.js'></script>
         <script type='text/javascript'>
     	
             Date.prototype.getLocalTime = function() {
@@ -86,15 +88,49 @@
                 */
 
                 $("#jquery_jplayer_1").jPlayer({
-                    ready: function () {
-                      $(this).jPlayer("setMedia", {
-                        mp3: "http://cdn.radio-t.com/rt_podcast330.mp3"
-                      });
-                    },
                     solution: "html, flash",
-                    swfPath: "/assets/jplayer",
-                    supplied: "mp3"
+                    swfPath: "//cdnjs.cloudflare.com/ajax/libs/jplayer/2.2.0/Jplayer.swf",
+                    supplied: "mp3",
+                    preload: "metadata",
+                    wmode: "window",
+                    ready: function () {
+                        $(this).jPlayer("setMedia", {
+                            mp3: ""
+                        });
+                    },
+                    timeupdate: function (event) {
+                        var last_offset = parseInt($('#last_offset').text());
+                        var cur_offset = event.jPlayer.status.currentTime;
+                        if (last_offset == cur_offset) { 
+                            //$('#last_offset').text(cur_offset.toString());
+                            return;
+                        }
+
+                        var start_time = parseInt($("#start_time").text());
+                        var elem = $('#messages');
+                        if (cur_offset > last_offset) {
+                          if (elem[0].scrollHeight - elem.scrollTop() == elem.outerHeight()) {
+                            for(var i=last_offset; i <= cur_offset; i++) {
+                              $(".t"+(start_time+i).toString()).css("display","block");
+                            }
+                            $("#messages").prop({ scrollTop: $("#messages").prop("scrollHeight") });
+                          } else {
+                            for(var i=last_offset; i <= cur_offset; i++) {
+                              $(".t"+(start_time+i).toString()).css("display","block");
+                            }
+                          }
+                        } else {
+                          for(var i=last_offset; i >= cur_offset; i--) {
+                            $(".t"+(start_time+i).toString()).css("display","none");
+                          }
+                        }
+                        $('#last_offset').text(cur_offset.toString());
+                    },
+                    ended: function () {
+                        $(".message").css("display","block");
+                    }
                 });
+                $.jPlayer.timeFormat.showHour = true;
 
                 $('#picker_select').change(function(){
                     var num = $(this).val();
@@ -108,7 +144,7 @@
 
                     descDbLink.once('value', function(snapshot) {
                         $('#start_time').text(snapshot.val().start_time);
-                        $('#podcast').attr("src",snapshot.val().url);
+                        $("#jquery_jplayer_1").jPlayer("setMedia",{mp3: snapshot.val().url});
                         $('#total').text(snapshot.val().number_chat_messages);
                     });
 
@@ -141,7 +177,7 @@
 	</head>
 
 	<body>
-	   <a href="https://github.com/novikovSU/radio-t_playchat"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:999" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+	   <a href="https://github.com/novikovSU/radio-t_playchat"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
         <div id="panel">
             <div id="picker">
                 <select id="picker_select">
@@ -177,16 +213,7 @@
                     <div class="jp-time-holder">
                       <div class="jp-current-time"></div>
                       <div class="jp-duration"></div>
-                      <ul class="jp-toggles">
-                        <li><a href="javascript:;" class="jp-repeat" tabindex="1" title="repeat">repeat</a></li>
-                        <li><a href="javascript:;" class="jp-repeat-off" tabindex="1" title="repeat off">repeat off</a></li>
-                      </ul>
                     </div>
-                  </div>
-                  <div class="jp-title">
-                    <ul>
-                      <li>Bubble</li>
-                    </ul>
                   </div>
                   <div class="jp-no-solution">
                     <span>Update Required</span>

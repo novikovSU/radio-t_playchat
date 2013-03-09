@@ -37,7 +37,7 @@
         		var messageTime = Date.parse(mainDate + $(this).children("p").children(".date").text() + ' GMT+0300')/1000;
         		var messageAuthor = $(this).children("p").children(".nickname").text();
         		var authorType = "listener";
-        		var messageText = $(this).children("p").children(".text").text().trim();
+        		var messageText = $(this).children("p").children(".text").html().trim();
 
         		if (messageTime < borderTime) { messageTime += 86400; }
         		if ($(this).children("p").children(".nickname").attr("style") == "color: rgb(130,10,0);") { authorType = "vip"; }
