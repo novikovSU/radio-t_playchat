@@ -3,7 +3,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="/assets/images/favicon.png" rel="icon">
         <style type="text/css">
-            html { background: #fff; font: .75em/1.5 Verdana, Arial, Helvetica, sans-serif; }
+            html { background: #fff; font: normal 0.75em/1.5em Verdana, Arial, Helvetica, sans-serif; }
             .message { clear: both; }
             .message p { margin: 0; padding: 0; }
             .message .date { color: #666; float: left; margin-right: 15px; }
@@ -45,6 +45,13 @@
             .message .listener { color: rgb(16,120,100); }
             .message .bot { color: gray; }
             .message .vip { color: rgb(130,10,0); }
+
+            #live_chat {
+                position: absolute;
+                height: 100%;
+                width: 99%;
+                border: 0px;
+            }
         </style>
         <link type="text/css" href="./assets/jplayer/skins/blue.monday/jplayer.blue.monday.css" rel="stylesheet" />
         <!--style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style-->
@@ -95,7 +102,7 @@
                     wmode: "window",
                     ready: function () {
                         $(this).jPlayer("setMedia", {
-                            mp3: ""
+                            mp3: "http://91.213.196.99:8181/stream"
                         });
                     },
                     timeupdate: function (event) {
@@ -138,9 +145,24 @@
                     var descDbLink = new Firebase('https://radio-t.firebaseio.com/' + num + '/desc');
 
                     $('.message').remove();
+                    $('#live_chat').remove();
                     $('#numbers').css("display","inline-table");
                     $('#loaded').text('0');
                     $('#total').text('0');
+
+                    $('#fork_me').css("display","block");
+
+		    if (num == "--") {
+			return;
+                    }
+
+                    if (num == "live") {
+                        $("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://91.213.196.99:8181/stream"});
+                        $('#messages').append('<iframe src="http://chat.radio-t.com/" id="live_chat"><p>Your browser does not support iframes.</p></iframe>');
+                        $('#fork_me').css("display","none");
+                        return;
+
+                    }
 
                     descDbLink.once('value', function(snapshot) {
                         $('#start_time').text(snapshot.val().start_time);
@@ -166,7 +188,7 @@
                     }
                 });
 
-                if(parseInt(volume) > 0) {
+                if(volume) {
                     $("select#picker_select option").each(function() { this.selected = (this.text == volume); });
                     $('#picker_select').trigger('change');
                 }
@@ -177,17 +199,24 @@
 	</head>
 
 	<body>
-	   <a href="https://github.com/novikovSU/radio-t_playchat"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+	    <a href="https://github.com/novikovSU/radio-t_playchat"><img id="fork_me" style="position: absolute; top: 0; left: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+        <div id="messages"></div>
         <div id="panel">
             <div id="picker">
                 <select id="picker_select">
-                    <option>--</option>
+                    <option value="--" selected>--</option>
+                    <option value="live">live</option>
+                    <option value="336">336</option>
+                    <option value="335">335</option>
+                    <option value="334">334</option>
+                    <option value="333">333</option>
+                    <option value="332">332</option>
+                    <option value="331">331</option>
                     <option value="330">330</option>
                     <option value="329">329</option>
                     <option value="328">328</option>
                     <option value="327">327</option>
                     <option value="326">326</option>
-                    <option value="325">325</option>
                 </select>
             </div>
             <div id="jquery_jplayer_1" class="jp-jplayer"></div>
@@ -226,7 +255,7 @@
             <span id="start_time" style="display:none"></span>
             <span id="last_offset" style="display:none">0</span>
         </div>
-        <div id="messages"></div>
+
     </body>
 
     <style type="text/css"></style>
