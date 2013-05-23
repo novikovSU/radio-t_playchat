@@ -1,0 +1,64 @@
+html { background: #fff; font: normal 0.75em/1.5em Verdana, Arial, Helvetica, sans-serif; }
+.message { clear: both; }
+.message p { margin: 0; padding: 0; }
+.message .date { color: #666; float: left; margin-right: 15px; }
+.message .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
+.message p:hover, .flashed { background-color: #f0f0f0; }
+.message .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
+a { color: #0066cc; }
+
+#panel {
+    position: fixed;
+    z-index: 999;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    padding: 4px 4px 4px 4px;
+    background-color: white;
+    border-top: 1px dotted gray;
+}
+
+#picker { display:inline-table; margin: 0px; vertical-align: middle; }
+#jquery_jplayer_1 { display:inline-table; margin: 0px; vertical-align: middle; }
+#jp_container_1 { display:inline-table; margin: 0px; vertical-align: middle; }
+#numbers { display:inline-table; padding-left:5px; padding-right:5px; margin: 0px; vertical-align: middle; color:silver;}
+#controls { display:inline-table; margin: 0px; vertical-align: middle;}
+#controls .link { padding-left:5px; padding-right:5px; text-decoration: none; cursor: pointer; color: blue;}
+#controls .link:hover { text-decoration: underline; }
+#messages {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 90px;
+    padding: 5px 10px 5px 5px;
+    overflow: auto;
+}
+.message { display: none; }
+.message .listener { color: rgb(16,120,100); }
+.message .bot { color: gray; }
+.message .vip { color: rgb(130,10,0); }
+
+#live_chat {
+    position: absolute;
+    height: 100%;
+    width: 99%;
+    border: 0px;
+}
+
+#chat-toolbar {
+    bottom: 90px;
+}
+.message-form-wrapper {
+    bottom: 90px;
+}
+.message-form {
+    bottom: 90px;
+    margin-right: 5px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+}
+.message-form input.submit {
+    bottom: 90px;
+}
