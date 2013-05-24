@@ -94,9 +94,6 @@ $(document).ready(function(){
                 }
             });
 
-            // enable Colors plugin (default: 8 colors)
-            CandyShop.Colors.init();
-
             Candy.Core.connect();
 
             return;
