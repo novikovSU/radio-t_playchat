@@ -69,7 +69,7 @@ ul {
 	padding: 0;
 	width: 35px;
 	height: 30px;
-	background: url(img/tab-transitions.png) repeat-y left;
+	background: url(/assets/candy/img/tab-transitions.png) repeat-y left;
 }
 
 #chat-tabs li a.close {
@@ -85,7 +85,7 @@ ul {
 
 #chat-tabs li.active a.transition {
 	color: gray;
-	background: url(img/tab-transitions.png) repeat-y -50px;
+	background: url(/assets/candy/img/tab-transitions.png) repeat-y -50px;
 }
 
 #chat-tabs li a.close:hover, #chat-tabs li.active a.close:hover {
@@ -134,11 +134,11 @@ ul {
 }
 
 #chat-toolbar #emoticons-icon {
-	background-image: url(img/action/emoticons.png);
+	background-image: url(/assets/candy/img/action/emoticons.png);
 }
 
 #chat-toolbar .context {
-	background-image: url(img/action/settings.png);
+	background-image: url(/assets/candy/img/action/settings.png);
 	display: none;
 }
 
@@ -147,31 +147,31 @@ ul {
 }
 
 #chat-sound-control {
-	background-image: url(img/action/sound-off.png);
+	background-image: url(/assets/candy/img/action/sound-off.png);
 }
 
 #chat-sound-control.checked {
-	background-image: url(img/action/sound-on.png);
+	background-image: url(/assets/candy/img/action/sound-on.png);
 }
 
 #chat-autoscroll-control {
-	background-image: url(img/action/autoscroll-off.png);
+	background-image: url(/assets/candy/img/action/autoscroll-off.png);
 }
 
 #chat-autoscroll-control.checked {
-	background-image: url(img/action/autoscroll-on.png);
+	background-image: url(/assets/candy/img/action/autoscroll-on.png);
 }
 
 #chat-statusmessage-control {
-	background: url(img/action/statusmessage-off.png);
+	background: url(/assets/candy/img/action/statusmessage-off.png);
 }
 
 #chat-statusmessage-control.checked {
-	background: url(img/action/statusmessage-on.png);
+	background: url(/assets/candy/img/action/statusmessage-on.png);
 }
 
 #chat-toolbar .usercount {
-	background-image: url(img/action/usercount.png);
+	background-image: url(/assets/candy/img/action/usercount.png);
 	cursor: default;
 	padding-left: 20px;
 	width: auto;
@@ -254,17 +254,17 @@ ul {
 }
 
 .roster-pane li.role-moderator {
-	background-image: url(img/roster/role-moderator.png);
+	background-image: url(/assets/candy/img/roster/role-moderator.png);
 	display: block;
 }
 
 .roster-pane li.affiliation-owner {
-	background-image: url(img/roster/affiliation-owner.png);
+	background-image: url(/assets/candy/img/roster/affiliation-owner.png);
 	display: block;
 }
 
 .roster-pane li.ignore {
-	background-image: url(img/roster/ignore.png);
+	background-image: url(/assets/candy/img/roster/ignore.png);
 	display: none;
 }
 
@@ -277,7 +277,7 @@ ul {
 }
 
 .roster-pane li.context {
-	background-image: url(img/action/menu.png);
+	background-image: url(/assets/candy/img/action/menu.png);
 	cursor: pointer;
 }
 
@@ -411,7 +411,7 @@ ul {
 	color: white;
 	font-size: 11px;
 	padding: 5px 0;
-	background: url(img/tooltip-arrows.gif) no-repeat left bottom;
+	background: url(/assets/candy/img/tooltip-arrows.gif) no-repeat left bottom;
 }
 
 #tooltip div {
@@ -426,7 +426,7 @@ ul {
 	display: none;
 	padding: 15px 10px;
 	margin: 8px -28px -8px -12px;
-	background: url(img/context-arrows.gif) no-repeat left bottom;
+	background: url(/assets/candy/img/context-arrows.gif) no-repeat left bottom;
 }
 
 #context-menu ul {
@@ -455,27 +455,27 @@ ul {
 }
 
 #context-menu .private {
-	background-image: url(img/action/private.png);
+	background-image: url(/assets/candy/img/action/private.png);
 }
 
 #context-menu .ignore {
-	background-image: url(img/action/ignore.png);
+	background-image: url(/assets/candy/img/action/ignore.png);
 }
 
 #context-menu .unignore {
-	background-image: url(img/action/unignore.png);
+	background-image: url(/assets/candy/img/action/unignore.png);
 }
 
 #context-menu .kick {
-	background-image: url(img/action/kick.png);
+	background-image: url(/assets/candy/img/action/kick.png);
 }
 
 #context-menu .ban {
-	background-image: url(img/action/ban.png);
+	background-image: url(/assets/candy/img/action/ban.png);
 }
 
 #context-menu .subject {
-	background-image: url(img/action/subject.png);
+	background-image: url(/assets/candy/img/action/subject.png);
 }
 
 #context-menu .emoticons {
@@ -496,7 +496,7 @@ ul {
 }
 
 #chat-modal {
-	background: url(img/modal-bg.png);
+	background: url(/assets/candy/img/modal-bg.png);
 	width: 300px;
 	padding: 20px 5px;
 	color: white;
@@ -519,7 +519,7 @@ ul {
 	right: 0;
 	bottom: 0;
 	z-index: 90;
-	background-image: url(img/overlay.png);
+	background-image: url(/assets/candy/img/overlay.png);
 }
 
 #chat-modal.modal-login {

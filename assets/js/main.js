@@ -86,15 +86,19 @@ $(document).ready(function(){
             $('#fork_me').show();
             
             Candy.init('http://towee.net:5280/http-bind/', {
-                core: { debug: true, autojoin: ['online@conference.radio-t.com'] },
+                core: { debug: true, autojoin: ['public@conference.metamodel.ru'] },
                 view: { language: 'en',
-                    resources: '/assets/candy/',
+                    resources: './assets/candy/',
                     crop: { message: { nickname: 15, body: 1000 }, roster: { nickname: 15 } },
                     messages: {limit: 2000, remove: 500}
                 }
             });
 
+            // enable Colors plugin (default: 8 colors)
+            CandyShop.Colors.init();
+
             Candy.Core.connect();
+
             return;
         }
         descDbLink.once('value', function(snapshot) {
