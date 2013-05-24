@@ -86,7 +86,7 @@ $(document).ready(function(){
             $('#fork_me').show();
             
             Candy.init('http://towee.net:5280/http-bind/', {
-                core: { debug: true, autojoin: ['public@conference.metamodel.ru'] },
+                core: { debug: true, autojoin: ['online@conference.radio-t.com'] },
                 view: { language: 'en',
                     resources: './assets/candy/',
                     crop: { message: { nickname: 15, body: 1000 }, roster: { nickname: 15 } },
