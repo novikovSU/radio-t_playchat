@@ -4317,7 +4317,7 @@ Candy.View.Template = (function(self){
 
 	self.Login = {
 		form: '<form method="post" id="login-form" class="login-form">'
-			+ '{{#displayUsername}}<label for="username">{{_labelUsername}}</label><input type="text" id="username" name="username"/>{{/displayUsername}}'
+			+ '{{#displayUsername}}<label for="username">{{_labelUsername}}</label><input type="text" id="username" name="username" placeholder="bobuk@ya.ru" />{{/displayUsername}}'
 			+ '{{#presetJid}}<input type="hidden" id="username" name="username" value="{{presetJid}}"/>{{/presetJid}}'
 			+ '{{#displayPassword}}<label for="password">{{_labelPassword}}</label><input type="password" id="password" name="password" />{{/displayPassword}}'
 			+ '<input type="submit" class="button" value="{{_loginSubmit}}" /></form>'
@@ -4363,7 +4363,7 @@ Candy.View.Translation = {
 		'roomSubject'  : 'Subject:',
 		'messageSubmit': 'Send',
 
-		'labelUsername': 'Username:',
+		'labelUsername': 'Jabber ID:',
 		'labelPassword': 'Password:',
 		'loginSubmit'  : 'Login',
 		'loginInvalid'  : 'Invalid JID',
