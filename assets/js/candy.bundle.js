@@ -971,6 +971,16 @@ Candy.Util = (function(self, $){
 				plain: '<3',
 				regex: /((\s)&lt;3|&lt;3(\s|$))/gm,
 				image: 'Heart.png'
+			},
+			{
+				plain: ':+1:',
+				regex: /((\s):\+1:|:\+1:(\s|$))/gm,
+				image: 'Thumb_Up.png'
+			},
+			{
+				plain: ':-1:',
+				regex: /((\s):\-1:|:\-1:(\s|$))/gm,
+				image: 'Thumb_Down.png'
 			}
 		],
 
