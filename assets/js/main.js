@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     $("#jquery_jplayer_1").jPlayer({
         solution: "html, flash",
-        swfPath: "//cdnjs.cloudflare.com/ajax/libs/jplayer/2.3.0/Jplayer.swf",
+        swfPath: "//cdnjs.cloudflare.com/ajax/libs/jplayer/2.4.0/Jplayer.swf",
         supplied: "mp3",
         preload: "metadata",
         wmode: "window",
