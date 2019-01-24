@@ -13,8 +13,8 @@ a { color: #0066cc; }
     bottom: 0px;
     left: 0px;
     width: 100%;
-    height: 80px;
-    padding: 4px 4px 4px 4px;
+    height: 60px;
+    /*padding: 4px 4px 4px 4px;*/
     background-color: white;
     border-top: 1px dotted gray;
 }
@@ -36,7 +36,7 @@ a { color: #0066cc; }
     overflow: auto;
 }
 .message { display: none; }
-.message .listener { color: rgb(16,120,100); }
+.message .user { color: rgb(16,120,100); }
 .message .bot { color: gray; }
 .message .vip { color: rgb(130,10,0); }
 

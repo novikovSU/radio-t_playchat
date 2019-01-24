@@ -1,0 +1,2478 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <title>Лог Радио-Т #630</title>
+        <style>
+            .filter {
+                position: fixed;
+                top: 0;
+                right: 0;
+                padding: 10px 15px 12px;
+                background: #fff;
+                border-radius: 0 0 0 5px;
+                border: 1px solid rgba(100, 100, 100, .3);
+                border-width: 0 0 1px 1px;
+                font-size: 14px;
+                font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+            }
+
+            .filter__toggle {
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .filter__toggle:hover .filter__title {
+                color: #777;
+            }
+
+            .filter__title {
+                font-weight: 700;
+                border-bottom: 1px dashed;
+            }
+
+            .filter__content {
+                display: none;
+            }
+
+            .filter__label {
+                display: block;
+                font-weight: 400;  
+            }
+
+            .filter__label:hover {
+                color: #777;
+            }
+
+            .filter_visible .filter__toggle {
+                margin-bottom: 10px;
+            }
+
+            .filter_visible .filter__content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="filter" id="filter">
+            <div class="filter__toggle" id="filter__toggle">
+                <span class="filter__title">Фильтры</span>
+            </div>
+            <div class="filter__content">
+                <label class="filter__label"><input type="checkbox" name="host" class="filter__item"> Оставить сообщения ведущих</label>
+                <label class="filter__label"><input type="checkbox" name="link" class="filter__item"> Оставить сообщения со ссылками</label>
+                <label class="filter__label"><input type="checkbox" name="bot" class="filter__item"> Убрать сообщения ботов</label>
+            </div>
+        </div>
+
+        <table class="table table-striped table-hover table-condensed" id="table">
+        
+        <tr>
+            
+                <td class="success" align="left">21:54:01</td>
+                <td class="success" align="left">ingr1</td>
+            
+            <td class="warning" align="left">есть музыка</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:14:34</td>
+                <td class="success" align="left">Konstantin Alikhanov</td>
+            
+            <td class="warning" align="left">Что-то все темы слушателей заминусованные </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">22:21:09</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span> ты много слов написал, но по сути это все нечто весмьма ... странное. О такой &quot;скуке&quot; как у меня можно только мечтать, если конечно прогрраммисту для самолюбования надо не продукт, а процесс. Ну а твой взгляд на то, что такое &quot;настощее програмирование&quot; показывает, что твое самое близкое прокосновение к этому делу было &quot;общение с ребятами в курилке&quot;. </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:51:14</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">добрый вечер чат</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:56:03</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">шо, шоу будет? новогодние подарки?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">22:56:52</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left">тебе да, уже готовы игрушки с кошачьими наркотиками </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:57:31</td>
+                <td class="success" align="left">ingr1</td>
+            
+            <td class="warning" align="left">унц</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:57:53</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">праздновать уже можно начинать? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:57:58</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="umputun" class="mention">@umputun</span> не поняла? не надо тут эту американщину с наркотиками... у нас это уголовно наказуемо!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:58:11</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">Сейчас задремал, и мне приснилось, что я на 15 минут проспал Радио-Т. Я подумал, что всё равно там все настраиваются, наливают и разговаривают за жизнь. Включаю, а там Бобук уже вовсю что-то затирает. И я смог отмотать к началу, как прямой эфир на YouTube. Просыпаюсь и не знаю: хорошо, что не проспал, или плохо, что прямой эфир Радио-Т так и нельзя перематывать?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">22:59:27</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="umputunsCAT" class="mention">@umputunsCAT</span> это ты своей подруге скажи, она уже до подарка дорвалась и нанюхалась. У нас тут типа капитализм - вы спрос породили, а наше дело маленькое - предоставлять требуемое.</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">22:59:29</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="pasha-gooff" class="mention">@pasha-gooff</span> у нас сегодня суббота рабочая, так половина персонала проспала, у всех будильник на будни настроен )))</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:01:19</td>
+                <td class="success" align="left">Konstantin Alikhanov</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="umputunsCAT" class="mention">@umputunsCAT</span> за понедельник работали?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:01:31</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="atomAltera" class="mention">@atomAltera</span> да</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:04:21</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="pasha-gooff" class="mention">@pasha-gooff</span> рано спать ложишься</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:05:04</td>
+                <td class="success" align="left">zed</td>
+            
+            <td class="warning" align="left">С наступающим всех! Подскажите, с помощью чего на телефоне слушаете вещание радиот?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:05:34</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Arxivarius" class="mention">@Arxivarius</span> я случайно</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:05:52</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="zedwizard" class="mention">@zedwizard</span> Safari</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:07:55</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">начинайте уже</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:11:16</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">Унца заглохла?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:11:20</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">Ммм</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:11:23</td>
+                <td class="success" align="left">ingr1</td>
+            
+            <td class="warning" align="left">угу</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:11:40</td>
+                <td class="success" align="left">Art</td>
+            
+            <td class="warning" align="left">привет всем</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:11:41</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>hello 💬</strong>  Hi!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:11:43</td>
+                <td class="success" align="left">DomenO</td>
+            
+            <td class="warning" align="left">унца закончилась, несите новую!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:12:58</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">я так понимаю у всех тишина?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:13:09</td>
+                <td class="success" align="left">Alexander Medkov</td>
+            
+            <td class="warning" align="left">Все, кина не будет, электричество кончилось.</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:14:55</td>
+                <td class="success" align="left">Alexei S</td>
+            
+            <td class="warning" align="left">думал у меня интернет пропал</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:15:12</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">вот, надо Америке электричество продавать</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:15:13</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">расходимся спать</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:15:35</td>
+                <td class="success" align="left">Konstantin Alikhanov</td>
+            
+            <td class="warning" align="left">Страницу перезагружать надо или оно само починится?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:08</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">Бобук приде  порядок навиде</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:18</td>
+                <td class="success" align="left">👾agarkov</td>
+            
+            <td class="warning" align="left">Починят</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:19</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">«Это был тяжёлый год...»</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:23</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="atomAltera" class="mention">@atomAltera</span> само начинается </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:23</td>
+                <td class="success" align="left">👾agarkov</td>
+            
+            <td class="warning" align="left">починят же,</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:33</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">Вернулось!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:57</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left">Это бобок бочинил ?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:57</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">Опять пропало =(</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:16:59</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>brackets-bot 💬</strong>  )<br>Закрывай скобки, <span data-link-type="mention" data-screen-name="pasha-gooff" class="mention">@pasha-gooff</span> !!!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:17:44</td>
+                <td class="success" align="left">Konstantin Alikhanov</td>
+            
+            <td class="warning" align="left">((9</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:17:45</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>brackets-bot 💬</strong>  ))<br>Закрывай скобки, <span data-link-type="mention" data-screen-name="atomAltera" class="mention">@atomAltera</span> !!!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:18:34</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">да давно пора на ютюбе стримы мутить как вилса, так еще и денег заработали бы</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:18:56</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left">Кстати из Разбора полетов Барух уходит, в Радио Т ?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:19:25</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">¯_(ツ)_/¯</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:19:54</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">Унцы нет, но голоса звучат</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:20:01</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">оп,пошло</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:20:13</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">унца не нужна голос забивает</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:20:22</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">ооо Добрый вечер =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:20:25</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">ну или тише</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:20:43</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">они в скайпе что ли?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:20:47</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">И унца пошла</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:21:05</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">И кончилась унца</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:21:05</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">есть же дискорд</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:21:07</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">кто-то с кухоньки разговаривает.. по отражениям =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:21:18</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">Виде звонок =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:21:23</td>
+                <td class="success" align="left">Semior001</td>
+            
+            <td class="warning" align="left">оп, самое то, радиот в последний рабочий день перед НГ<br>у нас на работе тут виски подавали и прочую вредную ерунду)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:21:40</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">скайп будет жить вечно</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:22:18</td>
+                <td class="success" align="left">Pavel Krasnikov</td>
+            
+            <td class="warning" align="left">Грей говорит в бочку</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:22:19</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">вот это самое веселое прешоу по настройке связи =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:22:40</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">Лучшее - враг хорошего!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:23:33</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">кто в 2018 пользуется фейс таймом?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:23:47</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">даешь фейстайм видеострим с emoji! </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:24:29</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">а что сейчас самое модное по звонкам? какой-нибудь снапчат?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:25:24</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">Вот теперь и Ксюшу слышно =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:25:26</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><a href="https://appear.in/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://appear.in/</a> ?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:25:28</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>   ...</p><p>  <em>appear.in – Easy video conversations</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:25:35</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">снизу меню на телефоне</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">23:26:35</td>
+                <td class="danger" align="left">Grigory Bakunov</td>
+            
+            <td class="warning" align="left">умц</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">23:26:37</td>
+                <td class="danger" align="left">Grigory Bakunov</td>
+            
+            <td class="warning" align="left">умц</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:26:39</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">интересно как на фейстайме гостей приглашать? :)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:26:40</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">Может вcёже в Zoom =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:26:53</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="bubuger" class="mention">@bubuger</span> zoom :+1: </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">23:26:55</td>
+                <td class="danger" align="left">Grigory Bakunov</td>
+            
+            <td class="warning" align="left">Зум для групповых звонков платный после 40 минут</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:27:03</td>
+                <td class="success" align="left">zed</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Arxivarius" class="mention">@Arxivarius</span> а чем надо?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:27:19</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="bobuk" class="mention">@bobuk</span> для видео звонков мы скинемся </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:30:02</td>
+                <td class="success" align="left">sID</td>
+            
+            <td class="warning" align="left">стыдное происходит</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:31:48</td>
+                <td class="success" align="left">Eugene</td>
+            
+            <td class="warning" align="left">никого не слышу...</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:32:12</td>
+                <td class="success" align="left">Eugene</td>
+            
+            <td class="warning" align="left">отпустило</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:32:16</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">фей<del>пал</del>тайм</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:32:34</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left">А сегодня гиковский выпуск ?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:33:26</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">мы пробовали групповые давно звонки на 10.13, не звонило</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:33:58</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">вы подкаст вести собираетесь? или пока можно сериал про Машу досмотреть?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:34:35</td>
+                <td class="success" align="left">Ramil Garaev</td>
+            
+            <td class="warning" align="left">Котэ, а что за сериал?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:35:25</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">ждемс.</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:35:55</td>
+                <td class="success" align="left">Konstantin Alikhanov</td>
+            
+            <td class="warning" align="left">В настройках фейстайма на маке галка есть</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:36:07</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">хендофф по моему называется</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:36:10</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Arxivarius" class="mention">@Arxivarius</span> тайны следствия новый сезон идет</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:36:24</td>
+                <td class="success" align="left">Viacheslav Makarov</td>
+            
+            <td class="warning" align="left">оно конкретно в фейстайме включается</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:36:58</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">в General</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:37:18</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">general -&gt; handoff</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:37:31</td>
+                <td class="success" align="left">Viacheslav Makarov</td>
+            
+            <td class="warning" align="left">еще раз: на маке, в фейстайме Prefeences -&gt; галочка Calls from iPhone</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:38:15</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">а на маке надо bluetooth чтобы быть включен</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:38:49</td>
+                <td class="success" align="left">umputunsCAT</td>
+            
+            <td class="warning" align="left">а мы-то думали скайп - ад</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:39:30</td>
+                <td class="success" align="left">Volodymyr</td>
+            
+            <td class="warning" align="left">Що за ехо?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:39:31</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="bubuger" class="mention">@bubuger</span> зачем?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:40:39</td>
+                <td class="success" align="left">Egor Miasnikov</td>
+            
+            <td class="warning" align="left">фэйстайм глушит все плееры при звонке так что унцы не будет</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:40:48</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="egor-miasnikov" class="mention">@egor-miasnikov</span> какие люди)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:41:07</td>
+                <td class="success" align="left">Egor Miasnikov</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Saicheg" class="mention">@Saicheg</span> дароу =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:41:21</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><ul>
+<li>Ало, это куда я попал? На компьютер? Соедините меня с Ксенией Владимировной</li>
+</ul>
+</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:42:03</td>
+                <td class="success" align="left">Sergey Poterianski</td>
+            
+            <td class="warning" align="left">Хотим картинку :)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:43:54</td>
+                <td class="success" align="left">Egor Miasnikov</td>
+            
+            <td class="warning" align="left">в сл раз можно переустановку винды в прямом эфире устроить =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:44:05</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="egor-miasnikov" class="mention">@egor-miasnikov</span> +</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:44:49</td>
+                <td class="success" align="left">macwords</td>
+            
+            <td class="warning" align="left">hi  all!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:44:52</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="egor-miasnikov" class="mention">@egor-miasnikov</span> зачем, можно просто обновить Ксюшу на 10.14</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:45:13</td>
+                <td class="success" align="left">Egor Miasnikov</td>
+            
+            <td class="warning" align="left">а ограничение есть по количеству участников в фэйстайме?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:45:22</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">32 человека</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:45:31</td>
+                <td class="success" align="left">Egor Miasnikov</td>
+            
+            <td class="warning" align="left"> <span data-link-type="mention" data-screen-name="Saicheg" class="mention">@Saicheg</span> +</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:45:31</td>
+                <td class="success" align="left">macwords</td>
+            
+            <td class="warning" align="left">что происходит</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:45:37</td>
+                <td class="success" align="left">macwords</td>
+            
+            <td class="warning" align="left">как так</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:45:39</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left">Обновление до 10.14 в прямом эфире ?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:46:00</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">45 минут =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:46:02</td>
+                <td class="success" align="left">Sergey Poterianski</td>
+            
+            <td class="warning" align="left">А ZOOM  не зашёл?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:46:05</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">можно еще устроить голосвание, какую следующую кнопку нажимать, в лушчих традициях твича</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:46:15</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">зум - 40 минут и отключает</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:49:10</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">Через неделю вы на каникулах будите?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:49:42</td>
+                <td class="success" align="left">Denis Zhuravlev</td>
+            
+            <td class="warning" align="left">унца слишком громко, сильно громче ксюши</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:50:03</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt;  --&gt; Официальный кат! - <a href="http://news.radio-t.com" rel="nofollow noopener noreferrer" target="_blank" class="link">http://news.radio-t.com</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:50:18</td>
+                <td class="success" align="left">ingr1</td>
+            
+            <td class="warning" align="left">унцу бы по-тише</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:52:09</td>
+                <td class="success" align="left">ingr1</td>
+            
+            <td class="warning" align="left">хорошо</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:52:11</td>
+                <td class="success" align="left">Denis Zhuravlev</td>
+            
+            <td class="warning" align="left">теперь норм</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:52:34</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">я кстати недавно заметил что по рефералке DO дает 100$ на аккаунт нового пользователя, это у всех так? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:52:35</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>money-bot 💬</strong>  <span data-link-type="mention" data-screen-name="Saicheg" class="mention">@Saicheg</span> упомянул 100 USD<table>
+<thead>
+<tr>
+<th style="text-align:center">USD</th>
+<th style="text-align:center">100</th>
+<th style="text-align:center">Курсы</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">EUR</td>
+<td style="text-align:center">87.42</td>
+<td style="text-align:center">0.87</td>
+</tr>
+<tr>
+<td style="text-align:center">UAH</td>
+<td style="text-align:center">2 739.04</td>
+<td style="text-align:center">27.39</td>
+</tr>
+<tr>
+<td style="text-align:center">RUB</td>
+<td style="text-align:center">6 950.10</td>
+<td style="text-align:center">69.50</td>
+</tr>
+<tr>
+<td style="text-align:center">BYN</td>
+<td style="text-align:center">215.99</td>
+<td style="text-align:center">2.16</td>
+</tr>
+<tr>
+<td style="text-align:center">BTC</td>
+<td style="text-align:center">0.03</td>
+<td style="text-align:center">0.00</td>
+</tr>
+</tbody>
+</table>
+</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:53:01</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; Яндекс.Немузыка — Блог Яндекса - <a href="https://yandex.ru/blog/company/yandeks-nemuzyka" rel="nofollow noopener noreferrer" target="_blank" class="link">https://yandex.ru/blog/company/yandeks-nemuzyka</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:53:19</td>
+                <td class="success" align="left">A 384</td>
+            
+            <td class="warning" align="left">Переходите на  <a href="https://jami.net/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://jami.net/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:55:18</td>
+                <td class="success" align="left">ingr1</td>
+            
+            <td class="warning" align="left">:)))))</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:56:01</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="umputun" class="mention">@umputun</span> привет вашей курилке тогда! </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:56:37</td>
+                <td class="success" align="left">Eugene</td>
+            
+            <td class="warning" align="left">почему бобук не читает твитер умпутуна?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:57:34</td>
+                <td class="success" align="left">Felix-IronFelix</td>
+            
+            <td class="warning" align="left">Это уже или ещё?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">23:58:54</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">А на Яндексе подкасты только на русском языке?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">00:00:36</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left"><a href="https://music.yandex.ru/album/6411645" rel="nofollow noopener noreferrer" target="_blank" class="link">https://music.yandex.ru/album/6411645</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:00:38</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  подкаст Главные треки Радио-Т Разговоры на темы хайтек, высоких компьютерных технологий, гаджетов, облаков, программирования и прочего интересного из мира ИТ. Авторы — Umputun, Bobuk, Gray, ...</p><p>  <em>Радио-Т. Слушать онлайн на Яндекс.Музыке</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:01:20</td>
+                <td class="success" align="left">A 384</td>
+            
+            <td class="warning" align="left"><a href="https://files.gitter.im/radio-t/chat/kyti/______-______-__-2018-12-29-23-59-33.png" rel="nofollow noopener noreferrer" target="_blank" class="link"><img src="https://files.gitter.im/radio-t/chat/kyti/thumb/______-______-__-2018-12-29-23-59-33.png" alt="Снимок экрана от 2018-12-29 23-59-33.png" rel="nofollow"></a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:01:38</td>
+                <td class="success" align="left">Eugene</td>
+            
+            <td class="warning" align="left">темы!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:01:46</td>
+                <td class="success" align="left">Eugene</td>
+            
+            <td class="warning" align="left">новости!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:01:47</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><ul>
+<li><em><a href="https://www.engadget.com/2018/12/17/best-gadgets-of-2018/" rel="nofollow noopener noreferrer" target="_blank" class="link">The best gadgets of 2018</a> 2018-12-28</em></li>
+<li><em><a href="http://www.opennet.ru/opennews/art.shtml?num=49833" rel="nofollow noopener noreferrer" target="_blank" class="link">OpenNews: Особенность отображения проектов на GitHub создала видимость внедрения бэкдора в ядро Linux</a> 2018-12-29</em></li>
+<li><em><a href="https://habr.com/post/434478/" rel="nofollow noopener noreferrer" target="_blank" class="link">Безликий код убьет программирование, и ничего мы с этим не сделаем / Хабр</a> 2018-12-28</em></li>
+<li><em><a href="https://www.trustedreviews.com/news/iphone-11-camera-3640127" rel="nofollow noopener noreferrer" target="_blank" class="link">iPhone 11 could have a new camera that will change everything | Trusted Reviews</a> 2018-12-29</em></li>
+<li><em><a href="https://techcrunch.com/2018/12/28/smart-speakers-hit-critical-mass-in-2018/" rel="nofollow noopener noreferrer" target="_blank" class="link">Smart speakers hit critical mass in 2018</a> 2018-12-29</em></li>
+<li><strong><a href="https://news.radio-t.com" rel="nofollow noopener noreferrer" target="_blank" class="link">все новости и темы</a></strong></li>
+</ul>
+</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:01:49</td>
+                <td class="success" align="left">Kirill Eremin</td>
+            
+            <td class="warning" align="left"><a href="https://music.yandex.ru/search?text=%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A2" rel="nofollow noopener noreferrer" target="_blank" class="link">https://music.yandex.ru/search?text=%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A2</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:01:50</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Вы попали на несуществующую страницу. Вероятно, это произошло из-за опечатки или неправильной раскладки ...</p><p>  <em>Яндекс.Музыка</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:03:51</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; OpenNews: Особенность отображения проектов на GitHub создала видимость внедрения бэкдора в ядро Linux - <a href="http://www.opennet.ru/opennews/art.shtml?num=49833" rel="nofollow noopener noreferrer" target="_blank" class="link">http://www.opennet.ru/opennews/art.shtml?num=49833</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:11:58</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; Безликий код убьет программирование, и ничего мы с этим не сделаем / Хабр - <a href="https://habr.com/post/434478/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://habr.com/post/434478/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:13:04</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">да да </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:13:21</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">я здесь</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:13:27</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">это всё нето </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:13:30</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">подтверждаю </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:13:43</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">и не отвлекайте меня! </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:14:24</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">делать ваши порно сайты не интересно </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:14:32</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">что не так? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:16:00</td>
+                <td class="success" align="left">Arxivarius</td>
+            
+            <td class="warning" align="left">на порно сайтах часто тестируются новейшие системы оплаты</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:17:22</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">Жека делает порно сайты и называет это умными вещами по типу SAAS, его разоблачили и ему это не нравится  </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:17:33</td>
+                <td class="success" align="left">Art</td>
+            
+            <td class="warning" align="left">а еще большинство порно сайтов адаптировано для людей с ограниченными возможностями, аля поддержка шрифтов, такое даже на гос сайтах не увидишь</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:18:21</td>
+                <td class="success" align="left">Flash</td>
+            
+            <td class="warning" align="left">а ещё порно сайты должны уметь справляться с большой нагрузкой при минимальных затратах</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:18:23</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left">Не забывайте про юзабилити</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:18:37</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">На порно сайт сходить проще чем найти бабу, Умпутун прав, он всё упрощает, всё сходится </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:18:58</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">Ну конечно, и юзать сайт проще чем бабу, да да </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:21:01</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">Про фулстаки вечные миддлы было в вашем подкасте </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:21:35</td>
+                <td class="success" align="left">Kirill Eremin</td>
+            
+            <td class="warning" align="left">Далеко не второй =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:21:46</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">Программирование это копипаста </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:21:48</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">я про веб </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:22:09</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">особенно если дело идёт о JS </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:22:46</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">на Go наверное много ещё не написали =) </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:22:49</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left">Почему особенно JS ?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:23:04</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">да потому что ничего руками не надо делать, можно стряпать велосипедами </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:23:20</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">это самый популярный язык </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:23:20</td>
+                <td class="success" align="left">Art</td>
+            
+            <td class="warning" align="left">на js нет смысла копипастить, просто подключи модуль, да да, он наверняка есть в npm</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:23:28</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">тем более</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:24:01</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; The best gadgets of 2018 - <a href="https://www.engadget.com/2018/12/17/best-gadgets-of-2018/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://www.engadget.com/2018/12/17/best-gadgets-of-2018/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:24:15</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">опять плейстейшн 1? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:24:17</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">о нет</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:25:21</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">и всякие хуявэи</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:26:34</td>
+                <td class="success" align="left">Kirill Eremin</td>
+            
+            <td class="warning" align="left">3 версия часов тоже стала предлагает записать тренировку. По всей видимости это новая WatchOS.</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:26:51</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="BritUA_twitter" class="mention">@BritUA_twitter</span> ты не заметил что любой язык в котором ничего нет, обречён на успех? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:28:39</td>
+                <td class="success" align="left">Dmitriy Aulov</td>
+            
+            <td class="warning" align="left">galaxy watch</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:29:23</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span> Есть много языков в которых много всего не написано, и далеко не все они успешны</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:29:49</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="BritUA_twitter" class="mention">@BritUA_twitter</span> пример</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:29:51</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">не понимаю теперь зачем kindle oasis с новым paperwhite </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:30:05</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">купил себе первый и второй 2018 года</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:31:14</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">в россии много читали раньше, сегодня мало читают, это не модно </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:31:35</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span> сейчас тоже читают, просто не книги, а реп </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:31:40</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">сейчас стало модно зарабатывать ничего не делая. </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:32:19</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Saicheg" class="mention">@Saicheg</span> <a href="https://www.youtube.com/watch?v=mWpj3zhXois" rel="nofollow noopener noreferrer" target="_blank" class="link">https://www.youtube.com/watch?v=mWpj3zhXois</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:32:21</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  реперы, слушайте ...</p><p>  <em>реперы, слушайте Петросяна - YouTube</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:33:08</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">можно написать в Амазон одно сообщение что ты в другом регионе и они отрубают рекламу тебе </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:33:10</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span> 1С</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:33:15</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">ахахахах</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:33:23</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="BritUA_twitter" class="mention">@BritUA_twitter</span> ты вообще серьёзно? АХАХАХХАХАХ</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:22</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">в пепервайте 2016 есть блютуз</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:31</td>
+                <td class="success" align="left">Alexander</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span> Rust из тех которые более менее &quot;популярные&quot;</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:32</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">=) потому как самиздат развивается во всю =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:40</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left"><p><span data-link-type="mention" data-screen-name="bobuk" class="mention">@bobuk</span> </p><p><a href="https://yadi.sk/i/ITcMfpOcFgktjQ" rel="nofollow noopener noreferrer" target="_blank" class="link">https://yadi.sk/i/ITcMfpOcFgktjQ</a></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:42</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>   ...</p><p>  _2018-12-30<em>00-33-23.png — Yandex.Disk</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:45</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left"><a href="http://m.ua/desc/amazon-kindle-2016/" rel="nofollow noopener noreferrer" target="_blank" class="link">http://m.ua/desc/amazon-kindle-2016/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:34:46</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  © 2006-2018 MagaZilla Если вы решили приобрести Amazon Kindle 2016, откройте страницу &quot;Где купить?&quot; со списком интернет-магазинов и ценовых предложений, выберите оптимальную цену и перейдите в соответствующий магазин по ссылке &quot;Купить&quot;. Перепечатка любых материалов только с письменного согласия ...</p><p>  <em>Электронная книга Amazon Kindle 2016 купить ▷ цены и отзывы магазинов Украины: продажа в Киеве, Днепропетровске, Одессе | MagaZilla</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:36:24</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="zageeeek_twitter" class="mention">@zageeeek_twitter</span> ++</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:36:26</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">у оазиса проблема с батарейкой</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:36:26</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>karma-bot 💬</strong>  Карма пользователя <span data-link-type="mention" data-screen-name="zageeeek_twitter" class="mention">@zageeeek_twitter</span> увеличена (текущее значение: 1).</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:37:41</td>
+                <td class="success" align="left">Tema</td>
+            
+            <td class="warning" align="left">Всем привет </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:37:56</td>
+                <td class="success" align="left">Flash</td>
+            
+            <td class="warning" align="left">бобук жирненько любит затролить Ксюшу!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:38:35</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">у меня был ipad mini читать неудобно слишком мелко, на 9.7 слишком велико, почему iPad нет на 8&quot; </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:38:56</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">oasis? :)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:40:55</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="BritUA_twitter" class="mention">@BritUA_twitter</span> --</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:40:57</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>karma-bot 💬</strong>  Карма пользователя <span data-link-type="mention" data-screen-name="BritUA_twitter" class="mention">@BritUA_twitter</span> уменьшена (текущее значение: -1).</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:42:46</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">с камерой хорошой =)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:43:46</td>
+                <td class="success" align="left">Ivan Nikolaevich</td>
+            
+            <td class="warning" align="left">Pocketbook 740 для Бобука. Все виды подсветок, при 7.8&quot; габариты, почти как у 6&quot;. Всякие сервисы, дропбоксы и прочее. Есть всё, кроме блютуса</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:44:50</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Saicheg" class="mention">@Saicheg</span> <a href="https://www.youtube.com/watch?v=-oia1mldOnU" rel="nofollow noopener noreferrer" target="_blank" class="link">https://www.youtube.com/watch?v=-oia1mldOnU</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:44:52</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Unsubscribe from Григорий ...</p><p>  <em>petrosyan vs aphex twin - YouTube</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:46:18</td>
+                <td class="success" align="left">Valentine Zavadsky</td>
+            
+            <td class="warning" align="left">какую книгу попробовать послушать в audible на английском чтобы оценить? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:48:25</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="Saicheg" class="mention">@Saicheg</span> <a href="https://www.audible.com/pd/Tales-of-AS-Pushkin-for-Children-and-Adults-Audiobook/B07GZG5F96?qid=1546120087&amp;sr=sr_1_1&amp;ref=a_search_c3_lProduct_1_1&amp;pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&amp;pf_rd_r=RT0T9K9HD6TMN39PJPNK&amp;" rel="nofollow noopener noreferrer" target="_blank" class="link">https://www.audible.com/pd/Tales-of-AS-Pushkin-for-Children-and-Adults-Audiobook/B07GZG5F96?qid=1546120087&amp;sr=sr_1_1&amp;ref=a_search_c3_lProduct_1_1&amp;pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&amp;pf_rd_r=RT0T9K9HD6TMN39PJPNK&amp;</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:48:26</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Classics European Literature Ð¡ÐºÐ°Ð·ÐºÐ¸ Ð�. Ð¡. ÐŸÑƒÑˆÐºÐ¸Ð½Ð° Ð”Ð»Ñ� Ð´ÐµÑ‚ÐµÐ¹ Ð¸ Ð²Ð·Ñ€Ð¾Ñ�Ð»Ñ‹Ñ… [Tales of A. S. Pushkin for Children and Adults] Ñ�Ð±Ð¾Ñ€Ð½Ð¸Ðº Ñ�ÐºÐ°Ð·Ð¾Ðº [A Storybook] By: Ð�Ð»ÐµÐºÑ�Ð°Ð½Ð´Ñ€ Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð¸Ñ‡ ÐŸÑƒÑˆÐºÐ¸Ð½ Narrated by: ÐžÐ»ÑŒÐ³Ð° Ð’Ð¾Ð»Ð¾Ð´Ð¸Ð½Ð° Length: 4 ...</p><p>  <em>Ð¡ÐºÐ°Ð·ÐºÐ¸ Ð�.Ð¡.ÐŸÑƒÑˆÐºÐ¸Ð½Ð° Ð”Ð»Ñ� Ð´ÐµÑ‚ÐµÐ¹ Ð¸ Ð²Ð·Ñ€Ð¾Ñ�Ð»Ñ‹Ñ… [Tales of A.S. Pushkin for Children and Adults] (Audiobook) by Ð�Ð»ÐµÐºÑ�Ð°Ð½Ð´Ñ€ Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð¸Ñ‡ ÐŸÑƒÑˆÐºÐ¸Ð½ | Audible.com</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:53:34</td>
+                <td class="success" align="left">Flash</td>
+            
+            <td class="warning" align="left">LJ умирает вот и исход</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:53:38</td>
+                <td class="success" align="left">A 384</td>
+            
+            <td class="warning" align="left">Только pixelbook на intel процессор,на нем можно поставить</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:54:51</td>
+                <td class="success" align="left">A 384</td>
+            
+            <td class="warning" align="left"><a href="https://store.google.com/us/product/google_pixelbook_specs" rel="nofollow noopener noreferrer" target="_blank" class="link">https://store.google.com/us/product/google_pixelbook_specs</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:54:53</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Built-in security A security chip to help protect your Pixelbook. Virus protection built-in Works continuously in the background to keep your device, data and apps safe. Automatic updates Always have the latest security and features, with software that updates automatically. ...</p><p>  <em>Google Pixelbook Tech Specs - Google Store</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:54:56</td>
+                <td class="success" align="left">Захар</td>
+            
+            <td class="warning" align="left">в смысле, а как же эпловые?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:55:24</td>
+                <td class="success" align="left">Flash</td>
+            
+            <td class="warning" align="left">А какие там с черепом?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:55:28</td>
+                <td class="success" align="left">Flash</td>
+            
+            <td class="warning" align="left">Дайте глянуть</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:56:05</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; The Essential Phone is effectively discontinued - <a href="https://www.engadget.com/2018/12/28/essential-phone-wont-be-restocked-discontinued/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://www.engadget.com/2018/12/28/essential-phone-wont-be-restocked-discontinued/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">00:58:27</td>
+                <td class="success" align="left">Alexander Kozlov</td>
+            
+            <td class="warning" align="left">дорого и камера плохая у него была</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:00:06</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">Ультрабук найдите нормальный на винде вещь в хозяйстве интересная, чтобы весил до полутора кг </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:01:26</td>
+                <td class="success" align="left">A 384</td>
+            
+            <td class="warning" align="left"><a href="https://store.google.com/us/product/google_pixelbook_specs" rel="nofollow noopener noreferrer" target="_blank" class="link">https://store.google.com/us/product/google_pixelbook_specs</a> </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:01:27</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  An error occurred while canceling your shipment. Please try again later. An error occurred while processing your purchase. Please try again later. An error occurred while canceling your repair. Please try again later. Your promo code has been applied to your order and can be seen at checkout. Could ...</p><p>  <em>Google Pixelbook Tech Specs - Google Store</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:02:55</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; Интернет убыточных вещей / Хабр - <a href="https://habr.com/post/434422/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://habr.com/post/434422/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:03:02</td>
+                <td class="success" align="left">Vlad Slavin, SLVN</td>
+            
+            <td class="warning" align="left">возьми самый дешевый surface laptop, я не знаю почему но всем девушкам нравится, вообще не могу объяснить причин, так что без вопросов)) просто surface laptop</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:03:58</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">дорого, умпутун не миллионер </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:04:34</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">и на пенсию скоро =( </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:04:35</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>brackets-bot 💬</strong>  )<br>Закрывай скобки, <span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span> !!!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:06:01</td>
+                <td class="success" align="left">Flash</td>
+            
+            <td class="warning" align="left">&quot;Какая отвратительная история&quot; (ДМБ) :)</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:07:45</td>
+                <td class="success" align="left">Vlad Slavin, SLVN</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="OlekTaken" class="mention">@OlekTaken</span>   но если серьезно клавиатура там просто прекрасна,  по цене примерно как эйр , единственный минус это сколько эта клавиатура выдержит, хотя у эйра тоже самое</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:08:38</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="nakedslavin" class="mention">@nakedslavin</span> у неё есть iPad может на него купить клаву и поставить ей какое нибуть Coda и т.п.: <a href="https://alternativeto.net/software/sublime-text/?platform=ipad" rel="nofollow noopener noreferrer" target="_blank" class="link">https://alternativeto.net/software/sublime-text/?platform=ipad</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:08:40</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  AlternativeTo is a free service that helps you find better alternatives to the products you love and hate. The site is made by Ola and Markus in Sweden, with a lot of help from our friends and colleagues in Italy, Finland, USA, Colombia, Philippines, France and contributors from all over the world. ...</p><p>  <em>Sublime Text Alternatives for iPad - AlternativeTo.net</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:19:26</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; OpenNews: Выпуск интегрированной среды разработки Apache NetBeans 10.0 - <a href="http://www.opennet.ru/opennews/art.shtml?num=49864" rel="nofollow noopener noreferrer" target="_blank" class="link">http://www.opennet.ru/opennews/art.shtml?num=49864</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:24:16</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left">==&gt; Темы слушателей 630 - <a href="https://radio-t.com/p/2018/12/24/prep-630/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://radio-t.com/p/2018/12/24/prep-630/</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:24:46</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">я бы плюсанул но меня там забанили</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:25:01</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">как и всех остальных </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:25:03</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">активных</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:25:45</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">всех кто проявляет какую либо активность кроме голосования их рано или поздно банят, всех, надолго</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:26:42</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">так после амнистии </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:26:46</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">ещё раз забанили</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:27:13</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">сделайте ещё одну амнистию ещё раз</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">01:27:35</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left">wat? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">01:27:38</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left"><a href="https://files.gitter.im/radio-t/chat/Q9t5/x43va-201812-29162716-nmwk7.png" rel="nofollow noopener noreferrer" target="_blank" class="link"><img src="https://files.gitter.im/radio-t/chat/Q9t5/thumb/x43va-201812-29162716-nmwk7.png" alt="x43va-201812-29162716-nmwk7.png" rel="nofollow"></a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:27:39</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">дада</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:27:51</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">ааа </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:27:52</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">ура</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:28:05</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">свабода! </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:29:36</td>
+                <td class="success" align="left">Vlad Slavin, SLVN</td>
+            
+            <td class="warning" align="left">Австралия сотрудничает быстрее чем ее даже попросят</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:32:32</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">Что нам могут тут такого рассказать про компанию, что нам бы по настоящему было нужно </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:33:37</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">SimCity для Nes? о_О </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:41:16</td>
+                <td class="success" align="left">👾agarkov</td>
+            
+            <td class="warning" align="left">а можно ссылку на код?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:44:03</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left"><span data-link-type="mention" data-screen-name="agarkov_max_twitter" class="mention">@agarkov_max_twitter</span> <a href="https://habr.com/post/434478/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://habr.com/post/434478/</a> может этот? </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:44:07</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Во время очередного спора знакомый озвучил мысль, которая меня очень сильно задела. «В большинстве популярных ЯПов существует очень много разных путей сделать одно и то же. Это приводит к проблемам. А вот в Go всё не так. Философия языка такова, что на Go разные разработчики решают одинаковые ...</p><p>  <em>Безликий код убьет программирование, и ничего мы с этим не сделаем / Хабр</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:44:41</td>
+                <td class="success" align="left">macwords</td>
+            
+            <td class="warning" align="left">say!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:44:42</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><em>Старые мосты могут еще пригодиться. Лучше сжечь старые грабли.</em></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:46:52</td>
+                <td class="success" align="left">A 384</td>
+            
+            <td class="warning" align="left"><a href="https://habr.com/post/433052/" rel="nofollow noopener noreferrer" target="_blank" class="link">https://habr.com/post/433052/</a><br>Что думаете о flatpak/ snap?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:46:55</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Лонгрид варнинг: вас предупредили, много букв. Уже давно ведётся разработка формата дистрибуции приложений, которые были &quot;свободны&quot; от общесистемных зависимостей. Ubuntu очень, очень активно продвигает свой snap, gnome — flatpack. Оба обещают рай и свободу от rpm/deb. Давайте же подумаем про ...</p><p>  <em>snap &amp; flatpack — трагедия общин / Хабр</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:54:11</td>
+                <td class="success" align="left">Viacheslav Makarov</td>
+            
+            <td class="warning" align="left">и нет ни одного способа передать многострочную лямбду</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:56:00</td>
+                <td class="success" align="left">Stanislav Popov</td>
+            
+            <td class="warning" align="left">а про младшие колонки с Алисой ничего не скажете?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:56:48</td>
+                <td class="success" align="left">Anton Samarchyan</td>
+            
+            <td class="warning" align="left">у меня на yandex.ru telegram.org находится - первой ссылкой</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:57:52</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">меня с com на ru перебрасывает =(</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:57:53</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><strong>brackets-bot 💬</strong>  )<br>Закрывай скобки, <span data-link-type="mention" data-screen-name="bubuger" class="mention">@bubuger</span> !!!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="danger" align="left">01:58:09</td>
+                <td class="danger" align="left">Umputun</td>
+            
+            <td class="warning" align="left"><a target="_blank" data-link-type="issue" data-issue="26" href="https://github.com/radio-t/radio-t-site/issues/26" data-provider="github" data-issue-repo="radio-t/radio-t-site" class="issue">radio-t/radio-t-site#26</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:58:12</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><p><strong>excerpt 💬</strong>  Join GitHub today GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together. Sign ...</p><p>  <em>Осовременнить дизайн? · Issue <a target="_blank" data-link-type="issue" data-issue="26" class="issue">#26</a> · radio-t/radio-t-site · GitHub</em></p></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:59:15</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">дизайн как у хабры</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">01:59:25</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">но лучше чем сейчас</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:00:33</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">тот кто рисует обычно о CSS мало что знает в студиях </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:00:43</td>
+                <td class="success" align="left">Alexander Kozlov</td>
+            
+            <td class="warning" align="left"><a href="https://user-images.githubusercontent.com/46132242/50486783-93f98780-0a0c-11e9-9ade-b23f6aa266f8.jpg" rel="nofollow noopener noreferrer" target="_blank" class="link">https://user-images.githubusercontent.com/46132242/50486783-93f98780-0a0c-11e9-9ade-b23f6aa266f8.jpg</a> вот так будет?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:00:56</td>
+                <td class="success" align="left">Alexander Kozlov</td>
+            
+            <td class="warning" align="left">ну красиво</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:01:33</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">подняли бокалы </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:02:00</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">хлопушки</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:03:43</td>
+                <td class="success" align="left">Stanislav Popov</td>
+            
+            <td class="warning" align="left">Бобук, а DevZen?</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:05:54</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">там матерятся не ходите туда </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:06:50</td>
+                <td class="success" align="left">Vlad Slavin, SLVN</td>
+            
+            <td class="warning" align="left">не знаю, я прихожу сюда послушать каждую неделю рекламу Дижитал Оушен, а тут смотрю целую шоу. Сегодня у знаю что у них новых дата центр в Сингапуре, всегда что-то новое есть.</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:07:32</td>
+                <td class="success" align="left">Vlad Slavin, SLVN</td>
+            
+            <td class="warning" align="left">зштп</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:07:35</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">у меня когда начинается реклама мозг отключается и я даже не замечу если в ней чтото поменяется, она уже стала частью меня </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:07:36</td>
+                <td class="success" align="left">Vlad Slavin, SLVN</td>
+            
+            <td class="warning" align="left">ping</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:07:37</td>
+                <td class="success" align="left">радио-т бот</td>
+            
+            <td class="warning" align="left"><em>pong</em></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:17:29</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">всем пока</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:17:43</td>
+                <td class="success" align="left">👾agarkov</td>
+            
+            <td class="warning" align="left">спокойной ночи!</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:17:46</td>
+                <td class="success" align="left">Art</td>
+            
+            <td class="warning" align="left">с наступающим вас</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:17:51</td>
+                <td class="success" align="left">bubuger</td>
+            
+            <td class="warning" align="left">всех с наступающим </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:18:33</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">merry christmas and happy new year folks</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">02:57:05</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">hohoho</td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">03:03:12</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">подскажите как называется похожая цветовая тема для подсветки кода: <a href="https://i.imgur.com/ya7sK6x.png" rel="nofollow noopener noreferrer" target="_blank" class="link">https://i.imgur.com/ya7sK6x.png</a></td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">03:03:41</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">имеется ввиду в которой не много цветов как у новогодней ёлки, а всего два, но шрифт меняет просто свой оттенок </td>
+        </tr>
+        
+        <tr>
+            
+                <td class="success" align="left">03:04:16</td>
+                <td class="success" align="left">This Show Must Go On</td>
+            
+            <td class="warning" align="left">а то я заметил что устал я от этих разных цветов какихто пёстрых, может взрослею или наоборот </td>
+        </tr>
+        
+
+        </table>
+
+        <script>
+            window.onload = function() {
+                var filter = document.getElementById('filter');
+                var checkboxes = filter.getElementsByClassName('filter__item');
+                var filterToggle = document.getElementById('filter__toggle');
+                var rows = document.querySelectorAll('.table tr');
+                var filters = {
+                    host: {
+                        value: 0,
+                        classname: 'host',
+                        style: '.table tr { display: none; } .table tr.host { display: table-row; }',
+                        detect: function(row) { return row.getElementsByClassName('danger').length > 0; }
+                    },
+                    link: {
+                        value: 0,
+                        classname: 'link',
+                        style: '.table tr { display: none; } .table tr.link { display: table-row; }',
+                        detect: function(row) { return row.getElementsByTagName('a').length > 0; }
+                    },
+                    bot: {
+                        value: 0,
+                        classname: 'bot',
+                        style: '.table tr.bot { display: none; }',
+                        detect: function(row) { return row.children[1].textContent == 'радио-т бот' && row.children[2].textContent.indexOf('==> ') == -1; }
+                    }
+                };
+                var filtersInited = false;
+                var styleNode;
+
+                filterToggle.addEventListener('click', function(e) {
+                    filter.classList.toggle('filter_visible');
+                });
+
+                [].forEach.call(checkboxes, function(item) {
+                    item.addEventListener('change', function(e) {
+                        filters[item.name].value = !!item.checked;
+
+                        if (filtersInited) {
+                            updateFilters();
+                        } {
+                            initFilter(updateFilters);
+                        }
+                    });
+                });
+
+                function initFilter(cb) {
+                    if (filtersInited) return;
+
+                    for (var i = 0; i < rows.length; i++) {
+                        for (var name in filters) {
+                            if (filters[name].detect(rows[i])) {
+                                rows[i].classList.add(name);
+                            }
+                        }
+                    }
+
+                    filtersInited = true;
+
+                    if (typeof cb == "function") cb();
+                }
+
+                function updateFilters() {
+                    var style = '';
+                    var sum = 0;
+
+                    if (styleNode) {
+                        styleNode.remove();
+                    }
+
+                    styleNode = document.createElement('style');
+
+                    for (var name in filters) {
+                        if (filters[name].value) {
+                            style += filters[name].style;
+                            sum += filters[name].value;
+                        }
+                    }
+
+                    if (sum) {
+                        styleNode.appendChild(document.createTextNode(style));
+                        document.body.appendChild(styleNode);
+                    }
+                }
+            };
+        </script>
+    </body>
+</html>
