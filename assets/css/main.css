@@ -1,10 +1,5 @@
 html { background: #fff; font: normal 0.75em/1.5em Verdana, Arial, Helvetica, sans-serif; }
-.message { clear: both; }
-.message p { margin: 0; padding: 0; }
-.message .date { color: #666; float: left; margin-right: 15px; }
-.message .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
-.message p:hover, .flashed { background-color: #f0f0f0; }
-.message .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
+
 a { color: #0066cc; }
 
 #panel {
@@ -26,19 +21,51 @@ a { color: #0066cc; }
 #controls { display:inline-table; margin: 0px; vertical-align: middle;}
 #controls .link { padding-left:5px; padding-right:5px; text-decoration: none; cursor: pointer; color: blue;}
 #controls .link:hover { text-decoration: underline; }
-#messages {
+#container {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 90px;
-    padding: 5px 10px 5px 5px;
-    overflow: auto;
+    top: 0;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
 }
-.message { display: none; }
-.message .user { color: rgb(16,120,100); }
+#messages {
+    flex-grow: 1;
+    overflow: auto;
+    border-right: 1px dotted gray;
+}
+.message { clear: both; }
+.message p { margin: 0; padding: 0; }
+.message .date { color: #666; float: left; margin-right: 15px; }
+.message .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
+.message p:hover, .flashed { background-color: #f0f0f0; }
+.message .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
+.message {
+    padding: 3px 3px 3px 3px;
+    display: none;
+}
+.message .listener { color: rgb(16,120,100); }
 .message .bot { color: gray; }
 .message .vip { color: rgb(130,10,0); }
+
+#cc_panel {
+    flex-shrink: 0;
+    flex-basis: 400px;
+    /*padding: 5px 10px 5px 15px;*/
+    overflow: auto;
+}
+.cc { clear: both; }
+.cc p { margin: 0; padding: 0; }
+.cc .time { color: #666; float: left; margin-right: 15px; width: 50px; }
+.cc .nickname { width: 150px; float: left; text-align: right; margin-right: 10px; }
+.cc p:hover, .flashed { background-color: #f0f0f0; }
+.cc .text { border-left: 1px solid silver; display: table; padding-left: 10px; }
+.cc {
+    padding: 3px 3px 3px 3px;
+    display: none; 
+}
 
 #live_chat {
     position: absolute;

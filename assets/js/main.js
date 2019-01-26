@@ -5,6 +5,10 @@ Date.prototype.getLocalTime = function() {
     return h + ":" + m + ":" + s;
 }
 
+function testFunction(e){
+    console.log(e.time);
+}
+
 $.routes.add('/{id:int}/', 'issueNumRoute', function() {
     $('#picker_select').val(this.id)
     $('#picker_select').trigger("change");
@@ -20,6 +24,13 @@ $(document).ready(function(){
     $('#tobottom').click(function(e){
         e.preventDefault();
         $("#messages").prop({ scrollTop: $("#messages")[0].scrollHeight });
+    });
+
+    $("#cc_panel").click(function(e){
+        e.stopPropagation();
+        var time = $(e.target).parent().parent().attr('data-time')
+        console.log(time);
+        $("#jquery_jplayer_1").jPlayer('play',time)
     });
 
     $.jPlayer.timeFormat.showHour = true;
@@ -50,6 +61,7 @@ $(document).ready(function(){
                   $(".t"+(start_time+i).toString()).css("display","block");
                 }
                 $("#messages").prop({ scrollTop: $("#messages").prop("scrollHeight") });
+                $("#cc_panel").prop({ scrollTop: $("#cc_panel").prop("scrollHeight") });
               } else {
                 for(var i=last_offset; i <= cur_offset; i++) {
                   $(".t"+(start_time+i).toString()).css("display","block");
@@ -64,6 +76,7 @@ $(document).ready(function(){
         },
         ended: function () {
             $(".message").css("display","block");
+            $(".cc").css("display","block");
         }
     });
 
@@ -71,6 +84,8 @@ $(document).ready(function(){
         var num = $(this).val();
 
         $('.message').remove();
+        $('.cc').remove();
+        $('#search_panel').remove();
         $('#live_chat').remove();
         //$('#numbers').css("display","inline-table");
         $('#loaded').text('0');
@@ -84,8 +99,8 @@ $(document).ready(function(){
         location.href = "/#/"+num
 
         if (num == "live") {
-            //$("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://91.213.196.99:8181/stream"});
-            $("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://pf.volna.top/PilotBy48"});
+            $("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://stream.radio-t.com"});
+            //$("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://pf.volna.top/PilotBy48"});
             //$('#messages').append('<iframe src="http://chat.radio-t.com/" id="live_chat"><p>Your browser does not support iframes.</p></iframe>');
             $('#messages').append('<div class="message" >Try to implement Giiter integration later.</div>');
             $('.message').css("display","block");
@@ -95,7 +110,7 @@ $(document).ready(function(){
         }
 
         $.getJSON("data/"+num+"/desc.json", function (data) {
-            console.log(data)
+            //console.log(data)
             $('#start_time').text(data.start_time);
             $("#jquery_jplayer_1").jPlayer("setMedia",{mp3: data.url});
             $('#total').text(data.chat_n);
@@ -113,6 +128,20 @@ $(document).ready(function(){
                 $('.t' + i).css("display","block");
             }
             $('#tobottom').click();
+        });
+
+       $.getJSON("data/"+num+"/cc.json", function (data) {
+            console.log('start')
+            var start_time = parseInt($('#start_time').text());
+            var cc_tmp_panel = $(document.createElement('div'))
+            $.each( data.subs, function( key, sub ) {
+                var time = Math.trunc(sub.stime)
+                cc_tmp_panel.append('<div data-time='+time+' class="cc t' + (start_time+time) + '"><p><span class="time"><!--a href="#" class="cc_time" onClick="return testFunction(this)"-->' + (new Date(time*1000-18000000).getLocalTime()) + '</a></span><span class="text">' + sub.text + '</span></p></div>');
+                //$('#loaded').text(parseInt($('#loaded').text())+1);
+                //console.log();
+            });
+            $('#cc_panel').append(cc_tmp_panel)
+            console.log('end')
         });
     });
 
