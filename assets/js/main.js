@@ -102,7 +102,8 @@ $(document).ready(function(){
             $("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://stream.radio-t.com"});
             //$("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://pf.volna.top/PilotBy48"});
             //$('#messages').append('<iframe src="http://chat.radio-t.com/" id="live_chat"><p>Your browser does not support iframes.</p></iframe>');
-            $('#messages').append('<div class="message" >Try to implement Giiter integration later.</div>');
+            //$('#messages').append('<div class="message" >Try to implement Giiter integration later.</div>');
+            $('#messages').append('<iframe src="https://gitter.im/radio-t/chat/~embed"></iframe>');
             $('.message').css("display","block");
             $('#fork_me').show();
 
