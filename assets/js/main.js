@@ -5,10 +5,6 @@ Date.prototype.getLocalTime = function() {
     return h + ":" + m + ":" + s;
 }
 
-function testFunction(e){
-    console.log(e.time);
-}
-
 $.routes.add('/{id:int}/', 'issueNumRoute', function() {
     $('#picker_select').val(this.id)
     $('#picker_select').trigger("change");
@@ -103,9 +99,10 @@ $(document).ready(function(){
             //$("#jquery_jplayer_1").jPlayer("setMedia",{mp3: "http://pf.volna.top/PilotBy48"});
             //$('#messages').append('<iframe src="http://chat.radio-t.com/" id="live_chat"><p>Your browser does not support iframes.</p></iframe>');
             //$('#messages').append('<div class="message" >Try to implement Giiter integration later.</div>');
-            $('#messages').append('<iframe src="https://gitter.im/radio-t/chat/~embed"></iframe>');
+            $('#messages').append('<iframe src="https://gitter.im/radio-t/chat/~embed"><p>Your browser does not support iframes.</p></iframe>');
             $('.message').css("display","block");
             $('#fork_me').show();
+            $("#jquery_jplayer_1").jPlayer('play');
 
             return;
         }
@@ -118,11 +115,12 @@ $(document).ready(function(){
         });
 
         $.getJSON("data/"+num+"/chat.json", function (data) {
-            var items = [];
+            var messages_tmp_panel = $(document.createElement('div'));
             $.each( data.chat, function( key, message ) {
-                $('#messages').append('<div class="message t' + message.datetime + '"><p><span class="date">' + (new Date(message.datetime*1000).getLocalTime()) + '</span><span class="nickname ' + message.author_type + '">' + message.author_name + '</span><span class="text">' + message.text + '</span></p></div>');
+                messages_tmp_panel.append('<div class="message t' + message.datetime + '"><p><span class="date">' + (new Date(message.datetime*1000).getLocalTime()) + '</span><span class="nickname ' + message.author_type + '">' + message.author_name + '</span><span class="text">' + message.text + '</span></p></div>');
                 $('#loaded').text(parseInt($('#loaded').text())+1);
             });
+            $('#messages').append(messages_tmp_panel)
 
             var start_time = parseInt($('#start_time').text());
             for (var i = start_time - 10800; i < start_time; i++ ) {
@@ -132,7 +130,7 @@ $(document).ready(function(){
         });
 
        $.getJSON("data/"+num+"/cc.json", function (data) {
-            console.log('start')
+            console.log('CC load start')
             var start_time = parseInt($('#start_time').text());
             var cc_tmp_panel = $(document.createElement('div'))
             $.each( data.subs, function( key, sub ) {
@@ -142,7 +140,7 @@ $(document).ready(function(){
                 //console.log();
             });
             $('#cc_panel').append(cc_tmp_panel)
-            console.log('end')
+            console.log('CC load end')
         });
     });
 
