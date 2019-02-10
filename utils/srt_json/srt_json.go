@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	issue    = 635
+	issue    = 636
 	issueStr = fmt.Sprintf("%d", issue)
 	srtFile  = "../../data/" + issueStr + "/src/rt_podcast" + issueStr + ".srt"
 	jsonFile = "../../data/" + issueStr + "/src/rt_podcast" + issueStr + ".json"
