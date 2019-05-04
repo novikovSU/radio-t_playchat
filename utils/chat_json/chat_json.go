@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	issue    = 637
+	issue    = 641
 	issueStr = fmt.Sprintf("%d", issue)
 	chatURL  = "https://chat.radio-t.com/logs/radio-t-" + issueStr + ".html"
 	chatFile = "../../data/" + issueStr + "/radio-t-" + issueStr + ".html"
