@@ -1,145 +1,491 @@
-<html>
+<html lang="en"
+      x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system')}"
+      x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+      x-bind:class="{'dark': darkMode === 'dark' || (darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)}"
+      >
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="/assets/images/favicon.png" rel="icon">
+    <title>Радио-Т</title>
+		<!--meta http-equiv="Content-Type" content="text/html; charset=UTF-8"-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
-        <!--link type="text/css" href="./assets/jplayer/skins/blue.monday/jplayer.blue.monday.css" rel="stylesheet" /-->
-        <link type="text/css" href="./assets/jplayer/skins/flat-audio/jplayer-flat-audio-theme.css" rel="stylesheet"/>
-        <link type="text/css" href="./assets/css/main.css" rel="stylesheet" />
+    <link href="/assets/images/favicon.png" rel="icon" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        },
+        darkMode: 'class'
+      }
+    </script>
+    <script defer src="/assets/js/alpine.min.js"></script>
+
+    <link type="text/css" href="/assets/css/main.css" rel="stylesheet">
             
-        <!--style type="text/css" style="display: none !important;">object:not([type]),object[classid$=":D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid$=":d27cdb6e-ae6d-11cf-96b8-444553540000"],object[codebase*="swflash.cab"],object[data*=".swf"],embed[type="application/x-shockwave-flash"],embed[src*=".swf"],object[type="application/x-shockwave-flash"],object[src*=".swf"],object[codetype="application/x-shockwave-flash"],iframe[type="application/x-shockwave-flash"],object[classid$=":166B1BCA-3F9C-11CF-8075-444553540000"],object[codebase*="sw.cab"],object[data*=".dcr"],embed[type="application/x-director"],embed[src*=".dcr"],object[type="application/x-director"],object[src*=".dcr"],object[classid$=":15B782AF-55D8-11D1-B477-006097098764"],object[codebase*="awswaxf.cab"],object[data*=".aam"],embed[type="application/x-authorware-map"],embed[src*=".aam"],object[type="application/x-authorware-map"],object[src*=".aam"],object[classid*="32C73088-76AE-40F7-AC40-81F62CB2C1DA"],object[type="application/ag-plugin"],object[type="application/x-silverlight"],object[type="application/x-silverlight-2"],object[source*=".xaml"],object[sourceelement*="xaml"],embed[type="application/ag-plugin"],embed[source*=".xaml"]{display: none !important;}</style-->
-	
-    </head>
+  </head>
 
-	<body>
-        <a href="https://github.com/novikovSU/radio-t_playchat"><img id="fork_me" style="position: absolute; top: 0; left: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-        <div id="container">
-            <div id="messages"></div>
-            <div id="cc_panel"></div>
-        </div>
-        <div id="panel">
-            <div id="picker">
-                <select id="picker_select">
-                    <option value="--" selected>--</option>
-                    <option value="live">live</option>
-                    <option value="647">647</option>
-                    <option value="646">646</option>
-                    <option value="645">645</option>
-                    <option value="644">644</option>
-                    <option value="643">643</option>
-                    <option value="642">642</option>
-                    <option value="641">641</option>
-                    <option value="640">640</option>
-                    <option value="639">639</option>
-                    <option value="638">638</option>
-                    <option value="637">637</option>
-                    <option value="636">636</option>
-                    <option value="635">635</option>
-                    <option value="634">634</option>
-                    <option value="633">633</option>
-                    <option value="632">632</option>
-                    <option value="631">631</option>
-                    <option value="630">630</option>
-                    <option value="629">629</option>
-                </select>
+	<body x-data="{
+    url: new URLSearchParams(location.search),
+    issue: new URLSearchParams(location.search).get('issue') || new URLSearchParams(location.search).get('i') || 'list',
+  }"
+    class="bg-white dark:bg-gray-700 overflow-hidden"
+  >
+
+    <!-- Dark/light mode switcher -->
+    <div id="dark-mode-toggle"
+         class="absolute right-3 top-3 z-50 p-1 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 cursor-pointer"
+         x-on:click="darkMode = darkMode === 'light'?'dark':'light'"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           class="h-6 w-6 stroke-gray-600 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg"
+           class="h-6 w-6 stroke-gray-600 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+      </svg>
+    </div>
+
+  <template x-if="issue === 'list'">
+    <div x-data="{
+        list: [],
+      }"
+      x-init="list = (await (await fetch('/data/list.json')).json()).list"
+    >
+      <div class="grid grid-cols-5 gap-4 p-10">
+      <template x-for="issue in list">
+        <a :href="'/?i='+issue.id">
+          <div class="block flex flex-col rounded-lg bg-white hover:bg-gray-200 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-gray-600 dark:hover:bg-gray-500 justify-center">
+            <div class="flex justify-center">
+              <h1 class="mb-1 text-6xl font-extrabold leading-tight text-neutral-800 dark:text-gray-200" x-text="issue.id"></h1>
             </div>
-            <div id="controls"><span class="link" id="totop">&uarr;Наверх</span> <span class="link" id="tobottom">&darr;Вниз</span></div>
-            <div id="numbers" style="display:none">загружено сообщений <span id="loaded">0</span> из <span id="total">0</span></div>
-            <span id="start_time" style="display:none"></span>
-            <span id="last_offset" style="display:none">0</span>
-            <span id="mail_to" style="float: right; margin-right: 15px" target="_blank">Написать автору: <a href="mailto:novikov.su@gmail.com?subject=About%20playchat">email</a>, <a href="https://t.me/novikov_su">telegram</a></span>
-
-            <!--div id="jquery_jplayer_1" class="jp-jplayer"></div>
-            <div id="jp_container_1" class="jp-audio">
-                <div class="jp-type-single">
-                  <div class="jp-gui jp-interface">
-                    <ul class="jp-controls">
-                      <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
-                      <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
-                      <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
-                      <li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
-                      <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
-                      <li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max volume</a></li>
-                    </ul>
-                    <div class="jp-progress">
-                      <div class="jp-seek-bar">
-                        <div class="jp-play-bar"></div>
-                      </div>
-                    </div>
-                    <div class="jp-volume-bar">
-                      <div class="jp-volume-bar-value"></div>
-                    </div>
-                    <div class="jp-time-holder">
-                      <div class="jp-current-time"></div>
-                      <div class="jp-duration"></div>
-                    </div>
-                  </div>
-                  <div class="jp-no-solution">
-                    <span>Update Required</span>
-                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                  </div>
-                </div>
-            </div-->
-            <div id="jquery_jplayer_1" class="jp-jplayer"></div>
-            <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
-                <div class="jp-type-single">
-                    <div class="jp-gui jp-interface">
-                        <div class="jp-controls">
-                            <a class="jp-play"><i class="fa fa-play"></i></a>
-                            <a class="jp-pause"><i class="fa fa-pause"></i></a>
-                            <!--a class="jp-stop"><i class="fa fa-stop"></i></a-->
-                        </div>
-                        <div class="jp-progress">
-                            <div class="jp-seek-bar">
-                                <div class="jp-play-bar"></div>
-                            </div>
-                        </div>
-                        <div class="jp-volume-controls">
-                            <a class="jp-mute"><i class="fa fa-volume-off"></i></a>
-                            <a class="jp-volume-max"><i class="fa fa-volume-up"></i></a>
-                            <div class="jp-volume-bar">
-                                <div class="jp-volume-bar-value"></div>
-                            </div>
-                        </div>
-                        <div class="jp-time-holder">
-                            <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
-                            <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
-                        </div>
-                    </div>
-                    <div class="jp-no-solution">
-                        <span>Update Required</span>
-                        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                    </div>
-                </div>
+            <div class="flex justify-center">
+              <h4 class="mb-1 text-xl font-extrabold leading-tight text-neutral-400 dark:text-gray-400" x-text="issue.date"></h4>
             </div>
+          </div>
+        </a>
+      </template>
+      </div>
+    </div>
+  </template>
+
+  <template x-if="issue !== 'list'">
+    <div x-data="{
+        desc: {},
+        messages: [],
+        isSidebarOpen: false,
+        isMessagesAutoScroll: true,
+        messagesScrollTop: 0,
+        cc: [],
+        isCcVisible: true,
+        isCcAutoScroll: true,
+        ccScrollTop: 0,
+        isPlaying: false,
+        isSeeking: false,
+        time: 0,
+        timeStr: '00:00:00',
+        duration: 1,
+        durationStr: '00:00:00',
+        initPlayer: function () {
+          this.duration = $refs.audio.duration
+          this.durationStr = this.sec2time(this.duration)
+          $refs.audio.currentTime = this.time
+          this.updateProgress()
+        },
+        setProgress: function (time) {
+          $refs.audio.currentTime = this.time2sec(time)
+          this.isSidebarOpen = false
+        },
+        togglePlayer: function () {
+          if (this.isPlaying) {
+            this.isPlaying = false
+            $refs.audio.pause()
+          } else {
+            this.isPlaying = true
+            $refs.audio.play()
+          }
+        },
+        sec2time: function (sec) {
+          sign = (sec < 0)?'-':''
+          sec = Math.abs(Math.floor(sec))
+          var hours   = Math.floor(sec / 3600)
+          var minutes = Math.floor((sec - (hours * 3600)) / 60)
+          var seconds = sec - (hours * 3600) - (minutes * 60)
+
+          if (hours   < 10) {hours   = '0'+hours;}
+          if (minutes < 10) {minutes = '0'+minutes;}
+          if (seconds < 10) {seconds = '0'+seconds;}
+
+          return sign+hours+':'+minutes+':'+seconds
+        },
+        time2sec: function (time) {
+          var parts = time.split(':')
+          console.log(parts)
+          return parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseInt(parts[2])
+        },
+        updateProgress: function () {
+          this.time = $refs.audio.currentTime
+          this.timeStr = this.sec2time(this.time)
+          console.log(this.url)
+          this.url.set('t', this.timeStr)
+          // console.log('Time: ' + this.time)
+          // console.log('Duration: ' + this.duration)
+          // console.log('Old value: ' + $refs.progress.value)
+          //$refs.progress.value = (this.time / this.duration) * 1000
+          //$refs.progress.style.width = 10+Math.round((this.time / this.duration) * $refs.progressbar.offsetWidth)
+          $refs.progress.style.backgroundSize = (this.time / this.duration) * 100 + '% 100%'
+          if (!this.isSeeking) {
+            $refs.progress.value = (this.time / this.duration) * 1000
+          }
+          if (this.isMessagesAutoScroll) {
+            // const anchor = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
+            // this.messagesScrollTop = anchor.top;
+            // console.log('Msg bottom: ' + anchor.top)
+            // document.getElementById( 'messages' ).scrollTo(0, anchor.top);
+            document.getElementById( 'msg_bottom' ).scrollIntoView();
+          }
+          if (this.isCcAutoScroll) {
+            // const anchor = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
+            // this.ccScrollTop = anchor.top;
+            // console.log('CC bottom: ' + anchor.top)
+            // document.getElementById( 'cc' ).scrollTo(0, anchor.top);
+            document.getElementById( 'cc_bottom' ).scrollIntoView();
+          }
+        },
+        seek: function () {
+          // newPlace = $refs.progress.value
+          // newTime = ( this.duration / 1000 ) * newPlace
+          // $refs.audio.currentTime = newTime
+        },
+        input: function () {
+          newPlace = $refs.progress.value
+          newTime = ( this.duration / 1000 ) * newPlace
+          $refs.audio.currentTime = newTime
+          // console.log('New place: ' + newPlace)
+          // console.log('Style: ' + $refs.progress.style.backgroundSize)
+        },
+        messagesScroll: function (target) {
+          if (this.messagesScrollTop < target.scrollTop) {
+              // console.log('Messages scrolls down');
+              const rect = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
+              if (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) ) {
+                this.isMessagesAutoScroll = true
+              }
+            } else {
+              // console.log('Messages scrolls up');
+              const rect = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
+              if (rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ) {
+                this.isMessagesAutoScroll = false
+              }
+            }
+            this.messagesScrollTop = target.scrollTop
+        },
+        ccScroll: function (target) {
+          if (this.ccScrollTop < target.scrollTop) {
+            // console.log('CC scrolls down');
+            const rect = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
+            if (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) ) {
+              this.isCcAutoScroll = true
+            }
+          } else {
+            // console.log('CC scrolls up');
+            const rect = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
+            if (rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ) {
+              this.isCcAutoScroll = false;
+            }
+          }
+          this.ccScrollTop = target.scrollTop
+        },
+      }"
+      x-init="desc = await (await fetch('/data/' + issue + '/' + issue + '_desc.json')).json();
+              messages = (await (await fetch('/data/' + issue + '/' + issue + '_chat.json')).json()).chat;
+              cc = (await (await fetch('/data/' + issue + '/' + issue + '_cc.json')).json()).subs;
+              var param_time = new URLSearchParams(location.search).get('time') || new URLSearchParams(location.search).get('t') || '00:00:00';
+              time = time2sec(param_time)"
+      >
+      <audio x-ref="audio" @durationchange="initPlayer()" @timeupdate="updateProgress()">
+        <source :src="'https://cdn.radio-t.com/rt_podcast' + issue + '.mp3'" type="audio/mpeg" />
+      </audio>
+
+    <!--a href="https://github.com/novikovSU/radio-t_playchat"><img id="fork_me" style="position: absolute; top: 0; left: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a-->
+
+    <div class="min-h-screen h-screen flex flex-col">
+      <div id="main-container" class="w-full flex-1 flex flex-row overflow-y-hidden">
+
+        <!-- Sidebar switcher -->
+        <div id="sidebar-toggle"
+             class="absolute left-3 top-3 h-8 w-8 z-10 p-2 rounded-lg bg-gray-300 opacity-80 hover:opacity-90 cursor-pointer"
+             x-show="!isSidebarOpen"
+             x-on:click="isSidebarOpen = true"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg"
+                 class="h-4 w-4 stroke-gray-600 fill-gray-600"
+                 viewBox="0 0 24.75 24.75" stroke="currentColor" stroke-width="2">
+            <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
+		c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
+		c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
+          </svg>
         </div>
 
-        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js'></script>
-        <!--script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script-->
-        <script type='text/javascript' src='./assets/js/libs.min.js'></script>
-        <!--script type='text/javascript' src='./assets/js/candy.bundle.js'></script-->
-        <script type='text/javascript' src='./assets/js/jquery.routes.js'></script>
-        <script type='text/javascript' src='./assets/js/main.js'></script>
+        <!-- Sidebar-->
+        <nav
+            class="absolute inset-0 transform duration-200 z-30 w-96 bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-300 h-screen p-3"
+            :class="{'translate-x-0 ease-in opacity-100':isSidebarOpen === true, '-translate-x-full ease-out opacity-0': isSidebarOpen === false}"
+        >
+            <div class="flex justify-between">
+                <button
+                    class="p-2 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md"
+                >
+                  <a href="/">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6 stroke-gray-600 fill-gray-600 dark:stroke-gray-300 dark:fill-gray-300"
+                        viewBox="0 0 512 512"
+                    >
+                      <path d="M256,2.938l-256,256v48.427h62.061v201.697h155.152V384.941h77.576v124.121h155.151V307.365H512v-48.427L256,2.938z
+                    M403.394,260.82v201.697h-62.061V338.396H170.667v124.121h-62.061V260.82H63.943L256,68.762L448.057,260.82H403.394z"/>
+                    </svg>
+                  </a>
+                </button>
+                <span class="font-bold text-2xl sm:text-3xl p-2" x-text="issue"></span>
+                <button
+                    class="p-1 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md"
+                    @click="isSidebarOpen = false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 19l-7-7 7-7"
+                    />
+                  </svg>
+                </button>
+            </div>
+            <ul class="mt-8">
+            <template x-for="topic in desc.topics">
+              <li><span
+                class="block px-2 py-2 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md cursor-pointer"
+                x-text="topic.title"
+                @click="setProgress(topic.time)"
+              ></span></li>
+            </template>
+            </ul>
+            <hr class="h-px border-0 bg-gray-300 dark:bg-gray-700 my-5"/>
+            
+            <div>
+              <h4 class="text-xl font-bold">Скачать</h4>
+              <div>
+                <span class="font-medium">Чат</span>
+                <a :href="'/data/' + issue + '/' + issue + '_chat.json'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">JSON</a>
+              </div>
+              <div>
+                <span class="font-medium">Субтитры</span>
+                <a :href="'/data/' + issue + '/' + issue + '_cc.json'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">JSON</a>
+                <a :href="'/data/' + issue + '/' + issue + '_cc.ssa'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">SSA</a>
+              </div>
+            </div>
 
-        <!--script>
-            (function(i,s,o,g,r,a,m){
-                i['GoogleAnalyticsObject']=r;
-                i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)
-                },i[r].l=1*new Date();
-                a=s.createElement(o),m=s.getElementsByTagName(o)[0];
-                a.async=1;
-                a.src=g;
-                m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            <div class="absolute bottom-20 right-5 flex flex-row">
+              <div class="mr-4">
+                <a href="https://github.com/novikovSU/radio-t_playchat">
+                  <svg class="h-6 w-6 stroke-1 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
+                  </svg>
+                </a>
+              </div>
+              <div>
+                <a href="https://t.me/novikov_su">
+                  <!-- <svg class="h-8 w-8 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
+                  </svg> -->
+                  <svg class="h-6 w-6 stroke-1 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                    <path d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+        </nav>
+        
+        <!-- Chat messages panel -->
+        <div id="messages"
+             class="relative flex-1 p-3 overflow-x-hidden overflow-y-auto"
+             @scroll="messagesScroll($event.target)"
+             @click="isSidebarOpen=false"
+        >
+          <ul class="w-full">
+            <template x-for="message in messages">
+              <li class="mb-2 pb-1 border-b border-gray-200 dark:border-gray-600"
+                  x-data="{
+                    get authorClass() {
+                      switch (message.author_type) {
+                        case 'listener':
+                          return 'text-blue-600 dark:text-blue-400'
+                        case 'host':
+                          return 'text-red-600 dark:text-red-400'
+                        case 'bot':
+                          return 'text-yellow-600 dark:text-yellow-400'
+                        default:
+                          return 'text-gray-600 dark:text-gray-400'
+                      }
+                    },
+                  }"
+                  x-show="message.datetime - desc.start_time < time">
+                <div>
+                  <span class="text-base" :class="authorClass">
+                    <a x-bind:href="message.author_nickname?'https://t.me/'+message.author_nickname:'#'" x-html="message.author_name"></a>
+                  </span>
+                  <span class="text-xs text-gray-400 dark:text-gray-500">
+                    <span x-text="(new Date(message.datetime*1000).getLocalTime())"></span>
+                    (<span x-text="sec2time(message.datetime - desc.start_time)"></span>)
+                  </span>
+                </div>
+                <div>
+                  <template x-if="message.image_url">
+                    <img x-bind:src="message.image_url" />
+                  </template>
+                  <span x-html="message.text" class="text-lg text-gray-800 dark:text-gray-300"></span>
+                </div>
+              </li>
+            </template>
+          </ul>
+          <span id="msg_bottom"></span>
+          <div class="sticky bottom-0 flex items-end justify-end h-1 overflow-visible">
+            <div class="h-8 w-8 p-2 mr-2 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 z-40 cursor-pointer"
+                 x-show="!isMessagesAutoScroll"
+                 x-cloak
+                 x-on:click="isMessagesAutoScroll = !isMessagesAutoScroll; document.getElementById( 'msg_bottom' ).scrollIntoView()">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 stroke-2 stroke-gray-600 fill-gray-600 block"
+                  viewBox="0 0 192.701 192.701">
+                <path d="M171.955,88.526l-75.61,74.528l-75.61-74.54c-4.74-4.704-12.439-4.704-17.179,0c-4.74,4.704-4.74,12.319,0,17.011 l84.2,82.997c4.559,4.511,12.608,4.535,17.191,0l84.2-83.009c4.74-4.692,4.74-12.319,0-17.011 C184.394,83.823,176.695,83.823,171.955,88.526z"/>
+                <path d="M87.755,104.322c4.559,4.511,12.608,4.535,17.191,0l84.2-82.997c4.74-4.704,4.74-12.319,0-17.011 c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0 c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
+              </svg>
+            </div>
+          </div>
+        </div>
 
-            ga('create', 'UA-41179009-1', 'radio-t.com');
-            ga('send', 'pageview');
-        </script-->
+        <!-- Closed captions panel -->
+        <div id="cc" x-show="isCcVisible"
+             class="relative w-96 sm:w-96 border-l border-gray-200 dark:border-gray-600 p-2 overflow-y-auto"
+             @scroll="ccScroll($event.target)"
+             @click="isSidebarOpen=false"
+        >
+          <ul class="w-full">
+            <template x-for="cap in cc">
+              <li class="z-0 mb-1 pb-1 border-b border-gray-100 dark:border-gray-600" x-show="cap.stime < time">
+                <div>
+                  <span x-text="cap.author" class="text-xs text-gray-600 dark:text-gray-400"></span>
+                  <span class="text-xs text-gray-500">
+                    (<span x-text="sec2time(cap.stime)"></span>)
+                  </span>
+                </div>
+                <div>
+                  <span x-html="cap.text" class="text-sm text-gray-600 dark:text-gray-400"></span>
+                </div>
+              </li>
+            </template>
+          </ul>
+          <span id="cc_bottom"></span>
+          <div class="sticky bottom-0 flex items-end justify-end h-1 overflow-visible">
+            <div class="h-8 w-8 p-2 mr-2 bottom-0 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 z-40 cursor-pointer"
+                 x-show="!isCcAutoScroll"
+                 x-cloak
+                 x-on:click="isCcAutoScroll = !isCcAutoScroll; document.getElementById( 'cc_bottom' ).scrollIntoView()">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                        class="h-4 w-4 stroke-2 stroke-gray-600 fill-gray-600 block"
+                        viewBox="0 0 192.701 192.701">
+                <path d="M171.955,88.526l-75.61,74.528l-75.61-74.54c-4.74-4.704-12.439-4.704-17.179,0c-4.74,4.704-4.74,12.319,0,17.011
+    l84.2,82.997c4.559,4.511,12.608,4.535,17.191,0l84.2-83.009c4.74-4.692,4.74-12.319,0-17.011
+    C184.394,83.823,176.695,83.823,171.955,88.526z"/>
+                <path d="M87.755,104.322c4.559,4.511,12.608,4.535,17.191,0l84.2-82.997c4.74-4.704,4.74-12.319,0-17.011
+    c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0
+    c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
+              </svg>
+              <!-- <svg class="h-6 w-6 stroke-black block"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2">
+                <polygon  points="70.8,58.8 45.8,33.4 50,29.2 75,54.6 "/>
+              </svg> -->
+            </div>
+          </div>
+        </div>
+      
+      </div>
 
-    </body>
-    <style type="text/css"></style>
+      <!-- Player controls -->
+      <div id="player-container" class="flex bottom-0 left-0 w-screen h-14 p-2 z-50 bg-white dark:bg-gray-700">
+        <div class="absolute w-full inline-block flex flex-row overflow-hidden items-center">
+          <div class="flex p-1 ml-3">
+            <!-- <button class="focus:outline-none">
+              <svg class="w-4 h-4 stroke-gray-500 dark:stroke-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="19 20 9 12 19 4 19 20"></polygon><line x1="5" y1="19" x2="5" y2="5"></line>
+              </svg>
+            </button> -->
+            <button x-ref="play-button"
+                    x-show="!isPlaying"
+                    @click="togglePlayer()"
+                    class="rounded-full w-8 h-8 flex items-center justify-center pl-0.5 ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
+              <svg class="w-5 h-5 stroke-gray-500 dark:stroke-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </button>
+            <button x-ref="pause-button"
+                    x-show="isPlaying"
+                    @click="togglePlayer()"
+                    class="rounded-full w-8 h-8 flex items-center justify-center ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
+              <!--svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg-->
+              <!-- <svg class="w-5 h-5 stroke-gray-500 dark:stroke-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"> -->
+                <!-- <path d="M5 4h3v12H5V4zm7 0h3v12h-3V4z"/> -->
+              <svg class="w-7 h-7 stroke-1 stroke-gray-500 dark:stroke-gray-300 fill-gray-500 dark:fill-gray-300"
+                     xmlns="http://www.w3.org/2000/svg"
+                     viewBox="-11.5 0 32 32">
+                <path d="M8.2 22.48c-0.48 0-0.84-0.36-0.84-0.84v-11.28c0-0.48 0.36-0.84 0.84-0.84s0.84 0.36 0.84 0.84v11.32c0 0.44-0.36 0.8-0.84 0.8zM0.84 22.48c-0.48 0-0.84-0.36-0.84-0.84v-11.28c0-0.48 0.36-0.84 0.84-0.84s0.84 0.36 0.84 0.84v11.32c-0.040 0.44-0.36 0.8-0.84 0.8z" />
+              </svg>
+            </button>
+            <!-- <button class="focus:outline-none">
+              <svg class="w-4 h-4 stroke-gray-500 dark:stroke-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line>
+              </svg>
+            </button> -->
+          </div>
+          <div class="ml-2 text-xs font-semibold text-gray-500 w-20" x-text="timeStr"></div>
+            <input x-ref="progress"
+                  @change="seek()"
+                  @input="input()"
+                  type="range" value="0" min=0 max=1000 list="topics"
+                  class="accent-blue-500 w-full h-1 mx-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 rounded-lg appearance-none cursor-pointer" />
+          <div class="flex mr-3 text-xs font-semibold text-gray-500 w-15" x-text="durationStr"></div>
+          <div class="flex w-10 mr-3 cursor-pointer" @click="isCcVisible = !isCcVisible">
+            <svg class="w-7 h-7 stroke-1 stroke-gray-500 dark:stroke-gray-400 fill-gray-500 dark:fill-gray-400"
+                 viewBox="0 0 24 24"
+                 version="1.1"
+                 xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.75,4 C20.5449254,4 22,5.45507456 22,7.25 L22,16.754591 C22,18.5495164 20.5449254,20.004591 18.75,20.004591 L5.25,20.004591 C3.45507456,20.004591 2,18.5495164 2,16.754591 L2,7.25 C2,5.51696854 3.35645477,4.10075407 5.06557609,4.00514479 L5.25,4 L18.75,4 Z M18.75,5.5 L5.25,5.5 L5.10647279,5.5058012 C4.20711027,5.57880766 3.5,6.3318266 3.5,7.25 L3.5,16.754591 C3.5,17.7210893 4.28350169,18.504591 5.25,18.504591 L18.75,18.504591 C19.7164983,18.504591 20.5,17.7210893 20.5,16.754591 L20.5,7.25 C20.5,6.28350169 19.7164983,5.5 18.75,5.5 Z M5.5,12 C5.5,8.85441664 8.21322176,7.22468635 10.6216203,8.59854135 C10.981411,8.80378156 11.1066989,9.2618296 10.9014586,9.62162028 C10.6962184,9.98141095 10.2381704,10.1066989 9.87837972,9.90145865 C8.48070939,9.10416685 7,9.9935733 7,12 C7,14.0045685 8.48410774,14.8962094 9.8791978,14.102709 C10.2392458,13.8979206 10.6971362,14.0237834 10.9019246,14.3838314 C11.106713,14.7438795 10.9808502,15.2017699 10.6208022,15.4065583 C8.21538655,16.7747125 5.5,15.1433285 5.5,12 Z M13,12 C13,8.85441664 15.7132218,7.22468635 18.1216203,8.59854135 C18.481411,8.80378156 18.6066989,9.2618296 18.4014586,9.62162028 C18.1962184,9.98141095 17.7381704,10.1066989 17.3783797,9.90145865 C15.9807094,9.10416685 14.5,9.9935733 14.5,12 C14.5,14.0045685 15.9841077,14.8962094 17.3791978,14.102709 C17.7392458,13.8979206 18.1971362,14.0237834 18.4019246,14.3838314 C18.606713,14.7438795 18.4808502,15.2017699 18.1208022,15.4065583 C15.7153866,16.7747125 13,15.1433285 13,12 Z"></path>
+            </svg>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+
+      <script src="/assets/js/main.js"></script>
+    </div>
+  </template>
+  </body>
 </html>
