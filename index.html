@@ -62,7 +62,7 @@
       }"
       x-init="list = (await (await fetch('/data/list.json')).json()).list"
     >
-      <div class="grid grid-cols-5 gap-4 p-10">
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10">
       <template x-for="issue in list">
         <a :href="'/?i='+issue.id">
           <div class="block flex flex-col rounded-lg bg-white hover:bg-gray-200 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-gray-600 dark:hover:bg-gray-500 justify-center">
