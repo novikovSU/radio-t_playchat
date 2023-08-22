@@ -418,14 +418,6 @@
     c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0
     c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
               </svg>
-              <!-- <svg class="h-6 w-6 stroke-black block"
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2">
-                <polygon  points="70.8,58.8 45.8,33.4 50,29.2 75,54.6 "/>
-              </svg> -->
             </div>
           </div>
         </div>
@@ -436,37 +428,22 @@
       <div id="player-container" class="flex bottom-0 left-0 w-screen h-14 p-2 z-50 bg-white dark:bg-gray-700">
         <div class="w-full inline-block flex flex-row overflow-hidden items-center">
           <div class="flex p-1 ml-3">
-            <!-- <button class="focus:outline-none">
-              <svg class="w-4 h-4 stroke-gray-500 dark:stroke-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="19 20 9 12 19 4 19 20"></polygon><line x1="5" y1="19" x2="5" y2="5"></line>
-              </svg>
-            </button> -->
             <button x-ref="play-button"
                     x-show="!isPlaying"
                     @click="togglePlayer()"
                     class="rounded-full w-8 h-8 flex items-center justify-center pl-0.5 ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
-              <svg class="w-5 h-5 stroke-gray-500 dark:stroke-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
+              <svg class="w-6 h-6 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+              </svg>              
             </button>
             <button x-ref="pause-button"
                     x-show="isPlaying"
                     @click="togglePlayer()"
                     class="rounded-full w-8 h-8 flex items-center justify-center ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
-              <!--svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg-->
-              <!-- <svg class="w-5 h-5 stroke-gray-500 dark:stroke-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"> -->
-                <!-- <path d="M5 4h3v12H5V4zm7 0h3v12h-3V4z"/> -->
-              <svg class="w-7 h-7 stroke-1 stroke-gray-500 dark:stroke-gray-300 fill-gray-500 dark:fill-gray-300"
-                     xmlns="http://www.w3.org/2000/svg"
-                     viewBox="-11.5 0 32 32">
-                <path d="M8.2 22.48c-0.48 0-0.84-0.36-0.84-0.84v-11.28c0-0.48 0.36-0.84 0.84-0.84s0.84 0.36 0.84 0.84v11.32c0 0.44-0.36 0.8-0.84 0.8zM0.84 22.48c-0.48 0-0.84-0.36-0.84-0.84v-11.28c0-0.48 0.36-0.84 0.84-0.84s0.84 0.36 0.84 0.84v11.32c-0.040 0.44-0.36 0.8-0.84 0.8z" />
-              </svg>
+              <svg class="w-6 h-6 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+              </svg>              
             </button>
-            <!-- <button class="focus:outline-none">
-              <svg class="w-4 h-4 stroke-gray-500 dark:stroke-gray-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="5 4 15 12 5 20 5 4"></polygon><line x1="19" y1="5" x2="19" y2="19"></line>
-              </svg>
-            </button> -->
           </div>
           <div class="ml-2 text-xs font-semibold text-gray-500 w-20" x-text="timeStr"></div>
             <input x-ref="progress"
@@ -476,16 +453,12 @@
                   class="accent-blue-500 w-full h-1 mx-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 rounded-lg appearance-none cursor-pointer" />
           <div class="flex mr-3 text-xs font-semibold text-gray-500 w-15" x-text="durationStr"></div>
           <div class="flex w-10 mr-3 cursor-pointer" @click="isCcVisible = !isCcVisible">
-            <svg class="w-7 h-7 stroke-1 stroke-gray-500 dark:stroke-gray-400 fill-gray-500 dark:fill-gray-400"
-                 viewBox="0 0 24 24"
-                 version="1.1"
-                 xmlns="http://www.w3.org/2000/svg">
-              <path d="M18.75,4 C20.5449254,4 22,5.45507456 22,7.25 L22,16.754591 C22,18.5495164 20.5449254,20.004591 18.75,20.004591 L5.25,20.004591 C3.45507456,20.004591 2,18.5495164 2,16.754591 L2,7.25 C2,5.51696854 3.35645477,4.10075407 5.06557609,4.00514479 L5.25,4 L18.75,4 Z M18.75,5.5 L5.25,5.5 L5.10647279,5.5058012 C4.20711027,5.57880766 3.5,6.3318266 3.5,7.25 L3.5,16.754591 C3.5,17.7210893 4.28350169,18.504591 5.25,18.504591 L18.75,18.504591 C19.7164983,18.504591 20.5,17.7210893 20.5,16.754591 L20.5,7.25 C20.5,6.28350169 19.7164983,5.5 18.75,5.5 Z M5.5,12 C5.5,8.85441664 8.21322176,7.22468635 10.6216203,8.59854135 C10.981411,8.80378156 11.1066989,9.2618296 10.9014586,9.62162028 C10.6962184,9.98141095 10.2381704,10.1066989 9.87837972,9.90145865 C8.48070939,9.10416685 7,9.9935733 7,12 C7,14.0045685 8.48410774,14.8962094 9.8791978,14.102709 C10.2392458,13.8979206 10.6971362,14.0237834 10.9019246,14.3838314 C11.106713,14.7438795 10.9808502,15.2017699 10.6208022,15.4065583 C8.21538655,16.7747125 5.5,15.1433285 5.5,12 Z M13,12 C13,8.85441664 15.7132218,7.22468635 18.1216203,8.59854135 C18.481411,8.80378156 18.6066989,9.2618296 18.4014586,9.62162028 C18.1962184,9.98141095 17.7381704,10.1066989 17.3783797,9.90145865 C15.9807094,9.10416685 14.5,9.9935733 14.5,12 C14.5,14.0045685 15.9841077,14.8962094 17.3791978,14.102709 C17.7392458,13.8979206 18.1971362,14.0237834 18.4019246,14.3838314 C18.606713,14.7438795 18.4808502,15.2017699 18.1208022,15.4065583 C15.7153866,16.7747125 13,15.1433285 13,12 Z"></path>
-            </svg>
+            <svg class="w-7 h-7 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+            </svg>            
           </div>
         </div>
         
-      </div>
       </div>
 
       <script src="/assets/js/main.js"></script>
