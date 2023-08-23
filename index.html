@@ -28,462 +28,703 @@
         darkMode: 'class'
       }
     </script>
-    <script defer src="/assets/js/alpine.min.js"></script>
+    <!-- Alpine Plugins -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- <script defer src="/assets/js/alpine.min.js"></script> -->
 
     <link type="text/css" href="/assets/css/main.css" rel="stylesheet">
             
   </head>
 
 	<body x-data="{
-    url: new URLSearchParams(location.search),
-    issue: new URLSearchParams(location.search).get('issue') || new URLSearchParams(location.search).get('i') || 'list',
+    url: '',
+    issue: '',
+    isSearchVisible: false,
   }"
+    x-init=" url = new URLSearchParams(location.search)
+      issue = new URLSearchParams(location.search).get('issue') ||
+        new URLSearchParams(location.search).get('i') ||
+        'list';
+      query = new URLSearchParams(location.search).get('query') ||
+        new URLSearchParams(location.search).get('q') ||
+        '';
+      if (query !== '') { isSearchVisible = true }
+      "
     class="bg-white dark:bg-gray-700"
   >
 
+    <!-- Search switcher -->
+    <div id="dark-mode-toggle"
+         class="absolute right-12 top-3 z-50 p-1 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 cursor-pointer"
+         x-on:click="isSearchVisible = !isSearchVisible"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-gray-600">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+      </svg>          
+    </div>
+
     <!-- Dark/light mode switcher -->
     <div id="dark-mode-toggle"
-         class="absolute right-3 top-3 z-50 p-1 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 cursor-pointer"
+         class="absolute right-3 top-3 z-50 p-0.5 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 cursor-pointer"
          x-on:click="darkMode = darkMode === 'light'?'dark':'light'"
     >
       <!-- <svg xmlns="http://www.w3.org/2000/svg"
            class="h-6 w-6 stroke-gray-600 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg> -->
-      <svg class="h-6 w-6 stroke-gray-600 hidden dark:block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <svg class="h-7 w-7 stroke-gray-600 dark:hidden block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
       </svg>      
       <!-- <svg xmlns="http://www.w3.org/2000/svg"
            class="h-6 w-6 stroke-gray-600 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
       </svg> -->
-      <svg class="h-6 w-6 stroke-gray-600 block dark:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <svg class="h-6 w-6 m-0.5 stroke-gray-600 dark:block hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
       </svg>      
     </div>
 
-  <template x-if="issue === 'list'">
-    <div x-data="{
-        list: [],
-      }"
-      x-init="list = (await (await fetch('/data/list.json')).json()).list"
-    >
-      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10">
-      <template x-for="issue in list">
-        <a :href="'/?i='+issue.id">
-          <div class="block flex flex-col rounded-lg bg-white hover:bg-gray-200 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-gray-600 dark:hover:bg-gray-500 justify-center">
-            <div class="flex justify-center">
-              <h1 class="mb-1 text-6xl font-extrabold leading-tight text-neutral-800 dark:text-gray-200" x-text="issue.id"></h1>
-            </div>
-            <div class="flex justify-center">
-              <h4 class="mb-1 text-xl font-extrabold leading-tight text-neutral-400 dark:text-gray-400" x-text="issue.date"></h4>
-            </div>
+  <!--Search overlay-->
+  <div class="fixed inset-0 bg-black z-40 bg-opacity-70 overflow-y-auto h-full w-full"
+    id="search-overlay"
+    x-show="isSearchVisible"
+    x-on:click="if($event.target.id==='search-overlay') { isSearchVisible = false }"
+    x-cloak
+  >
+      <div x-data="{
+            results:[],
+            keywords:'',
+            isTopics: true,
+            isCc: true,
+            isChat: true,
+            list: [],
+            getDateByIssue: function(issue) {
+                return this.list[issue]
+            }
+          }"
+          x-effect="results = await search(keywords, isTopics, isCc, isChat)"
+          x-init="keywords = new URLSearchParams(location.search).get('query') ||
+                    new URLSearchParams(location.search).get('q') ||
+                    '';
+                    list = (await (await fetch('/data/list.json')).json()).list;
+                    list = list.reduce(function (result, item) {
+                      return {
+                        ...result,
+                        [item.id]: item.date,
+                      }
+                    }, {}) "
+          class="max-w-2xl mx-auto p-4 bg-white dark:bg-gray-700 dark:text-gray-300"
+      >
+          <!-- Search form -->
+          <div>
+            <input
+              x-trap="isSearchVisible"
+              autofocus
+              x-model="keywords"
+              type="search"
+              class="px-4 py-2 block w-full border-2 border-gray-600 rounded-lg text-gray-600"
+              placeholder="Поиск..."
+            />
           </div>
-        </a>
-      </template>
+
+          <!-- Checkboxes block -->
+          <div class="flex mt-2 mb-3 justify-center">
+              <div class="flex items-center mr-4">
+                  <input x-model="isTopics" id="checkbox-topics" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                  <label for="checkbox-topics" class="ml-2 text-sm font-medium">Темы</label>
+              </div>
+              <div class="flex items-center mr-4">
+                  <input x-model="isCc" id="checkbox-cc" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                  <label for="checkbox-cc" class="ml-2 text-sm font-medium">Транскрипция</label>
+              </div>
+              <div class="flex items-center mr-4">
+                  <input x-model="isChat" id="checkbox-chat" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                  <label for="checkbox-chat" class="ml-2 text-sm font-medium">Чат</label>
+              </div>
+          </div>
+
+          <div>
+              <div x-show="Object.keys(results).length > 0" class="grid grid-cols-1 gap-2">
+                  <template x-for="issue in Object.keys(results).sort((a,b) => b - a)">
+                      <div class="border rounded-lg shadow p-3 flex-col gap-2 divide-y divide-dashed">
+                          <div class="flex items-center dark:text-gray-200">
+                              <p x-text="issue" class="text-2xl font-bold mb-1 pr-3"></p>
+                              <p x-text="'[ ' + getDateByIssue(parseInt(issue)) + ' ]'" class="text-base font-bold mb-1"></p>
+                          </div>
+                          <div x-show="isTopics && [issue].hasOwnProperty('topic')" class="flex flex-row items-center p-1">
+                              <div class="pr-2 pt-1 pb-1">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                                  </svg>                                          
+                              </div>                                      
+                              <div class="flex flex-col w-full">
+                                  <template x-for="item in results[issue]['topic']">
+                                      <div class="flex hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer block-topic" @click="window.location = '/?i='.concat(issue,'&t=',item.time)">
+                                          <p x-text="item.time" class="text-base pr-2"></p>
+                                          <p x-html="item.title" class="text-base break-words"></p>
+                                      </div>
+                                  </template>
+                              </div>
+                          </div>
+                          <div x-show="isCc && results[issue].hasOwnProperty('cc')" class="flex flex-row p-1">
+                              <div class="pr-2 pt-2 pb-2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                                  </svg>                                                                                    
+                              </div>
+                              <div class="flex flex-col w-full divide-y divide-dotted">
+                                  <template x-for="item in results[issue]['cc']">
+                                      <div class="p-0.5 hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer block-cc" @click="window.location = '/?i='.concat(issue,'&t=',sec2time(item.stime))">
+                                          <div class="flex flex-row">
+                                              <p x-text="item.author" class="text-sm font-bold pr-1"></p>
+                                              <p x-text="sec2time(item.stime)" class="text-sm"></p>
+                                          </div>
+                                          <p x-html="item.text" class="text-sm break-words"></p>
+                                      </div>
+                                  </template>
+                              </div>
+                          </div>
+                          <div x-show="isChat && results[issue].hasOwnProperty('chat')" class="flex flex-row p-1">
+                              <div class="pr-2 pt-2 pb-2">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                                  </svg>                                                                                    
+                              </div>
+                              <div class="flex flex-col w-full divide-y divide-dotted">
+                                  <template x-for="item in results[issue]['chat']">
+                                      <div class="p-0.5 hover:bg-gray-100 dark:hover:bg-gray-600 cursor-pointer " @click="window.location = '/?i='.concat(issue,'&t=',+item.datetime+1)">
+                                          <div class="flex flex-row">
+                                              <p x-text="item.author_name" class="text-sm font-bold pr-1"></p>
+                                              <p x-text="(new Date(item.datetime*1000).getLocalTime())" class="text-sm"></p>
+                                          </div>
+                                          <div class="flex">
+                                              <div x-html="item.text" class="text-sm" style="word-break:break-word"></div>
+                                          </div>
+                                      </div>
+                                  </template>
+                              </div>
+                          </div>
+                      </div>
+                  </template>
+              </div>
+          </div>
+          <!-- End search form -->
       </div>
-    </div>
-  </template>
+  </div>
 
-  <template x-if="issue !== 'list'">
-    <div x-data="{
-        desc: {},
-        messages: [],
-        isSidebarOpen: false,
-        isMessagesAutoScroll: true,
-        messagesScrollTop: 0,
-        cc: [],
-        isCcVisible: true,
-        isCcAutoScroll: true,
-        ccScrollTop: 0,
-        isPlaying: false,
-        isSeeking: false,
-        time: 0,
-        timeStr: '00:00:00',
-        duration: 1,
-        durationStr: '00:00:00',
-        initPlayer: function () {
-          this.duration = $refs.audio.duration
-          this.durationStr = this.sec2time(this.duration)
-          $refs.audio.currentTime = this.time
-          this.updateProgress()
-        },
-        setProgress: function (time) {
-          $refs.audio.currentTime = this.time2sec(time)
-          this.isSidebarOpen = false
-        },
-        togglePlayer: function () {
-          if (this.isPlaying) {
-            this.isPlaying = false
-            $refs.audio.pause()
-          } else {
-            this.isPlaying = true
-            $refs.audio.play()
-          }
-        },
-        sec2time: function (sec) {
-          sign = (sec < 0)?'-':''
-          sec = Math.abs(Math.floor(sec))
-          var hours   = Math.floor(sec / 3600)
-          var minutes = Math.floor((sec - (hours * 3600)) / 60)
-          var seconds = sec - (hours * 3600) - (minutes * 60)
+    <!-- Grid/list of issues -->
+    <template x-if="issue === 'list'">
+      <div x-data="{
+          list: [],
+        }"
+        x-init="list = (await (await fetch('/data/list.json')).json()).list"
+      >
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 p-10">
+        <template x-for="issue in list">
+          <a :href="'/?i='+issue.id">
+            <div class="block flex flex-col rounded-lg bg-white hover:bg-gray-200 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-gray-600 dark:hover:bg-gray-500 justify-center">
+              <div class="flex justify-center">
+                <h1 class="mb-1 text-6xl font-extrabold leading-tight text-neutral-800 dark:text-gray-200" x-text="issue.id"></h1>
+              </div>
+              <div class="flex justify-center">
+                <h4 class="mb-1 text-xl font-extrabold leading-tight text-neutral-400 dark:text-gray-400" x-text="issue.date"></h4>
+              </div>
+            </div>
+          </a>
+        </template>
+        </div>
+      </div>
+    </template>
 
-          if (hours   < 10) {hours   = '0'+hours;}
-          if (minutes < 10) {minutes = '0'+minutes;}
-          if (seconds < 10) {seconds = '0'+seconds;}
-
-          return sign+hours+':'+minutes+':'+seconds
-        },
-        time2sec: function (time) {
-          var parts = time.split(':')
-          console.log(parts)
-          return parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseInt(parts[2])
-        },
-        updateProgress: function () {
-          this.time = $refs.audio.currentTime
-          this.timeStr = this.sec2time(this.time)
-          console.log(this.url)
-          this.url.set('t', this.timeStr)
-          // console.log('Time: ' + this.time)
-          // console.log('Duration: ' + this.duration)
-          // console.log('Old value: ' + $refs.progress.value)
-          //$refs.progress.value = (this.time / this.duration) * 1000
-          //$refs.progress.style.width = 10+Math.round((this.time / this.duration) * $refs.progressbar.offsetWidth)
-          $refs.progress.style.backgroundSize = (this.time / this.duration) * 100 + '% 100%'
-          if (!this.isSeeking) {
-            $refs.progress.value = (this.time / this.duration) * 1000
-          }
-          if (this.isMessagesAutoScroll) {
-            // const anchor = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
-            // this.messagesScrollTop = anchor.top;
-            // console.log('Msg bottom: ' + anchor.top)
-            // document.getElementById( 'messages' ).scrollTo(0, anchor.top);
-            document.getElementById( 'msg_bottom' ).scrollIntoView();
-          }
-          if (this.isCcAutoScroll) {
-            // const anchor = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
-            // this.ccScrollTop = anchor.top;
-            // console.log('CC bottom: ' + anchor.top)
-            // document.getElementById( 'cc' ).scrollTo(0, anchor.top);
-            document.getElementById( 'cc_bottom' ).scrollIntoView();
-          }
-        },
-        seek: function () {
-          // newPlace = $refs.progress.value
-          // newTime = ( this.duration / 1000 ) * newPlace
-          // $refs.audio.currentTime = newTime
-        },
-        input: function () {
-          newPlace = $refs.progress.value
-          newTime = ( this.duration / 1000 ) * newPlace
-          $refs.audio.currentTime = newTime
-          // console.log('New place: ' + newPlace)
-          // console.log('Style: ' + $refs.progress.style.backgroundSize)
-        },
-        messagesScroll: function (target) {
-          if (this.messagesScrollTop < target.scrollTop) {
-              // console.log('Messages scrolls down');
-              const rect = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
-              if (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) ) {
-                this.isMessagesAutoScroll = true
-              }
+    <!-- Issue main view -->
+    <template x-if="issue !== 'list'">
+      <div x-data="{
+          desc: {},
+          messages: [],
+          isSidebarOpen: false,
+          isMessagesAutoScroll: true,
+          messagesScrollTop: 0,
+          cc: [],
+          isCcVisible: true,
+          isCcAutoScroll: true,
+          ccScrollTop: 0,
+          isPlaying: false,
+          isSeeking: false,
+          time: 0,
+          timeStr: '00:00:00',
+          duration: 1,
+          durationStr: '00:00:00',
+          initPlayer: function () {
+            this.duration = $refs.audio.duration
+            this.durationStr = this.sec2time(this.duration)
+            $refs.audio.currentTime = this.time
+            this.updateProgress()
+          },
+          setProgress: function (time) {
+            $refs.audio.currentTime = this.time2sec(time)
+            this.isSidebarOpen = false
+          },
+          togglePlayer: function () {
+            if (this.isPlaying) {
+              this.isPlaying = false
+              $refs.audio.pause()
             } else {
-              // console.log('Messages scrolls up');
-              const rect = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
-              if (rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ) {
-                this.isMessagesAutoScroll = false
-              }
+              this.isPlaying = true
+              $refs.audio.play()
             }
-            this.messagesScrollTop = target.scrollTop
-        },
-        ccScroll: function (target) {
-          if (this.ccScrollTop < target.scrollTop) {
-            // console.log('CC scrolls down');
-            const rect = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
-            if (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) ) {
-              this.isCcAutoScroll = true
+          },
+          sec2time: function (sec) {
+            sign = (sec < 0)?'-':''
+            sec = Math.abs(Math.floor(sec))
+            var hours   = Math.floor(sec / 3600)
+            var minutes = Math.floor((sec - (hours * 3600)) / 60)
+            var seconds = sec - (hours * 3600) - (minutes * 60)
+
+            if (hours   < 10) {hours   = '0'+hours;}
+            if (minutes < 10) {minutes = '0'+minutes;}
+            if (seconds < 10) {seconds = '0'+seconds;}
+
+            return sign+hours+':'+minutes+':'+seconds
+          },
+          time2sec: function (time) {
+            var parts = time.split(':')
+            return parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseInt(parts[2])
+          },
+          updateProgress: function () {
+            this.time = $refs.audio.currentTime
+            this.timeStr = this.sec2time(this.time)
+            this.url.set('t', this.timeStr)
+            // console.log('Time: ' + this.time)
+            // console.log('Duration: ' + this.duration)
+            // console.log('Old value: ' + $refs.progress.value)
+            //$refs.progress.value = (this.time / this.duration) * 1000
+            //$refs.progress.style.width = 10+Math.round((this.time / this.duration) * $refs.progressbar.offsetWidth)
+            $refs.progress.style.backgroundSize = (this.time / this.duration) * 100 + '% 100%'
+            if (!this.isSeeking) {
+              $refs.progress.value = (this.time / this.duration) * 1000
             }
-          } else {
-            // console.log('CC scrolls up');
-            const rect = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
-            if (rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ) {
-              this.isCcAutoScroll = false;
+            if (this.isMessagesAutoScroll) {
+              // const anchor = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
+              // this.messagesScrollTop = anchor.top;
+              // console.log('Msg bottom: ' + anchor.top)
+              // document.getElementById( 'messages' ).scrollTo(0, anchor.top);
+              document.getElementById( 'msg_bottom' ).scrollIntoView();
             }
-          }
-          this.ccScrollTop = target.scrollTop
-        },
-      }"
-      x-init="desc = await (await fetch('/data/' + issue + '/' + issue + '_desc.json')).json();
-              messages = (await (await fetch('/data/' + issue + '/' + issue + '_chat.json')).json()).chat;
-              cc = (await (await fetch('/data/' + issue + '/' + issue + '_cc.json')).json()).subs;
-              var param_time = new URLSearchParams(location.search).get('time') || new URLSearchParams(location.search).get('t') || '00:00:00';
-              if (param_time.includes(':')) {
-                time = time2sec(param_time)
+            if (this.isCcAutoScroll) {
+              // const anchor = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
+              // this.ccScrollTop = anchor.top;
+              // console.log('CC bottom: ' + anchor.top)
+              // document.getElementById( 'cc' ).scrollTo(0, anchor.top);
+              document.getElementById( 'cc_bottom' ).scrollIntoView();
+            }
+          },
+          seek: function () {
+            // newPlace = $refs.progress.value
+            // newTime = ( this.duration / 1000 ) * newPlace
+            // $refs.audio.currentTime = newTime
+          },
+          input: function () {
+            newPlace = $refs.progress.value
+            newTime = ( this.duration / 1000 ) * newPlace
+            $refs.audio.currentTime = newTime
+            // console.log('New place: ' + newPlace)
+            // console.log('Style: ' + $refs.progress.style.backgroundSize)
+          },
+          messagesScroll: function (target) {
+            if (this.messagesScrollTop < target.scrollTop) {
+                // console.log('Messages scrolls down');
+                const rect = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
+                if (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) ) {
+                  this.isMessagesAutoScroll = true
+                }
               } else {
-                param_time = parseInt(param_time)
-                if (param_time < 14400) {
-                  time = param_time
-                } else {
-                  time = param_time - desc.start_time
+                // console.log('Messages scrolls up');
+                const rect = document.getElementById( 'msg_bottom' ).getBoundingClientRect();
+                if (rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ) {
+                  this.isMessagesAutoScroll = false
                 }
               }
-              "
-      >
-      <audio x-ref="audio" @durationchange="initPlayer()" @timeupdate="updateProgress()">
-        <source :src="'https://cdn.radio-t.com/rt_podcast' + issue + '.mp3'" type="audio/mpeg" />
-      </audio>
-
-    <!--a href="https://github.com/novikovSU/radio-t_playchat"><img id="fork_me" style="position: absolute; top: 0; left: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a-->
-
-    <div class="min-h-screen h-screen flex flex-col">
-      <div id="main-container" class="w-full flex-1 flex flex-row overflow-y-hidden">
-
-        <!-- Sidebar switcher -->
-        <div id="sidebar-toggle"
-             class="absolute left-3 top-3 h-8 w-8 z-10 p-0.5 rounded-lg bg-gray-300 opacity-80 hover:opacity-90 cursor-pointer"
-             x-show="!isSidebarOpen"
-             x-on:click="isSidebarOpen = true"
+              this.messagesScrollTop = target.scrollTop
+          },
+          ccScroll: function (target) {
+            if (this.ccScrollTop < target.scrollTop) {
+              // console.log('CC scrolls down');
+              const rect = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
+              if (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) ) {
+                this.isCcAutoScroll = true
+              }
+            } else {
+              // console.log('CC scrolls up');
+              const rect = document.getElementById( 'cc_bottom' ).getBoundingClientRect();
+              if (rect.bottom > (window.innerHeight || document.documentElement.clientHeight) ) {
+                this.isCcAutoScroll = false;
+              }
+            }
+            this.ccScrollTop = target.scrollTop
+          },
+        }"
+        x-init="desc = await (await fetch('/data/' + issue + '/' + issue + '_desc.json')).json();
+                messages = (await (await fetch('/data/' + issue + '/' + issue + '_chat.json')).json()).chat;
+                cc = (await (await fetch('/data/' + issue + '/' + issue + '_cc.json')).json()).subs;
+                var param_time = new URLSearchParams(location.search).get('time') || new URLSearchParams(location.search).get('t') || '00:00:00';
+                if (param_time.includes(':')) {
+                  time = time2sec(param_time)
+                } else {
+                  param_time = parseInt(param_time)
+                  if (param_time < 14400) {
+                    time = param_time
+                  } else {
+                    time = param_time - desc.start_time
+                  }
+                }
+                "
         >
-          <!-- <svg xmlns="http://www.w3.org/2000/svg"
-                 class="h-4 w-4 stroke-gray-600 fill-gray-600"
-                 viewBox="0 0 24.75 24.75" stroke="currentColor" stroke-width="2">
-            <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
-		c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
-		c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
-          </svg> -->
-          <svg class="h-7 w-7 stroke-gray-600 fill-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-          
-        </div>
+        <audio x-ref="audio" @durationchange="initPlayer()" @timeupdate="updateProgress()">
+          <source :src="'https://cdn.radio-t.com/rt_podcast' + issue + '.mp3'" type="audio/mpeg" />
+        </audio>
 
-        <!-- Sidebar-->
-        <nav
-            class="absolute inset-0 transform duration-200 z-30 w-96 bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-300 h-screen p-3"
-            :class="{'translate-x-0 ease-in opacity-100':isSidebarOpen === true, '-translate-x-full ease-out opacity-0': isSidebarOpen === false}"
-        >
-            <div class="flex justify-between">
-                <button
-                    class="p-2 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md"
-                >
-                  <a href="/">
+      <!--a href="https://github.com/novikovSU/radio-t_playchat"><img id="fork_me" style="position: absolute; top: 0; left: 0; border: 0; z-index:999" src="http://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png" alt="Fork me on GitHub"></a-->
+
+      <div class="min-h-screen h-screen flex flex-col">
+        <div id="main-container" class="w-full flex-1 flex flex-row overflow-y-hidden">
+
+          <!-- Sidebar switcher -->
+          <div id="sidebar-toggle"
+              class="absolute left-3 top-3 h-8 w-8 z-10 p-0.5 rounded-lg bg-gray-300 opacity-80 hover:opacity-90 cursor-pointer"
+              x-show="!isSidebarOpen"
+              x-on:click="isSidebarOpen = true"
+          >
+            <!-- <svg xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 stroke-gray-600 fill-gray-600"
+                  viewBox="0 0 24.75 24.75" stroke="currentColor" stroke-width="2">
+              <path d="M0,3.875c0-1.104,0.896-2,2-2h20.75c1.104,0,2,0.896,2,2s-0.896,2-2,2H2C0.896,5.875,0,4.979,0,3.875z M22.75,10.375H2
+      c-1.104,0-2,0.896-2,2c0,1.104,0.896,2,2,2h20.75c1.104,0,2-0.896,2-2C24.75,11.271,23.855,10.375,22.75,10.375z M22.75,18.875H2
+      c-1.104,0-2,0.896-2,2s0.896,2,2,2h20.75c1.104,0,2-0.896,2-2S23.855,18.875,22.75,18.875z"/>
+            </svg> -->
+            <svg class="h-7 w-7 stroke-gray-600 fill-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            
+          </div>
+
+          <!-- Sidebar-->
+          <nav
+              class="absolute inset-0 transform duration-200 z-30 w-96 bg-gray-200 dark:bg-gray-800 text-gray-600 dark:text-gray-300 h-screen p-3"
+              :class="{'translate-x-0 ease-in opacity-100':isSidebarOpen === true, '-translate-x-full ease-out opacity-0': isSidebarOpen === false}"
+          >
+              <div class="flex justify-between">
+                  <button
+                      class="p-2 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md"
+                  >
+                    <a href="/">
+                      <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-6 w-6 stroke-gray-600 fill-gray-600 dark:stroke-gray-300 dark:fill-gray-300"
+                          viewBox="0 0 512 512"
+                      >
+                        <path d="M256,2.938l-256,256v48.427h62.061v201.697h155.152V384.941h77.576v124.121h155.151V307.365H512v-48.427L256,2.938z
+                      M403.394,260.82v201.697h-62.061V338.396H170.667v124.121h-62.061V260.82H63.943L256,68.762L448.057,260.82H403.394z"/>
+                      </svg>
+                    </a>
+                  </button>
+                  <span class="font-bold text-2xl sm:text-3xl p-2" x-text="issue"></span>
+                  <button
+                      class="p-1 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md"
+                      @click="isSidebarOpen = false"
+                  >
                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6 stroke-gray-600 fill-gray-600 dark:stroke-gray-300 dark:fill-gray-300"
-                        viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                     >
-                      <path d="M256,2.938l-256,256v48.427h62.061v201.697h155.152V384.941h77.576v124.121h155.151V307.365H512v-48.427L256,2.938z
-                    M403.394,260.82v201.697h-62.061V338.396H170.667v124.121h-62.061V260.82H63.943L256,68.762L448.057,260.82H403.394z"/>
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 19l-7-7 7-7"
+                      />
+                    </svg>
+                  </button>
+              </div>
+              <ul class="mt-8">
+              <template x-for="topic in desc.topics">
+                <li><span
+                  class="block px-2 py-2 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md cursor-pointer"
+                  x-text="topic.title"
+                  @click="setProgress(topic.time)"
+                ></span></li>
+              </template>
+              </ul>
+              <hr class="h-px border-0 bg-gray-300 dark:bg-gray-700 my-5"/>
+              
+              <div>
+                <h4 class="text-xl font-bold">Скачать</h4>
+                <div>
+                  <span class="font-medium">Чат</span>
+                  <a :href="'/data/' + issue + '/' + issue + '_chat.json'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">JSON</a>
+                </div>
+                <div>
+                  <span class="font-medium">Субтитры</span>
+                  <a :href="'/data/' + issue + '/' + issue + '_cc.json'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">JSON</a>
+                  <a :href="'/data/' + issue + '/' + issue + '_cc.ssa'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">SSA</a>
+                </div>
+              </div>
+
+              <div class="absolute bottom-20 right-5 flex flex-row">
+                <div class="mr-4">
+                  <a href="https://github.com/novikovSU/radio-t_playchat">
+                    <svg class="h-6 w-6 stroke-1 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
                     </svg>
                   </a>
-                </button>
-                <span class="font-bold text-2xl sm:text-3xl p-2" x-text="issue"></span>
-                <button
-                    class="p-1 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md"
-                    @click="isSidebarOpen = false"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M15 19l-7-7 7-7"
-                    />
-                  </svg>
-                </button>
-            </div>
-            <ul class="mt-8">
-            <template x-for="topic in desc.topics">
-              <li><span
-                class="block px-2 py-2 hover:bg-gray-300 dark:hover:bg-gray-700 rounded-md cursor-pointer"
-                x-text="topic.title"
-                @click="setProgress(topic.time)"
-              ></span></li>
-            </template>
+                </div>
+                <div>
+                  <a href="https://t.me/novikov_su">
+                    <!-- <svg class="h-8 w-8 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
+                    </svg> -->
+                    <svg class="h-6 w-6 stroke-1 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                      <path d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+          </nav>
+          
+          <!-- Chat messages panel -->
+          <div id="messages"
+              class="relative flex-1 p-3 overflow-x-hidden overflow-y-auto"
+              @scroll="messagesScroll($event.target)"
+              @click="isSidebarOpen=false"
+          >
+            <ul class="w-full">
+              <template x-for="message in messages">
+                <li class="mb-2 pb-1 border-b border-gray-200 dark:border-gray-600"
+                    x-data="{
+                      get authorClass() {
+                        switch (message.author_type) {
+                          case 'listener':
+                            return 'text-blue-600 dark:text-blue-400'
+                          case 'host':
+                            return 'text-red-600 dark:text-red-400'
+                          case 'bot':
+                            return 'text-yellow-600 dark:text-yellow-400'
+                          default:
+                            return 'text-gray-600 dark:text-gray-400'
+                        }
+                      },
+                    }"
+                    x-show="message.datetime - desc.start_time < time">
+                  <div>
+                    <span class="text-base" :class="authorClass">
+                      <a x-bind:href="message.author_nickname?'https://t.me/'+message.author_nickname:'#'" x-html="message.author_name"></a>
+                    </span>
+                    <span class="text-xs text-gray-400 dark:text-gray-500">
+                      <span x-text="(new Date(message.datetime*1000).getLocalTime())"></span>
+                      (<span x-text="sec2time(message.datetime - desc.start_time)"></span>)
+                    </span>
+                  </div>
+                  <div>
+                    <template x-if="message.image_url">
+                      <img x-bind:src="message.image_url" />
+                    </template>
+                    <span x-html="message.text" class="text-lg text-gray-800 dark:text-gray-300"></span>
+                  </div>
+                </li>
+              </template>
             </ul>
-            <hr class="h-px border-0 bg-gray-300 dark:bg-gray-700 my-5"/>
-            
-            <div>
-              <h4 class="text-xl font-bold">Скачать</h4>
-              <div>
-                <span class="font-medium">Чат</span>
-                <a :href="'/data/' + issue + '/' + issue + '_chat.json'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">JSON</a>
-              </div>
-              <div>
-                <span class="font-medium">Субтитры</span>
-                <a :href="'/data/' + issue + '/' + issue + '_cc.json'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">JSON</a>
-                <a :href="'/data/' + issue + '/' + issue + '_cc.ssa'" class="underline underline-offset-2 hover:font-semibold hover:underline-offset-4">SSA</a>
+            <span id="msg_bottom"></span>
+            <div class="sticky bottom-0 flex items-end justify-end h-1 overflow-visible">
+              <div class="h-8 w-8 p-2 mr-2 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 z-40 cursor-pointer"
+                  x-show="!isMessagesAutoScroll"
+                  x-cloak
+                  x-on:click="isMessagesAutoScroll = !isMessagesAutoScroll; document.getElementById( 'msg_bottom' ).scrollIntoView()">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 stroke-2 stroke-gray-600 fill-gray-600 block"
+                    viewBox="0 0 192.701 192.701">
+                  <path d="M171.955,88.526l-75.61,74.528l-75.61-74.54c-4.74-4.704-12.439-4.704-17.179,0c-4.74,4.704-4.74,12.319,0,17.011 l84.2,82.997c4.559,4.511,12.608,4.535,17.191,0l84.2-83.009c4.74-4.692,4.74-12.319,0-17.011 C184.394,83.823,176.695,83.823,171.955,88.526z"/>
+                  <path d="M87.755,104.322c4.559,4.511,12.608,4.535,17.191,0l84.2-82.997c4.74-4.704,4.74-12.319,0-17.011 c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0 c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
+                </svg>
               </div>
             </div>
+          </div>
 
-            <div class="absolute bottom-20 right-5 flex flex-row">
-              <div class="mr-4">
-                <a href="https://github.com/novikovSU/radio-t_playchat">
-                  <svg class="h-6 w-6 stroke-1 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
-                  </svg>
-                </a>
-              </div>
-              <div>
-                <a href="https://t.me/novikov_su">
-                  <!-- <svg class="h-8 w-8 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/>
-                  </svg> -->
-                  <svg class="h-6 w-6 stroke-1 stroke-gray-400 fill-gray-400 hover:stroke-gray-500 hover:fill-gray-500 dark:hover:stroke-gray-300 dark:hover:fill-gray-300" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-                    <path d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z"/>
-                  </svg>
-                </a>
+          <!-- Closed captions panel -->
+          <div id="cc" x-show="isCcVisible"
+              class="relative w-96 sm:w-96 border-l border-gray-200 dark:border-gray-600 p-2 overflow-y-auto"
+              @scroll="ccScroll($event.target)"
+              @click="isSidebarOpen=false"
+          >
+            <ul class="w-full">
+              <template x-for="cap in cc">
+                <li class="z-0 mb-1 pb-1 border-b border-gray-100 dark:border-gray-600" x-show="cap.stime < time">
+                  <div>
+                    <span x-text="cap.author" class="text-xs text-gray-600 dark:text-gray-400"></span>
+                    <span class="text-xs text-gray-500">
+                      (<span x-text="sec2time(cap.stime)"></span>)
+                    </span>
+                  </div>
+                  <div>
+                    <span x-html="cap.text" class="text-sm text-gray-600 dark:text-gray-400"></span>
+                  </div>
+                </li>
+              </template>
+            </ul>
+            <span id="cc_bottom"></span>
+            <div class="sticky bottom-0 flex items-end justify-end h-1 overflow-visible">
+              <div class="h-8 w-8 p-2 mr-2 bottom-0 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 z-40 cursor-pointer"
+                  x-show="!isCcAutoScroll"
+                  x-cloak
+                  x-on:click="isCcAutoScroll = !isCcAutoScroll; document.getElementById( 'cc_bottom' ).scrollIntoView()">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                          class="h-4 w-4 stroke-2 stroke-gray-600 fill-gray-600 block"
+                          viewBox="0 0 192.701 192.701">
+                  <path d="M171.955,88.526l-75.61,74.528l-75.61-74.54c-4.74-4.704-12.439-4.704-17.179,0c-4.74,4.704-4.74,12.319,0,17.011
+      l84.2,82.997c4.559,4.511,12.608,4.535,17.191,0l84.2-83.009c4.74-4.692,4.74-12.319,0-17.011
+      C184.394,83.823,176.695,83.823,171.955,88.526z"/>
+                  <path d="M87.755,104.322c4.559,4.511,12.608,4.535,17.191,0l84.2-82.997c4.74-4.704,4.74-12.319,0-17.011
+      c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0
+      c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
+                </svg>
               </div>
             </div>
-        </nav>
+          </div>
         
-        <!-- Chat messages panel -->
-        <div id="messages"
-             class="relative flex-1 p-3 overflow-x-hidden overflow-y-auto"
-             @scroll="messagesScroll($event.target)"
-             @click="isSidebarOpen=false"
-        >
-          <ul class="w-full">
-            <template x-for="message in messages">
-              <li class="mb-2 pb-1 border-b border-gray-200 dark:border-gray-600"
-                  x-data="{
-                    get authorClass() {
-                      switch (message.author_type) {
-                        case 'listener':
-                          return 'text-blue-600 dark:text-blue-400'
-                        case 'host':
-                          return 'text-red-600 dark:text-red-400'
-                        case 'bot':
-                          return 'text-yellow-600 dark:text-yellow-400'
-                        default:
-                          return 'text-gray-600 dark:text-gray-400'
-                      }
-                    },
-                  }"
-                  x-show="message.datetime - desc.start_time < time">
-                <div>
-                  <span class="text-base" :class="authorClass">
-                    <a x-bind:href="message.author_nickname?'https://t.me/'+message.author_nickname:'#'" x-html="message.author_name"></a>
-                  </span>
-                  <span class="text-xs text-gray-400 dark:text-gray-500">
-                    <span x-text="(new Date(message.datetime*1000).getLocalTime())"></span>
-                    (<span x-text="sec2time(message.datetime - desc.start_time)"></span>)
-                  </span>
-                </div>
-                <div>
-                  <template x-if="message.image_url">
-                    <img x-bind:src="message.image_url" />
-                  </template>
-                  <span x-html="message.text" class="text-lg text-gray-800 dark:text-gray-300"></span>
-                </div>
-              </li>
-            </template>
-          </ul>
-          <span id="msg_bottom"></span>
-          <div class="sticky bottom-0 flex items-end justify-end h-1 overflow-visible">
-            <div class="h-8 w-8 p-2 mr-2 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 z-40 cursor-pointer"
-                 x-show="!isMessagesAutoScroll"
-                 x-cloak
-                 x-on:click="isMessagesAutoScroll = !isMessagesAutoScroll; document.getElementById( 'msg_bottom' ).scrollIntoView()">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                  class="h-4 w-4 stroke-2 stroke-gray-600 fill-gray-600 block"
-                  viewBox="0 0 192.701 192.701">
-                <path d="M171.955,88.526l-75.61,74.528l-75.61-74.54c-4.74-4.704-12.439-4.704-17.179,0c-4.74,4.704-4.74,12.319,0,17.011 l84.2,82.997c4.559,4.511,12.608,4.535,17.191,0l84.2-83.009c4.74-4.692,4.74-12.319,0-17.011 C184.394,83.823,176.695,83.823,171.955,88.526z"/>
-                <path d="M87.755,104.322c4.559,4.511,12.608,4.535,17.191,0l84.2-82.997c4.74-4.704,4.74-12.319,0-17.011 c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0 c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
-              </svg>
+        </div>
+
+        <!-- Player controls -->
+        <div id="player-container" class="flex bottom-0 left-0 w-screen h-14 p-2 z-30 bg-white dark:bg-gray-700">
+          <div class="w-full inline-block flex flex-row overflow-hidden items-center">
+            <div class="flex p-1 ml-3">
+              <button x-ref="play-button"
+                      x-show="!isPlaying"
+                      @click="togglePlayer()"
+                      class="rounded-full w-8 h-8 flex items-center justify-center pl-0.5 ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
+                <svg class="w-6 h-6 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                </svg>              
+              </button>
+              <button x-ref="pause-button"
+                      x-show="isPlaying"
+                      @click="togglePlayer()"
+                      class="rounded-full w-8 h-8 flex items-center justify-center ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
+                <svg class="w-6 h-6 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+                </svg>              
+              </button>
+            </div>
+            <div class="ml-2 text-xs font-semibold text-gray-500 w-20" x-text="timeStr"></div>
+            <input x-ref="progress"
+                  @change="seek()"
+                  @input="input()"
+                  type="range" value="0" min=0 max=1000 list="topics"
+                  class="accent-blue-500 w-full h-1 mx-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 rounded-lg appearance-none cursor-pointer"
+            />
+            <div class="flex mr-3 text-xs font-semibold text-gray-500 w-15" x-text="durationStr"></div>
+            <div class="flex w-10 mr-3 cursor-pointer" @click="isCcVisible = !isCcVisible">
+              <svg class="w-7 h-7 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+              </svg>            
             </div>
           </div>
+          
         </div>
-
-        <!-- Closed captions panel -->
-        <div id="cc" x-show="isCcVisible"
-             class="relative w-96 sm:w-96 border-l border-gray-200 dark:border-gray-600 p-2 overflow-y-auto"
-             @scroll="ccScroll($event.target)"
-             @click="isSidebarOpen=false"
-        >
-          <ul class="w-full">
-            <template x-for="cap in cc">
-              <li class="z-0 mb-1 pb-1 border-b border-gray-100 dark:border-gray-600" x-show="cap.stime < time">
-                <div>
-                  <span x-text="cap.author" class="text-xs text-gray-600 dark:text-gray-400"></span>
-                  <span class="text-xs text-gray-500">
-                    (<span x-text="sec2time(cap.stime)"></span>)
-                  </span>
-                </div>
-                <div>
-                  <span x-html="cap.text" class="text-sm text-gray-600 dark:text-gray-400"></span>
-                </div>
-              </li>
-            </template>
-          </ul>
-          <span id="cc_bottom"></span>
-          <div class="sticky bottom-0 flex items-end justify-end h-1 overflow-visible">
-            <div class="h-8 w-8 p-2 mr-2 bottom-0 rounded-lg bg-gray-300 opacity-70 hover:opacity-90 z-40 cursor-pointer"
-                 x-show="!isCcAutoScroll"
-                 x-cloak
-                 x-on:click="isCcAutoScroll = !isCcAutoScroll; document.getElementById( 'cc_bottom' ).scrollIntoView()">
-              <svg xmlns="http://www.w3.org/2000/svg"
-                        class="h-4 w-4 stroke-2 stroke-gray-600 fill-gray-600 block"
-                        viewBox="0 0 192.701 192.701">
-                <path d="M171.955,88.526l-75.61,74.528l-75.61-74.54c-4.74-4.704-12.439-4.704-17.179,0c-4.74,4.704-4.74,12.319,0,17.011
-    l84.2,82.997c4.559,4.511,12.608,4.535,17.191,0l84.2-83.009c4.74-4.692,4.74-12.319,0-17.011
-    C184.394,83.823,176.695,83.823,171.955,88.526z"/>
-                <path d="M87.755,104.322c4.559,4.511,12.608,4.535,17.191,0l84.2-82.997c4.74-4.704,4.74-12.319,0-17.011
-    c-4.74-4.704-12.439-4.704-17.179,0L96.345,78.842L20.734,4.314c-4.74-4.704-12.439-4.704-17.179,0
-    c-4.74,4.704-4.74,12.319,0,17.011L87.755,104.322z"/>  
-              </svg>
-            </div>
-          </div>
-        </div>
-      
       </div>
+    </template>
 
-      <!-- Player controls -->
-      <div id="player-container" class="flex bottom-0 left-0 w-screen h-14 p-2 z-50 bg-white dark:bg-gray-700">
-        <div class="w-full inline-block flex flex-row overflow-hidden items-center">
-          <div class="flex p-1 ml-3">
-            <button x-ref="play-button"
-                    x-show="!isPlaying"
-                    @click="togglePlayer()"
-                    class="rounded-full w-8 h-8 flex items-center justify-center pl-0.5 ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
-              <svg class="w-6 h-6 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-              </svg>              
-            </button>
-            <button x-ref="pause-button"
-                    x-show="isPlaying"
-                    @click="togglePlayer()"
-                    class="rounded-full w-8 h-8 flex items-center justify-center ring-2 ring-gray-500 dark:ring-gray-200 focus:outline-none">
-              <svg class="w-6 h-6 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
-              </svg>              
-            </button>
-          </div>
-          <div class="ml-2 text-xs font-semibold text-gray-500 w-20" x-text="timeStr"></div>
-          <input x-ref="progress"
-                @change="seek()"
-                @input="input()"
-                type="range" value="0" min=0 max=1000 list="topics"
-                class="accent-blue-500 w-full h-1 mx-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 rounded-lg appearance-none cursor-pointer"
-          />
-          <div class="flex mr-3 text-xs font-semibold text-gray-500 w-15" x-text="durationStr"></div>
-          <div class="flex w-10 mr-3 cursor-pointer" @click="isCcVisible = !isCcVisible">
-            <svg class="w-7 h-7 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
-            </svg>            
-          </div>
-        </div>
-        
-      </div>
+    <!-- Search script -->
+    <script>
+      async function search(query, isTopics, isCc, isChat) {
+          // 
+          if (!query || query.length < 3) {
+              return []
+          }
 
-      <script src="/assets/js/main.js"></script>
-    </div>
-  </template>
+          var queries = []
+
+          if (isTopics) {
+              queries.push({
+                  "indexUid":"topics",
+                  "q": query,
+                  "limit": 100,
+                  "sort": ["issue:desc","time:asc"],
+                  "attributesToHighlight": ["title"],
+                  "highlightPreTag": "<span class=\"bg-amber-100 dark:bg-gray-900 dark:text-gray-100\">",
+                  "highlightPostTag": "</span>"
+              })
+          }
+
+          if (isCc) {
+              queries.push({
+                  "indexUid":"cc_msgs",
+                  "q": query,
+                  "limit": 100,
+                  "sort": ["issue:desc","stime:asc"],
+                  "attributesToHighlight": ["text"],
+                  "highlightPreTag": "<span class=\"bg-amber-100 dark:bg-gray-900 dark:text-gray-100\">",
+                  "highlightPostTag": "</span>"
+              })
+          }
+
+          if (isChat) {
+              queries.push({
+                  "indexUid":"chat_msgs",
+                  "q": query,
+                  "limit": 100,
+                  "sort": ["issue:desc","datetime:asc"],
+                  "attributesToHighlight": ["text"],
+                  "highlightPreTag": "<span class=\"bg-amber-100 dark:bg-gray-900 dark:text-gray-100\">",
+                  "highlightPostTag": "</span>"
+              })
+          }
+
+          let response = await fetch(`http://94.103.85.222:7700/multi-search`, {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json;charset=utf-8',
+                  'Authorization': 'Bearer 8ffb72c604008bd46290223e502a68a703327f0de4e79648aff4ff4548ac47e7'
+              },
+              body: JSON.stringify({
+                  "queries": queries
+              })
+          })
+
+          var results = {}
+          var hits = []
+          if (response.ok) {
+              let json = await response.json()
+              // console.log(json)
+              for (result of json.results) {
+                  // console.log(result)
+                  hits = hits.concat(result.hits)
+              }
+              hits.sort((a,b) => b.issue - a.issue)
+
+              for (hit of hits) {
+                  if (hit.hasOwnProperty("title")) {
+                      hit.type = "topic"
+                      hit._formatted.type = "topic"
+                  }
+
+                  if (results[hit.issue] === undefined) {
+                      results[hit.issue] = {}
+                  }
+                  if (results[hit.issue][hit.type] === undefined) {
+                      results[hit.issue][hit.type] = []
+                  }
+                  results[hit.issue][hit.type].push(hit._formatted)
+              }
+          } else {
+              console.log("HTTP error")
+          }
+          // console.log(results)
+          return results
+      }
+    </script>
+    
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
