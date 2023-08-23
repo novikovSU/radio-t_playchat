@@ -45,3 +45,5 @@ input[type=range]::-webkit-slider-runnable-track  {
   border: none;
   background: transparent;
 }
+
+[x-cloak] { display: none !important; }
