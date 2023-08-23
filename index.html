@@ -217,7 +217,17 @@
               messages = (await (await fetch('/data/' + issue + '/' + issue + '_chat.json')).json()).chat;
               cc = (await (await fetch('/data/' + issue + '/' + issue + '_cc.json')).json()).subs;
               var param_time = new URLSearchParams(location.search).get('time') || new URLSearchParams(location.search).get('t') || '00:00:00';
-              time = time2sec(param_time)"
+              if (param_time.includes(':')) {
+                time = time2sec(param_time)
+              } else {
+                param_time = parseInt(param_time)
+                if (param_time < 14400) {
+                  time = param_time
+                } else {
+                  time = param_time - desc.start_time
+                }
+              }
+              "
       >
       <audio x-ref="audio" @durationchange="initPlayer()" @timeupdate="updateProgress()">
         <source :src="'https://cdn.radio-t.com/rt_podcast' + issue + '.mp3'" type="audio/mpeg" />
@@ -456,11 +466,12 @@
             </button>
           </div>
           <div class="ml-2 text-xs font-semibold text-gray-500 w-20" x-text="timeStr"></div>
-            <input x-ref="progress"
-                  @change="seek()"
-                  @input="input()"
-                  type="range" value="0" min=0 max=1000 list="topics"
-                  class="accent-blue-500 w-full h-1 mx-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 rounded-lg appearance-none cursor-pointer" />
+          <input x-ref="progress"
+                @change="seek()"
+                @input="input()"
+                type="range" value="0" min=0 max=1000 list="topics"
+                class="accent-blue-500 w-full h-1 mx-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-600 dark:hover:bg-gray-500 rounded-lg appearance-none cursor-pointer"
+          />
           <div class="flex mr-3 text-xs font-semibold text-gray-500 w-15" x-text="durationStr"></div>
           <div class="flex w-10 mr-3 cursor-pointer" @click="isCcVisible = !isCcVisible">
             <svg class="w-7 h-7 stroke-gray-500 dark:stroke-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
