@@ -77,6 +77,7 @@ type DescIssue struct {
 	StartTime int64       `json:"start_time"`
 	Topics    []DescTopic `json:"topics"`
 	Tags      []string    `json:"tags"`
+	Verified  bool        `json:"verified,omitempty"`
 }
 
 type ChatLine struct {

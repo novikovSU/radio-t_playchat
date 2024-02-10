@@ -649,7 +649,7 @@
               queries.push({
                   "indexUid":"topics",
                   "q": query,
-                  "limit": 100,
+                  "limit": 10000,
                   "sort": ["issue:desc","time:asc"],
                   "attributesToHighlight": ["title"],
                   "highlightPreTag": "<span class=\"bg-amber-100 dark:bg-gray-900 dark:text-gray-100\">",
@@ -661,7 +661,7 @@
               queries.push({
                   "indexUid":"cc_msgs",
                   "q": query,
-                  "limit": 100,
+                  "limit": 10000,
                   "sort": ["issue:desc","stime:asc"],
                   "attributesToHighlight": ["text"],
                   "highlightPreTag": "<span class=\"bg-amber-100 dark:bg-gray-900 dark:text-gray-100\">",
@@ -673,7 +673,7 @@
               queries.push({
                   "indexUid":"chat_msgs",
                   "q": query,
-                  "limit": 100,
+                  "limit": 10000,
                   "sort": ["issue:desc","datetime:asc"],
                   "attributesToHighlight": ["text"],
                   "highlightPreTag": "<span class=\"bg-amber-100 dark:bg-gray-900 dark:text-gray-100\">",
@@ -681,7 +681,7 @@
               })
           }
 
-   //       let response = await fetch(`http://10.201.10.108:7700/multi-search`, {
+  //        let response = await fetch(`http://10.201.10.108:7700/multi-search`, {
           let response = await fetch(`https://a1b2c3.me3k.ru/multi-search`, {
               method: 'POST',
               headers: {
