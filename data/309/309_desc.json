@@ -4,6 +4,71 @@
   "audio": "https://cdn.radio-t.com/rt_podcast309.mp3",
   "cover": "https://radio-t.com/images/radio-t/rt309.jpg",
   "start_time": 0,
-  "topics": [],
+  "topics": [
+    {
+      "id": "000000000000000000000000",
+      "title": "А мы так хотели поговорить о Phantom Operating System",
+      "links": [
+        "http://dz.ru/en/solutions/phantom/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Google Spanner — от NoSQL к NewSQL",
+      "links": [
+        "http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Переход из Erlang в Python",
+      "links": [
+        "http://code.mixpanel.com/2011/08/05/how-and-why-we-switched-from-erlang-to-python/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Travis-CI — Continuous Integration Server для любителей github",
+      "links": [
+        "http://meri-stuff.blogspot.sk/2012/10/travis-ci-continuous-integration-server.html?m=1"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Как не надо организовывать Source Control",
+      "links": [
+        "http://www.readability.com/articles/mjreucfy"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Microsoft показали нам TypeScript",
+      "links": [
+        "http://www.readability.com/articles/w1osrrfx"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Immutability против Thread Safety?",
+      "links": [
+        "http://java.dzone.com/articles/do-immutability-really-means"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "JavaOne новости",
+      "links": [
+        "http://jaxenter.com/roundup-java-news-from-javaone-44845.html"
+      ],
+      "time": ""
+    }
+  ],
   "tags": null
 }

@@ -4,6 +4,63 @@
   "audio": "https://cdn.radio-t.com/rt_podcast343.mp3",
   "cover": "https://radio-t.com/images/radio-t/rt343.jpg",
   "start_time": 0,
-  "topics": [],
+  "topics": [
+    {
+      "id": "000000000000000000000000",
+      "title": "Ubuntu баг № 1 исправлен.",
+      "links": [
+        "http://habrahabr.ru/post/181570/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "К 7-му юбилею Hadoop.",
+      "links": [
+        "http://blog.cloudera.com/blog/2013/04/seven-thoughts-on-hadoops-seventh-birthday/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Программировать сложно.",
+      "links": [
+        "http://www.nilunder.com/blog/2013/04/28/programming-is-not-easy/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Как правильно издеваться над разработчиками.",
+      "links": [
+        "http://www.infoworld.com/d/application-development/16-ways-torture-developers-215773"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Восход Google Go",
+      "links": [
+        "http://arstechnica.com/information-technology/2013/05/my-favorite-programming-language-googles-go-has-some-coders-raving/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Образовательная часть - что есть O(log n).",
+      "links": [
+        "http://stackoverflow.com/questions/2307283/what-does-olog-n-mean-exactly/2307314"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Некоторые модели конкурентного программирования в питоне.",
+      "links": [
+        "http://www.devmusings.com/blog/2013/05/23/python-concurrency/"
+      ],
+      "time": ""
+    }
+  ],
   "tags": null
 }

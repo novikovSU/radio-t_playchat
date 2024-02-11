@@ -4,6 +4,55 @@
   "audio": "https://cdn.radio-t.com/rt_podcast335.mp3",
   "cover": "https://radio-t.com/images/radio-t/rt335.jpg",
   "start_time": 0,
-  "topics": [],
+  "topics": [
+    {
+      "id": "000000000000000000000000",
+      "title": "Google на день веб-мастера c неприятным сюрпризом.",
+      "links": [
+        "http://habrahabr.ru/post/175377/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Так почему они это сделали?.",
+      "links": [
+        "http://www.zdnet.com/the-real-reason-why-google-forked-webkit-7000013514/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "PHP рожден чтоб умирать многократно.",
+      "links": [
+        "http://software-gunslinger.tumblr.com/post/47131406821/php-is-meant-to-die"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "JetBrains готовит к выпуску С++ IDE.",
+      "links": [
+        "http://habrahabr.ru/post/175297/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Связь между тестированием и дизайном.",
+      "links": [
+        "http://fespinoza.github.com/blog/2013/03/31/talk-review-the-deep-synergy-between-testability-and-good-design/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Cap'n Proto.",
+      "links": [
+        "http://kentonv.github.com/capnproto/index.html"
+      ],
+      "time": ""
+    }
+  ],
   "tags": null
 }

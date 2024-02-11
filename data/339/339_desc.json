@@ -4,6 +4,63 @@
   "audio": "https://cdn.radio-t.com/rt_podcast339.mp3",
   "cover": "https://radio-t.com/images/radio-t/rt339.jpg",
   "start_time": 0,
-  "topics": [],
+  "topics": [
+    {
+      "id": "000000000000000000000000",
+      "title": "Конец OOP уже наступил.",
+      "links": [
+        "http://blogs.msdn.com/b/alfredth/archive/2011/03/22/object-oriented-programming-is-dead.aspx"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Polymorphism и Inheritance это не очень связанные понятия.",
+      "links": [
+        "http://www.javacodegeeks.com/2013/04/polymorphism-and-inheritance-are-independent-of-each-other.html"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "TDD как единственно верный путь.",
+      "links": [
+        "http://agile.dzone.com/articles/not-using-test-first-youre"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "TDD как путь в никуда? Гость категорически не согласен.",
+      "links": [
+        "https://twitter.com/a_abashev"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Всем бояться rebase.",
+      "links": [
+        "http://geekblog.oneandoneis2.org/index.php/2013/04/30/please-stay-away-from-rebase"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Переход на MariaDB.",
+      "links": [
+        "http://ostatic.com/blog/wikipedia-migrates-to-mariadb"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "FoundationDB NoSQL но ACID.",
+      "links": [
+        "http://www.infoq.com/news/2013/04/foundationdb-nosql-database"
+      ],
+      "time": ""
+    }
+  ],
   "tags": null
 }
