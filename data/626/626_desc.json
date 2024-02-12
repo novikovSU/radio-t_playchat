@@ -1,0 +1,80 @@
+{
+  "issue": 626,
+  "date": "2018-12-01",
+  "audio": "https://cdn.radio-t.com/rt_podcast626.mp3",
+  "cover": "https://radio-t.com/images/radio-t/rt626.jpg",
+  "start_time": 0,
+  "topics": [
+    {
+      "id": "000000000000000000000000",
+      "title": "Go 2 начинается",
+      "links": [
+        "https://blog.golang.org/go2-here-we-come"
+      ],
+      "time": "00:01:31"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "AWS Transfer for SFTP",
+      "links": [
+        "https://aws.amazon.com/blogs/aws/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3/"
+      ],
+      "time": "00:19:39"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "AWS App Mesh",
+      "links": [
+        "https://aws.amazon.com/blogs/compute/introducing-aws-app-mesh-service-mesh-for-microservices-on-aws/"
+      ],
+      "time": "00:33:39"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Amazon DynamoDB On-Demand",
+      "links": [
+        "https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/"
+      ],
+      "time": "00:46:50"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "ALB сможет вызвать Lambda",
+      "links": [
+        "https://aws.amazon.com/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/"
+      ],
+      "time": "00:54:45"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Слои общего кода в AWS Lambda",
+      "links": [
+        "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/"
+      ],
+      "time": "01:15:46"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Drone Cloud и бесплатно",
+      "links": [
+        "https://blog.drone.io/drone-cloud/"
+      ],
+      "time": "01:21:39"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "FoundationDB Document Layer совместим с mongo",
+      "links": [
+        "https://www.foundationdb.org/blog/announcing-document-layer/"
+      ],
+      "time": "01:41:31"
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Темы наших",
+      "links": [],
+      "time": ""
+    }
+  ],
+  "tags": null
+}
