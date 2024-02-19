@@ -1,3 +1,3450 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d24dda68d9270a8ec6654a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "SomebodyGreen",
+      "author_name": "SomebodyGreen",
+      "datetime": 1595703104,
+      "text": "Fido конечно перебор. Лучше что-то вроде этого: \u003ca href=\"https://blog.torproject.org/more-onions-porfavor\"\u003ehttps://blog.torproject.org/more-onions-porfavor\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6654b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "SomebodyGreen",
+      "author_name": "SomebodyGreen",
+      "datetime": 1595703235,
+      "text": "Жадность. Встречал такое. Этим SMS и живы (среди физиков)."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6654c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pshishkanov",
+      "author_name": "Pavel Shishkanov",
+      "datetime": 1595704445,
+      "text": "Есть ресурс \u003ca href=\"https://liquipedia.net\"\u003eliquipedia.net\u003c/a\u003e, там собрана информация о кибер-спорте по многим популярным дисциплинам. Есть турнирные сетки, информация о турнирах и ссылки на трансляции."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6654d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "itmrw",
+      "author_name": "mrw",
+      "datetime": 1595704543,
+      "text": "Спасибо. Оценю!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6654e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "rapkin",
+      "author_name": "Mikola Parfenyuck",
+      "datetime": 1595705331,
+      "text": "для стримов твич, для расписания туриков по дотке ликвипедия"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6654f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705402,
+      "text": "около-системные утилиты на питоне это ад 🙁 Похоже, что никто не способен там правильно разруливать зависимости. На aws linux “испортился”  awscli обычным, питоновым образом\u003cbr/\u003e\u003cbr/\u003eT\u003cpre\u003eraceback (most recent call last):\u003cbr/\u003e  File \u0026#34;/usr/bin/aws\u0026#34;, line 19, in \u0026lt;module\u0026gt;\u003cbr/\u003e    import awscli.clidriver\u003cbr/\u003e  File \u0026#34;/usr/lib/python2.7/site-packages/awscli/clidriver.py\u0026#34;, line 17, in \u0026lt;module\u0026gt;\u003cbr/\u003e    import botocore.session\u003cbr/\u003e  File \u0026#34;/usr/lib/python2.7/site-packages/botocore/session.py\u0026#34;, line 29, in \u0026lt;module\u0026gt;\u003cbr/\u003e    import botocore.configloader\u003cbr/\u003e  File \u0026#34;/usr/lib/python2.7/site-packages/botocore/configloader.py\u0026#34;, line 19, in \u0026lt;module\u0026gt;\u003cbr/\u003e    from botocore.compat import six\u003cbr/\u003e  File \u0026#34;/usr/lib/python2.7/site-packages/botocore/compat.py\u0026#34;, line 26, in \u0026lt;module\u0026gt;\u003cbr/\u003e    from urllib3 import exceptions\u003cbr/\u003e  File \u0026#34;/usr/lib/python2.7/site-packages/urllib3/__init__.py\u0026#34;, line 7, in \u0026lt;module\u0026gt;\u003cbr/\u003e    from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool, connection_from_url\u003cbr/\u003e  File \u0026#34;/usr/lib/python2.7/site-packages/urllib3/connectionpool.py\u0026#34;, line 46, in \u0026lt;module\u0026gt;\u003cbr/\u003e    from .util.url import (\u003cbr/\u003eImportError: cannot import name _normalize_host\u003cbr/\u003e\u003c/pre\u003e\u003cbr/\u003eна другом боксе (ubuntu 18.04) , после свежей установки падает на An HTTP Client raised an unhandled exception: __init__() got an unexpected keyword argument \u0026#39;ssl_context\u0026#39;"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66550",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705495,
+      "text": "про то как ansible ломается на ровном месте я даже и начинать не хочу. А про docker-compose который просто игра в рулетку совсем слезы"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66551",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alaija",
+      "author_name": "Alan Kochev",
+      "datetime": 1595705536,
+      "text": "Ты еще свифт не трогал :)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66552",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alaija",
+      "author_name": "Alan Kochev",
+      "datetime": 1595705583,
+      "text": "Берешь бинарь а он не работает из-за того что в системе не та версия либы с которой ее собрали."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66553",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705593,
+      "text": "зачем мне его трогать, на нем ничего не пишут из того,  что мне надо. Я и питон не трогаю, он сам"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66554",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705629,
+      "text": "а как ты его туда ставил?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66555",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705656,
+      "text": "на aws linux он стоит по умолчанию"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66556",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705669,
+      "text": "и yum update его обновляет"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66557",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705671,
+      "text": "а, и ничего что ты пользуешься питоном выпуска более 10 летней давности? :)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66558",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "supmea",
+      "author_name": "Aleksey Agafonov",
+      "datetime": 1595705674,
+      "text": "А в каких случаях композ ломается, простите?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66559",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705681,
+      "text": "на ubuntu - pip"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6655a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705701,
+      "text": "а. варвар!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6655b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705705,
+      "text": "я не пользуюсъ, он часть того, что ос принесла"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6655c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705757,
+      "text": "хех. прекрасный новый мир, в котором Сам Умпутун ставит все через pip install"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6655d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "supmea",
+      "author_name": "Aleksey Agafonov",
+      "datetime": 1595705758,
+      "text": "И если вместо compose swarm пользовать?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6655e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705761,
+      "text": "дык … это попытак обвинить жертву. Я ставлю так, как говорит мне дистрибутив"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6655f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595705774,
+      "text": "2.7.18 вышел 20 апреля этого года"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66560",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705792,
+      "text": "2.7.0 вышел больше 10 лет назад"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66561",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705841,
+      "text": "да кому какое дело. Есть aws-linux, ставшь его, обновляешь и все работает за исключением питоновых"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66562",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705896,
+      "text": "на нем после обновлений при помощи yum ломается то compose то httpie то awscli"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66563",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595705902,
+      "text": "Но в трейсе не указана патч-версия. Совсем не факт, что это 2.7.0"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66564",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705904,
+      "text": "слушай, ну давай на чистоту. ты ж согласен что проблема не в линуксе а безруких уродах из amazon?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66565",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705916,
+      "text": "ветке 10+ лет"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66566",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595705939,
+      "text": "И что? В 2.7 многое из 3.x бекпортировано"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66567",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595705960,
+      "text": "и уродов в ubuntu и в докере. либо везде уроды, либо что-то не так в консерватории"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66568",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595705963,
+      "text": "C99 вон больше 20 лет"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66569",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595705966,
+      "text": "а. дак ты просто старовер ) по работе заставляют или сам выбрал путь страданий?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6656a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595706032,
+      "text": "Я был одним из первых бунтарей с 3.x в одной известной компании, старовером меня уж точно назвать нельзя."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6656b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706055,
+      "text": "а кстати, что не так с pip установкой? она теперь должно ломать все?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6656c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706076,
+      "text": "жень, в убунте на питоне пол дистрибутива. и все работает. поломки начинаются когда ты начинаешь смешивать дистрибутивные пакеты и установку через сторонние тулзы"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6656d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706080,
+      "text": "если что, pip это рекомендованный способ установки aws-cli"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6656e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706091,
+      "text": "установка через pip работает, пока ты не обновишь версию питона"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6656f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706121,
+      "text": "ну, см выше - красавцы из амазона"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66570",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595706124,
+      "text": "python -m pip"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66571",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595706146,
+      "text": "Реже ломается"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66572",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706159,
+      "text": "ну вот композ именно на ubuntu любит ломаться после обычных apt"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66573",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706172,
+      "text": "да вроде нет никакой связи, это ж то же самое что и просто pip давным давно"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66574",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595706219,
+      "text": "pip может приехать из дистрибутива, а потом версию питона кто-нибудь обновит вручную. Из, прости Линус, make install"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66575",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706223,
+      "text": "если ты его ставишь из пакета от самой убунты - не верю, не ломается он там. ты поди ставишь себе отдельно пакеты собранные другими людьми?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66576",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706257,
+      "text": "очень может быть. Но наводит на мысль, что такая хрупкая система, где надо правильно приседать для того, что не сломать мир, категорически противопоказана для системных утилит."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66577",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "senpos",
+      "author_name": "Evgeny Kovalchuk",
+      "datetime": 1595706262,
+      "text": "Может ты имел в виду \u003ccode\u003epip install XXX --user\u003c/code\u003e?\u003cbr/\u003eИ потом пользоваться этим как \u003ccode\u003epython -m XXX\u003c/code\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66578",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595706285,
+      "text": "Можно и user, по ситуации"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66579",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595706296,
+      "text": "надо или ставить из дистрибутива, или в venv"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6657a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "salsalover",
+      "author_name": "λibΞraλ Ʌrts",
+      "datetime": 1595706301,
+      "text": "Друзья дайте фото кометы плз, если кто-то наблюдал ее :)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6657b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595706304,
+      "text": "все остальное - игра в рулетку"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6657c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706314,
+      "text": "возможно. поэтому давным давно есть другие способы распространения программ на питоне. например как ты любишь - одним бинарником"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6657d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595706325,
+      "text": "pip без —user запускать вообще бред в реальной жизни"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6657e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "PSPopov",
+      "author_name": "Paul Popov",
+      "datetime": 1595706395,
+      "text": "Собственно вообще довольно странная идея ставить через pip пакеты глобально. Особенно сторонние по отношению к основной библиотеке питона.."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6657f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595706397,
+      "text": "\u003ca href=\"https://t.me/thealphacentauri/908229\"\u003ehttps://t.me/thealphacentauri/908229\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66580",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595706434,
+      "text": "Видеотрансляция будет сегодня?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66581",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "salsalover",
+      "author_name": "λibΞraλ Ʌrts",
+      "datetime": 1595706437,
+      "text": "ну почти :) я бы хотел уникальный контент а не то что уже можно найти в интернете =))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66582",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706445,
+      "text": "да, после того как я примерно так поставил compose стало хорошо. Но меня не это трогает а то, что в дистрибутиве, который вполне нормален, авторы не могу справиться с питоновыми зависимостями. Со всеми остальными зависимостями я никогда не наблюдал никаких проблем."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66583",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595706460,
+      "text": "У меня все засвечено("
+    },
+    {
+      "id": "65d24dda68d9270a8ec66584",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "senpos",
+      "author_name": "Evgeny Kovalchuk",
+      "datetime": 1595706464,
+      "text": "Еще есть приятная штука под названием \u003ccode\u003ezipapp\u003c/code\u003e. Если в приложении нет C-зависимостей - всё упаковывается в zip-архив, который Питон может запускать. Нигде ничего не размазано.\u003cbr/\u003eОчень удобно шарить всякие CLI с товарищами, которым напряжно рассказывать что такое \u003ccode\u003evirtualenv\u003c/code\u003e."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66585",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706640,
+      "text": "я со всеми вами согласен, что все эти проблемы можно как-то обойти. Но то, что оно требует таких услилий и посконных знаний для установки чего-то, что мне абсолютно пополам на чем оно написано вполне подтверждает мой вывод - питон негодный язык для таких штук"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66586",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706697,
+      "text": "слушай, я тут недавно видел уродов, которые написали такой скрипт на шелле, который запускался с /bin/sh но НЕ запускался с /bin/bash"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66587",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706701,
+      "text": "я, блин, для того чтоб с этим aws-cli не бороться поставил его в контейнере"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66588",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706712,
+      "text": "это не значит что шелл плохой язык. это значит что кони ходят буквой Г"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66589",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "senpos",
+      "author_name": "Evgeny Kovalchuk",
+      "datetime": 1595706730,
+      "text": "Да, с единым бинарником тяжело тягаться. :(\u003cbr/\u003eХорошо что такие вещи обычно упаковывают как-то еще помимо pip."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6658a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706736,
+      "text": "я может один такой видел. А на питоне таких море."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6658b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Talamask",
+      "datetime": 1595706741,
+      "text": "а сегодня выпуск в аудио режиме или в видео?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6658c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "PSPopov",
+      "author_name": "Paul Popov",
+      "datetime": 1595706767,
+      "text": "Может я не прав. Но мне кажется что попытка смешать работу двух разных пакетных менеджеров в одной системе всегда ведёт к проблемам. Вы же не ставите одновременно yum и apt в систему."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6658d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595706782,
+      "text": "как насчет того, что далеко не на каждом дистрибутиве из коробки будет версия Го, совместимая с модулями?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6658e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706785,
+      "text": "сегодня в режиме чата. пока \u003ca class=\"mention\" href=\"https://t.me/bobuk\"\u003e@bobuk\u003c/a\u003e не признает, что питон не подходит, вещание не начнем 😉"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6658f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Talamask",
+      "datetime": 1595706799,
+      "text": "👌"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66590",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yvikentiev",
+      "author_name": "Yuri Vikentiev",
+      "datetime": 1595706803,
+      "text": ":)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66591",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706804,
+      "text": "эээ … а это зачем и к чему?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66592",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Pavelvk",
+      "author_name": "Pavel Kovalenko",
+      "datetime": 1595706819,
+      "text": "выпуска не будет. расходимся :)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66593",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706822,
+      "text": "ну слава богу, расходимся!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66594",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706836,
+      "text": "какие модули вааще? как они связаны с запуском?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66595",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "senpos",
+      "author_name": "Evgeny Kovalchuk",
+      "datetime": 1595706846,
+      "text": "Бобук, не сдавайся! 💪"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66596",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595706853,
+      "text": "Если полюзуешься коробочным решением то всегда что-то может пойти не так. Даже бинарь не всегда решает вопрос."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66597",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yvikentiev",
+      "author_name": "Yuri Vikentiev",
+      "datetime": 1595706854,
+      "text": "что зря проснулся?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66598",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595706899,
+      "text": "в целом питон конечно печален, с их безумным версионированием"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66599",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706908,
+      "text": "похоже ты не понимаешь, что для запуска скомпилированой программы не то что версии совместимой с модулями не надо, никакой вообще не надо."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6659a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706923,
+      "text": "а?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6659b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595706925,
+      "text": "Я делаю \u003ccode\u003eapt go install\u003c/code\u003e, а потом не могу собрать какой-то проект, потому что старая версия го. Из этого не следует что го не подходящий язык."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6659c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706945,
+      "text": "ну началось. ты помнишь что компиляция бывает не только статическая?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6659d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595706946,
+      "text": "2.7 3.0 3.1 3.2. 3.3 3.4 3.5 3.6 3.7 3.8 39"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6659e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "PSPopov",
+      "author_name": "Paul Popov",
+      "datetime": 1595706949,
+      "text": "А библиотеки?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6659f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595706967,
+      "text": "Ну так тогда нужно пользоваться собраными версиями питоновских приложений."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595706973,
+      "text": "и это как связано с версией go и/или модулями?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595706987,
+      "text": "нет. две раздельных ветки. как у апача. как у линукса. как у большинства великих айти проектов. вот у тебя одна версия - и ты не велик. горе"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595706996,
+      "text": "их не две"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707001,
+      "text": "к сожалению"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707023,
+      "text": "жень, ты просто щас в \u0026#34;негодные языки\u0026#34; записал еще и джаву. и C потому что его можно собрать не статически"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a5",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707028,
+      "text": "о, да, а сколько?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a6",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707034,
+      "text": "\u003cpre\u003e\u0026gt; python3.6 -c \u0026#39;def pizda(async=True): pass\u0026#39;\u003cbr/\u003e\u0026gt; python3.7 -c \u0026#39;def pizda(async=True): pass\u0026#39; \u003cbr/\u003e  File \u0026#34;\u0026lt;string\u0026gt;\u0026#34;, line 1\u003cbr/\u003e    def pizda(async=True): pass\u003cbr/\u003e                  ^\u003cbr/\u003eSyntaxError: invalid syntax\u003c/pre\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a7",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595707037,
+      "text": "какими, блин, “собранными”? кем собранными? Я чем , по твоему пользуюсъ?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a8",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707039,
+      "text": "сколько?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665a9",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707053,
+      "text": "бггг )))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665aa",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707061,
+      "text": "две чувак. ДВЕ."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ab",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707066,
+      "text": "ну... ок ))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ac",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707070,
+      "text": "одна даже"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ad",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707075,
+      "text": "версия - питон ))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ae",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "agarkov_max",
+      "author_name": "Maxim A",
+      "datetime": 1595707083,
+      "text": "унц-унц"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665af",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595707083,
+      "text": "\u003ccode\u003epip install ansible\u003c/code\u003e vs \u003ccode\u003eapt install ansible\u003c/code\u003e, как то так."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595707099,
+      "text": "смотри выше, ага?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707101,
+      "text": "по твоей логике, если ты прочитал новую книжку и узнал новые слова - ты теперь новая версия себя ))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707127,
+      "text": "ну, если тебе надо переписывать пол проекта при релизе новой не-версии"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707128,
+      "text": "пхахахахаха"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707130,
+      "text": "извините"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b5",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707131,
+      "text": "вовремя"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b6",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707150,
+      "text": "хром упал, давно его не перезапускал, теперь придется обновлять хром ))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b7",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "alxchk",
+      "author_name": "alxchk",
+      "datetime": 1595707154,
+      "text": "только допортировался на 3.6, как извините, продолжайте переписывать на 3.7"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b8",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595707155,
+      "text": "@alxchk \u003cem\u003eтебя слишком много, отдохни...\u003c/em\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665b9",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595707180,
+      "text": "Сейчас все переругаются и можно подкаст закрывать."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ba",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707181,
+      "text": "поп*зди еще, как бы сказал бот"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665bb",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "umputun",
+      "author_name": "Umputun U",
+      "datetime": 1595707186,
+      "text": "видел что мне выше ваши советуеют, да? Вот это именно тот самы бардак на который я сетую"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665bc",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595707225,
+      "text": "это не наши. это люди которые не понимают о чем говорят. чо, в го тусовке у вас таких нет? весь, я видел )"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665bd",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "agarkov_max",
+      "author_name": "Maxim A",
+      "datetime": 1595707239,
+      "text": "если переругаются из-за питона, то это контент!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665be",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "supmea",
+      "author_name": "Aleksey Agafonov",
+      "datetime": 1595707272,
+      "text": "Ну давайте, я готов. 23:01"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665bf",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "supmea",
+      "author_name": "Aleksey Agafonov",
+      "datetime": 1595707279,
+      "text": ")"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "agarkov_max",
+      "author_name": "Maxim A",
+      "datetime": 1595707282,
+      "text": "слышно хорошо"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "aleserche",
+      "author_name": "Aleserche",
+      "datetime": 1595707285,
+      "text": "раскол подкаста?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595707294,
+      "text": "Мне кажется что \u003ca class=\"mention\" href=\"https://t.me/umputun\"\u003e@umputun\u003c/a\u003e сравнивает бинарь из го с \u003ccode\u003epip install\u003c/code\u003e, мне кажется что это не справедливое сравнение."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "supmea",
+      "author_name": "Aleksey Agafonov",
+      "datetime": 1595707344,
+      "text": "go run"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Talamask",
+      "datetime": 1595707348,
+      "text": "бобука слышно слабовато"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c5",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "aleserche",
+      "author_name": "Aleserche",
+      "datetime": 1595707399,
+      "text": "так-то всех кроме умпутуна плохо слышно"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c6",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595707413,
+      "text": "В этом случаи везде все одинаково."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c7",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "petuhovskiy",
+      "author_name": "Arthur Petukhovsky",
+      "datetime": 1595707515,
+      "text": "умпутун громкий"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c8",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595707548,
+      "text": "да громковато"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665c9",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pronvis",
+      "author_name": "Владимир",
+      "datetime": 1595707556,
+      "text": "Бобук громче остальных по звуку"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ca",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595707573,
+      "text": "оверфлоу на умпутуне?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665cb",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595707575,
+      "text": "+"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665cc",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pronvis",
+      "author_name": "Владимир",
+      "datetime": 1595707622,
+      "text": "о, подкрутилось)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665cd",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "aleserche",
+      "author_name": "Aleserche",
+      "datetime": 1595707625,
+      "text": "идеально"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ce",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yury Green",
+      "datetime": 1595707709,
+      "text": "атомы золота пощелкивают в кабеле Умпутуна вполне отчетливо."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665cf",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595707878,
+      "text": "тоесть кабель даже и не целиком золотой. отстой."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vasili4",
+      "author_name": "vasili4",
+      "datetime": 1595707973,
+      "text": "про программиста хотя бы шутка ?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "auth00r",
+      "author_name": "auth00r",
+      "datetime": 1595707974,
+      "text": "l"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595707976,
+      "text": "Грей расскажи анекдот"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595707992,
+      "text": "Грей не пьет?)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595707994,
+      "text": "Бобук там же гостиницу купил в Киеве"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d5",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595708023,
+      "text": "та это не шутка а боян"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d6",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595708033,
+      "text": "я думал намного лучше будет"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d7",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595708045,
+      "text": "Бобука заказала гостиница для PR"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d8",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "avrong",
+      "author_name": "Aleksei Trifonov",
+      "datetime": 1595708047,
+      "text": "Какая неловкая пауза была после шутки"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665d9",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "qqalexqq",
+      "author_name": "Aleksandr Mikheev",
+      "datetime": 1595708114,
+      "text": "Шутка про tcp приходит до тех пор пока вы не примите в самое сердце"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665da",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595708128,
+      "text": "Ксюша расскажи шутку"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665db",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "chuhlomin",
+      "author_name": "Konstantin Chukhlomin",
+      "datetime": 1595708185,
+      "text": "яблоко на яблоню?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665dc",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595708189,
+      "text": "Я как-то имел опыт обновления Gentoo через 3 года. Emerge написан на python"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665dd",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vasili4",
+      "author_name": "vasili4",
+      "datetime": 1595708207,
+      "text": "надо бы и мне утопить ноут"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665de",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "fix_ut",
+      "author_name": "Sergey",
+      "datetime": 1595708240,
+      "text": "Это был ад ибо нельзя было обновить python - конфликтовал с пакетным менеджером, но и пакетный менеджер тоже обновить было нельзя"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665df",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595708246,
+      "text": "надо пивом заливать"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yury Green",
+      "datetime": 1595708255,
+      "text": "не, говорят \u0026#34;Днепр\u0026#34; купили  НаВи."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595708282,
+      "text": "ьак в тачбаре свой процессор он сразу понял что все кранты"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "aleserche",
+      "author_name": "Aleserche",
+      "datetime": 1595708295,
+      "text": "Это опять сосед полил"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595708297,
+      "text": "⚠️ Вещание подкаста началось - \u003ca href=\"https://stream.radio-t.com/\"\u003ehttps://stream.radio-t.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595708386,
+      "text": "Да, конечно, бобук там просто мимо проезжал."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e5",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "console.log()",
+      "datetime": 1595708429,
+      "text": "представляю себе такой статус на гитхабе «I am the major member»😉"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e6",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vasili4",
+      "author_name": "vasili4",
+      "datetime": 1595708445,
+      "text": "Ксюша а у вас не штрафуют за порчу имущства ?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e7",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595708447,
+      "text": "В каких программах вы часто используюете \u003cstrong\u003eEsc\u003c/strong\u003e ?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e8",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "rapkin",
+      "author_name": "Mikola Parfenyuck",
+      "datetime": 1595708462,
+      "text": "чат ето js консоль?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665e9",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "console.log()",
+      "datetime": 1595708476,
+      "text": "во всех?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ea",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "console.log()",
+      "datetime": 1595708491,
+      "text": "alert(“Da”);"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665eb",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yury Green",
+      "datetime": 1595708548,
+      "text": "и он ни разу не их  не фанат, точно."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ec",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595708851,
+      "text": "глаза - зеркало души. с прямым приводом."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ed",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595709000,
+      "text": "⚠️ Instacart blames reused passwords for account hacks, but customers are still without basic two-factor security – TechCrunch - \u003ca href=\"https://consent.yahoo.com/collectConsent?sessionId=3cc-session919e3b01-c56c-4dd9-863b-1511a12bc7b1\u0026amp;lang=de-DE\u0026amp;inline=false\"\u003ehttps://consent.yahoo.com/collectConsent?sessionId=3cc-session919e3b01-c56c-4dd9-863b-1511a12bc7b1\u0026amp;lang=de-DE\u0026amp;inline=false\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ee",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "grisov",
+      "author_name": "Oleksandr Gryshchenko",
+      "datetime": 1595709218,
+      "text": "Ребят, среди слушателей Вашего подкаста есть несколько незрячих разработчиков.\u003cbr/\u003eТакие люди пользуются скринридерами.\u003cbr/\u003eЖень, посоветуй своему товарищу, если у него так все плохо со зрением.\u003cbr/\u003eОдна из популярных прог - NonVisual Desktop Access (NVDA)."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ef",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "habibullin",
+      "author_name": "Рафик Хабибуллин",
+      "datetime": 1595709535,
+      "text": "Так есть же виртуальные карты. Создаешь с дикими ограничениями виртуалку и уже её сохраняешь в сервисах"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "dat_shitstormer",
+      "author_name": "Андрей Сухарев",
+      "datetime": 1595709578,
+      "text": "не все сервисы принимают виртуальные карты"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595709754,
+      "text": "\u003ca href=\"https://4admin.info/ssh-two-factor-authentication/\"\u003ehttps://4admin.info/ssh-two-factor-authentication/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595709757,
+      "text": "это оно?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Nagibator_1992",
+      "author_name": "Сергей",
+      "datetime": 1595709771,
+      "text": "Че то заикается..."
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595709786,
+      "text": "\u003ca href=\"https://www.authy.com/integrations/ssh/\"\u003ehttps://www.authy.com/integrations/ssh/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f5",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595709821,
+      "text": "спасибо"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f6",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595709850,
+      "text": "но можно проще давно уже"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f7",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595709850,
+      "text": "\u003ca href=\"https://ubuntu.com/tutorials/configure-ssh-2fa#2-installing-and-configuring-required-packages\"\u003ehttps://ubuntu.com/tutorials/configure-ssh-2fa#2-installing-and-configuring-required-packages\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f8",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595709885,
+      "text": "как раз то что я скидывал вроде))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665f9",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595709896,
+      "text": "хотя выглядит короче"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665fa",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "TuLiss",
+      "author_name": "Vladimir Zhurkin",
+      "datetime": 1595709904,
+      "image_url": "https://chat.radio-t.com/logs/712/AgACAgEAAx0CUPxcWQABARJXXxyZ0FNhl1zuHpk6k5menerD-XEAAqOoMRtePelE1MtiYbJQ-Tuxu24GAAQBAAMCAAN5AANuAwQAARoE",
+      "image_width": 869,
+      "image_height": 1073,
+      "text": ""
+    },
+    {
+      "id": "65d24dda68d9270a8ec665fb",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595709906,
+      "text": "та какой дигипас тут все на коболе"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665fc",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "TuLiss",
+      "author_name": "Vladimir Zhurkin",
+      "datetime": 1595709939,
+      "text": "было бы неплохо от яндекса"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665fd",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595709969,
+      "text": "⚠️ Garmin services and production go down after ransomware attack | ZDNet - \u003ca href=\"https://www.zdnet.com/article/garmin-services-and-production-go-down-after-ransomware-attack/\"\u003ehttps://www.zdnet.com/article/garmin-services-and-production-go-down-after-ransomware-attack/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665fe",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595709984,
+      "image_url": "https://chat.radio-t.com/logs/712/AgACAgIAAx0CUPxcWQABARJbXxyaIDG9VKdSBHdjbp2lTOdBO-EAApiuMRue8uhIzZ8SPng7NPEOG7mSLgADAQADAgADeQADxtYEAAEaBA",
+      "image_width": 1280,
+      "image_height": 466,
+      "text": "вообще видел еще интересную тему"
+    },
+    {
+      "id": "65d24dda68d9270a8ec665ff",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "TuLiss",
+      "author_name": "Vladimir Zhurkin",
+      "datetime": 1595710067,
+      "text": "порт кнокинг 100 лет как в обед"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66600",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "TuLiss",
+      "author_name": "Vladimir Zhurkin",
+      "datetime": 1595710073,
+      "text": "+ honeyspot =)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66601",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "TuLiss",
+      "author_name": "Vladimir Zhurkin",
+      "datetime": 1595710100,
+      "text": "ну и да поднимаем vpn и там один ssh сервер - дальше по всем другим серверам через него"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66602",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595710150,
+      "text": "на youtube есть трансляция?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66603",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "foxyolegus",
+      "author_name": "Oleg Barzasekov",
+      "datetime": 1595710184,
+      "text": "и потом дрон улетает на родину в китай"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66604",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "agarkov_max",
+      "author_name": "Maxim A",
+      "datetime": 1595710427,
+      "text": "их ciso уже 3е сутки не спит"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66605",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "foxyolegus",
+      "author_name": "Oleg Barzasekov",
+      "datetime": 1595710476,
+      "text": "если профукали когда заразились, то и бакапы заражены"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66606",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "foxyolegus",
+      "author_name": "Oleg Barzasekov",
+      "datetime": 1595710510,
+      "text": "они просто ищут не зараженные"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66607",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "agarkov_max",
+      "author_name": "Maxim A",
+      "datetime": 1595710548,
+      "text": "ну там никакой edr не стоит"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66608",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "agarkov_max",
+      "author_name": "Maxim A",
+      "datetime": 1595710557,
+      "text": "хотя это странно для гармин"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66609",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595710666,
+      "text": "В твиттер тоже все работало"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6660a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595710838,
+      "text": "⚠️ Write code that is easy to delete, not easy to extend. - \u003ca href=\"https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to\"\u003ehttps://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6660b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "chuhlomin",
+      "author_name": "Konstantin Chukhlomin",
+      "datetime": 1595711049,
+      "text": "Loki неплох, можно ностроить как дефолтный драйвер логов для докера"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6660c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "akr0bat",
+      "author_name": "Sergey Latsarus",
+      "datetime": 1595711068,
+      "text": "\u003ca href=\"https://vas3k.ru/blog/nocode/\"\u003ehttps://vas3k.ru/blog/nocode/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6660d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595711393,
+      "text": "Лямбды для этого есть"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6660e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595711412,
+      "text": "Лямбды скорее"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6660f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595711456,
+      "text": "Нет. Не дженерик"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66610",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595711483,
+      "text": "Структура передаёт данные, а чаще надо проведение"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66611",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595711509,
+      "text": "А где список тем?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66612",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "rustam_me",
+      "author_name": "··• Rustam 🥕",
+      "datetime": 1595711572,
+      "text": "Шаблонного кода"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66613",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aloraman",
+      "datetime": 1595711578,
+      "text": "шаблонного кода"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66614",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eduardnikolenko",
+      "author_name": "Eduard Nikolenko",
+      "datetime": 1595711584,
+      "text": "Болванок"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66615",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595711586,
+      "text": "\u003ca class=\"mention\" href=\"https://t.me/bobuk\"\u003e@bobuk\u003c/a\u003e заготовка ? ))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66616",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Ni_Go",
+      "author_name": "Ни. Го.",
+      "datetime": 1595711586,
+      "text": "лапшп"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66617",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Ni_Go",
+      "author_name": "Ни. Го.",
+      "datetime": 1595711597,
+      "text": "макароны"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66618",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "dat_shitstormer",
+      "author_name": "Андрей Сухарев",
+      "datetime": 1595711598,
+      "text": "однотипного"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66619",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Ni_Go",
+      "author_name": "Ни. Го.",
+      "datetime": 1595711604,
+      "text": "лапша-код"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6661a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "chuhlomin",
+      "author_name": "Konstantin Chukhlomin",
+      "datetime": 1595711606,
+      "text": "\u003ca href=\"http://news.radio-t.com\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6661b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595711618,
+      "text": "Награждение"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6661c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595711638,
+      "text": "Награмождение"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6661d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595711642,
+      "text": "котельная плита"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6661e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "andreysobol",
+      "author_name": "Andrey Sobol",
+      "datetime": 1595711643,
+      "text": "Шпаргалка"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6661f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "begoodie",
+      "author_name": "Andrii S",
+      "datetime": 1595711674,
+      "text": "рыба"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66620",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "ipetrov137",
+      "author_name": "Igor",
+      "datetime": 1595711674,
+      "text": "Прелюдия as a code"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66621",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aloraman",
+      "datetime": 1595711678,
+      "text": "бойлерплейт все ж зовут частенько шаблонным кодом, не шаблоном, а именно шаблонным"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66622",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "AgileGonzalez",
+      "author_name": "Timur Nasredinov",
+      "datetime": 1595711685,
+      "text": "рыба же"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66623",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595711722,
+      "text": "рыбный отдел"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66624",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595711731,
+      "text": "Полуфабрикат"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66625",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595711748,
+      "text": "Чушка )"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66626",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "co4uhutejib",
+      "author_name": "Тимофей",
+      "datetime": 1595711887,
+      "text": "Только ситхи возводят в карго культ"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66627",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595711963,
+      "text": "sonar"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66628",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Artawower",
+      "author_name": "Artur Yaroshenko",
+      "datetime": 1595711990,
+      "text": "по хорошему мерить функции по количество строчек - утопия, а вот по количеству ответственностей вроде неплохой подход"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66629",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595712055,
+      "text": "\u003ca href=\"https://www.sonarsource.com/docs/CognitiveComplexity.pdf\"\u003ehttps://www.sonarsource.com/docs/CognitiveComplexity.pdf\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6662a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595712269,
+      "text": "⚠️ Intel\u0026#39;s 7nm is Broken, Company Announces Delay - \u003ca href=\"https://www.tomshardware.com/news/intel-announces-delay-to-7nm-processors-now-one-year-behind-expectations\"\u003ehttps://www.tomshardware.com/news/intel-announces-delay-to-7nm-processors-now-one-year-behind-expectations\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6662b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595712402,
+      "text": "А почему Интел у контракторов то не заказывает?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6662c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Radbek",
+      "datetime": 1595712466,
+      "text": "Потому что они архитектуру разрабатывают с учетом своих библиотек(возможностей заводов). У контракторов другие библиотеки"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6662d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eugene_babichenko",
+      "author_name": "Eugene Babichenko",
+      "datetime": 1595712471,
+      "text": "А вот теперь интересно, я загуглил и узнал, что AMD у нас fabless. Я был уверен, что они сами чипы производят"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6662e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Radbek",
+      "datetime": 1595712479,
+      "text": "И как бы хуже не получилось чем у интел"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6662f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595712507,
+      "text": "Бля.. Вам делать больше нечего?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66630",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595712520,
+      "text": "Так они сами сначала стало контракторами. А потом еще и сами сталои на стороне закзывать."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66631",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595712568,
+      "text": "И АМД все норм"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66632",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595712593,
+      "text": "Я думаю весь мир ждёт когда idea перейдёт на arm"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66633",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595712699,
+      "text": "Я знаю что учёные решили проблему пингвиньих стреляющих какашек"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66634",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595712737,
+      "text": "надо просто взять нормальное спагетти"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66635",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "salsalover",
+      "author_name": "λibΞraλ Ʌrts",
+      "datetime": 1595712784,
+      "text": "я читал что если хочешь взорвать арочный мост то бомбу закладывать нужно не посередине а на одной трети, чем то похоже на проблему спагетти"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66636",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595712824,
+      "text": "теперь надо это дело продать итальянцам"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66637",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pronvis",
+      "author_name": "Владимир",
+      "datetime": 1595712829,
+      "text": "\u003ca class=\"mention\" href=\"https://t.me/bobuk\"\u003e@bobuk\u003c/a\u003e а ссылку на видео по ломке макарон не дашь?)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66638",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eugene_babichenko",
+      "author_name": "Eugene Babichenko",
+      "datetime": 1595712850,
+      "text": "итальянцы тебя за ломку спагетти распнут"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66639",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595712854,
+      "text": "Оказалось, что при медленном сближении (порядка 5 миллиметров в секунду) происходит разлом в единственном месте"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6663a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595712865,
+      "text": "Результаты этой работы, по словам специалистов, могут быть полезны за пределами кулинарной сферы. Учёные могут лучше понять, как образуются трещины, разработать способы контроля переломов других стержнеподобных материалов, таких как многоволоконные структуры, инженерные нанотрубки или даже микротрубочки в клетках."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6663b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595712908,
+      "text": "\u003ca href=\"https://nplus1.ru/news/2018/08/14/fractures-in-spaghetti\"\u003ehttps://nplus1.ru/news/2018/08/14/fractures-in-spaghetti\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6663c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pechkin1007",
+      "author_name": "Al P",
+      "datetime": 1595712913,
+      "text": "\u003ca href=\"https://ig-nobel.ru/a2006fiz.php\"\u003ehttps://ig-nobel.ru/a2006fiz.php\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6663d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgeniy groov",
+      "datetime": 1595712935,
+      "text": "Где все это время были люди из сопромата?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6663e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595712940,
+      "text": "Очень хитрый"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6663f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595712946,
+      "text": "\u003ca href=\"https://www.sciencealert.com/spaghetti-breaks-in-two-pieces-when-torsion-is-applied-richard-feynman\"\u003ehttps://www.sciencealert.com/spaghetti-breaks-in-two-pieces-when-torsion-is-applied-richard-feynman\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66640",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595712946,
+      "text": "\u003ca href=\"https://nplus1.ru/news/2020/07/11/penguin-faeces-trajectory\"\u003ehttps://nplus1.ru/news/2020/07/11/penguin-faeces-trajectory\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66641",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "balumba420",
+      "author_name": "Tony Racomore",
+      "datetime": 1595712956,
+      "text": "\u003ca href=\"https://www.youtube.com/watch?v=ADD7QlQoFFI\"\u003ehttps://www.youtube.com/watch?v=ADD7QlQoFFI\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66642",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "balumba420",
+      "author_name": "Tony Racomore",
+      "datetime": 1595713001,
+      "text": "вот видос самый годный, со слоу-мо"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66643",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595713016,
+      "text": "Это полезнее \u003ca href=\"https://nplus1.ru/news/2020/07/11/penguin-faeces-trajectory\"\u003ehttps://nplus1.ru/news/2020/07/11/penguin-faeces-trajectory\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66644",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595713032,
+      "text": "⚠️ Five of the Most Damaging Attitudes in Software Development - \u003ca href=\"https://medium.com/swlh/five-damaging-attitudes-in-software-development-71552d1d6e50\"\u003ehttps://medium.com/swlh/five-damaging-attitudes-in-software-development-71552d1d6e50\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66645",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "salsalover",
+      "author_name": "λibΞraλ Ʌrts",
+      "datetime": 1595713158,
+      "text": "а как ей дать скручивающий момент, на ум приходит только подмочить концы чтобы сделать из них ручки, потом высушить чтобы они затвердели и уже за ручки скручивать"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66646",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgeniy groov",
+      "datetime": 1595713172,
+      "text": "Что то я 3 пункт не понял."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66647",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgeniy groov",
+      "datetime": 1595713228,
+      "text": "Что значит, не учить новые ЯП?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66648",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eugene_babichenko",
+      "author_name": "Eugene Babichenko",
+      "datetime": 1595713449,
+      "text": "Я надеюсь, что за спиной пингвина во время исследования был вентилятор"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66649",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aloraman",
+      "datetime": 1595713553,
+      "text": "всяко бывает... вместо текстового описания есть видео - а там чувак десять минут в блокноте набивает текст"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6664a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595713739,
+      "text": "7-8"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6664b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595713765,
+      "text": "perl \u0026amp; bash"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6664c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595713772,
+      "text": "+ PHP"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6664d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "co4uhutejib",
+      "author_name": "Тимофей",
+      "datetime": 1595713776,
+      "text": "Пхп и пхп"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6664e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595713782,
+      "text": "PHP"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6664f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "tigrrrus",
+      "author_name": "Nikolai Fominykh",
+      "datetime": 1595713824,
+      "text": "Сатанисту имеет смысл на Julia посмотреть"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66650",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595713830,
+      "text": "Изучение языков это изучение культур. Очень хорошее занятие."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66651",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "bltk10",
+      "author_name": "Vlad IL",
+      "datetime": 1595713860,
+      "text": "Matlab"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66652",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595713876,
+      "text": "Надо учить C#"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66653",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "pronvis",
+      "author_name": "Владимир",
+      "datetime": 1595713898,
+      "text": "кому?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66654",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595713909,
+      "text": "Всем"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66655",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "tigrrrus",
+      "author_name": "Nikolai Fominykh",
+      "datetime": 1595713915,
+      "text": "C++ для общего развития хорошо?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66656",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgeniy groov",
+      "datetime": 1595713921,
+      "text": "Достаточно выучить с++"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66657",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595713926,
+      "text": "С++ гореть в аду"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66658",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595713943,
+      "text": "Есть что-то лучше чем С#?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66659",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595713944,
+      "text": "Вот Чистый Код каждому не плохо бы прочитать, для этого нужно джаву понимать."
+    },
+    {
+      "id": "65d24dda68d9270a8ec6665a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595713984,
+      "text": "C# оптимальный на данный момент"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6665b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595713988,
+      "text": "Js?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6665c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595714009,
+      "text": "Очень смешно"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6665d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714022,
+      "text": "когда ты бэкенд а к тебе приходят про верстку"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6665e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "co4uhutejib",
+      "author_name": "Тимофей",
+      "datetime": 1595714024,
+      "text": "Зависит от задачи"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6665f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595714032,
+      "text": "А что значит \u0026#34;лучше\u0026#34;?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66660",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595714039,
+      "text": "не js, а TypeScript тогда уж"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66661",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595714077,
+      "text": "Всех с почином \u003ca href=\"https://www.youtube.com/watch?v=sqoZfiygGg0\"\u003ehttps://www.youtube.com/watch?v=sqoZfiygGg0\u003c/a\u003e   Кстати пишут на C# :)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66662",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "co4uhutejib",
+      "author_name": "Тимофей",
+      "datetime": 1595714108,
+      "text": "А вот почему так долго делают :}"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66663",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595714109,
+      "text": "Я имею ввиду не для задачи, а как язык. Задачу можно для каждого ЯП найти"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66664",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eugene_babichenko",
+      "author_name": "Eugene Babichenko",
+      "datetime": 1595714136,
+      "text": "Ну вообще-то ищут ЯП под задачу"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66665",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714153,
+      "text": "если ослеп - дайте ему клавиатуру брайля и пусть фиксит бл"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66666",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595714164,
+      "text": "Не понятен по каким критериям ты хочешь оценить 👅"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66667",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714205,
+      "text": "не можем позвонить потому что он еще и оглох"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66668",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "co4uhutejib",
+      "author_name": "Тимофей",
+      "datetime": 1595714207,
+      "text": "Языки не нужны без задачи"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66669",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595714240,
+      "text": "Так и есть. Если задача под андроид,  С# ничего не сделаешь. Я же не говорю про пользу"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6666a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595714283,
+      "text": "Не нужны, согласен. Но удовольствие более всего на каком ЯП можно получить?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6666b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgeniy groov",
+      "datetime": 1595714283,
+      "text": "Петпроджек уже сам себе придумать не можешь?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6666c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595714288,
+      "text": "под андроид пойдет unity (на C#). Сейчас везде C# можно"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6666d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595714299,
+      "text": "Я могу пофиксить чужую функциональность без проблем, но это будет гораздо дольше"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6666e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595714299,
+      "text": "Давай к реальному миру. Какой язык лучше чем испанский?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6666f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "KhunRoman",
+      "author_name": "Roman",
+      "datetime": 1595714329,
+      "text": "Это уже демагогия"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66670",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714332,
+      "text": "китайский"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66671",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595714352,
+      "text": "т.е. баги существуют?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66672",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eugene_babichenko",
+      "author_name": "Eugene Babichenko",
+      "datetime": 1595714424,
+      "text": "Китайский охватывает меньшую территорию, раз уж на то пошло)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66673",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595714425,
+      "text": "Грей, фиксить лучше будет тот кто в контексте. А не то что грузчик кодит, а кодер грузит"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66674",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "slmnkm",
+      "author_name": "Михаил",
+      "datetime": 1595714450,
+      "text": "Демагогия это \u0026#34;какой язык лучше\u0026#34;. Или какая порода собак. Или какая марка автомобиля."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66675",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714467,
+      "text": "должен быть ПМ же который разруливает. напрямую приходить к девелоперу всегда плохая идея."
+    },
+    {
+      "id": "65d24dda68d9270a8ec66676",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "eugene_babichenko",
+      "author_name": "Eugene Babichenko",
+      "datetime": 1595714504,
+      "text": "И не нужно списывать со счетов французский! Хотя, вряд ли вам так уж нужна Африка)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66677",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "bot",
+      "author_nickname": "radiot_superbot",
+      "author_name": "radio-t bot",
+      "datetime": 1595714552,
+      "text": "⚠️ Темы слушателей 712 - \u003ca href=\"https://radio-t.com/p/2020/07/21/prep-712/\"\u003ehttps://radio-t.com/p/2020/07/21/prep-712/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66678",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "devdz",
+      "author_name": "Denis Erygin",
+      "datetime": 1595714630,
+      "text": "тема про Garmin топчик! Очень весело"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66679",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714654,
+      "text": "Enterprise Clojure!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6667a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595714692,
+      "text": "Тонский когда-то писал про Датомик"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6667b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595715042,
+      "text": "тонский когда-то создал датаскрипт"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6667c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595715565,
+      "text": "а это, как мы знаем, как раз тот кусок фейсбука, который Ксюша и пишет"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6667d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "salsalover",
+      "author_name": "λibΞraλ Ʌrts",
+      "datetime": 1595715707,
+      "text": "блин пуши же плантые на андроеде, кто заплатил за него-то?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6667e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595715731,
+      "text": "Сорос!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6667f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595715791,
+      "text": "Безвозмездно"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66680",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595715818,
+      "text": "Можешь"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66681",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "uPagge",
+      "author_name": "Марк Стручков",
+      "datetime": 1595715830,
+      "text": "ну как-то телеграму не мешает отправлять больше 100 в день"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66682",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595715830,
+      "text": "Apple банит даже в DEV-моде"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66683",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595715850,
+      "text": "если в течение короткого периода много отправлять"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66684",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595715869,
+      "text": "Это сколько примерно?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66685",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595715886,
+      "text": "только в дев и банит"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66686",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595715913,
+      "text": "ну вот я на той неделе добавлял пуши в аппку, минут через 5 у меня начали с задержкой пуши приходить"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66687",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595715923,
+      "text": "через 20 задержка стала очень большой"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66688",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595715937,
+      "text": "потом ваще перестали ходить"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66689",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vad",
+      "datetime": 1595715954,
+      "text": "Это сандбокс  у них глючный"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6668a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595715971,
+      "text": "а мне кажется, что так настроено"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6668b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595716086,
+      "text": "такой странный вопрос породил такую долгую дискуссию 😄"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6668c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aloraman",
+      "datetime": 1595716182,
+      "text": "Это не только блог то, они это в New York Times выпустили"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6668d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595716229,
+      "text": "идемпотентные"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6668e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "isnifer",
+      "author_name": "Anton Kuznetsov",
+      "datetime": 1595716337,
+      "text": "Нужна организация, а не отдавать аккаунт)"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6668f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "yestema",
+      "author_name": "Tema",
+      "datetime": 1595716503,
+      "text": "Послешоу!!!"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66690",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595716540,
+      "text": "\u003ca href=\"https://play.aidungeon.io/\"\u003ehttps://play.aidungeon.io/\u003c/a\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66691",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595716563,
+      "text": "mud?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66692",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "chuhlomin",
+      "author_name": "Konstantin Chukhlomin",
+      "datetime": 1595716581,
+      "text": "это офигенная штука ↑ можно создавать свои миры с любыми событиями"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66693",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595716612,
+      "text": "А цель у игры есть?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66694",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "chuhlomin",
+      "author_name": "Konstantin Chukhlomin",
+      "datetime": 1595716625,
+      "text": "да, она выдает квесты"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66695",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595716635,
+      "text": "главное не покупайте мечь"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66696",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595716734,
+      "text": "следующий шаг - написать AI, который будет ломать этот AI"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66697",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595716740,
+      "text": "А откуда она взяла начальные данные для генерации? Книги? Другие игры?"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66698",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "talalife",
+      "author_name": "Piotr Talalay",
+      "datetime": 1595716744,
+      "text": "Это был Denis Sexy IT"
+    },
+    {
+      "id": "65d24dda68d9270a8ec66699",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "chuhlomin",
+      "author_name": "Konstantin Chukhlomin",
+      "datetime": 1595716778,
+      "text": "\u003ca href=\"https://telegra.ph/file/1609f7684e08d4b82c27d.jpg\"\u003e​\u003c/a\u003eВ ИТ-сообществе только и разговоров, что о GPT-3, я уверен мы еще увидим сотни взрывающих мозг примеров где она генерирует правдоподобный текст / код / нотный стан и тп.\u003cbr/\u003e\u003cbr/\u003eСам доступ к GPT-3 получить сложно, нужно заполнить заявку у OpenAI и довольно детально описать, зачем вам она нужна. \u003cbr/\u003e\u003cbr/\u003eСоздатели текстовой игры AI Dungeon этот доступ получили и судя по всему перевели ее полностью на GPT-3, я вчера потратил часа 4 в нее играя и вот мои мысли про нее:\u003cbr/\u003e\u003cbr/\u003e🔹 В игре 5 основных миров: фэнтази (тут самая умная модель), мистика, апокалипсис, зомби, киберпанк. Можно сделать свой мир, но я не тестировал.\u003cbr/\u003e\u003cbr/\u003e🔹 В игре нет ограничений. Ну вот буквально, нет. Вы можете встретить человека мире зомби-апокалипсиса который сидит и ест шоколадку, дальше вы окликаете его, он роняет эту шоколадку, вы можете сдуть с нее пыль, и передать ее обратно ему, человек вас поблагодарит. Дальше еще будут примеры про этот пункт.\u003cbr/\u003e\u003cbr/\u003e🔹 Алгоритмы очень классно держат контекст, то есть находясь в локации, ваш персонаж может вспомнить как 5 лет назад проходил по этому мосту. Если вы попросите персонажа вспомнить что было именно 5 лет назад, он начнет описывать мир до зомби-апокалипсиса. \u003cbr/\u003e\u003cbr/\u003e🔹 Я 100% рекомендую эту игру всем кто хотел бы повысить количество практики английского языка в жизни: все команды вы вводите в виде обычного текста, предложениями, вы можете что-то сказать, сделать или добавить контекста к повествованию.  \u003cbr/\u003e\u003cbr/\u003e🔹Игра делает хитрую вещь, основной контекст игрок держит сам создавая и описывая мир вокруг себя – но GPT-3 обучена на гигантском размере английской литературы, поэтому там буквально есть все и я пока не понимаю как они будут это контролировать. Я вчера, будучи в мире зомби-апокалипсиса, «Всмотрелся детальнее в приземляющиеся вертолёт на борту которого находилось 10 женщин в бикини», что закончилось оргией в вертолете – серьезно (я тестировал лимиты, оказалось там есть все виды секса 🌚).  С этого момента игра полностью забыла, что мы в мире зомби апокалипсиса (потеряла контекст) и у меня возникло четкое ощущение, что я вышел из матрицы, так как любое желание или объект можно было материализовать.\u003cbr/\u003e\u003cbr/\u003e🔹 Что навело меня на другую мысль, это же просто мощнейший симулятор всего в мире – вы буквально бог в этой вселенной. И судя по тому, что даже сейчас вы можете подучить это странное ощущение «всевластия» в выдуманном мире, где из-за бага зомби-модели вы выходите за пределы контекста, что же будет когда кто-то просто сделает God like simulation в такой игре.\u003cbr/\u003e\u003cbr/\u003e🔹 Это потенциально отдельное направление для секс-индустрии которое еще не сформировалось в виде такой свободы – с одной из девушек в вертолете я просто флиртовал, довольно реалистично. Потом полетел в какой-то бар и там происходили диалоги просто в стиле Ремарка, я в восторге.\u003cbr/\u003e\u003cbr/\u003e🔹 Я уверяю вас, это пока еще западные журналисты не раскопали что реально возможно сделать в этой игре: судя по тому что я вчера видел – всё. Техно-алярмисты сразу пойдут писать лонгриды про этичность таких вещей.\u003cbr/\u003e\u003cbr/\u003eВ общем, если вы можете писать и читать на английском, я вас призываю попробовать самому эту игру в деле, заодно прокачаете английский:\u003cbr/\u003eiOS | And\u003ca href=\"https://apps.apple.com/pl/app/ai-dungeon/id1491268416\"\u003eroi\u003c/a\u003ed |\u003ca href=\"https://play.google.com/store/apps/details?id=com.aidungeon\u0026amp;hl=en_US\"\u003e Веб-ве\u003c/a\u003eрси\u003ca href=\"https://play.aidungeon.io/\"\u003eя\u003cbr/\u003e\u003cbr/\u003eОсобенн\u003c/a\u003eо рекомендую проверить хорни-сценарии, у меня есть подозрение что отключат однажды 🌚\u003cbr/\u003e\u003cbr/\u003eP.S. На скриншоте секс-эксперимент во имя науки в мире зомби-апокалипсиса 🍒"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6669a",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "salsalover",
+      "author_name": "λibΞraλ Ʌrts",
+      "datetime": 1595716837,
+      "text": "где-то прочитал ерунду и даже не смог найти где, сам удивлен короче"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6669b",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "lennysky",
+      "author_name": "Lenny Skywalker",
+      "datetime": 1595716838,
+      "text": "Бобук прекрасен :)  Дэхи - одна из офигенннйших изобретений человечества)))"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6669c",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "vinsentru",
+      "author_name": "Vins Smith",
+      "datetime": 1595716868,
+      "text": "о там какойто мульиплеер есть"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6669d",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Artawower",
+      "author_name": "Artur Yaroshenko",
+      "datetime": 1595716975,
+      "text": "`You turn the first demon towards your left, and proceed to press your lips against it. A sickly sweet flavor spreads across your tongue, followed by a feeling of extreme nausea.\u003cbr/\u003eThe second demon looks on with curiosity.`"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6669e",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "Artawower",
+      "author_name": "Artur Yaroshenko",
+      "datetime": 1595716999,
+      "text": "чертова наркомания) но блин весело"
+    },
+    {
+      "id": "65d24dda68d9270a8ec6669f",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "q_ink",
+      "author_name": "Quentin",
+      "datetime": 1595717007,
+      "text": "\u003cpre\u003e\u0026gt; You open the book.\u003cbr/\u003eYou open the book to a random page and begin reading.\u003cbr/\u003eYou read that the book of essence contains pages of writing.\u003c/pre\u003e"
+    },
+    {
+      "id": "65d24dda68d9270a8ec666a0",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595717010,
+      "text": "Жаль Sci fi нет"
+    },
+    {
+      "id": "65d24dda68d9270a8ec666a1",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "kukushechkin",
+      "author_name": "Vladimir Kukushkin",
+      "datetime": 1595717027,
+      "text": "\u0026gt; You keep walking.\u003cbr/\u003eYou walk past the soldiers and hide in an alleyway. You could steal their purses, but you\u0026#39;d have to get close and that would be dangerous. If you had a mage with you, it would be easy.\u003cbr/\u003e\u003cbr/\u003e\u0026gt; You call mage.\u003cbr/\u003eYou take out your iphone and call Ian.\u003cbr/\u003e\u0026#34;Hola, carióne.\u0026#34; The voice of Ian greets you."
+    },
+    {
+      "id": "65d24dda68d9270a8ec666a2",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "MercurieVV",
+      "author_name": "Victor Kalinin",
+      "datetime": 1595717083,
+      "text": "эх. Спасибо. Поки."
+    },
+    {
+      "id": "65d24dda68d9270a8ec666a3",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "host",
+      "author_nickname": "bobuk",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1595717098,
+      "text": "там еть custom"
+    },
+    {
+      "id": "65d24dda68d9270a8ec666a4",
+      "issue": 712,
+      "type": "chat",
+      "author_type": "listener",
+      "author_nickname": "grisov",
+      "author_name": "Oleksandr Gryshchenko",
+      "datetime": 1595717106,
+      "text": "Спасибо! Было интересно. Отличной недели!"
+    }
+  ]
 }
