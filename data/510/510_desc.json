@@ -3,59 +3,87 @@
   "date": "2016-08-27",
   "audio": "https://cdn.radio-t.com/rt_podcast510.mp3",
   "cover": "https://radio-t.com/images/radio-t/rt510.jpg",
-  "start_time": 0,
+  "start_time": 1472328000,
   "topics": [
     {
       "id": "000000000000000000000000",
-      "title": "10 лет вместе с",
+      "title": "10 лет вместе с вами!",
       "links": [],
       "time": ""
     },
     {
       "id": "000000000000000000000000",
-      "title": "Linux 25",
+      "title": "Linux 25 лет",
+      "links": [
+        "https://geektimes.ru/post/279756/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Amazon пробует 30ч рабочую неделю",
+      "links": [
+        "https://www.washingtonpost.com/news/the-switch/wp/2016/08/26/amazon-is-piloting-teams-with-a-30-hour-work-week/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Instapaper куплен Pinterest",
+      "links": [
+        "http://blog.instapaper.com/post/149374303661"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Выход gRPC",
+      "links": [
+        "https://cloudplatform.googleblog.com/2016/08/gRPC-a-true-Internet-scale-RPC-framework-is-now-1-and-ready-for-production-deployments.html"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Кошмарная iPhone уязвимость",
+      "links": [
+        "http://www.ubergizmo.com/2016/08/iphone-security-update-trident-pegasus/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Google Cloud в своем репертуаре",
+      "links": [
+        "http://www.businessinsider.com/google-cloud-won-skeptic-after-shutting-site-down-2016-8"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Темы наших слушателей",
       "links": [],
       "time": ""
     },
     {
       "id": "000000000000000000000000",
-      "title": "Amazon пробует 30ч рабочую",
-      "links": [],
+      "title": "DigitalOcean",
+      "links": [
+        "https://www.digitalocean.com"
+      ],
       "time": ""
     },
     {
       "id": "000000000000000000000000",
-      "title": "Instapaper куплен",
-      "links": [],
+      "title": "Droopls",
+      "links": [
+        "http://droopls.com/"
+      ],
       "time": ""
     },
     {
       "id": "000000000000000000000000",
-      "title": "Выход",
-      "links": [],
-      "time": ""
-    },
-    {
-      "id": "000000000000000000000000",
-      "title": "Кошмарная iPhone",
-      "links": [],
-      "time": ""
-    },
-    {
-      "id": "000000000000000000000000",
-      "title": "Google Cloud в своем",
-      "links": [],
-      "time": ""
-    },
-    {
-      "id": "000000000000000000000000",
-      "title": "Темы наших",
-      "links": [],
-      "time": ""
-    },
-    {
-      "id": "000000000000000000000000",
-      "title": "StopCrawl —  промо-код",
+      "title": "StopCrawl —  промо-код `radio-t`",
       "links": [
         "https://stopcrawl.com/"
       ],
@@ -63,7 +91,7 @@
     },
     {
       "id": "000000000000000000000000",
-      "title": "VScale — промо-код",
+      "title": "VScale — промо-код `RADIO-T`",
       "links": [
         "https://vscale.io/ru/"
       ],
@@ -71,7 +99,15 @@
     },
     {
       "id": "000000000000000000000000",
-      "title": "Sorge — заявки на",
+      "title": "MacPaw",
+      "links": [
+        "http://macpaw.com/"
+      ],
+      "time": ""
+    },
+    {
+      "id": "000000000000000000000000",
+      "title": "Sorge — заявки на gray@radio-t.com",
       "links": [
         "http://www.sorge.pro/"
       ],
@@ -79,7 +115,7 @@
     },
     {
       "id": "000000000000000000000000",
-      "title": "МоеДело — промо-код",
+      "title": "МоеДело — промо-код `biz10`",
       "links": [
         "https://moedelo.org/referal?id=4694031\u0026to="
       ],

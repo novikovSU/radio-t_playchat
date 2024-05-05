@@ -3,7 +3,7 @@
   "date": "2015-10-24",
   "audio": "https://cdn.radio-t.com/rt_podcast467.mp3",
   "cover": "https://radio-t.com/images/radio-t/rt467.jpg",
-  "start_time": 0,
+  "start_time": 1445716800,
   "topics": [
     {
       "id": "000000000000000000000000",
@@ -21,7 +21,7 @@
     },
     {
       "id": "000000000000000000000000",
-      "title": "Гость, Amazon, Google, HP, OpenStack, Docker, кони, люди, апокалипсис.",
+      "title": "Гость, Amazon, Google, HP, OpenStack, Docker, кони, люди, апокалипсис",
       "links": [],
       "time": "00:14:58"
     },
@@ -35,14 +35,18 @@
     },
     {
       "id": "000000000000000000000000",
-      "title": "Облака могут быть прибыльным",
-      "links": [],
+      "title": "Облака могут быть прибыльным делом",
+      "links": [
+        "http://www.theverge.com/2015/10/22/9598034/amazon-q3-third-quarter-2015-earnings"
+      ],
       "time": ""
     },
     {
       "id": "000000000000000000000000",
-      "title": "Hewlett-Packard закрывает",
-      "links": [],
+      "title": "Hewlett-Packard закрывает лавочку",
+      "links": [
+        "http://fortune.com/2015/10/21/hp-public-cloud/"
+      ],
       "time": ""
     },
     {
