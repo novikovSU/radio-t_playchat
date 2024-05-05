@@ -1,3 +1,3664 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d407fd8dae0e865dc8aa42",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570906060,
+      "text": "ping"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa43",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570906062,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa44",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasily Grogoriev",
+      "datetime": 1570906121,
+      "text": "ping"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa45",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570906122,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa46",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DENvisioN",
+      "datetime": 1570909079,
+      "text": "nslookup"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa47",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570909113,
+      "text": "хай кста"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa48",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570909232,
+      "text": "Привет"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa49",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570909234,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa4a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570909598,
+      "text": "кстати стерео завезли"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa4b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570909641,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e привет! Почему локальная версия remark\u0026#39;a при попытке авторизоваться через что-нибудь выдает {\u0026#34;error\u0026#34;:\u0026#34;failed to get token\u0026#34;}\u003cbr/\u003eЗапускаю тупо через npm start."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa4c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570909802,
+      "text": "подозреваю потому, что ты для этого \u0026#34;что-то\u0026#34; не зарегистрировал apps"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa4d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570909827,
+      "text": "там есть Dev спецаильно для этого, чтоб не регистриовать для тестов"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa4e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570909881,
+      "text": "ну и что такое \u0026#34;Запускаю тупо через npm start\u0026#34; я тоже не понимаю. В readme описано как запускать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa4f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570909940,
+      "text": "В readme написано делать через docker. Но я ведь не могу на каждое изменение запускать сборку."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa50",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570910001,
+      "text": "Там можно запустить просто front\u0026#39;овую версию без докера. Она отправляет запросы к тестовому api."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa51",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570910041,
+      "text": "хмм, дык его надо запустить"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa52",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570910053,
+      "text": "бжекенд запустиь один раз"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa53",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570910070,
+      "text": "и писать себе фронетенд с npm и всем прочим"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa54",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570910116,
+      "text": "иначе кто ответит на рест запросы на \u003ca href=\"http://127.0.0.1:8080\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://127.0.0.1:8080\u003c/a\u003e ?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa55",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570910235,
+      "text": "\u003cp\u003e\u003ca href=\"http://127.0.0.1:9000/web\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://127.0.0.1:9000/web\u003c/a\u003e - я открываю проект вот по этому адресу.\u003cbr/\u003eПри попытке авторизоваться меня перебрасывает на\u003cbr/\u003e\u003ca href=\"https://demo.remark42.com/auth/github/callback?code=ff07f24d330a433a3a5e\u0026amp;state=b5becaef5d36f0f7bec2e66a8107c4c132bad149\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://demo.remark42.com/auth/github/callback?code=ff07f24d330a433a3a5e\u0026amp;state=b5becaef5d36f0f7bec2e66a8107c4c132bad149\u003c/a\u003e\u003cbr/\u003eС ошибкой.\u003c/p\u003e\u003cp\u003eНо я примерное понял о чем ты. Пойду почитаю readme более внимательно. Спасибо.\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa56",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570910236,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  {\u0026#34;error\u0026#34;:\u0026#34;failed to get ...\u003c/p\u003e\u003cp\u003e  __\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa57",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570910320,
+      "image_url": "https://files.gitter.im/radio-t/chat/WhAy/fqvst-201910-12145835-aojhg.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/WhAy/fqvst-201910-12145835-aojhg.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa58",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570910384,
+      "text": "Салам"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa59",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570910502,
+      "text": "точно, надо сала нарезать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa5a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Danilenko",
+      "datetime": 1570910518,
+      "text": "Доброго времени суток, уважаемые дамы и господа, подкаст выходного дня №671"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa5b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570910521,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e угу. Понял. Запускаю в docker\u0026#39;e backend один раз, а потом выполняю это команду и у меня запросы будут уходить на \u003ca href=\"http://127.0.0.1:8080\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://127.0.0.1:8080\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa5c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570910546,
+      "text": "уже 2 минуты как начало, какое сала нарезать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa5d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570910555,
+      "text": "закусочная сосисочная? три два раз"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa5e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570910556,
+      "text": "хотя пойду чаю налью"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa5f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1570910568,
+      "text": "Хреначечная"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa60",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570910575,
+      "text": "унцу потише бы, ведущих погромче. умпутуна нормально"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa61",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1570910578,
+      "text": "Это министерство культуры"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa62",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570910585,
+      "text": "привет всем -)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa63",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570910586,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa64",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570910635,
+      "text": "Надо музыку потише, а ведущих громче."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa65",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570910652,
+      "text": "о, так намного лучше"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa66",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1570910661,
+      "text": "Слишком тиха унца"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa67",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570910666,
+      "text": "Да"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa68",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570910676,
+      "image_url": "https://files.gitter.im/radio-t/chat/pVIA/Screen-Shot-2019-10-12-at-11.04.28-PM.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/pVIA/Screen-Shot-2019-10-12-at-11.04.28-PM.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa69",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570910678,
+      "text": "На счет картинки не знаю"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa6a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570910681,
+      "text": "вместе с унцей других убрал. только умпутуна слышно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa6b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570910689,
+      "text": "это что за программа такая?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa6c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570910693,
+      "text": "mpv"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa6d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aisho-kun",
+      "datetime": 1570910709,
+      "text": "в aimp картинки нет (не знаю, должна ли быть)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa6e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570910711,
+      "text": "щас уже лучше"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa6f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1570910715,
+      "text": "О! Хорошо."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa70",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1570910716,
+      "text": "Что за картинка? Неужель умпутуна передают?)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa71",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570910717,
+      "text": "ааа а я уж думал появился новый клиент радиота"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa72",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570910800,
+      "text": "я так его запускаю в терминале, с флагом --no-video и никто не палит на работе, что я что-то слушаю)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa73",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570910816,
+      "text": "стоит на каталину обнорвлятся?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa74",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570910819,
+      "text": "суровая работа)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa75",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570910841,
+      "text": "VLС никаких картинок не кажет"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa76",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570910846,
+      "text": "У меня список  купленных приложений был пуст в App Store"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa77",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570910868,
+      "text": "я на catalina не захотел обновляться\u003cbr/\u003eони там вроде itunes как-то поломали"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa78",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570910869,
+      "text": "И само App Store на английском"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa79",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570910979,
+      "text": "Ксюшу плохо слышно,"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa7a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570911005,
+      "text": "500 баксов наушники?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa7b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911007,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e упомянул 500 USD\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eUSD\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e500\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e441.54\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.88\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e13 558\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e27.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eRUB\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e32 862.85\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e65.73\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e1 074.03\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2.15\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.14\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa82",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570911026,
+      "text": "ксиаоми делает тоже самое за 50"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa83",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1570911028,
+      "text": "\u003cp\u003eУши не болят от Noise cancelling?\u003cbr/\u003eУ меня от Sony WH CH700n болят.\u003c/p\u003e\u003cp\u003eИ ветер они пытаются кенселить, но только усиливают\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa84",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1570911056,
+      "text": "Надо было наверно дороже модель брать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa85",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911298,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa86",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570911364,
+      "text": "унца не отключилась"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa87",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570911374,
+      "text": "унца да"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa88",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911613,
+      "text": "==\u0026gt; Andy Rubin shows off a phone with a \u0026#39;radically different formfactor\u0026#39; - \u003ca href=\"https://www.engadget.com/2019/10/08/essential-phone-rubin-tall/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.engadget.com/2019/10/08/essential-phone-rubin-tall/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa89",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911659,
+      "text": "да ладно кто-то сделал телефон не похожий на другие"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa8a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911676,
+      "text": "А 10 лет назад все телефоны были не похожи друг на друга"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa8b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1570911676,
+      "text": "по ходу это чтобы спину чесать удобно было"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa8c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1570911694,
+      "text": "будет как меч"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa8d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570911715,
+      "text": "все еще популярно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa8e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570911745,
+      "text": "на вид эта непохожесть на других является единственным плюсом. Текст набирать и ютуб смотреть невозможно. И в кармане не удобно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa8f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1570911751,
+      "text": "у нас в офисе некоторые люди ставят вертикально"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa90",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911768,
+      "text": "у меня монитор переворачивается и я иногда его так ставлю"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa91",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1570911794,
+      "text": "Постоянно такие вижу.\u003cbr/\u003eТе, кто код пишет - им очень удобно.\u003cbr/\u003eОсновной не повёрнутый, а сбоку - на 90 градусов."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa92",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570911829,
+      "text": "\u003ca href=\"https://www.youtube.com/watch?v=Aw2yiOhsFsc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.youtube.com/watch?v=Aw2yiOhsFsc\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa93",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911830,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  The Morph concept device is a bridge between highly advanced technologies and their potential benefits to end-users. This device concept showcases some revolutionary leaps being explored by Nokia Research Center (NRC) in collaboration with the Cambridge Nanoscience Centre (United Kingdom) nanoscale ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eNokia Morph Concept Mobile Phone (full) - YouTube\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa94",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570911859,
+      "text": "сбруя"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa95",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570911878,
+      "text": "Когда-то Нокия видел будущие телефоны такими \u003ca href=\"https://www.youtube.com/watch?v=Aw2yiOhsFsc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.youtube.com/watch?v=Aw2yiOhsFsc\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa96",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911879,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  The Morph concept device is a bridge between highly advanced technologies and their potential benefits to end-users. This device concept showcases some revolutionary leaps being explored by Nokia Research Center (NRC) in collaboration with the Cambridge Nanoscience Centre (United Kingdom) nanoscale ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eNokia Morph Concept Mobile Phone (full) - YouTube\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa97",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911884,
+      "text": "а главный вопрос. Надеюсь он не на андроиде?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa98",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570911900,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e андроид конечно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa99",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570911910,
+      "text": "nokia ещё жив?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa9a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911918,
+      "text": "==\u0026gt; What the hell is up with this Essential device? – TechCrunch - \u003ca href=\"https://techcrunch.com/2019/10/08/what-the-hell-is-up-with-this-essential-device/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://techcrunch.com/2019/10/08/what-the-hell-is-up-with-this-essential-device/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa9b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911919,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobomurod\" class=\"mention\"\u003e@bobomurod\u003c/span\u003e да блин(("
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa9c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570911920,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  ))\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa9d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570911943,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"lazerbeat\" class=\"mention\"\u003e@lazerbeat\u003c/span\u003e да, делают бабушкафоны и смартфоны на андроиде"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa9e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911956,
+      "text": "зачем нужен бот закрывающий скобки))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aa9f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570911965,
+      "text": "если я сейчас сало кефиром запью, все будет норм???"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911967,
+      "text": "и не открывающий их))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570911982,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e норм я 100 раз так делал"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1570911994,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e кто не рискует, то не слушает радио-т из туалета"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570912002,
+      "text": "Сони это ноутбук карманный кто помнит?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570912003,
+      "text": "\u003cstrong\u003eMemberBerries 💬\u003c/strong\u003e  О! Я помню..."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570912030,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"lazerbeat\" class=\"mention\"\u003e@lazerbeat\u003c/span\u003e я, даже мейтал такой купить. Он на WinXP работал"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570912047,
+      "text": "700 долларов"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaa7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570912048,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"lazerbeat\" class=\"mention\"\u003e@lazerbeat\u003c/span\u003e упомянул 700 USD\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eUSD\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e700\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e618.16\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.88\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e18 981.20\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e27.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eRUB\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e46 007.99\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e65.73\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e1 503.63\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2.15\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.19\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaae",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570912103,
+      "text": "по старости, говорит ))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaaf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912146,
+      "text": "У меня утром такие галюны, что я и в очках вижу всё новые и новые варианты послать нахер будильник"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570912188,
+      "text": "в очках вообще лучше на людей не смотреть, все ужасные, а без очков красивые"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1570912205,
+      "text": "после 16:9 был 18:9 у самсунга"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570912253,
+      "text": "мне интерфейс напоминает нокию на симбиане, типа xpressMusic"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912265,
+      "text": "экран 16:9 сделан для киношников, остальным именно такое соотношение нахер не нужно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570912275,
+      "text": "\u003cpre\u003e\u003ccode\u003e   У Нокии же был такой тонкий длинный телефон же раньше ? \u003c/code\u003e\u003c/pre\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570912284,
+      "text": "микрофон ближе ко рту, все логично"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570912377,
+      "text": "\u003ca href=\"http://www.techinfoz.com/wp-content/uploads/2017/04/1491214285_57_10-most-weird-looking-phones-ever-made.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://www.techinfoz.com/wp-content/uploads/2017/04/1491214285_57_10-most-weird-looking-phones-ever-made.jpg\u003c/a\u003e Во нашел картинку"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570912416,
+      "image_url": "https://files.gitter.im/radio-t/chat/u1Oq/1491214285_57_10-most-weird-looking-phones-ever-made.jpg",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/u1Oq/1491214285_57_10-most-weird-looking-phones-ever-made.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912426,
+      "text": "ребяты, а кто нибудь производит сейчас телефоны с полноценным j2me на борту?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aab9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912464,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"polyx\" class=\"mention\"\u003e@polyx\u003c/span\u003e стильная штучка умели же раньше"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaba",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570912470,
+      "text": "==\u0026gt; Twitter releases new Catalyst app for macOS Catalina - \u003ca href=\"https://www.theverge.com/2019/10/10/20909170/twitter-mac-app-catalyst-macos-catalina-released\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.theverge.com/2019/10/10/20909170/twitter-mac-app-catalyst-macos-catalina-released\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aabb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570912481,
+      "text": "нокия и делает же"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aabc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912545,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e разве? Я даже у нокии не видел давно таких телефонов"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aabd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912558,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e кнопочных забыл добавить"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aabe",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570912579,
+      "text": "а на 3310 разве нельзя устанавливать приложения?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aabf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912612,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e там вроде не j2me и приложений пока немного"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1570912647,
+      "text": "Wine не эмулятор так то..."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570912667,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e ну опера мини явно же на джаве работает?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570912724,
+      "text": "6 beta  версий  и такой сырой релиз"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ivan Permyakov",
+      "datetime": 1570912791,
+      "text": "Интересно, будет ли популярно писать десктопные приложения для macOS на react-native"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912802,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e там вроде  предустановленная версия оперы, а опера под MIDP2.0 вроде не устанавливается. Там сильно урезанная java поговаривают"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1570912953,
+      "text": "а чем плохо смотреть твиттер в браузере?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570912992,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"goganchic\" class=\"mention\"\u003e@goganchic\u003c/span\u003e нужно больше приложений для каждого веб-сайта))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1570913031,
+      "text": "можно и окно браузера где-то в уголке поместить, не?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570913034,
+      "text": "==\u0026gt; Microsoft announces Surface Laptop 3 with a new 15-inch model and USB-C - \u003ca href=\"https://www.theverge.com/2019/10/2/20892144/microsoft-surface-laptop-3-usb-c-features-price-specs-release-date\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.theverge.com/2019/10/2/20892144/microsoft-surface-laptop-3-usb-c-features-price-specs-release-date\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aac9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570913194,
+      "text": "Courier"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaca",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570913197,
+      "text": "может мс хочет вывести девайс из под майкрософт в сёрфейс?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aacb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570913236,
+      "text": "ЁтаФон?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aacc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570913250,
+      "text": "ёптафон"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aacd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570913261,
+      "text": "ЁманаФон"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aace",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570913262,
+      "text": "лучше б они винду обновили"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aacf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570913308,
+      "text": "тонко"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570913354,
+      "text": "я все еще не понимаю как по нему разговаривать?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570913377,
+      "text": "омг у этого surface нет нумпада(("
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570913379,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  ))\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570913513,
+      "text": "поэтому даже пуск теперь отдельное приложение))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570913646,
+      "text": "\u003ca href=\"https://www.slashgear.com/wp-content/uploads/2019/10/IMG_20191002_115150-1-1280x720.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.slashgear.com/wp-content/uploads/2019/10/IMG_20191002_115150-1-1280x720.jpg\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570913712,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"lavasili4_twitter\" class=\"mention\"\u003e@lavasili4_twitter\u003c/span\u003e  у нео экранчик для дополнительной клавы?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570913750,
+      "text": "linustechtips"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570913804,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e это клава поверх экрана лежит"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570913905,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"lavasili4_twitter\" class=\"mention\"\u003e@lavasili4_twitter\u003c/span\u003e ну так не круто, хотя со стороны выглядит как нормальная"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aad9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570913953,
+      "text": "лучше, чем в экран тыкать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aada",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570914016,
+      "text": "==\u0026gt; macOS Catalina is available today - \u003ca href=\"https://www.apple.com/newsroom/2019/10/macos-catalina-is-available-today/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.apple.com/newsroom/2019/10/macos-catalina-is-available-today/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aadb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1570914075,
+      "text": "Каталина на Каталисте, Каталист на Каталине"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aadc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570914187,
+      "text": "no comprendo"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aadd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Volodymyr Tartynskyi",
+      "datetime": 1570914260,
+      "text": "Грей? промолчать? хахахахаха"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aade",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570914472,
+      "text": "вот яндекс возле каждой пятерочки спрашивает как вам пятерочка. Как мне может быть 100500я пятерочка????"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aadf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Volodymyr Tartynskyi",
+      "datetime": 1570914515,
+      "text": "новый иось переспрашивает через несколько дней \u0026#34;точно вы хотите уберу пермешен вас отслеживать когда не запущен\u0026#34; - что хорошо имхо"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570914532,
+      "text": "\u0026#34;давайте придумаем функционал, чтобы запросить доступ к постоянной геолокации\u0026#34;©"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1570914753,
+      "text": "арк был когда-то архиватор"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570914839,
+      "text": "\u003ca href=\"https://photos.app.goo.gl/QLZ5BxC3E8izgo6dA\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://photos.app.goo.gl/QLZ5BxC3E8izgo6dA\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570914841,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Select people \u0026amp; pets Create an auto-updating ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eShared album - Maverick GRey - Google Photos\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570914892,
+      "text": "А отсутствие поддержки 32-бит не затронете?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1570914989,
+      "text": "Нарочно не придумаешь"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570915097,
+      "text": "игры, старый софт, слухи про переход на ARM64"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570915120,
+      "text": "если не ошибаюсь, gzclient, с которым я работаю 32битный (он заточен под линю). Используется для симуляции в робототехнике. За эту приложуху беспокоюсь"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570915150,
+      "text": "да int вместо intptr_t"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aae9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570915316,
+      "text": "Да те же авторы PVS Studio (viva64) начинали с анализа на ошибки связанные с переходом на 64bit"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaea",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570915456,
+      "text": "пустые интерфейсы\u003cbr/\u003e(щас по рукам дадут)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaeb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570915483,
+      "text": "а можно ссылочку о каких коллекциях сейчас речь?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaec",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrew",
+      "datetime": 1570915577,
+      "text": "Рантайм править"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaed",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Volodymyr Tartynskyi",
+      "datetime": 1570915623,
+      "text": "Мне можно, вам нельзя!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaee",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Volodymyr Tartynskyi",
+      "datetime": 1570915636,
+      "text": "с Иосиф Виссарионыч"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaef",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570915798,
+      "text": "==\u0026gt; Tim Cook’s Company-Wide Email on HKmap.live Doesn’t Add Up - \u003ca href=\"https://daringfireball.net/linked/2019/10/10/cook-hkmap-live-email\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://daringfireball.net/linked/2019/10/10/cook-hkmap-live-email\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570915804,
+      "text": "конешно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570916190,
+      "text": "удалила, вернула, снова удалила"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570916214,
+      "text": "А чё там с Яндексом было?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570916453,
+      "text": "\u0026#34;Точки, где тебя жарят\u0026#34; 8-0"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570916463,
+      "text": "вместо блинов отмечать ментов"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570916506,
+      "text": "ну еще South Park осталось вспомнить)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570916646,
+      "text": "мы всё слышали"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916651,
+      "text": "пригласите в подкаст в гости Вассермана"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Volodymyr Tartynskyi",
+      "datetime": 1570916693,
+      "text": "сизипинь похож"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaf9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570916750,
+      "text": "о, цензура пошла"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aafa",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570916758,
+      "text": "ой, что с битрейтом"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aafb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1570916758,
+      "text": "Судя по звуку радиот тоже начали банить"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aafc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570916758,
+      "text": "что-то произошло"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aafd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "👾agarkov",
+      "datetime": 1570916765,
+      "text": "похожу радио-т запретили"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aafe",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1570916769,
+      "text": "Вини-пух сломал радиот"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aaff",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570916774,
+      "text": "Ну, попал бобук. Китайцы обиделись"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab00",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570916778,
+      "text": "ну это ж мило чё им не нравится"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab01",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570916779,
+      "text": "эффект-ламповости по специальной кнопке?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab02",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570916781,
+      "text": "Женя, руки от пульта убери =)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab03",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1570916790,
+      "text": "Трансляция починись!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab04",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Semenchuk",
+      "datetime": 1570916793,
+      "text": "ретро радио"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab05",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Danilenko",
+      "datetime": 1570916806,
+      "text": "14kbps для ламповости?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab06",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1570916808,
+      "text": "качество понизилось"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab07",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1570916809,
+      "text": "Всё, у меня совсем накрылось"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab08",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1570916820,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab09",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570916821,
+      "text": "Пойду поставлю свечку за поднятие битрейта"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab0a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570916828,
+      "text": "у меня трансляция не ломалась но звук попортился"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab0b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570916835,
+      "text": "о, отжали"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab0c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570916836,
+      "text": "норм тепер"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab0d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rassokhin",
+      "datetime": 1570916837,
+      "text": "Звук трансляции капец как сломался."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab0e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rassokhin",
+      "datetime": 1570916839,
+      "text": "О, норм."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab0f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570916841,
+      "text": "Ок"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab10",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916842,
+      "text": "ахахахаха"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab11",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916846,
+      "text": "вот вас и блочат"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab12",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570916854,
+      "text": "окей, пойду потушу"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab13",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916864,
+      "text": "звук ломается не просто так)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab14",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570916871,
+      "text": "бобук,  кинь в чатик то фотографию, из-за которой так звук портился"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab15",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916874,
+      "text": "боюсь написать про винни пуха"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab16",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rassokhin",
+      "datetime": 1570916875,
+      "text": "Чувствуется китайский след!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab17",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570916879,
+      "text": "о всё звук поправился"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab18",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1570916887,
+      "text": "Сейчас нормально"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab19",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570916893,
+      "text": "\u003ca href=\"https://twitter.com/BleachedShoes/status/1181759896846508034\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://twitter.com/BleachedShoes/status/1181759896846508034\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab1a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dzmitry-talkach",
+      "datetime": 1570916895,
+      "text": "починился"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab1b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916904,
+      "text": "вам пора вещать через WeChat"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab1c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570916992,
+      "text": "Да! Давай голосование!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab1d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916994,
+      "text": "имеет"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab1e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Immaterial",
+      "datetime": 1570916998,
+      "text": "Ну, это же подкаст про аниме, так?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab1f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570916999,
+      "text": "бег"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab20",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570917000,
+      "text": "сколько ему заплатили?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab21",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917002,
+      "text": "!! имеет?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab22",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917004,
+      "text": "голосование завершено - __\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eза: 100% (1)\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eпротив: 0% (0) \u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab23",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570917007,
+      "text": "то высокотехнологичный спорт"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab24",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917013,
+      "text": "?? имеет?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab25",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917014,
+      "text": "\u003cem\u003eне в силах. но могу помочь \u003ca href=\"https://duckduckgo.com/?q=имеет?\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003eэто поискать\u003c/a\u003e\u003c/em\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab26",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dzmitry-talkach",
+      "datetime": 1570917016,
+      "text": "грэя давно просили отсранить"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab27",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570917018,
+      "text": "имеет"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab28",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917027,
+      "text": "про лазеры же"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab29",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570917038,
+      "text": "8-9 км/ч это не бег"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab2a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570917067,
+      "text": "это не бег"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab2b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570917069,
+      "text": "бег это про стабильность"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab2c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917074,
+      "text": "а я не помню какими голосовать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab2d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917075,
+      "text": "!!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab2e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917076,
+      "text": "голосование завершено - __\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eза: 100% (1)\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eпротив: 0% (0) \u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab2f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1570917079,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab30",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917081,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab31",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917082,
+      "text": "голосование началось! (+1/-1) \u003cem\u003e**\u003c/em\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab32",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917083,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab33",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570917083,
+      "text": "Это ты себя успокаиваешь"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab34",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dzmitry-talkach",
+      "datetime": 1570917085,
+      "text": "?! ?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab35",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917091,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab36",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917092,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab37",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917093,
+      "text": "голосование началось! (+1/-1) \u003cem\u003e**\u003c/em\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab38",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570917098,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab39",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1570917099,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab3a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DomenO",
+      "datetime": 1570917099,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab3b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570917099,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab3c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917100,
+      "text": "голосование началось! (+1/-1) \u003cem\u003e**\u003c/em\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab3d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917107,
+      "text": "!!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab3e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917108,
+      "text": "голосование завершено - __\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eза: 100% (1)\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eпротив: 0% (0) \u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab3f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570917116,
+      "text": "+"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab40",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917118,
+      "text": "++ грей пургу нес?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab41",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917119,
+      "text": "голосование началось! (+1/-1) \u003cstrong\u003e грей пургу нес?\u003c/strong\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab42",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917120,
+      "text": "!!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab43",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570917122,
+      "text": "++против"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab44",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917122,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab45",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570917123,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab46",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1570917124,
+      "text": "-"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab47",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DomenO",
+      "datetime": 1570917125,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab48",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1570917127,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab49",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Malozemov",
+      "datetime": 1570917127,
+      "text": "+"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab4a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Immaterial",
+      "datetime": 1570917127,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab4b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1570917128,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab4c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex Nikonov",
+      "datetime": 1570917131,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab4d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Volodymyr Tartynskyi",
+      "datetime": 1570917132,
+      "text": "++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab4e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917132,
+      "text": "-1\\"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab4f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570917142,
+      "text": "~1"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab50",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917143,
+      "text": "??"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab51",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917144,
+      "text": "а что за а что против я вопрос забыл"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab52",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Malozemov",
+      "datetime": 1570917171,
+      "text": "+1++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab53",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570917178,
+      "text": "±1"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab54",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Immaterial",
+      "datetime": 1570917182,
+      "text": "1++--1"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab55",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917183,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"1\" class=\"mention\"\u003e@1\u003c/span\u003e увеличена (текущее значение: 2)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab56",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrew",
+      "datetime": 1570917198,
+      "text": "^1"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab57",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1570917201,
+      "text": "c++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab58",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917202,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"c\" class=\"mention\"\u003e@c\u003c/span\u003e увеличена (текущее значение: 4)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab59",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570917203,
+      "text": "--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab5a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917207,
+      "text": "/1"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab5b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1570917237,
+      "text": "7н47нме47нен7м4ее7м3++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab5c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917238,
+      "text": "— 1"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab5d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917238,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"7\" class=\"mention\"\u003e@7\u003c/span\u003eн47нме47нен7м4ее7м3 увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab5e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570917261,
+      "text": "это пока память в редисе не кончится можно карму рулить?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab5f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570917261,
+      "text": "rt-bot++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab60",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917272,
+      "text": "я++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab61",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917273,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя @я увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab62",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Malozemov",
+      "datetime": 1570917279,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab63",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917279,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e увеличена (текущее значение: 10)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab64",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570917294,
+      "text": "мну++"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab65",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917294,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя @мну увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab66",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1570917300,
+      "text": "мну--"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab67",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917301,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя @мну уменьшена (текущее значение: 0)."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab68",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917304,
+      "text": "!!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab69",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917305,
+      "text": "голосование завершено - \u003cem\u003e грей пургу нес?\u003c/em\u003e\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eза: 36% (8)\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eпротив: 63% (14) \u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab6a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570917359,
+      "text": "==\u0026gt; Темы слушателей 671 - \u003ca href=\"https://radio-t.com/p/2019/10/08/prep-671/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://radio-t.com/p/2019/10/08/prep-671/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab6b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1570917362,
+      "text": "Я пробедал 22 числа московский марафон и тема мне интересна была про Элиуда Кипчоге и рекорд"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab6c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570917389,
+      "text": "Грэй  с десяти машин сидит"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab6d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570917407,
+      "text": ":)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab6e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570917593,
+      "text": "Forth c четвертинкой сахара"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab6f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917640,
+      "image_url": "https://files.gitter.im/radio-t/chat/qUqW/q6mg7-201910-12170025-9x6k4.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/qUqW/q6mg7-201910-12170025-9x6k4.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab70",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570917681,
+      "text": "резинка новая"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab71",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1570917691,
+      "image_url": "https://files.gitter.im/radio-t/chat/DD4O/ee18n-201910-12170125-djd0y.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/DD4O/ee18n-201910-12170125-djd0y.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab72",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1570917749,
+      "text": "Аккуратный шокмаунт, еще и скоба за резинку присунута"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab73",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1570917808,
+      "text": "У Жени док тоже справа экрана приклеен, респект!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab74",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570918486,
+      "text": "e2-e4 это алгебраическая нотация, там же другая, которой перестали пользоваться в 80ые"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab75",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1570918688,
+      "text": "«Все животные равны, но некоторые более равны, чем другие»"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab76",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570918846,
+      "text": "Если яндекс голландская  компания почему яндекс музыка не работает в Голландии?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab77",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1570918865,
+      "text": "Потому что Yandex NV Music еще не запустили"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab78",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1570918912,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"mellafon\" class=\"mention\"\u003e@mellafon\u003c/span\u003e потому что права на страну, где нет аудитории, — это расходы без доходов"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab79",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570918918,
+      "text": "google music работает везде"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab7a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1570918978,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"grayru\" class=\"mention\"\u003e@grayru\u003c/span\u003e Es"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab7b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1570919013,
+      "text": "Еще раз — аудитория. У Яндекса нет сервисов для аудитории в Европе."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab7c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1570919036,
+      "text": "В смысле? Нидерланды крутая юрисдикция для инкорпорирования"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab7d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1570919519,
+      "text": "а как же вопрос про kde и freebsd?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab7e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570919654,
+      "text": "Всем привет!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab7f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570919684,
+      "text": "там написано, что это не она сама так считает, а мол, ей так сказали"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab80",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570919715,
+      "text": "Яндекс уже не тот?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab81",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570919745,
+      "text": "а вот на комменты, в отличии от статьи, гораздо интереснее лезть)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab82",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Nechaev",
+      "datetime": 1570919939,
+      "text": "в коментариях её пытаются разоблачать - якобы это не первый случай и она привирает... \u003ca href=\"https://habr.com/en/post/470337/#comment_20721735\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/en/post/470337/#comment_20721735\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab83",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570919945,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Первая попытка Все началось с того, что я люблю ходить по конференциям и частенько хожу на них в Яндекс, Mail. ru и другие крупные компании. Однажды мне написал HR из Яндекса и попросила сделать тестовое на стажера фронтенд-разработчика. Я его сделала, вот оно. По условию оно должно было работать ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eКак я проработала 3 месяца в Я.Маркете и уволилась / Habr\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab84",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570920004,
+      "image_url": "https://files.gitter.im/radio-t/chat/YqaP/Screen-Shot-2019-10-13-at-1.39.56-AM.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/YqaP/Screen-Shot-2019-10-13-at-1.39.56-AM.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab85",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570920016,
+      "text": "добавлю токсичности"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab86",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570920063,
+      "text": "главное замечание что это не несет смысловой нагрузки кроме как унизить человека"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab87",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570920144,
+      "text": "нет, просто я относительно согласен с ней\u003cbr/\u003eдостаточно сложно устроиться (я полагаю, сам на подобные позиции не претендую) на позицию middle и senior"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab88",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570920450,
+      "text": "Я вижу что компании уровня яндекса охотно берут людей, которые не только не любят программировать, но и в целом лохи в области iT. Знаю девочку, она не знала о существовании telegram.  Работала middle в Ozon, mail.ru и luxsoft.... человек вообще не из мира it... чисто ради денег. Вот эта девочка такая же. Чисто ради денег..."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab89",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570920484,
+      "text": "it ради денег) ha-ha...(c)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab8a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570920618,
+      "text": "Я с 3х лет программирую, создал сотни сложных проектов на разных языках и уже работаю не для денег   и без спец подготовки не пройду на сеньора в тот же Яндекс из-за их формального подхода... так им и надо. Они заслужили таких разработчиков как эта девочка."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab8b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570920656,
+      "text": "кстати интересно)..как ее вообще взяли"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab8c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570920692,
+      "text": "Заучила ответы на вопросы."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab8d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570920873,
+      "text": "Послешоу!?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab8e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1570920925,
+      "text": "а реклама всегда была поверх унцы ?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab8f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1570920946,
+      "text": "вроде раньше унца отключалась"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab90",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570920955,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e в какие игры последне время играешь ?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab91",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1570920978,
+      "text": "прошел Контрол, вот щас ставлю перепроходить ведьмака. внезапно накатило"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab92",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1570921075,
+      "text": "она стала громче"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab93",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921121,
+      "text": "не юзаешь вайбер - не программист)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab94",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921126,
+      "text": "Эта девочка в целом не в курсе происходящего. Не только про существование telegram ... про хаскель она тоже не знала"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab95",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1570921139,
+      "text": "Спасибо! Всем удачи."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab96",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921160,
+      "text": "С ней выговариваешь - он знает только про Angular....\u003cbr/\u003eИ все."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab97",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570921180,
+      "text": "хм"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab98",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921181,
+      "text": "Человек не интересующийся it..."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab99",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Malozemov",
+      "datetime": 1570921186,
+      "text": "ну такое...."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab9a",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921189,
+      "text": "всем пока)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab9b",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1570921196,
+      "text": "radio-t закончился, а воспроизведение еще идет"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab9c",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921206,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e ну так лучше знать круто 1 технологию чем кучу и понемногу)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab9d",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921247,
+      "text": "На практике у меня был такой программист на mvc.net это была боль"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab9e",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921252,
+      "text": "как говаривал Брюс Ли \u0026#34;Я не боюсь человека оттачивающего 1000 разных приемов, я боюсь человека оттачивающего 1000 раз 1 удар\u0026#34;"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8ab9f",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton Samarchyan",
+      "datetime": 1570921253,
+      "text": "Я тоже Ведьмака 3 только купил. Буду начинать. Пытаюсь на самом сложном играть - сразу убивают"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921363,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e это не тоже самое. Возьми любого из ведущих они все интересуются что есть нового в области it"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921399,
+      "text": "это понятно)) я к тому что если она круто знает ангуляр и ей больше ничего не интересно то это тоже неплохо)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921426,
+      "text": "А эта моя знакомая ... ей просто это не интересно. Ей даже ее собственная специализация не интересна. Просто вариант заработать денег"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921478,
+      "text": "интересно было бы на код посмотреть), если тупо ради бабла то и код наотцепись скорее всего"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921505,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e для меня это уже проф непригодность разработчика, если он не интересуется чём-то новым.\u003cbr/\u003eзначит он не своим делом занимается."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921540,
+      "text": "в js каждый день что-то новое) интересоваться этим это сидеть без работы и целыми днями смотреть на новые фреймворки и либы)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921599,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e у меня был бэкенд разработчик. (Пришёл ко мне из корпорации). Он за 5 лет работы ни разу не столкнулся с настройкой dns и отказывался разбираться..."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921642,
+      "text": ";DDD это уже диагноз, у знакомого 15 лет с++ разработчик (силой заставили на го перейти) не знает что такое di и вместо каналов пилит колбеки"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921677,
+      "text": "))Вот это все люди которые занимаются не своим делом"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8aba9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921730,
+      "text": "пожалуй, перестаешь быть разработчком когда что-то новое перестает быть интересным, потом в коде километровые свитчкейсы с ифелсе находишь для роутинга"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abaa",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921794,
+      "text": "Вообще когда встаёшь на привычные рельсы и годами остаёшься на них - мозг атрафирунтся"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abab",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921849,
+      "text": "все верно, вообще меня прет браться за задачи которые я понятия не имею (сходу) как решить, это интересный опыт"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abac",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570921849,
+      "text": "Сейчас же появилось очень много разработчиков, которые вообще не любят it. Они просто прошли обучения и ради денег терпят необходимость этиммщанимаиься"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abad",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570921875,
+      "text": "да ладно у меня был джун - я дал ему задачу написать тест на простую функцию которая ходит ресту берёт данные их немножно обрабатывает и дает некий простой ответ -\u0026gt; вместо того чтобы замокать вызов удаленного апи он по сутти возпроизвел функцию в тесте, тестировал чужой апи :) при этом он не понимал что не так с его тестом"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abae",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570921902,
+      "text": "недавно был какой-то челендж у ютуберов. Они рассказывали как пришли во фронт. Почти все пришли за баблом"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abaf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921932,
+      "text": "о)) на эту тему, я тут недавно видел \u0026#34;мок\u0026#34; который сделан через наследование)..в свою очередь этот сервис был унаследован от парента и чел забыл переопределить его методы..) выглядело феерично"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570921951,
+      "text": "да кстати почемуто именно фронт енд разработка притягивает много тех кому програмирование не интересно и они тут только ради денег"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570921959,
+      "text": "гайд о том как не знать что такое интерфейс и отстрелить себе копыто"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570921986,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e это правдо эпично"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922022,
+      "text": "это уже вопрос к тому почему фронтенд разработчик получает зачастую больше чем бекенд..(в россии по крайней мере), я вот на фронт так попал..хотя параллельно подрабатываю на беке и это более интересно как по мне"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570922035,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"polyx\" class=\"mention\"\u003e@polyx\u003c/span\u003e  об этом они тоже говорили. Мол трудно было заставить себя учить бек потому, что резултат обучения был не сразу, а на фронте написал hello world и оно сразу на экране))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570922036,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570922104,
+      "text": "ну так hello world и в консольке сразу появится, даже меньше танцев с бубном, коих требует запустить реакт hello world"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1570922106,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hi!"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922108,
+      "text": "там еще и порог входа куда ниже..умеешь верстать как попало, знаешь как динамику на jquery прекрутить все - фронтенд, попробуй на бекенде что-нибудь написать не зная про клинчи или еще какие-нибудь детали"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abb9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570922149,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e я тоже заметил повышенный спрос на фронтенд последние 2 года"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abba",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922192,
+      "text": "это неоправданно выглядит, потому что ответственности меньше, знаний меньше..подумаешь кнопка не того цвета или анимация поплыла, ничего в конечном счете же не критично).."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abbb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570922202,
+      "text": "Ага"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abbc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570922249,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e будучи студнем с нуля изучая delphi прочитав за день прочитал 2 лекции и написал игру. Вот это низкий порог входа)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abbd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570922277,
+      "text": "Но с другой стороны. Для удовольствия я занимаюсь только бэкендом. Фронтенд для меня обычно вынужденно... возможно чисто мои особенности, но редко от кода на фронтенд у меня приятное ощущение почти идеальности"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abbe",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922296,
+      "text": "не всем дано быть вундергиндами))) я пришел в универ мы начали писать на делфи..но делфи как первый язык ужасен, никто не объясняет с порога что такой классы, дергаешь методы какие-то не понимая что это. ужас как по мне"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abbf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922329,
+      "text": "ангуляр вот дает почти идеальность)..по сравнению с другими фреймворками)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922337,
+      "text": "в плане чистоты кода"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570922474,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e делфи прост до безобразия. Кстати учебник начинался как раз с классов объектов и гуя"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922512,
+      "text": "учебник мб и начинается а вот среднестатистический препод начинается с того что вот есть методичка - сиди копируй код - компилируй"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570922587,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e а игра представляла собой пятнашки где игровое поле состояло из набора кнопок и игровая механика заключалась в перемещении captionов на кнопках))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570922651,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e вопрос не в том кто вундеркинд.  Вопрос в людях, которые крутили у виска со словами «зачем ты занимаешься этой фигней» а потом сами устроились в корпорацию, сидят на зарплате и считают себя разработчиками."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922651,
+      "text": "а)) мы курсу ко 2 к канвасу и буферизации пришли) тоесть на это ушел почти учебный год"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1570922690,
+      "text": "Oх как вспомню как я учился програмировать - хотел писать игры, но увы что там и как делать с графикой не знал ну и решил запилить игрушечку аля space invaders ... на winforms и вижуал басике... двигая картинки. Оно даже работало но после гдето  6 врагов летающих по экрану начанало жутко тормозить :)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922757,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e тут большая проблема интервьюверов, шаблонные вопросы, по ним думаешь, вау, неужели в этой фирме наконец все делают по канону, а потом после вопросов видишь код с которым будешь работать и думаешь..а нафига вообще спрашивать такие глубокие вещи если на деле пишешь тривиальнейшую логику в пахнущем коде"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570922795,
+      "text": "Кстати, насчёт преподов. У меня брат двоюродные преподаёт что-то по программированию в одном из ведущих вузах... сам ни дня не работал разработчиком. Работает вообще в другой области"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abc9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570922834,
+      "text": "это вопрос к тому что..зачем преподавать если ты классный разработчик? зп разраба (джуна) в разы выше зп препода"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abca",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570922853,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e мне в студенческие годы тоже доводилось преподавать) норм тема пока чему-нибудь этих остолопов научишь уже сам всё понял))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abcb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570922868,
+      "text": "Ага))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abcc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570922939,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e единственное преподавать приходилось не в вузе а в колледже, а контингент в колледжах такой, что им это не нужно, а тут ещё и препод почти ровесник, с дисциплиной была жопа конечно"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abcd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923079,
+      "text": "Теперь как ни уговаривают на эту авантюру больше не пойду"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abce",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923095,
+      "text": "))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abcf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923147,
+      "text": "Вообще хз почему так много людей учатся и работают не в тех областях, которые им интересны"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923159,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e зп препода повыше некоторых мидлов может быть) сейчас там 80 можно не особо напрягаясь иметь)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570923182,
+      "text": "в мск мб), и то вряд-ли"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923206,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e говорят родители заставили. У современных детей вообще нет собственного мнения и желания что-либо делать"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570923214,
+      "text": "обычно у кого 80+ совмещают несколько вакансий, зав кафедры там + препод + за степень"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd4",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923223,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e нет в области, в Мск ещё выше"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd5",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570923234,
+      "text": "это в какой такой области?"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd6",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570923249,
+      "text": "в моей области препод получает 16тыр, + надбавка за должность выход до вычета 22"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd7",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923267,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e у моего поколения также было. В вуз шли чтобы не идти в армию или чтобы ближе к дому было"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd8",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923297,
+      "text": "Кстати во втором хоть какой-то смысл есть ))"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abd9",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923353,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e 80+ достаточно 2 ставки (это не много всего 1400 часов), высшая категория (танцульки, конкурсы, олимпиады на определённое количество балов) и участие в организации каких-нибудь больших конкурсов типа WorldSkills"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abda",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570923381,
+      "text": "так в какой области? в моем универе столько никто не получал)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abdb",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923401,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e  это даже не универ это колледж в московской области"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abdc",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923427,
+      "text": "Рядом с рублёвой ?)"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abdd",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923445,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e нет на границе с Владимирской областью"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abde",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923449,
+      "text": "Сейчас есть такие колледжи где обучение чтоит по 100 тыс за ребёнка..."
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abdf",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1570923457,
+      "text": "В месяц"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abe0",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923468,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e сейчас во всех коллджах обучение столько стоит"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abe1",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1570923468,
+      "text": "я офигел если честно) там преподы на работе не умирают? Хе-хе)) вот как-раз с моей областью, где зп 30к это предел для препода университета"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abe2",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923484,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e не в месяц а за год"
+    },
+    {
+      "id": "65d407fd8dae0e865dc8abe3",
+      "issue": 671,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1570923564,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Artawower\" class=\"mention\"\u003e@Artawower\u003c/span\u003e преподы бывает и умирают)"
+    }
+  ]
 }

@@ -1,3 +1,2326 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d60c19e8b9986bb1133aed",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1530988133,
+      "text": "ping"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133aee",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530988140,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133aef",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Viktor",
+      "datetime": 1530988463,
+      "text": "где я?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af0",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530990332,
+      "text": "hi"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af1",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530990334,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hi!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af2",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "strayge",
+      "datetime": 1530990486,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af3",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530990489,
+      "text": "\u003cstrong\u003etweet-bot 💬\u003c/strong\u003e  Что-то пошло не так :disappointed:"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af4",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530991798,
+      "text": "news!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af5",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530991800,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://habr.com/post/416219/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eЯндекс начал индексировать Google Документы с паролями / Хабр\u003c/a\u003e 2018-07-07\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.digitalocean.com/docs/release-notes/2018/private-networking/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eDigitalOcean Product Documentation\u003c/a\u003e 2018-07-04\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://medium.com/@serverpunch/why-you-should-not-use-google-cloud-75ea2aec00de\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eWhy you should not use Google Cloud. – Punch a Server – Medium\u003c/a\u003e 2018-07-02\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e_\u003ca href=\"https://code.visualstudio.com/updates/v1_25\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eVisual Studio Code June 2018\u003c/a\u003e 2018-07-06_\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eLet’s celebrate Hugo’s 5th birthday\u003c/a\u003e 2018-07-04\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af6",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530991820,
+      "text": "темы слушателей!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af7",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530991823,
+      "text": "\u003cstrong\u003ertnumber-bot 💬\u003c/strong\u003e  \u003cstrong\u003eТемы слушателей:\u003c/strong\u003e\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e[+13]\u003c/strong\u003e Да сколько можно мусолить эту тему!\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+7]\u003c/strong\u003e Ребята, когда мы обсудим European General Data Protection Regulation?  \u003ca href=\"https://hackernoon.com/im-a-developer-and-general-data-protection-regulation-gdpr-is-no-big-deal-or-is-it-2f2b7b3f124\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://hackernoon.com/im-a-developer-and-general-data-protection-regulation-gdpr-is-no-big-deal-or-is-it-2f2b7b3f124\u003c/a\u003e   С 25го мая данный закон вступает в силу, почти все крупные компании сделали рассылку с изменениями в регламенте использования их сервисов. В европейской стартаперской тусовке яро обсуждается, что это конец для всех стартапов, так как выполнение данного закона может реализовать только крупная корпорация.   Давайте разберемся, что теперь нужно сделать, чтобы работать на европейском рынке. Думаю Алексей должен быть в курсе, он вроде в Англии живет.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+7]\u003c/strong\u003e Конфликт между Ричардом Столлманом и командой разработчиков Glibc \u003ca href=\"https://www.opennet.ru/opennews/art.shtml?num=48559\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.opennet.ru/opennews/art.shtml?num=48559\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+6]\u003c/strong\u003e After 33 Years, Notepad Finally Displays All Text Files Properly \u003ca href=\"https://www.pcmag.com/news/361070/after-33-years-notepad-finally-displays-all-text-files-prop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.pcmag.com/news/361070/after-33-years-notepad-finally-displays-all-text-files-prop\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+6]\u003c/strong\u003e Microsoft Build 2018 В частности: Visual Studio IntelliCode  - попробовал, пока не очень Visual Studio Live Share - офигенно, испытывал на vs + vs code, правда отладка не удалась, а в целом очень гуд  Из необычного: Руссинович расскажет про блокчейн... Интересно, будет у него мелкая утилита для этого?))\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af8",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530991838,
+      "text": "эээ"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133af9",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "strayge",
+      "datetime": 1530992007,
+      "text": "темы с дискаса брались. я обновил бота под remark42, но pull request висит непринятый"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133afa",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1530992321,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"strayge\" class=\"mention\"\u003e@strayge\u003c/span\u003e надо там тесты починить кому-то"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133afb",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "strayge",
+      "datetime": 1530992361,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e там тесты на поднятии nginx падают, мои фиксы никак его не трогают"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133afc",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1530992393,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"strayge\" class=\"mention\"\u003e@strayge\u003c/span\u003e я и не говорю что твои фиксы виноваты"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133afd",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1530992429,
+      "text": "если найдешь что и почему падает - PR его"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133afe",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "strayge",
+      "datetime": 1530992495,
+      "text": "nginx не отвечает на пинги, возможно как-то связано с изменениями в nginx-le"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133aff",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1530992825,
+      "text": "Добрый вечер,  сегодня намечается гиковский выпуск ?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b00",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1530993049,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"BritUA_twitter\" class=\"mention\"\u003e@BritUA_twitter\u003c/span\u003e типа того"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b01",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1530993143,
+      "text": "Если не ошибаюсь в прошлом выпуске Вы говориле, что  расскажите свое мнение про Акторы :), будет ?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b02",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1530993175,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"BritUA_twitter\" class=\"mention\"\u003e@BritUA_twitter\u003c/span\u003e никто не знает, как пойдет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b03",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1530993303,
+      "text": "Если не ошибаюсь, еще рассказивали как спорили с коллегой о том что у java нет будущего, тоже интересно было бы услышать :)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b04",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1530993665,
+      "text": "Пойду Code обновлять, давно просится"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b05",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1530993717,
+      "text": "всем привет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b06",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1530993741,
+      "text": "Добрый вечер"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b07",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1530993749,
+      "text": "молча"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b08",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikita ⌁ Golodenko",
+      "datetime": 1530993752,
+      "text": "я думаю стоило на час перенести)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b09",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530993767,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b0a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1530993790,
+      "text": "Привет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b0b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530993792,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Привет!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b0c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1530993807,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"golodenko\" class=\"mention\"\u003e@golodenko\u003c/span\u003e  зачем ?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b0d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530993837,
+      "text": "А судьи - кто?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b0e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530993855,
+      "text": "а что там в НБА теперь смотреть? Понятно что следующий сезон вновь за ГСВ и вообще пускай на 82-0 с таким-то составом идут"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b0f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530993908,
+      "text": "Радио-Т(ынетакойкаквсе)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b10",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530993963,
+      "text": "Не плипает никто"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b11",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530993964,
+      "text": "под окнами эти быдловатые РАСИЯ и в подкасти"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b12",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530993975,
+      "text": "нигде от вас спасу с вашим \u0026#34;сокером\u0026#34; нет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b13",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikita ⌁ Golodenko",
+      "datetime": 1530994051,
+      "text": "тут как с игрой престолов, надо перестать хейтить и причаститься"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b14",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530994056,
+      "text": "Говорят, укров выкидывают из команд за поддержку русни на XV"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b15",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530994072,
+      "text": "понеслась"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b16",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530994108,
+      "text": "левый наушник — младшая жена"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b17",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530994125,
+      "text": "Бобук пожертвовал свою лучшую сторону на нужды шоу )"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b18",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530994277,
+      "text": "я недавно научился пользоваться редактором ed и горд собой, хочу чтобы все знали"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b19",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530994278,
+      "text": "сказка кончилась"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b1a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikita ⌁ Golodenko",
+      "datetime": 1530994310,
+      "text": "там 1-2 если что"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b1b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530994314,
+      "text": "взрослая девушка или молодая женщина?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b1c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530994342,
+      "text": "твоюжмать"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b1d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Gilyaziev",
+      "datetime": 1530994378,
+      "text": "у большей части России еще до начала выпуска было 1 число"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b1e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1530994386,
+      "text": "смотря где на урале уже первое было как и сейчас уже 8-е"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b1f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530994545,
+      "text": "У меня картинка в обоих случаях двигается"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b20",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530994583,
+      "text": "Я - псих, значит =("
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b21",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1530994584,
+      "text": "пора начинать"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b22",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530994585,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b23",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgen Shevchenko",
+      "datetime": 1530994591,
+      "text": "Глаз правый но я левша))"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b24",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530994603,
+      "text": "а левше вообще плохо стрелять"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b25",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530994628,
+      "text": "гильзы при стрельбе лежа - в лицо летят ;0"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b26",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1530994635,
+      "text": "Хм, разные"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b27",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1530994946,
+      "text": "Говорят, современная стояка нужна для более эффективного использования бронежилета. При боковой стойке открыт бок"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b28",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maktorin",
+      "datetime": 1530994992,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"danilbeltsov\" class=\"mention\"\u003e@danilbeltsov\u003c/span\u003e\u003cbr/\u003eЕрунда полная меня переучили в армии за неделю :) а на АКС есть специальная штука , гильзы вниз летят"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b29",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530995033,
+      "text": "Здравствуйте, это всё ещё гиковский выпуск?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b2a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995037,
+      "text": "та фсё уже :("
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b2b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530995176,
+      "text": "в подмышку попадут и каюк"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b2c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1530995179,
+      "text": "\u003ca href=\"https://rogueamoeba.com/audiohijack/buy.php\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://rogueamoeba.com/audiohijack/buy.php\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b2d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530995181,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  The Take Control of Audio Hijack eBook In this ebook from TidBITS Publishing, experienced Mac author Kirk McElhearn teaches you to use Audio Hijack for real-world recording projects. Learn more, get a free sample, or just purchase it ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eRogue Amoeba | Purchase Audio Hijack\u003c/em\u003e\u003cbr/\u003e\u003cstrong\u003eПятиминутка PHP 💬\u003c/strong\u003e  Каждый год выходит релиз PHP, который привносит новую функциональность. Такой мажорный релиз имеет 2 года активной поддержки с исправлениями багов и безопасности и ещё 2 года поддержки с исправлениями только по безопасности \u003ca href=\"https://secure.php.net/supported-versions.php\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://secure.php.net/supported-versions.php\u003c/a\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b2e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995264,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e если Kawhi перейдет и Popovich закончит карьеру, за кого болеть будешь?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b2f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995272,
+      "text": "чёрт, не успел"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b30",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995285,
+      "text": "понял, принял"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b31",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Valiev",
+      "datetime": 1530995318,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e мне казалось, что боковая стойка с времен дуэлей пошла"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b32",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530995333,
+      "text": "в гиттере же можно заблочить нотификации"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b33",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Valiev",
+      "datetime": 1530995335,
+      "text": "а тогда бронежилетов не было"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b34",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530995337,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b35",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "strayge",
+      "datetime": 1530995341,
+      "text": "а в safari нельзя полностью замутить вкладку?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b36",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530995431,
+      "text": "Ура!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b37",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530995437,
+      "text": "Там во дворе все орут. Забили, наверное"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b38",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1530995447,
+      "text": "2-2"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b39",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1530995448,
+      "text": "мощный API"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b3a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995459,
+      "text": "еееееееееееееееее"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b3b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1530995501,
+      "text": "мозг! самое главное"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b3c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530995541,
+      "text": "==\u0026gt; DigitalOcean Product Documentation - \u003ca href=\"https://www.digitalocean.com/docs/release-notes/2018/private-networking/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.digitalocean.com/docs/release-notes/2018/private-networking/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b3d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1530995719,
+      "text": "как назывался маленький линукс которого прошлый или позапрошлый раз обсуждали?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b3e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995744,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobomurod\" class=\"mention\"\u003e@bobomurod\u003c/span\u003e alpine?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b3f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530995821,
+      "text": "а что не так, с ipv4? nat/vpn есть же"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b40",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530995835,
+      "text": "nat это отстой"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b41",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530995838,
+      "text": "вынужденный отстой"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b42",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530995856,
+      "text": "я, кстати, согласен, что секьюрность обеспечивает не nat/частные сети, а фаерволл"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b43",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530995873,
+      "text": "Уходим на пенальти !!! Сейчас будет лотерея"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b44",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530995885,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e +1"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b45",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530995887,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b46",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530995888,
+      "text": "а безопастронсть, это аргумент за v6"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b47",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995910,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e переживаю больше чем за дженерики в Go :D"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b48",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530995928,
+      "text": "аргумент за v6 -- это эффективный протокол, не только адреса"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b49",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dernasherbrezon",
+      "datetime": 1530995964,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e +1"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b4a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530995966,
+      "text": "в ipv6 избавились от заголовков v4, которые не нашли применения или которые избыточны, например crc"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b4b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530995967,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e увеличена (текущее значение: 2)."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b4c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530995996,
+      "text": "карма бот с лагом работает, видимо тоже футбол смотрит"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b4d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996146,
+      "text": "Игорь , да прибудет с тобой сила"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b4e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530996176,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"kam1sh\" class=\"mention\"\u003e@kam1sh\u003c/span\u003e наверно ты прав, в v6 есть полезные обновления. Но ничего плохого в натах не вижу."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b4f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530996180,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e аминь"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b50",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530996206,
+      "text": "не видишь, потому что мы привыкли к ним"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b51",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530996206,
+      "text": "а с чего довод нат == фаервол? это же про разные вещи"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b52",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996231,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"xtwist\" class=\"mention\"\u003e@xtwist\u003c/span\u003e :)b"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b53",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530996238,
+      "text": "кстати, в москве IPv6 более-менее предоставляет всего ничего провайдеров"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b54",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530996249,
+      "text": "в москве! =("
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b55",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530996251,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"kam1sh\" class=\"mention\"\u003e@kam1sh\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b56",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530996303,
+      "text": "да ёлки"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b57",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996387,
+      "text": "а амазон же тоже на ipv4?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b58",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530996397,
+      "text": "==\u0026gt; Why you should not use Google Cloud. – Punch a Server – Medium - \u003ca href=\"https://medium.com/@serverpunch/why-you-should-not-use-google-cloud-75ea2aec00de\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://medium.com/@serverpunch/why-you-should-not-use-google-cloud-75ea2aec00de\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b59",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996398,
+      "text": "или там можно ipv6 elastic ip получить?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b5a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530996415,
+      "text": "нельзя"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b5b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996422,
+      "text": "аааааааааааааааааааааааааааа"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b5c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996423,
+      "text": "э"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b5d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530996432,
+      "text": "таааааааааааащиииииииииииииии"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b5e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530996444,
+      "text": "ахахахха"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b5f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530996445,
+      "text": "ёлки"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b60",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996468,
+      "text": "это пиздец"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b61",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530996483,
+      "text": "*лядь"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b62",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dernasherbrezon",
+      "datetime": 1530996512,
+      "text": "ну как так можно?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b63",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530996531,
+      "text": "давай дед!Дай в перекладину =)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b64",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530996543,
+      "text": "Акинфеев - хорош, стоит отдать должное"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b65",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996555,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"xtwist\" class=\"mention\"\u003e@xtwist\u003c/span\u003e  лучшей"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b66",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996577,
+      "text": "пенсия сила"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b67",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530996598,
+      "text": "ух"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b68",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530996611,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maktorin_twitter\" class=\"mention\"\u003e@Maktorin_twitter\u003c/span\u003e  но ты до нее не доживешь )))"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b69",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530996651,
+      "text": "может это было временное решение, и руки не дошли изменить? вот и попали"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b6a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1530996662,
+      "text": "сейчас бобук закричит"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b6b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "foxyolegus",
+      "datetime": 1530996677,
+      "text": "все - не будт в России монеты в полрубля"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b6c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530996680,
+      "text": "Вот и сказочке конец, а кто слушал молодец"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b6d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1530996683,
+      "text": "нет не закричит"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b6e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1530996687,
+      "text": "звиздец"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b6f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530996734,
+      "text": "бля"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b70",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1530996742,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"xtwist\" class=\"mention\"\u003e@xtwist\u003c/span\u003e да да спасибо"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b71",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996749,
+      "text": "расходимся , все было красиво"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b72",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1530996753,
+      "text": "Бобук, похоже, уже грустит."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b73",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1530996762,
+      "text": "обидно :( пойду налью"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b74",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dernasherbrezon",
+      "datetime": 1530996777,
+      "text": "наливаем парни"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b75",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1530996784,
+      "text": "Обидно. Пойду наговнокожу."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b76",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1530996790,
+      "text": "это нормально если вместо ubuntu использовать alpine при сборке docker-образов для микросервисов?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b77",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996796,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"danilbeltsov\" class=\"mention\"\u003e@danilbeltsov\u003c/span\u003e  ошибаетесь , я планирую стареть  в Финляндии ;)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b78",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996808,
+      "text": "не, у гугла есть телефонная поддержка"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b79",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530996811,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobomurod\" class=\"mention\"\u003e@bobomurod\u003c/span\u003e так и нужно"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b7a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996817,
+      "text": "у нас у конторы она есть"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b7b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996829,
+      "text": "для google cloud"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b7c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1530996842,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"TuxUbuntu\" class=\"mention\"\u003e@TuxUbuntu\u003c/span\u003e сейчас попробую"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b7d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996875,
+      "text": "чуваки туповаты, но при этом отвечают практически мгновенно"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b7e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530996875,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"xtwist\" class=\"mention\"\u003e@xtwist\u003c/span\u003e  поддержу"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b7f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996882,
+      "text": "так что неправда"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b80",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod",
+      "datetime": 1530996897,
+      "text": "народ, скажите пожалуйста, что вы вместе с докером устанавливаете кроме docker-compose?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b81",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530996899,
+      "text": "грей, потому что гугл большой, и там разные части компании этим занимаются? просто предположил"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b82",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex",
+      "datetime": 1530996902,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e маркетологам всегда виднее, а особенно грею, ты разве не знала? =)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b83",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996969,
+      "text": "когда гугл упал - чел пообещал разобраться и даже дебажить пытался, чтобы найти где сеть тормозит"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b84",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530996985,
+      "text": "как раз на этой неделе авария была"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b85",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997027,
+      "text": "бобук самоустранился?)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b86",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "foxyolegus",
+      "datetime": 1530997044,
+      "text": "грустит"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b87",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1530997084,
+      "text": "Ну хоть нологи больше не будут пока поднимать"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b88",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "fluggelgleckheimlen",
+      "datetime": 1530997263,
+      "text": "У Гугла рабы помогают с переездом"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b89",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "fluggelgleckheimlen",
+      "datetime": 1530997268,
+      "text": "В европейских бадишопах"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b8a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530997278,
+      "text": "у нас обычный стартап на GCP, есть телефонная поддержка и дали тоже кредит на 100500"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b8b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530997301,
+      "text": "плюс kubernetes вместо своего велосипеда у amazon"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b8c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530997358,
+      "text": "да"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b8d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Kostenko",
+      "datetime": 1530997392,
+      "text": "на этой неделе сеть у гугла упала, дебажили это по телефону, потом сделали acknowledge и зарепортили это в дашборде"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b8e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997465,
+      "text": "lol"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b8f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997509,
+      "text": "они экономят твои деньги. забота о пользователе)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b90",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1530997559,
+      "text": "Комрады , хочу  спросить , думаю купить macbook pro 13 2017 без тача . На форумах кричать, что клава умирает от любой крошки , жрать над ноутом не собираюсь ,это правда ?  Ноут нужен для офиса + frontend + не много backend ."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b91",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997559,
+      "text": "а чем drone не ci?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b92",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997634,
+      "text": "unix же)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b93",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530997727,
+      "text": "==\u0026gt; All code is technical debt - \u003ca href=\"https://www.tokyodev.com/2018/07/05/all-code-is-technical-debt/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.tokyodev.com/2018/07/05/all-code-is-technical-debt/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b94",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997803,
+      "text": "а ресурсов у тебя столько-же сколько у эволюции?))"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b95",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530997866,
+      "text": "у тепичного небоскрёба запас прочности 500-600 лет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b96",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530997889,
+      "text": "через 500 лет кап ремонт?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b97",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530997895,
+      "text": "маловато, я видел недавно в коде одного сайта кэш на 400 000 лет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b98",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530997935,
+      "text": "там вроде нарастает усталость металла и необслуживаемых конструкций"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b99",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Danil",
+      "datetime": 1530997989,
+      "text": "либо ты японец, либо ты не японец =)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b9a",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530998006,
+      "text": "негр Витя"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b9b",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530998032,
+      "text": "руби японец сделал"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b9c",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530998038,
+      "text": "а на го тогда в китай?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b9d",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex",
+      "datetime": 1530998038,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e а как же фигак-фигак и в продакшн? Типа, смерть стартапам?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b9e",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavlo Okhrymovych",
+      "datetime": 1530998074,
+      "text": "Ruby написан и поддерживается японцем"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133b9f",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530998119,
+      "text": "в opensuse linux много на руби написано"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba0",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Ovsyannikov",
+      "datetime": 1530998136,
+      "text": "да, YaST написан на руби"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba1",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530998195,
+      "text": "осторожно, сначала улучшаешь систему сборки, а потом переписываешь её на руби"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba2",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530998323,
+      "text": "если хочется писать много кода, то надо бить его на микросервисы или юникслайк куски"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba3",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530998390,
+      "text": "так речь о том, что его всё равно нужно будет поддерживать. ясно что декомпозировать нужно)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba4",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530998397,
+      "text": "==\u0026gt; Let’s celebrate Hugo’s 5th birthday - \u003ca href=\"https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://gohugo.io/news/lets-celebrate-hugos-5th-birthday/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba5",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530998471,
+      "text": "хьюго хорош"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba6",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530998514,
+      "text": "странно, что нет статического генератора на web components"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba7",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530998564,
+      "text": "бобук, так вменяемой альтернативы нет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba8",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavlo Okhrymovych",
+      "datetime": 1530998815,
+      "text": "По-моему, отличная простая блог платформа."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133ba9",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530998928,
+      "text": "кстати о монго. было обещано в гиковском выпуске обсудить новую монго."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133baa",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530999103,
+      "text": "==\u0026gt; Visual Studio Code June 2018 - \u003ca href=\"https://code.visualstudio.com/updates/v1_25\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://code.visualstudio.com/updates/v1_25\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bab",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530999129,
+      "text": "в библиотчке главное не размер, а умение пользоваться"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bac",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530999198,
+      "text": "кто-нить знает, есть планы у vsc уйти с web view?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bad",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530999259,
+      "text": "все настройки все равно от всех плагинов не засунешь в gui. Или они засунули?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bae",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530999354,
+      "text": "посмотрел, засунули, так-то удобно, когда хочется все настройки расширения посмотреть, сейчас приходится поиском искать"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133baf",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1530999387,
+      "text": "Никто сразу не редактирует на двух компах. Надуманная проблема."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb0",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1530999447,
+      "text": "Ща вирусов с флешки закачаю."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb1",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530999464,
+      "text": "ну как никто. вздумается самому редактору туда что-нить прописать, на двух машинах, вот и конфликт"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb2",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavlo Okhrymovych",
+      "datetime": 1530999474,
+      "text": "Я редактирую на двух компах -- стационарном и лаптопе, когда полежать хочется."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb3",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1530999497,
+      "text": "как не редактируют сразу на двух компах? у вас разве не так: \u003ca href=\"https://www.youtube.com/watch?v=CfFyV2fFhG0\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.youtube.com/watch?v=CfFyV2fFhG0\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb4",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530999499,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Watch Queue Queue Watch QueueQueue The next video is ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eBest Meme 3 - YouTube\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb5",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1530999624,
+      "text": "умпутун, а можешь рассказать, почему ты считаешь, что держать среду разработки в контейнере плохая идея?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb6",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1530999796,
+      "text": "Как называется расширение, чтобы взрывы были?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb7",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530999847,
+      "text": "я стрелочки в терминале через powerline font делаю последние несколько лет - \u003ca href=\"https://habr.com/post/323496/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://habr.com/post/323496/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb8",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530999851,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Я провожу в терминале много времени, поэтому хочется, чтобы все было красиво, быстро и удобно. Из этого рождается постоянное желание его настраивать, пробовать разные плагины. Шеллом я выбрал для себя zsh лет 5 назад, пару лет назад нашел oh-my-zsh для его удобной настройки. Со временем к этому ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eAnsible: настраиваем zsh терминал с antigen, autosuggestions, fzf и красивым prompt одной командой / Хабр\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bb9",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1530999877,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Mansiper\" class=\"mention\"\u003e@Mansiper\u003c/span\u003e \u003ca href=\"https://github.com/hoovercj/vscode-power-mode\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/hoovercj/vscode-power-mode\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bba",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1530999879,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  README. md VSCODE POWER MODE!!!Power Mode is one of the most requested extensions for VS Code. Unfortunately, they said it couldn\u0026#39;t be done. . . However, after seeing this list and realizing that VS Code was the only modern editor without it, I knew I had to try. I couldn\u0026#39;t let VS Code live in the ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGitHub - hoovercj/vscode-power-mode: Your code is powerful, unleash it! The extension made popular by Code in the Dark has finally made its way to VS Code.\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bbb",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Joseph Botosh",
+      "datetime": 1531000010,
+      "text": "вроде hamachi?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bbc",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1531000060,
+      "text": "==\u0026gt; You don\u0026#39;t need that Bastion host – Henrik Sylvester Pedersen – Medium - \u003ca href=\"https://medium.com/@henriksylvesterpedersen/you-dont-need-that-bastion-host-cd1b1717a9e7\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://medium.com/@henriksylvesterpedersen/you-dont-need-that-bastion-host-cd1b1717a9e7\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bbd",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531000091,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rumly111\" class=\"mention\"\u003e@rumly111\u003c/span\u003e вспоминал как называется)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bbe",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531000119,
+      "text": "а как то о ч1м бобук говорил пишется?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bbf",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "foxyolegus",
+      "datetime": 1531000173,
+      "text": "\u003ca href=\"https://www.zerotier.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.zerotier.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc0",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1531000174,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  ZeroTier delivers the capabilities of VPNs, SDN, and SD-WAN with a single system. Manage all your connected resources across both local and wide area networks as if the whole world is a single data ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eZeroTier | Home\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc1",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531000187,
+      "text": "спс"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc2",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531000417,
+      "text": "надом вызывать можно?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc3",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1531000461,
+      "text": "==\u0026gt; Яндекс начал индексировать Google Документы с паролями / Хабр - \u003ca href=\"https://habr.com/post/416219/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://habr.com/post/416219/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc4",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531000593,
+      "text": "вот, мне кажется, ситуация с robots.txt странная. почему там black list? по умолчанию, я думаю, нужно явное согласие, на индексирование, не?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc5",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1531000688,
+      "text": "shodan-эффект"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc6",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir V. Slavin",
+      "datetime": 1531000688,
+      "text": "насколько помню что даже если отправляю конкретному человеку, по дефолту Гугл сделает именно общедоступную ссылку"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc7",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531000792,
+      "text": "похоже на ситуацию с сессионным токеном в url"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc8",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531001026,
+      "text": "а как вообще с такими вещами борятся? глубиной индекса?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bc9",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1531001039,
+      "text": "Это как открытые наружу БД с незашифрованными паролями. Ничего нового, а панику развели, что капец."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bca",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531001325,
+      "text": "да, с отключенным по умолчанию js есть жизнь"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bcb",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1531001605,
+      "text": "Это опенсорс, а вы держитесь там."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bcc",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531002054,
+      "text": "А чем лучше Spring Flux ?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bcd",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Metraf",
+      "datetime": 1531002062,
+      "text": "у них coldstart на ламбде 13-15 секунд"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bce",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1531002069,
+      "text": "ну и вот зачем, если есть спринг?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bcf",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531002104,
+      "text": "*WebFlux"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd0",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531002122,
+      "text": "Тоже можно Netty"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd1",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1531002146,
+      "text": "ты хотел сказать \u0026#34;спринг бут 2 на нетти\u0026#34;, а не вебфлакс. Наверное."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd2",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1531002373,
+      "text": "\u0026#34;ходит по разным страницам, дёргает днсы\u0026#34; — и звали этот скрипт Бендер Родригез"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd3",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531002444,
+      "text": "\u003ca href=\"https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux\u003c/a\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd4",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1531002447,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  ServerWebExchange Access to the full ServerWebExchange — container for the HTTP request and response,request and session attributes, checkNotModified methods, and others. ServerHttpRequest, ServerHttpResponse Access to the HTTP request or response. WebSession Access to the session; this does not ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eWeb on Reactive Stack\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd5",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531002451,
+      "text": "так подними tor exit node"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd6",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531002462,
+      "text": "тот же эффект будет"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd7",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531002502,
+      "text": "The reactive stack, web framework, Spring WebFlux, was added later in version 5.0. It is fully non-blocking, supports Reactive Streams back pressure, and runs on servers such as Netty, Undertow, and Servlet 3.1+ containers."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd8",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531002628,
+      "text": "о каком убунтовском проекте речь?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bd9",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1531002823,
+      "text": "а как если надо docker -it сделать?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bda",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531003229,
+      "text": "Over all, Micronaut offers a pretty similar programming model to Spring Boot and Grails.(\u003ca href=\"https://medium.com/@jonashavers/getting-started-with-micronaut-595515985a98\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://medium.com/@jonashavers/getting-started-with-micronaut-595515985a98\u003c/a\u003e)"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bdb",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1531003231,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Still feeling lost? You’re not alone. Enjoy these stories about getting lost, losing things, and finding what you never knew you were looking ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eNot Found – Medium\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bdc",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531003372,
+      "text": "ну спойлеры подъехали"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bdd",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1531003629,
+      "text": "Опятпослшоу не будет? (((("
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bde",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1531003631,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  ))))\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bdf",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531003722,
+      "text": "а зачем?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be0",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003755,
+      "text": "Юз-кейс, не палить например порядковые ids"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be1",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003800,
+      "text": "А еще можно сгенерить хеш из HEX-набора символов, а потом из него получить число\u003cbr/\u003eТем самым сделав из одного цифрового id другой"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be2",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531003817,
+      "text": "так шифр вернама"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be3",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003834,
+      "text": "Например shortlink"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be4",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003843,
+      "text": "Когда надо исключить возможность перебора ссылок"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be5",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1531003873,
+      "text": "Почему вместо id не завести uuid?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be6",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003888,
+      "text": "потому что иногда нужно вводить id руками"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be7",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531003898,
+      "text": "да да"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be8",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003902,
+      "text": "например генерить  reference в банковских реквизитах"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133be9",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531003923,
+      "text": "так а зачем скрывать что они последовательны?"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bea",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1531003924,
+      "text": "Чтоб стартап не позорился и не показывал как мало у них пользователей. Если пользователям выдают последовательные инты."
+    },
+    {
+      "id": "65d60c19e8b9986bb1133beb",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003932,
+      "text": "ага"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bec",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1531003937,
+      "text": "ну и не только"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bed",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TuxUbuntu",
+      "datetime": 1531004044,
+      "text": "спасибо за подкаст"
+    },
+    {
+      "id": "65d60c19e8b9986bb1133bee",
+      "issue": 605,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1531004056,
+      "text": "+"
+    }
+  ]
 }

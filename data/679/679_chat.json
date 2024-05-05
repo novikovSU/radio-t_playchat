@@ -1,3 +1,2527 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d407e6b515127bda8b30a5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Timur Gilfanov",
+      "datetime": 1575740131,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e придут сегодня из JetBrains рассказывать про Space?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30a6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasily Suvorov",
+      "datetime": 1575742262,
+      "text": "ping"
+    },
+    {
+      "id": "65d407e6b515127bda8b30a7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575742263,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30a8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasily Grogoriev",
+      "datetime": 1575742544,
+      "text": "Доброго, всем"
+    },
+    {
+      "id": "65d407e6b515127bda8b30a9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575746729,
+      "text": "трям всем"
+    },
+    {
+      "id": "65d407e6b515127bda8b30aa",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575746756,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e в itunes показывает только последние 21 эпизод, можно ли это пофиксить?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ab",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575746775,
+      "text": "это не баг"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ac",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575746785,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e  в RSS также 21 эпизод"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ad",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575746792,
+      "text": "а как слушать старые?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ae",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575746819,
+      "text": "посмотреть внимательно тут \u003ca href=\"https://radio-t.com/feeds/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://radio-t.com/feeds/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30af",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575746820,
+      "text": "\u003cp\u003eEmail: \u003ca href=\"mailto:podcast@radio-t\" rel=\"nofollow\"\u003epodcast@radio-t\u003c/a\u003e. com Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесьс тем, что оно может не совпадать с вашим мнением и ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eВсе фиды — Радио-Т Подкаст\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1575746824,
+      "text": "на сайте слушать не ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575746842,
+      "text": "хочу слушать на айфоне"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575746855,
+      "text": "в экосистеме эппл"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575746856,
+      "image_url": "https://files.gitter.im/radio-t/chat/iGhA/i8c7h-201912-07132724-cu3an.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/iGhA/i8c7h-201912-07132724-cu3an.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575746998,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e и как скормить архивный фид приложению Podcasts на телефоне?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575747017,
+      "text": "вставить ссылку"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575747026,
+      "text": "или просто поиском"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575747045,
+      "image_url": "https://files.gitter.im/radio-t/chat/LOOU/9no16-201912-07133040-buqml.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/LOOU/9no16-201912-07133040-buqml.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ondrej Kochanowski",
+      "datetime": 1575747050,
+      "text": "ага спасибо!"
+    },
+    {
+      "id": "65d407e6b515127bda8b30b9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575747687,
+      "text": "hi"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ba",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575748555,
+      "image_url": "https://files.gitter.im/radio-t/chat/ixLd/rcci3-201912-07135539-rnnnu.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/ixLd/rcci3-201912-07135539-rnnnu.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30bb",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575748562,
+      "text": "вот такой странный набор подкастера ;)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30bc",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1575748625,
+      "text": "можно использовать вместо трещетки?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30bd",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1575748685,
+      "text": "как стартовый сигнал"
+    },
+    {
+      "id": "65d407e6b515127bda8b30be",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1575749076,
+      "text": "И правда странный набор, прям даже какой-то тревожноватый)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30bf",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1575749091,
+      "text": "О, ведущие)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1575749108,
+      "text": "Появились неожиданно :)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mak2456",
+      "datetime": 1575749128,
+      "text": "Hello everyone!"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton Samarchyan",
+      "datetime": 1575749155,
+      "text": "Hello all"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575749328,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749402,
+      "text": "а что за музыку ошибочно включил унпутун?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749411,
+      "text": "кто-нибудь знает?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1575749414,
+      "text": "своего подкаста"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749426,
+      "text": "ааа =)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749444,
+      "text": "а я подумал, что вражеские голоса попытались пробиться"
+    },
+    {
+      "id": "65d407e6b515127bda8b30c9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575749468,
+      "text": "==\u0026gt; Встречайте Space — новый продукт от JetBrains / Блог компании JetBrains / Хабр - \u003ca href=\"https://habr.com/ru/company/JetBrains/blog/478866/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/ru/company/JetBrains/blog/478866/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ca",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergei Borisov",
+      "datetime": 1575749561,
+      "text": "У меня главный вопрос к гостю: закапают ли TeamCity и / или YouTrack?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30cb",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575749592,
+      "text": "\u0026#34;Снежинка\u0026#34;?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30cc",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1575749630,
+      "text": "короче сегодня тарелочек не будет...."
+    },
+    {
+      "id": "65d407e6b515127bda8b30cd",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749749,
+      "text": "календарь циклов =)))))"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ce",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575749818,
+      "text": "эм.. что?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30cf",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749843,
+      "text": "99$"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575749980,
+      "text": "Когда у Яндекса будет конкурент этого продукта?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "t-navi",
+      "datetime": 1575749993,
+      "text": "Ну с другой стороны девопсам придется выучить Kotlin для CI/CD и они из человеков-методологий превратятся в нормальных разработчиков)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575749996,
+      "text": "там еще 100 GB of storage per user за эти 99$"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575750015,
+      "text": "там же еще год на EAP только"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575750066,
+      "text": "\u003ca href=\"https://www.jetbrains.com/idea/buy/#commercial?billing=yearly\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.jetbrains.com/idea/buy/#commercial?billing=yearly\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575750067,
+      "text": "\u003cp\u003e90-day Trial for Your Whole Team If your team wants to try IntelliJ IDEA Ultimate together, you may request a 90-day free trial for an unlimited number of users. Complete a short form and we\u0026#39;ll get in touch with you shortly provided your team meets a set of simple criteria. Request ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eIntelliJ IDEA Ultimate: JetBrains Toolbox subscription\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575750078,
+      "text": "All Products Pack - commercial на год $699"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575750092,
+      "text": "649 сорри"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575750195,
+      "text": "почему емейл - сделайте browser notifications =)"
+    },
+    {
+      "id": "65d407e6b515127bda8b30d9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zuriy",
+      "datetime": 1575750200,
+      "text": "сейчас месячный стоит 65"
+    },
+    {
+      "id": "65d407e6b515127bda8b30da",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zuriy",
+      "datetime": 1575750212,
+      "text": "посути не намного дороже"
+    },
+    {
+      "id": "65d407e6b515127bda8b30db",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750318,
+      "text": "чето все яйца в одну корзину класть дико стремно"
+    },
+    {
+      "id": "65d407e6b515127bda8b30dc",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575750322,
+      "text": "Чатик на Electron?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30dd",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1575750382,
+      "text": "я нормально набрасываю? или жестче надо?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30de",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750402,
+      "text": "жестче"
+    },
+    {
+      "id": "65d407e6b515127bda8b30df",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eduard Nikolenko",
+      "datetime": 1575750410,
+      "text": "Это же KeyBase, только с интеграцией с IDE"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575750416,
+      "text": "Можно жёсче"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575750441,
+      "text": "Главное чтоб гость не испугался"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575750450,
+      "text": "трубку бросит?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750479,
+      "text": "а там есть какая телеметрия?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750488,
+      "text": "что они за нами следят?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575750511,
+      "text": "Сколько мемов в день посылает один пользователь?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750536,
+      "text": "кстати еще интересно что может тимлид например смотреть о разрабах"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575750537,
+      "text": "если все данные в их облаке уже, зачем телеметрия"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750538,
+      "text": "кто что пишет"
+    },
+    {
+      "id": "65d407e6b515127bda8b30e9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575750548,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eя нормально набрасываю? или жестче надо?\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eжестче =)\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ea",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750568,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e можно на скольео sjw мемы :D"
+    },
+    {
+      "id": "65d407e6b515127bda8b30eb",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750644,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"lavasili4_twitter\" class=\"mention\"\u003e@lavasili4_twitter\u003c/span\u003e типо мониторим и анализируем вообще"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ec",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750864,
+      "text": "а гость может цифры назвать сколько они ожидают клиентов?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ed",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575750872,
+      "text": "просто чтобы размер рынка понять"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ee",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575751034,
+      "text": "Статус \u0026#34;В депрессии\u0026#34;"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ef",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Тюляш Морской Котан",
+      "datetime": 1575751095,
+      "text": "Всем доброго! Space разносят?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751151,
+      "text": "чето эти вещи калдавом решаются"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575751155,
+      "text": "переговорки разве в outlook не бронируются?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1575751203,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eпереговорки разве в outlook не бронируются?\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eБогато живете — Exchange себе позволяете\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasily Suvorov",
+      "datetime": 1575751235,
+      "text": "ping"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575751235,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575751247,
+      "text": "пинг"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575751247,
+      "text": "\u003cem\u003eпонг\u003c/em\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575751261,
+      "text": "\u003cblockquote\u003e\nБогато живете — Exchange себе позволяете\u003cbr/\u003eFor Exchange, Microsoft wants $5/mo per user.\u003c/blockquote\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b30f8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575751394,
+      "text": "а зачем что-то удалять при увольнении? почему нельзя просто переименовать имя на unavialable - пусть комментарии и активность остается безликой."
+    },
+    {
+      "id": "65d407e6b515127bda8b30f9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751405,
+      "text": "ios на котлине это жесть"
+    },
+    {
+      "id": "65d407e6b515127bda8b30fa",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575751462,
+      "text": "Умпутун пишет на одном языке: на английском"
+    },
+    {
+      "id": "65d407e6b515127bda8b30fb",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575751482,
+      "text": "То бишь по GDPR нужно при каждом увольнении git-filter-branch делать во всех репах?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30fc",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575751494,
+      "text": "увольнение должно быть связано лишь с лишением прав на запись. Почему не знать кто пушил?"
+    },
+    {
+      "id": "65d407e6b515127bda8b30fd",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751586,
+      "text": "гость как то ничего не рассказал"
+    },
+    {
+      "id": "65d407e6b515127bda8b30fe",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751593,
+      "text": "понятнее не стало"
+    },
+    {
+      "id": "65d407e6b515127bda8b30ff",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575751622,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e плоти и сам пробуй"
+    },
+    {
+      "id": "65d407e6b515127bda8b3100",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751647,
+      "text": "это только для программистов или безопасники системщики и бизнес человеки тоже туда могут"
+    },
+    {
+      "id": "65d407e6b515127bda8b3101",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751656,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e я фрилансер :D"
+    },
+    {
+      "id": "65d407e6b515127bda8b3102",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575751680,
+      "text": "вероятно споткнусь когданить об этот спейс но не на долго"
+    },
+    {
+      "id": "65d407e6b515127bda8b3103",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rassokhin",
+      "datetime": 1575752219,
+      "text": "Камон, TeamCity бесплатный же до трёх сборочных агентов."
+    },
+    {
+      "id": "65d407e6b515127bda8b3104",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rassokhin",
+      "datetime": 1575752275,
+      "text": "По-моему, демократия сплошная, а не конская цена."
+    },
+    {
+      "id": "65d407e6b515127bda8b3105",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752387,
+      "text": "интересно что ксюша про аппкод думает"
+    },
+    {
+      "id": "65d407e6b515127bda8b3106",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752402,
+      "text": "только умпуту jetbrains юзает"
+    },
+    {
+      "id": "65d407e6b515127bda8b3107",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575752405,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sympho-ru\" class=\"mention\"\u003e@sympho-ru\u003c/span\u003e я про то, что раньше там было ограничение по проектам"
+    },
+    {
+      "id": "65d407e6b515127bda8b3108",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575752411,
+      "text": "как сейчас в space"
+    },
+    {
+      "id": "65d407e6b515127bda8b3109",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752479,
+      "text": "ооо главное не спросили - сколько space будет кушать батарею"
+    },
+    {
+      "id": "65d407e6b515127bda8b310a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575752508,
+      "text": "на сервере?"
+    },
+    {
+      "id": "65d407e6b515127bda8b310b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752520,
+      "text": "с юаем на kotlin"
+    },
+    {
+      "id": "65d407e6b515127bda8b310c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1575752627,
+      "text": "2019й год, у ростелекома падает днс сервер, здесь и сейчас"
+    },
+    {
+      "id": "65d407e6b515127bda8b310d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752704,
+      "text": "в таких случаях фаербейз есть"
+    },
+    {
+      "id": "65d407e6b515127bda8b310e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752713,
+      "text": "чтобы не думать про платформу и шарить кеши"
+    },
+    {
+      "id": "65d407e6b515127bda8b310f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752806,
+      "text": "с чего они там будут разные"
+    },
+    {
+      "id": "65d407e6b515127bda8b3110",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1575752844,
+      "text": "Вот прям Алексей прав же"
+    },
+    {
+      "id": "65d407e6b515127bda8b3111",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575752862,
+      "text": "Клиент Фейсбука - это действительно много кода и много памяти жрёт"
+    },
+    {
+      "id": "65d407e6b515127bda8b3112",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575752876,
+      "text": "Но зачем?"
+    },
+    {
+      "id": "65d407e6b515127bda8b3113",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752888,
+      "text": "ксюшу приятнее всего слушать - она самый опытный прогер там"
+    },
+    {
+      "id": "65d407e6b515127bda8b3114",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752910,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e как же зачем столько данных ваших цукербергу послать"
+    },
+    {
+      "id": "65d407e6b515127bda8b3115",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575752996,
+      "text": "пример хороший потому что до сих пор никто не может договориться про единый стандарт отвертки"
+    },
+    {
+      "id": "65d407e6b515127bda8b3116",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753002,
+      "text": "и все договорились про молотки"
+    },
+    {
+      "id": "65d407e6b515127bda8b3117",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753062,
+      "text": "так чуваки правильно рассказывают"
+    },
+    {
+      "id": "65d407e6b515127bda8b3118",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1575753086,
+      "text": "А вот про карты, 2gis на айфоне лучге яндекса…."
+    },
+    {
+      "id": "65d407e6b515127bda8b3119",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753123,
+      "text": "я из-за леши только написал"
+    },
+    {
+      "id": "65d407e6b515127bda8b311a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753130,
+      "text": "хотел показать как писать можно"
+    },
+    {
+      "id": "65d407e6b515127bda8b311b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753141,
+      "text": "так же писать в других языках нельзя"
+    },
+    {
+      "id": "65d407e6b515127bda8b311c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753230,
+      "text": "бобук нарывается..."
+    },
+    {
+      "id": "65d407e6b515127bda8b311d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753247,
+      "text": "Бобук молодец"
+    },
+    {
+      "id": "65d407e6b515127bda8b311e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575753260,
+      "text": "почему молодец?"
+    },
+    {
+      "id": "65d407e6b515127bda8b311f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753271,
+      "text": "Хотя, да, набрасывает слабо"
+    },
+    {
+      "id": "65d407e6b515127bda8b3120",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753301,
+      "text": "чтобы полюбить наследование нужно сначала полюбить калбеки"
+    },
+    {
+      "id": "65d407e6b515127bda8b3121",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753316,
+      "text": "а это среднему питонисту сложно"
+    },
+    {
+      "id": "65d407e6b515127bda8b3122",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753418,
+      "text": "Многие питонисты, тоже неадекватные в этом плане... (я сам питонист, но сталкивался с фанатиками сумасшедшими )"
+    },
+    {
+      "id": "65d407e6b515127bda8b3123",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753441,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e да прогеры в целом редко адекватные бывают"
+    },
+    {
+      "id": "65d407e6b515127bda8b3124",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575753449,
+      "text": "=)))"
+    },
+    {
+      "id": "65d407e6b515127bda8b3125",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753450,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e привет! Давно тебя не было..."
+    },
+    {
+      "id": "65d407e6b515127bda8b3126",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753460,
+      "text": "меня тут активно не любят"
+    },
+    {
+      "id": "65d407e6b515127bda8b3127",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753468,
+      "text": "я стараюсь глаза не мазолить"
+    },
+    {
+      "id": "65d407e6b515127bda8b3128",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575753478,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003e\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e да прогеры в целом редко адекватные бывают\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eиз за этого не любят?\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3129",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753481,
+      "text": "Адекватный прогер - плохой прогер"
+    },
+    {
+      "id": "65d407e6b515127bda8b312a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753490,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e не совсем нормальные часто да. А совсем неадекватные уже не так уж часто"
+    },
+    {
+      "id": "65d407e6b515127bda8b312b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575753516,
+      "text": "да ладно вам"
+    },
+    {
+      "id": "65d407e6b515127bda8b312c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575753519,
+      "text": "люди как люди"
+    },
+    {
+      "id": "65d407e6b515127bda8b312d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1575753523,
+      "text": "да ладно , в плюсах подобная фигня с enum и underlying type. Зато при сериализации классно"
+    },
+    {
+      "id": "65d407e6b515127bda8b312e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753534,
+      "text": "а можно ксюша поругает свифт пожалуйста?"
+    },
+    {
+      "id": "65d407e6b515127bda8b312f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753539,
+      "text": "3 вещи если можно"
+    },
+    {
+      "id": "65d407e6b515127bda8b3130",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753544,
+      "text": "как с гоу"
+    },
+    {
+      "id": "65d407e6b515127bda8b3131",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1575753554,
+      "text": "Сегодня гениальный гиковский выпуск. Прошло больше часа, обсудили одну негиковскую тему"
+    },
+    {
+      "id": "65d407e6b515127bda8b3132",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753566,
+      "text": "Давайте лучше Умпутун похвалит php ))) вот это уже сложная задача"
+    },
+    {
+      "id": "65d407e6b515127bda8b3133",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753584,
+      "text": "я думаю умпутун плохо понимает что такое php"
+    },
+    {
+      "id": "65d407e6b515127bda8b3134",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1575753594,
+      "text": "в плюсы тоже корутины завозят..."
+    },
+    {
+      "id": "65d407e6b515127bda8b3135",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753595,
+      "text": "если показать код он его даже не узнает"
+    },
+    {
+      "id": "65d407e6b515127bda8b3136",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1575753605,
+      "text": "на вскидку хорошая вещь в пхп это мотивация писать на других языках)"
+    },
+    {
+      "id": "65d407e6b515127bda8b3137",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753630,
+      "text": "Кстати. Я в веб пришёл через php ) как и многие"
+    },
+    {
+      "id": "65d407e6b515127bda8b3138",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1575753644,
+      "text": "мне кажется такая черная полоса была у всех)"
+    },
+    {
+      "id": "65d407e6b515127bda8b3139",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575753673,
+      "text": "зато после этой темы самая мякотка пошла, про js да про go"
+    },
+    {
+      "id": "65d407e6b515127bda8b313a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753682,
+      "text": "Бот пхп перестал работать?"
+    },
+    {
+      "id": "65d407e6b515127bda8b313b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753683,
+      "text": "Php - Это как подтягивание с гирями. Потом их сбрасываешь и так легко."
+    },
+    {
+      "id": "65d407e6b515127bda8b313c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753697,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e все боты отключили вроде"
+    },
+    {
+      "id": "65d407e6b515127bda8b313d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753700,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d407e6b515127bda8b313e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753704,
+      "text": "да видите"
+    },
+    {
+      "id": "65d407e6b515127bda8b313f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753714,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d407e6b515127bda8b3140",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575753718,
+      "text": "Блин... моя карма потеряна (((("
+    },
+    {
+      "id": "65d407e6b515127bda8b3141",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575753723,
+      "text": "а в джаве логгер - идеален =)"
+    },
+    {
+      "id": "65d407e6b515127bda8b3142",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753723,
+      "text": "да, отключили"
+    },
+    {
+      "id": "65d407e6b515127bda8b3143",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753809,
+      "text": "По работает же"
+    },
+    {
+      "id": "65d407e6b515127bda8b3144",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753810,
+      "text": "пинг"
+    },
+    {
+      "id": "65d407e6b515127bda8b3145",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575753810,
+      "text": "\u003cem\u003eпонг\u003c/em\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3146",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753827,
+      "text": "непонятно нафига он нужен правда"
+    },
+    {
+      "id": "65d407e6b515127bda8b3147",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753832,
+      "text": "аа чтобы новости постить"
+    },
+    {
+      "id": "65d407e6b515127bda8b3148",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575753838,
+      "text": "==\u0026gt; Самый популярный пример Java-кода на StackOverflow оказался с ошибкой - \u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=51982\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://www.opennet.ru/opennews/art.shtml?num=51982\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3149",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753842,
+      "text": "ыыы"
+    },
+    {
+      "id": "65d407e6b515127bda8b314a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753899,
+      "text": "и после этого они говорят про стринги и инты в js"
+    },
+    {
+      "id": "65d407e6b515127bda8b314b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753907,
+      "text": "они байты посчитать не могут"
+    },
+    {
+      "id": "65d407e6b515127bda8b314c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575753910,
+      "text": "пипец"
+    },
+    {
+      "id": "65d407e6b515127bda8b314d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575753948,
+      "text": "Пи = 3"
+    },
+    {
+      "id": "65d407e6b515127bda8b314e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1575754053,
+      "text": "так вроде и был сабж что этот чувак в опенждк работал"
+    },
+    {
+      "id": "65d407e6b515127bda8b314f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575754080,
+      "text": "а разве so не нужен для того, чтобы копировать код оттуда?"
+    },
+    {
+      "id": "65d407e6b515127bda8b3150",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754118,
+      "text": "я туда хожу когда не могу что-то вспомнить"
+    },
+    {
+      "id": "65d407e6b515127bda8b3151",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1575754146,
+      "text": "диссернет"
+    },
+    {
+      "id": "65d407e6b515127bda8b3152",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kkolesnikov",
+      "datetime": 1575754210,
+      "text": "Бобук забыл про Диссернет, но Диссернет помнит Бобука)"
+    },
+    {
+      "id": "65d407e6b515127bda8b3153",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575754230,
+      "text": "Вообще использовать для этой задачи плавающую арифметику - странная затея. Да и отображения на разных платформах на самом деле разное"
+    },
+    {
+      "id": "65d407e6b515127bda8b3154",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575754263,
+      "text": "==\u0026gt; Amazon CodeGuru - Amazon Web Services - \u003ca href=\"https://aws.amazon.com/codeguru/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://aws.amazon.com/codeguru/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3155",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754284,
+      "text": "я уверен что бобук ходит на стаковерфлоу больше чем на порнохаб"
+    },
+    {
+      "id": "65d407e6b515127bda8b3156",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1575754291,
+      "text": "Results from our Online Surveys • 46% of the participants admitted copying code from Stack Overflow without attribution • 75% did not know that content on SO is licensed under CC BY-SA•67% did not know that attribution is required"
+    },
+    {
+      "id": "65d407e6b515127bda8b3157",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1575754295,
+      "text": "\u003ca href=\"https://empirical-software.engineering/assets/pdf/icse19-snippets-slides.pdf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://empirical-software.engineering/assets/pdf/icse19-snippets-slides.pdf\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3158",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1575754302,
+      "text": "помочь уволить? :D"
+    },
+    {
+      "id": "65d407e6b515127bda8b3159",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754569,
+      "text": "чтобы анализировать код нужно уметь его читать"
+    },
+    {
+      "id": "65d407e6b515127bda8b315a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754624,
+      "text": "ооо ревьюверы не нужны"
+    },
+    {
+      "id": "65d407e6b515127bda8b315b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754636,
+      "text": "хорошо а то побоялся что не тот подкаст слуша"
+    },
+    {
+      "id": "65d407e6b515127bda8b315c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575754762,
+      "text": "==\u0026gt; New – Amazon Managed Apache Cassandra Service (MCS) | Amazon Web Services - \u003ca href=\"https://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://aws.amazon.com/blogs/aws/new-amazon-managed-apache-cassandra-service-mcs/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b315d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754825,
+      "text": "было бы клево если бы яндекс купил порнохаб"
+    },
+    {
+      "id": "65d407e6b515127bda8b315e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575754837,
+      "text": "я ...у"
+    },
+    {
+      "id": "65d407e6b515127bda8b315f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575754878,
+      "text": "==\u0026gt; Amazon Kendra – Amazon Web Services - \u003ca href=\"https://aws.amazon.com/kendra/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://aws.amazon.com/kendra/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3160",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1575754946,
+      "text": "А как же \u0026#34;Highly accurate enterprise search service powered by machine learning. \u0026#34;?"
+    },
+    {
+      "id": "65d407e6b515127bda8b3161",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755127,
+      "text": "вот если бы ане лайк ставили она бы в подкаст приходила бы"
+    },
+    {
+      "id": "65d407e6b515127bda8b3162",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575755142,
+      "text": "Если бы не поставил лайк - товар не отдал бы"
+    },
+    {
+      "id": "65d407e6b515127bda8b3163",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Zima",
+      "datetime": 1575755147,
+      "text": "Что за наушники? модель в студию)"
+    },
+    {
+      "id": "65d407e6b515127bda8b3164",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755172,
+      "text": "у них немного моделей"
+    },
+    {
+      "id": "65d407e6b515127bda8b3165",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575755269,
+      "text": "В Яндекс.Такси пять звёзд ни разу не встречал таксистов, которые не знают дорогу, с перегаром, курит или слушает радио Шансон"
+    },
+    {
+      "id": "65d407e6b515127bda8b3166",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755584,
+      "text": "забавно как ксюша про звездочки говорит"
+    },
+    {
+      "id": "65d407e6b515127bda8b3167",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755595,
+      "text": "в ее аппсторе с этим большие проблемы"
+    },
+    {
+      "id": "65d407e6b515127bda8b3168",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755603,
+      "text": "все везде 1 звезду ставить стали"
+    },
+    {
+      "id": "65d407e6b515127bda8b3169",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1575755608,
+      "text": "а может еще что плохого в JS или GO вспомните?"
+    },
+    {
+      "id": "65d407e6b515127bda8b316a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575755695,
+      "text": "По Москве сейчас уже 8 число - можно уже не гиковедничать"
+    },
+    {
+      "id": "65d407e6b515127bda8b316b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1575755726,
+      "text": "треды)"
+    },
+    {
+      "id": "65d407e6b515127bda8b316c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1575755766,
+      "text": "\u003ca href=\"http://paulgraham.com/lesson.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://paulgraham.com/lesson.html\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b316d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575755767,
+      "text": "\u003cp\u003eDecember 2019 The most damaging thing you learned in school wasn\u0026#39;t something youlearned in any specific class. It was learning to get good grades. When I was in college, a particularly earnest philosophy grad studentonce told me that he never cared what grade he got in a class, onlywhat he learned ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eThe Lesson to Unlearn\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b316e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755789,
+      "text": "кстати js в плане апдейтов лучший язык на свете"
+    },
+    {
+      "id": "65d407e6b515127bda8b316f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755799,
+      "text": "за 24 года ни одного ломающиего апдейта"
+    },
+    {
+      "id": "65d407e6b515127bda8b3170",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755811,
+      "text": "учитесь хипстеры на питон"
+    },
+    {
+      "id": "65d407e6b515127bda8b3171",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755876,
+      "text": "ну и код написанный 24 года назад замечательно работает сегодня конечно"
+    },
+    {
+      "id": "65d407e6b515127bda8b3172",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755903,
+      "text": "я на 24 упор делаю потому что у js день рождение было"
+    },
+    {
+      "id": "65d407e6b515127bda8b3173",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575755906,
+      "text": "на этой неделе"
+    },
+    {
+      "id": "65d407e6b515127bda8b3174",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756006,
+      "text": "а можно про языки которые живы?"
+    },
+    {
+      "id": "65d407e6b515127bda8b3175",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756027,
+      "text": "обжектив си это как flash/ active script вспоминать"
+    },
+    {
+      "id": "65d407e6b515127bda8b3176",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756038,
+      "text": "давайте про свифт"
+    },
+    {
+      "id": "65d407e6b515127bda8b3177",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756130,
+      "text": "вся такая стримная"
+    },
+    {
+      "id": "65d407e6b515127bda8b3178",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575756322,
+      "text": "да не таких как я много, ща например ко мне одна тян добавилась теперь пытается меня на вирт развести"
+    },
+    {
+      "id": "65d407e6b515127bda8b3179",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1575756324,
+      "text": "Зачем. Качать к себе же и показывать."
+    },
+    {
+      "id": "65d407e6b515127bda8b317a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756326,
+      "text": "а может просто браузер нормальный юзать"
+    },
+    {
+      "id": "65d407e6b515127bda8b317b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1575756340,
+      "text": "Этоибезопасность"
+    },
+    {
+      "id": "65d407e6b515127bda8b317c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756419,
+      "text": "ооо и тут чатик"
+    },
+    {
+      "id": "65d407e6b515127bda8b317d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756431,
+      "text": "если он такой же как бобука то нет спасибо"
+    },
+    {
+      "id": "65d407e6b515127bda8b317e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1575756436,
+      "text": "нет в поиске"
+    },
+    {
+      "id": "65d407e6b515127bda8b317f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756437,
+      "text": "такая помойка"
+    },
+    {
+      "id": "65d407e6b515127bda8b3180",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1575756456,
+      "text": "\u003ca href=\"https://t.me/radio_t_podcast\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://t.me/radio_t_podcast\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3181",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575756457,
+      "text": "\u003cp\u003eradio-t 56 members подкаст radio-t. com View in TelegramPreview channel If you have Telegram, you can view and join radio-t right ...\u003c/p\u003e\u003cp\u003e_Telegram: Contact \u003cspan data-link-type=\"mention\" data-screen-name=\"radio_t_podcast_\" class=\"mention\"\u003e@radio_t_podcast_\u003c/span\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3182",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575756517,
+      "text": "==\u0026gt; Темы слушателей 679 - \u003ca href=\"https://radio-t.com/p/2019/12/03/prep-679/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://radio-t.com/p/2019/12/03/prep-679/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b3183",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756540,
+      "text": "какой телефон у бобука?"
+    },
+    {
+      "id": "65d407e6b515127bda8b3184",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756550,
+      "text": "если не яднекс то точно коньяк"
+    },
+    {
+      "id": "65d407e6b515127bda8b3185",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575756594,
+      "text": "Я за Умпутуна"
+    },
+    {
+      "id": "65d407e6b515127bda8b3186",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575756649,
+      "text": "Хоть я Яндекс и Люблю"
+    },
+    {
+      "id": "65d407e6b515127bda8b3187",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756681,
+      "text": "злой леша кажется"
+    },
+    {
+      "id": "65d407e6b515127bda8b3188",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756687,
+      "text": "вернее правильный"
+    },
+    {
+      "id": "65d407e6b515127bda8b3189",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756711,
+      "text": "бутылку прислал"
+    },
+    {
+      "id": "65d407e6b515127bda8b318a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756831,
+      "text": "на винде есть фейс ил"
+    },
+    {
+      "id": "65d407e6b515127bda8b318b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575756863,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e только он не работает нигде(("
+    },
+    {
+      "id": "65d407e6b515127bda8b318c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575756873,
+      "text": "Кто-нибудь из ведущих купил уже MacBook Pro 16?"
+    },
+    {
+      "id": "65d407e6b515127bda8b318d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575756876,
+      "text": "как все от микрософт :D"
+    },
+    {
+      "id": "65d407e6b515127bda8b318e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575756888,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e мне даже относительно новый ноут пишет что не совместим"
+    },
+    {
+      "id": "65d407e6b515127bda8b318f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1575756891,
+      "text": "Может кто-то ещё пароди в браузере хранит? ))"
+    },
+    {
+      "id": "65d407e6b515127bda8b3190",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1575756914,
+      "text": "Майкрософт даже пробел в пароле не даёт установить ="
+    },
+    {
+      "id": "65d407e6b515127bda8b3191",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575756944,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"kapurator\" class=\"mention\"\u003e@kapurator\u003c/span\u003e я храню, но они там закрыты паролем для винды а у меня даже для винды далеко не 12345"
+    },
+    {
+      "id": "65d407e6b515127bda8b3192",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757012,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Rasmushippy_twitter\" class=\"mention\"\u003e@Rasmushippy_twitter\u003c/span\u003e а где винда пароли хранит на уровне системы? в маке кривой кейчейн"
+    },
+    {
+      "id": "65d407e6b515127bda8b3193",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757084,
+      "text": "а вот ноду за то же самое захейтили"
+    },
+    {
+      "id": "65d407e6b515127bda8b3194",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757100,
+      "text": "правда с нодой такое было сильно больше одного раза"
+    },
+    {
+      "id": "65d407e6b515127bda8b3195",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757165,
+      "text": "но и npm больше раз в 20"
+    },
+    {
+      "id": "65d407e6b515127bda8b3196",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1575757208,
+      "text": "Видимо копипаста со stackOverflow, может они там поддельные ответы нагенирировали"
+    },
+    {
+      "id": "65d407e6b515127bda8b3197",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1575757224,
+      "text": "С поддельный jeIlyfish"
+    },
+    {
+      "id": "65d407e6b515127bda8b3198",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757324,
+      "text": "в npm удаляют похожие названия"
+    },
+    {
+      "id": "65d407e6b515127bda8b3199",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575757528,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e вроде в зашифрованном файле ну и сомневаюсь что пароли хранит логично хэшы"
+    },
+    {
+      "id": "65d407e6b515127bda8b319a",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757555,
+      "text": "а как он хеши на сайты вводит"
+    },
+    {
+      "id": "65d407e6b515127bda8b319b",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757570,
+      "text": "надо будет посмотреть"
+    },
+    {
+      "id": "65d407e6b515127bda8b319c",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757578,
+      "text": "интересно - спасибо"
+    },
+    {
+      "id": "65d407e6b515127bda8b319d",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575757579,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e на сайты хром вводит"
+    },
+    {
+      "id": "65d407e6b515127bda8b319e",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575757599,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e а хром паролит их учёткой винды"
+    },
+    {
+      "id": "65d407e6b515127bda8b319f",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757611,
+      "text": "ааа понял"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757616,
+      "text": "ну это лучше чем мак"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575757648,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e если я например хочу посмотреть пароль в настрройках хрома он мне их выдаст после того как введу пароль от винды"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757695,
+      "text": "так вот ради какой новости грей пришел :D"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757707,
+      "text": "весь выпуск терпел"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757786,
+      "text": "это бобук про ионовый ветер?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757799,
+      "text": "опять бобук мне технологии продал"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757807,
+      "text": "много эмоций и нет мяса"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757939,
+      "text": "а что делает рипер?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575757970,
+      "text": "аа ок \u003ca href=\"https://www.reaper.fm/download.php\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.reaper.fm/download.php\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b31a9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1575757971,
+      "text": "\u003cp\u003eDownload and Evaluate REAPER for Free Download REAPER below for a free, fully functional 60-day evaluation. No registration or personal details are required. REAPER supports all Windows versions from Windows XP to Windows 10. REAPER has experimental native support for Linux, and the Windows version ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eREAPER | Download\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e6b515127bda8b31aa",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575758029,
+      "text": "ведущие вы в курсе что со звуком только вы работаете"
+    },
+    {
+      "id": "65d407e6b515127bda8b31ab",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575758037,
+      "text": "вы бы хоть рассказали чем он хорош то"
+    },
+    {
+      "id": "65d407e6b515127bda8b31ac",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575758045,
+      "text": "какой то междусобойчик"
+    },
+    {
+      "id": "65d407e6b515127bda8b31ad",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575758150,
+      "text": "а audacity же есть вроде под линуксом"
+    },
+    {
+      "id": "65d407e6b515127bda8b31ae",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1575758274,
+      "text": "ну для простейших операций хватает, нормализацию например кинуть вырезать что-нибудь лишнее"
+    },
+    {
+      "id": "65d407e6b515127bda8b31af",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575758384,
+      "text": "почему дырочка в айфоне кому то интересна"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b0",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575758544,
+      "text": "ахах"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b1",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758561,
+      "text": "Самостийные ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b2",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758569,
+      "text": "Своеобразные ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b3",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1575758587,
+      "text": "Споки"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b4",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1575758594,
+      "text": "сердабольные?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b5",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758602,
+      "text": "Авторитарные ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b6",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758624,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e какие причины ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b7",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758637,
+      "text": "Слово нудно вспомнить"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b8",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758650,
+      "text": "Гештальт )"
+    },
+    {
+      "id": "65d407e6b515127bda8b31b9",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758674,
+      "text": "Саботажные причины ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31ba",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758723,
+      "text": "Собственные ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31bb",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758767,
+      "text": "Самоличные ?"
+    },
+    {
+      "id": "65d407e6b515127bda8b31bc",
+      "issue": 679,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1575758819,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e самоличные ?"
+    }
+  ]
 }

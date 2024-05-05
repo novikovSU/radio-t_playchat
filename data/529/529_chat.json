@@ -1,3 +1,3518 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d60e09111d6e5c56d9668e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "igordolgushev",
+      "datetime": 1484407359,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e  +1"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9668f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484407366,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e увеличена (текущее значение: -6)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96690",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nikola166",
+      "datetime": 1484416719,
+      "text": "php"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96691",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484416727,
+      "text": "\u003cstrong\u003eПятиминутка PHP 💬\u003c/strong\u003e  Каждый запрос в PHP начинается с чистого листа. Начиная каждый запрос с известного состояния, мы получаем своего рода изоляцию от возможных ошибок; если запрос t сталкивается с неполадкой и завершается с ошибкой, данный баг не оказывает никакого влияния на выполнение последующего запроса t+1."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96692",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1484420305,
+      "text": "Музыки ещё нет?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96693",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Gonimar",
+      "datetime": 1484422051,
+      "text": "есть"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96694",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484422760,
+      "text": "Я тут начал жизнь свою автоматизировать, сделал себе ботика который с помощью моего сервера и fttt скачивает и шлёт новый выпуск радиота каждое утро понедельника"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96695",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zin4uk Vadim",
+      "datetime": 1484422948,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e  куда шлет? И почему все это не делает подкаст плеер на телефоне?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96696",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zin4uk Vadim",
+      "datetime": 1484423009,
+      "text": "С программами типа Podcast Addict вообще не нужно думать про закачки, новые эпизоды сами качаются каждый день"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96697",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423032,
+      "text": "В телеграмм шлёт. Просто, я заметил, что радиота съедает много трафика. Решил автоматизировать."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96698",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423071,
+      "text": "Хмм.. посмотрю, искал но не находил такого."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96699",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1484423089,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e эээ … a скачивать таким велосипедом будет магически жрать меньше?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9669a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423129,
+      "text": "Утром на вафле, там безлимит соответственно)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9669b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423172,
+      "text": "Утром при"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9669c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423196,
+      "text": "Утром приходит, и я без лишних таков уже имею выпуск на телефоне."
+    },
+    {
+      "id": "65d60e09111d6e5c56d9669d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1484423270,
+      "text": "вообще оно само так и сделает. подкаст проигруватель вытащит его после выхода без всяких лишних движений. и экономить 80М подкаста 4 раза в неделю - это надо рельно очень мало трафика на мобильном иметь"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9669e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Ohriménko",
+      "datetime": 1484423329,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e я использую BeyondPod для этого, он позволяет задать время обновления подкастов и разрешить/запретить скачивать выпуски через мобильный интернет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9669f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1484423400,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"strayge\" class=\"mention\"\u003e@strayge\u003c/span\u003e а есть такие которые не позволяют разрешить/запретить скачивать выпуски через мобильный интернет ? вроде все, что я видел под ios это могут"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Ohriménko",
+      "datetime": 1484423444,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e не знаю. я только этим под андроид пользуюсь, меня устраивает."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423580,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e  зачастую бывает не 80мб. Ибо слушаю не от, и до, а выключаю и вечером когда обратно еду включаю, или между этим. А выпуск прогружается заново."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1484423634,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e для этого человечество и придумало podcast программы"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Ohriménko",
+      "datetime": 1484423637,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e  если человек заморочился и написал ради этого бота - наверно его программа таких настроек не имеет."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1484423694,
+      "text": "Ну, да посылка старых выпусков в другие дни)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Gonimar",
+      "datetime": 1484423698,
+      "text": "велосипедировать тоже надо иногда :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484423721,
+      "text": "Всем чмаки в этом чате!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Gonimar",
+      "datetime": 1484423741,
+      "text": "Вечер в чатик..."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484423793,
+      "text": "Что бв это значило... в логах моего виртуального хостинга:"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966a9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484423796,
+      "text": "Fri Jan 13 11:50:34 2017] [error] [client 193.201.224.205] File does not exist: /home/u142320/\u003ca href=\"http://smpda.com/www/wp-admin\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003esmpda.com/www/wp-admin\u003c/a\u003e\u003cbr/\u003e[Fri Jan 13 11:50:53 2017] [error] [client 193.201.224.205] File does not exist: /home/u142320/\u003ca href=\"http://smpda.com/www/wp-content\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003esmpda.com/www/wp-content\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966aa",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1484423804,
+      "text": "Вот смотрю я на disqus и он меня раздражает. Что скажете?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ab",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484423816,
+      "text": "и таких строчек хренова туча."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ac",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484423817,
+      "text": "Не смотри на disqus."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ad",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484423861,
+      "text": "Пошла унца!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ae",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484423863,
+      "text": "Как думаете это русские хакеры из Кремля продвигают Трампа или снова китайцы ломают движки?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966af",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1484423887,
+      "text": "Из кремля =)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kirill Eremin",
+      "datetime": 1484423899,
+      "text": "ХАКЕРЫ =)))"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484423910,
+      "text": "Так и знал!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424032,
+      "text": "всем приветы!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Ohriménko",
+      "datetime": 1484424095,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424105,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e  будет?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484424140,
+      "text": "news!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424149,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"http://thenextweb.com/apple/2017/01/13/consumer-reports-shifted-stance-macbook-pro-software-fix/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eConsumer Reports has shifted its stance on the MacBook Pro after a software fix\u003c/a\u003e 2017-01-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://techcrunch.com/2017/01/10/tesla-hires-apples-creator-of-swift-as-new-vp-of-autopilot-software/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eTesla hires Apple’s creator of Swift as new VP of Autopilot Software\u003c/a\u003e 2017-01-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"http://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eClean Coder Blog\u003c/a\u003e 2017-01-14\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"http://venturebeat.com/2017/01/12/app-net-shutting-down-twitter-like-social-platform-on-march-14-open-sources-code/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eApp.net shutting down Twitter-like social platform on March 14, open-sources code | VentureBeat | Social | by Ken Yeung\u003c/a\u003e 2017-01-14\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"http://mashable.com/2017/01/13/opera-neon-browser/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eNeon is an experimental web browser that\u0026#39;s filled with glorious content bubbles\u003c/a\u003e 2017-01-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424193,
+      "text": "Понеслась"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424207,
+      "text": "Вкусно, потому что =)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966b9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484424235,
+      "text": "Даёш про русских хакеров!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ba",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424243,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e, ты за всех то не говори =Ъ"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966bb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484424256,
+      "text": "Которые утащили Бобука..."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966bc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Ohriménko",
+      "datetime": 1484424280,
+      "text": "/info"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966bd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424291,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eIldar Gilfanov \u003cspan data-link-type=\"mention\" data-screen-name=\"rabinzon\" class=\"mention\"\u003e@rabinzon\u003c/span\u003e\u003c/strong\u003e random-bot возвращает рандомное число или элемент списка. Вместе с ответом приходит рандомная строчка. Пример ответа: \u003ccode\u003eЯ принял решение: 12\u003c/code\u003e. Если не повезет, бот может не ответить, сославшись на занятость. \u003cul\u003e\n\u003cli\u003e\u003ccode\u003e/random\u003c/code\u003e - рандомная строка: число от 0 до 100\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e/random min max\u003c/code\u003e - рандомная строка: число от min до max\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e/random Umputun Ksenks Gray Bobuk\u003c/code\u003e - рандомная строка: например Ksenks\u003c/li\u003e\n\u003cli\u003e\u003ccode\u003e/random да нет\u003c/code\u003e - рандомная строка: да или нет\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAlexey Khalyapin\u003c/strong\u003e Поиск по выпускам Радио-Т\u003cul\u003e\n\u003cli\u003eПоиск - помощь\u003c/li\u003e\n\u003cli\u003eПоиск [запрос[:число результатов]] - поиск по выпускам\u003c/li\u003e\n\u003cli\u003eВыпуск [номер выпуска] - содержание выпуска\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://twitter.com/5minphp\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003e\u003cspan data-link-type=\"mention\" data-screen-name=\"5minphp\" class=\"mention\"\u003e@5minphp\u003c/span\u003e\u003c/a\u003e\u003c/strong\u003e бот \u0026#34;Пятиминутка PHP\u0026#34; расскажет интересный и полезный факт об этом языке программирования, при упоминании PHP\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eumputun\u003c/strong\u003e excerpt бот раскрывает ссылки в короткое описание\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eDmitry\u003c/strong\u003e anek-bot в ответ на фразу \u0026#39;расскажи анекдот\u0026#39; отвечает анекдотом полученным из RSS сайта anekdot.ru\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eRoman L, \u003ca href=\"http://twitter/roman_tic\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://twitter/roman_tic\u003c/a\u003e\u003c/strong\u003e Бот stat-bot считает статистику слов и сообщений. Может сказать кто самый болтливый в чате и какие слова (по частям речи) чаще всего употребляют.\u003cul\u003e\n\u003cli\u003eКто сегодня болтун? - Самый болтливый пользователь за сегодняшний день\u003c/li\u003e\n\u003cli\u003eТоп болтунов сегодня - Топ самых болтливых пользоватлеей сегодня\u003c/li\u003e\n\u003cli\u003eО чем говорили? - Самые популярные слова-существительный в чате\u003c/li\u003e\n\u003cli\u003eКак в целом? - Эмоциональная окраска беседы из пяти самых популярных прилагательных\u003c/li\u003e\n\u003cli\u003eА что делать? - Подборка из пяти самых популярных глаголов в чате за сегодня\u003c/li\u003e\n\u003cli\u003eСколько раз употребили слово бобук? - Ну, тут всё и так понятно...\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eastoliarov\u003c/strong\u003e Бот, генератор предложений, на основе твиттер аккаунтов. Есть корпусы для генерации твитов от umputun,trump,bobuk\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eSergey Levitin \u003ca href=\"http://mailto:selevit@gmail.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eselevit@gmail.com\u003c/a\u003e\u003c/strong\u003e Бот позволяет изменять карму пользователей чата\u003cul\u003e\n\u003cli\u003eusername++ (увеличить карму пользователя)\u003c/li\u003e\n\u003cli\u003eusername-- (уменьшить карму пользователя)\u003c/li\u003e\n\u003cli\u003e/karma username (узнать карму пользователя)\u003c/li\u003e\n\u003cli\u003e/karma (узнать свою карму)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003estrayge\u003c/strong\u003e tweet-bot выводит последний твит из указанного твиттера\u003cul\u003e\n\u003cli\u003e!tweet \u0026lt;username\u0026gt; | !твит \u0026lt;username\u0026gt;\u003c/li\u003e\n\u003cli\u003eбобук!\u003c/li\u003e\n\u003cli\u003eumputun!\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003estrayge\u003c/strong\u003e Rtnumber-bot выводит номер выпуска, время до эфира, темы слушателей\u003cul\u003e\n\u003cli\u003eНомер! | Выпуск!\u003c/li\u003e\n\u003cli\u003eВремя!\u003c/li\u003e\n\u003cli\u003eТемы слушателей! [:число результатов]\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eAnton Prokhorov\u003c/strong\u003e Bot which shows time in location which is passed by a query, example: on request \u0026#34;время в красноярске\u0026#34; bot have to respond: \u0026#34;Местное время в Krasnoyarsk, Krasnoyarsk Krai, Russia сейчас 30.11.2016 23:29:24\u003cul\u003e\n\u003cli\u003eпогода в \u0026lt;city\u0026gt;\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003econstructor-igor\u003c/strong\u003e Hebrew Calendar\u003cul\u003e\n\u003cli\u003ehcalendar\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eIldar Gilfanov \u003cspan data-link-type=\"mention\" data-screen-name=\"rabinzon\" class=\"mention\"\u003e@rabinzon\u003c/span\u003e\u003c/strong\u003e Бот побуждает на разного рода действия, вбрасывая цитаты из \u003ca href=\"https://goo.gl/eD9hRr\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003e Shia Labeouf \u0026#34;Just do it\u0026#34;\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eexelban\u003c/strong\u003e Если в сообщение была упомянутая какая-то валюта (USD, EUR, UAH, RUB), бот конвертирует ее в доллары, евро, грн, руб. (5€ = 5.30 $ | 136.67 грн. | 335.51 руб.)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://github.com/naushniki\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/naushniki\u003c/a\u003e\u003c/strong\u003e Если в чате кто-то жалуется на то, что ведущие слишком долго обсуждают одну из своих излюбленных тем, этот бот сообщит, сколько раз та или иная тема была упомянута в чате в ходе текущего выпуска.\u003cul\u003e\n\u003cli\u003eсколько можно про докер?\u003c/li\u003e\n\u003cli\u003eсколько можно про docker?\u003c/li\u003e\n\u003cli\u003eсколько можно про эппл?\u003c/li\u003e\n\u003cli\u003eсколько можно про apple?\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966be",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424294,
+      "text": "А ты чавкай с аппетитом =)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966bf",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Palm, Face Palm",
+      "datetime": 1484424320,
+      "text": "про налог на гугл и его отсутствие на эппл"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Malozemov",
+      "datetime": 1484424325,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484424334,
+      "text": "давайте сразу про дядю Боба и весь выпуск. остальное пропустим как незначительное."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424336,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e увеличена (текущее значение: 49)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1484424347,
+      "text": "Ксюша прочитала мой вопрос!!! Все вечер удался!!!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zahar",
+      "datetime": 1484424413,
+      "text": "что за прибор?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424452,
+      "text": "Видать шабат \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e отпраздновала удачно, раз только сейчас завтракает ;)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424516,
+      "text": "Два мало для генерализации"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424522,
+      "text": "стул на двух ногах не стоит"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424525,
+      "text": "надо 3+"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966c9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton M",
+      "datetime": 1484424539,
+      "text": "Кто нить с айфона слушает сей подкаст? Программа радио-т чет выглядит не очень))"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ca",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Viknet",
+      "datetime": 1484424589,
+      "text": "На AGDQ сейчас TASbot секция: \u003ca href=\"https://www.twitch.tv/gamesdonequick\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.twitch.tv/gamesdonequick\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966cb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424596,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Language DanskDeutschEnglishEspañolEspañol - MéxicoFrançaisItalianoMagyarNederlandsNorskPolskiPortuguêsPortuguês BrasileiroSlovenčina SuomiSvenskaTiếng ViệtTürkçeČeštinaΕλληνικάБългарскиРусскийالعربيةภาษาไทย中文 简体中文 ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eTwitch\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966cc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424614,
+      "text": "Народ к разврату готов!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966cd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484424627,
+      "text": "какой квантиль времени считается опозданием?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ce",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424642,
+      "text": "У Бобука звук плывет? или послышалось?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966cf",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484424649,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"anmv\" class=\"mention\"\u003e@anmv\u003c/span\u003e выглядит совершенно в сравнении с предыдущим творением"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424667,
+      "text": "мак-клиент тоже играет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484424673,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"anmv\" class=\"mention\"\u003e@anmv\u003c/span\u003e она выглядит лучше чем добрая половина программ в аппсторе"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424701,
+      "text": "87"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem",
+      "datetime": 1484424739,
+      "text": "на вики 88 написано"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zin4uk Vadim",
+      "datetime": 1484424765,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484424768,
+      "text": "я один из множества слушателей, кто не слышал, как Ксюша чавкает?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zin4uk Vadim",
+      "datetime": 1484424780,
+      "text": "who?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484424793,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rauch\" class=\"mention\"\u003e@rauch\u003c/span\u003e тоже не успел заслушать сей момент"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424797,
+      "text": "\u003cem\u003eмы! Ksenks, Umputun, Bobuk и Gray\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966d9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484424816,
+      "text": "say!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966da",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424823,
+      "text": "\u003cem\u003eМногие жалуются на свою внешность, и никто - на мозги\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966db",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zin4uk Vadim",
+      "datetime": 1484424834,
+      "text": "say!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966dc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424842,
+      "text": "\u003cem\u003eКакая мерзость! Заверните пять штук.\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966dd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424862,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966de",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424922,
+      "text": "Смотря по какому календарю считать!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966df",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484424940,
+      "text": "Со Старым Новым Годом, кстати."
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484424950,
+      "text": "а DO регулярно оплачивает этот джингл? столь длительная однообразная реклама работает?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484424954,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: rauch] \u003ccode\u003eВдохновляй блять окружающих!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484424954,
+      "text": "о как раз к рекламе успел"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484424967,
+      "text": "всем чмоки в этом чате"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484424968,
+      "text": ":fu:"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484425010,
+      "text": "Ксюша меня поддерживает с выбором темы. Дядя Боб жжёт же"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bytecode",
+      "datetime": 1484425070,
+      "text": "Гайз, откуда вы берете идеи для пет-проектов? И что делать, если с фантазией плохо? Участие в опенсорс предлагать, но в худшем случае"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425077,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: Insomnium] \u003ccode\u003eИмей терпение, ёпта!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484425119,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Insomnium\" class=\"mention\"\u003e@Insomnium\u003c/span\u003e подумай о том, в чем ты сам нуждаешься по-жизни"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966e9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484425136,
+      "text": "не думай про бабло, думай про пользу лично тебе"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ea",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425142,
+      "text": "\u003ccode\u003eqw\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966eb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425146,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rauch\" class=\"mention\"\u003e@rauch\u003c/span\u003e qw"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ec",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425175,
+      "text": "\u003ccode\u003eказалось бы\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ed",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "im1x",
+      "datetime": 1484425175,
+      "text": "у меня блочат bit.ly"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ee",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484425223,
+      "text": "пишу из 2017 года - SSD это реально вещь!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ef",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425227,
+      "text": "в РФ не знаю, что значит WTF, тем более WTF*100 - это вообще цензурно? или не оечень? или очень не цензурно?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425234,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: rauch] \u003ccode\u003eСлушай блять аудиокниги!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1484425282,
+      "text": "у всех открывается \u003ca href=\"https://www.linkedin.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.linkedin.com\u003c/a\u003e ?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zahar",
+      "datetime": 1484425284,
+      "text": "А много ли разработчиков, пользуются продуктами которые пишут??"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425288,
+      "image_url": "https://api.pagelr.com/capture/javascript?uri=https://www.linkedin.com\u0026b_width=1280\u0026width=240\u0026height=168\u0026maxage=86400\u0026key=okT2EKgWY0eE0KHkW2n4Ag",
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e   ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eWorld’s Largest Professional Network | LinkedIn \u003c/em\u003e\u003cbr/\u003e\u003cstrong\u003egrabpage-bot 💬\u003c/strong\u003e  \u003cbr/\u003e\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: idevd_twitter] \u003ccode\u003eРаботай быстро, ёбта!\u003c/code\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484425288,
+      "text": "На что реагирует этот бот?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425289,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e Барух будет сегодня в подкасте?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425292,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: MrVilkaman] \u003ccode\u003eЗакончи блять начатое!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425295,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: artemsmikh] \u003ccode\u003eПобрейся уже, ёпта!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425298,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: rauch] \u003ccode\u003eПеречитай блять написанное!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966f9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425305,
+      "text": "ыы"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966fa",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425310,
+      "text": "Линкедин давно закрыли"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966fb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425311,
+      "text": "кто это допустил?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966fc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425319,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: rauch] \u003ccode\u003eВерь блять в\u0026amp;nbsp;успех!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966fd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Zahar",
+      "datetime": 1484425327,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"idevd_twitter\" class=\"mention\"\u003e@idevd_twitter\u003c/span\u003e у меня открылся"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966fe",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484425331,
+      "text": "что за дичь толкают уважаемые спикеры?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d966ff",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425340,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: vitalvas] \u003ccode\u003eНе\u0026amp;nbsp;откладывай блять развлеченья!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96700",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425341,
+      "text": "\u003ccode\u003eботы нонче нетактичные пошли\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96701",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425361,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e а ты можешь этого трешового бота прибить?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96702",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425364,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: eklementev] \u003ccode\u003eЗакупи блять одинаковых носков побольше!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96703",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484425386,
+      "text": "Нормально отвечает )"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96704",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425388,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e \u003ccode\u003eвсе понял?\u003c/code\u003e ыы"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96705",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425400,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rauch\" class=\"mention\"\u003e@rauch\u003c/span\u003e \u003cem\u003eтебя слишком много, отдохни ...\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96706",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484425405,
+      "text": "На знак вопроса реагирует?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96707",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484425412,
+      "text": "?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96708",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425416,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: artemsmikh] \u003ccode\u003eГотовь блять хостинг заранее!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96709",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425427,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: artemsmikh] \u003ccode\u003eПрогоняй блять негативные мысли!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9670a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425438,
+      "text": "Да, \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e, это так бывает"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9670b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex",
+      "datetime": 1484425456,
+      "text": "\u003ca href=\"https://habrahabr.ru/company/reactos/blog/319110/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://habrahabr.ru/company/reactos/blog/319110/\u003c/a\u003e  One Core API чтоб править Windows"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9670c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425464,
+      "image_url": "https://api.pagelr.com/capture/javascript?uri=https://habrahabr.ru/company/reactos/blog/319110/\u0026b_width=1280\u0026width=240\u0026height=168\u0026maxage=86400\u0026key=okT2EKgWY0eE0KHkW2n4Ag",
+      "text": "\u003cp\u003e\u003cstrong\u003egrabpage-bot 💬\u003c/strong\u003e  \u003cbr/\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  В общем, тут проблема как раз с этим если. И с тем фактом, обычный разработчик в своей обычной профессиональной деятельности (то есть, на работе в коммерческой конторе за деньги) воспользоваться этим кодом не может. Что делает поддержку XP силами самой конторы коммерчески невыгодной затеей. Можно ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eOne Core API чтоб править Windows / Блог компании Фонд ReactOS / ХабрахабрХабрахабр\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9670d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425469,
+      "text": "дык оно так и c java"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9670e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425489,
+      "text": "ненене"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9670f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425498,
+      "text": "\u003ccode\u003eпыщ\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96710",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425505,
+      "text": "можно и в оди подуль несколько root добавить"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96711",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425512,
+      "text": "я показать могу"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96712",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425518,
+      "text": "я мне приходилось =("
+    },
+    {
+      "id": "65d60e09111d6e5c56d96713",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425521,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )Закрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"Maverick-Crank-GRey\" class=\"mention\"\u003e@Maverick-Crank-GRey\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96714",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484425526,
+      "text": "а java модули разве могут быть из разных репо?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96715",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425529,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: stasburn] \u003ccode\u003eНе жалей блять о сделанном!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96716",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425536,
+      "text": "ну у гогленда и релиза пока не было, хотя чтобы такое вываливать на народ надо быть сильно уверенным в лояльности пользователей"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96717",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425544,
+      "text": "Эта да =\\"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96718",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484425585,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maverick-Crank-GRey\" class=\"mention\"\u003e@Maverick-Crank-GRey\u003c/span\u003e поехал детей в Горновидск"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96719",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484425612,
+      "text": "анекдот!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9671a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425615,
+      "text": "Редактор:\u003cul\u003e\n\u003cli\u003eКнига выйдет, надо только отжать воду.\u003cbr/\u003eАвтор:\u003c/li\u003e\n\u003cli\u003eЭто не вода, а чистое золото. Гонорар начисляется по числу\u003cbr/\u003eстрок.\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9671b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425631,
+      "text": "==\u0026gt; Consumer Reports has shifted its stance on the MacBook Pro after a software fix - \u003ca href=\"http://thenextweb.com/apple/2017/01/13/consumer-reports-shifted-stance-macbook-pro-software-fix/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://thenextweb.com/apple/2017/01/13/consumer-reports-shifted-stance-macbook-pro-software-fix/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9671c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484425637,
+      "text": "say!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9671d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425692,
+      "text": "Мера одна - итоговый доход эпла"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9671e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425703,
+      "text": "если. опять же они честно его расскажут"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9671f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1484425726,
+      "text": "кто может сохранить и переслать мне контент ссылки? \u003ca href=\"https://www.linkedin.com/pulse/energy-trading-analytics-high-velocity-agile-resilient-dsouza?trk=prof-post\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.linkedin.com/pulse/energy-trading-analytics-high-velocity-agile-resilient-dsouza?trk=prof-post\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96720",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425730,
+      "image_url": "https://api.pagelr.com/capture/javascript?uri=https://www.linkedin.com/pulse/energy-trading-analytics-high-velocity-agile-resilient-dsouza?trk=prof-post\u0026b_width=1280\u0026width=240\u0026height=168\u0026maxage=86400\u0026key=okT2EKgWY0eE0KHkW2n4Ag",
+      "text": "\u003cp\u003e\u003cstrong\u003egrabpage-bot 💬\u003c/strong\u003e  \u003cbr/\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e   ...\u003c/p\u003e\u003cp\u003e  __\u003cbr/\u003e\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: idevd_twitter] \u003ccode\u003eУчись бля, время идёт!\u003c/code\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96721",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484425732,
+      "text": "сафари отличный же"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96722",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484425737,
+      "text": "А давайте сделаем опрос тут, кто пользуется каким браузером на макоси?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96723",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425740,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"artemsmikh\" class=\"mention\"\u003e@artemsmikh\u003c/span\u003e \u003cem\u003eтебя слишком много, отдохни ...\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96724",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425743,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"idevd_twitter\" class=\"mention\"\u003e@idevd_twitter\u003c/span\u003e через прокси сходи"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96725",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1484425750,
+      "text": "не помогает"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96726",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425756,
+      "text": "Сафари"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96727",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425778,
+      "text": "после того, как табы по Cmd+Цифра переключаться стали - Хром не нужен"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96728",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484425827,
+      "text": "а можно больше 9 вкладок нажать? У меня этих открытых вкладок 20+, вспомни еще что-где"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96729",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425832,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: screed] \u003ccode\u003eПопробуй блять, а\u0026amp;nbsp;то\u0026amp;nbsp;не\u0026amp;nbsp;узнаешь!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9672a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425876,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"screed\" class=\"mention\"\u003e@screed\u003c/span\u003e ну те что нужны для быстрого доступа слева лежат (почта, гитхаб, что-то еще), остальное можно и мышой протыкать"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9672b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425916,
+      "text": "опять же пару окон можно открыть, в каждой по 9 табов"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9672c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425953,
+      "text": "А обычные люди такое вообще читают???"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9672d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425958,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: eklementev] \u003ccode\u003eИди блять и\u0026amp;nbsp;сделай!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9672e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484425974,
+      "text": "что он так ругается на всех?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9672f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484425977,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: screed] \u003ccode\u003eУважай блять чужие заёбы!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96730",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484425992,
+      "text": "У бота был плохой день"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96731",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484425996,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"screed\" class=\"mention\"\u003e@screed\u003c/span\u003e на знак вопроса реагирует :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96732",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484426008,
+      "text": "eh?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96733",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484426013,
+      "text": "\u003cstrong\u003eсоветчик 💬\u003c/strong\u003e  ##[Совет для: screed] \u003ccode\u003eНаучись блять рано вставать!\u003c/code\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96734",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426074,
+      "text": "стабильности нет?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96735",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Sabitov",
+      "datetime": 1484426106,
+      "text": "¿"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96736",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426159,
+      "text": "мне вот интересно - неужели кто-то вещи, подобные этому боту, считает прикольным? Это ж прямо говорит об отсутствии у человека минимального разума"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96737",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484426228,
+      "text": "Помню сайт с похожими советами был лет 6-7 назад, тогда было прикольно."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96738",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426239,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e свой бот предложите"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96739",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426255,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Bob_Eigen_twitter\" class=\"mention\"\u003e@Bob_Eigen_twitter\u003c/span\u003e мега-аргумент"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9673a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484426266,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Bob_Eigen_twitter\" class=\"mention\"\u003e@Bob_Eigen_twitter\u003c/span\u003e автор?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9673b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426274,
+      "text": "с мощным разумом и аргументом"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9673c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426277,
+      "text": "нед"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9673d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484426281,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e свой бот предложи, блеать"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9673e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426296,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"screed\" class=\"mention\"\u003e@screed\u003c/span\u003e точно )"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9673f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426310,
+      "text": "Вот и целевая  аудитория этого бота полезла :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96740",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484426319,
+      "text": "Только хотел про ЦА написать"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96741",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426358,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"artemsmikh\" class=\"mention\"\u003e@artemsmikh\u003c/span\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e  вы боты лучше обсуждайте не аудиторию"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96742",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Kolnoochenko",
+      "datetime": 1484426368,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e ?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96743",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484426419,
+      "text": "не хватает процессора или памяти? компилируй на сервере, опта!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96744",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484426468,
+      "text": "Так может у нее Air 13\u0026#39;\u0026#39;"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96745",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426482,
+      "text": "Дядьку давай!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96746",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484426519,
+      "text": "==\u0026gt; Tesla hires Apple’s creator of Swift as new VP of Autopilot Software - \u003ca href=\"https://techcrunch.com/2017/01/10/tesla-hires-apples-creator-of-swift-as-new-vp-of-autopilot-software/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2017/01/10/tesla-hires-apples-creator-of-swift-as-new-vp-of-autopilot-software/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96747",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426539,
+      "text": "Swift теперь не взлетит"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96748",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426561,
+      "text": "VP - это вице-президент?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96749",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426624,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e виртуальный"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9674a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484426670,
+      "image_url": "https://files.gitter.im/radio-t/chat/Lg4K/15972531_1175528555901057_7395596852442150622_o.jpg",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/Lg4K/15972531_1175528555901057_7395596852442150622_o.jpg\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9674b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484426683,
+      "text": "Тесла - кладбище разработчиков эпла"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9674c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Влад",
+      "datetime": 1484426758,
+      "text": "\u003ca href=\"https://nplus1.ru/news/2017/01/14/ultimate-dongle\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://nplus1.ru/news/2017/01/14/ultimate-dongle\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9674d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484426766,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Sanho Corporation / Kickstarter Американская компания Sanho Corporation, выпускающая электронику под брендом Hyper, разработала единый переходник для MacBook Pro, в последней модели которого Apple убрала некоторые разъемы. С помощью краудфандинговой платформы Kickstarter переходник собрал 1,6 ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eКраудфандинг решит проблему отсутствующих портов MacBook Pro\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9674e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484426780,
+      "text": "в Дойче Банке все сплошь VP"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9674f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484426867,
+      "text": "так swift всё же не умрёт?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96750",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484426949,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"artemsmikh\" class=\"mention\"\u003e@artemsmikh\u003c/span\u003e вообще да, но сейчас нет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96751",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427048,
+      "text": "комьюнити язык не пишет и не развивает"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96752",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427072,
+      "text": "нужен командир"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96753",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484427126,
+      "text": "а llvm на крестах написан?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96754",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427143,
+      "text": "по сути да"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96755",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427173,
+      "text": "бутстрапят сильно потом"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96756",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427186,
+      "text": "Компиляторы"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96757",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427271,
+      "text": "в любом случае свифто-писатели напряглись :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96758",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484427427,
+      "text": "==\u0026gt; Clean Coder Blog - \u003ca href=\"http://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96759",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427435,
+      "text": "в языках перфекционизм не плохо"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9675a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427506,
+      "text": "еще подвязалось с его вебинаром о TDD на котлине"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9675b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484427591,
+      "text": "может он на 1.5 джаве пишет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9675c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484427632,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"here\" class=\"mention\"\u003e@here\u003c/span\u003e у кого там почта в эфире тикает?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9675d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484427697,
+      "text": "ну gc это не часть языка, а часть jvm"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9675e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim",
+      "datetime": 1484427778,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ну да, тесты тоже надо будет поменять, если логика изменится."
+    },
+    {
+      "id": "65d60e09111d6e5c56d9675f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484427841,
+      "text": "писать без задействования гк это как кунгфу"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96760",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484427848,
+      "text": "предлагаю переименовать габрач колектор в гравицапу"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96761",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1484427978,
+      "text": "Uncle Bob 1952 года рождения, как Путин практически )"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96762",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484428069,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e можешь пояснить где в котлине магия?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96763",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484428084,
+      "text": "весь котлин?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96764",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484428187,
+      "text": "ну спринг это квинтэссенция черной магии :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96765",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484428246,
+      "text": "так С и заявлялся как высокоуровневый ассемблер"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96766",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484428254,
+      "text": "ну котлин то как раз про другое - ты строже код пишешь. тут налл, тут не налл"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96767",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484428328,
+      "text": "и тут на арену выходит ГО, в котором полторы конструкции на весь язык"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96768",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484428364,
+      "text": "==\u0026gt; App.net shutting down Twitter-like social platform on March 14, open-sources code | VentureBeat | Social | by Ken Yeung - \u003ca href=\"http://venturebeat.com/2017/01/12/app-net-shutting-down-twitter-like-social-platform-on-march-14-open-sources-code/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://venturebeat.com/2017/01/12/app-net-shutting-down-twitter-like-social-platform-on-march-14-open-sources-code/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96769",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1484428508,
+      "text": "Жуик?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9676a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1484428512,
+      "text": "friend feed ??"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9676b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484428525,
+      "text": "Во всем интернете было гораздо интереснее пока туда толпа не хлынула"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9676c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484428546,
+      "text": "Если бы не хлынула, он бы не взлетел"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9676d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484428643,
+      "text": "И каждый считает, что он не входит в эту \u0026#34;толпу\u0026#34;."
+    },
+    {
+      "id": "65d60e09111d6e5c56d9676e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484428661,
+      "text": "прикольная версия\u003cbr/\u003e\u003ca href=\"https://pypi.python.org/pypi/html5lib/0.999999999\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://pypi.python.org/pypi/html5lib/0.999999999\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9676f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484428670,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  html5lib 0.999999999 HTML parser based on the WHATWG HTML specification html5lib is a pure-python library for parsing HTML. It is designed toconform to the WHATWG HTML specification, as is implemented by all majorweb browsers. Usage Simple usage follows this pattern: import html5libwith ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003ehtml5lib 0.999999999 : Python Package Index\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96770",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484428766,
+      "text": "но денег не вернуть конечно"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96771",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429000,
+      "text": "==\u0026gt; Trello Is Being Acquired By Atlassian - \u003ca href=\"http://blog.trello.com/trello-atlassian\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://blog.trello.com/trello-atlassian\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96772",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484429024,
+      "text": "trello пришел писец"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96773",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484429080,
+      "text": "битбакет тоже купили"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96774",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429093,
+      "text": "hipchat в анабиозе"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96775",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429127,
+      "text": "slack"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96776",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484429170,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e а ты смотрел как работает \u0026#34;свой сервер\u0026#34; в хипчате?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96777",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484429207,
+      "text": "попробуй его поместить в закрытую сеть без интернета :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96778",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484429218,
+      "text": "а какие есть альтернативы для trello?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96779",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429270,
+      "text": "это ж SAAS"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9677a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429325,
+      "text": "gitlab может подсуетиться"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9677b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484429344,
+      "text": "wekan хорош"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9677c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim",
+      "datetime": 1484429353,
+      "text": "Автор Трелло же Спольски вроде?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9677d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim",
+      "datetime": 1484429421,
+      "text": "Ну да, написано ко-фаундер: \u003ca href=\"https://www.joelonsoftware.com/2014/07/24/trello-inc/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.joelonsoftware.com/2014/07/24/trello-inc/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9677e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429440,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Hello? is this thing on? I’m not sure if I even know how to operate this “blog” device any more. It’s been a year since my last post. I’m retired from blogging, remember? Want to hear something funny? The only way I can post blog posts is by remote-desktopping into a carefully preserved Windows 7 ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eTrello, Inc. – Joel on Software\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9677f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484429457,
+      "text": "а атлассиан SaaS не умеет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96780",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429461,
+      "text": "Людей осталось нагнать"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96781",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484429463,
+      "text": "У трелло интерфейс синенький, как у битбакета и source tree, они просто скупают всё под этот цвет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96782",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mike",
+      "datetime": 1484429472,
+      "text": "Цена на форбсе указана $425M - \u003ca href=\"http://www.forbes.com/sites/alexkonrad/2017/01/09/atlassian-acquires-popular-team-productivity-app-trello-for-425-million/#3f138e034e55\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://www.forbes.com/sites/alexkonrad/2017/01/09/atlassian-acquires-popular-team-productivity-app-trello-for-425-million/#3f138e034e55\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96783",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429483,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  CLOSE More Options Quote of the Day Finding out what you love to do is a great feat in and of itself. Derek ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eForbes Welcome\u003c/em\u003e\u003cbr/\u003e\u003cstrong\u003emoney_bot 💬\u003c/strong\u003e  399 436 088.50 € | 11 704 500 000 грн. | 25 351 037 500 руб.\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96784",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429530,
+      "text": "сколько инстаграмов получается?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96785",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim",
+      "datetime": 1484429540,
+      "text": "Читал где-то, что 500 с копейками, из чего 350 кешем."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96786",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484429541,
+      "text": "0.425?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96787",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429542,
+      "text": "$100"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96788",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429552,
+      "text": "Как там было в кино - “внешний долг Либерии” :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96789",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429557,
+      "text": "не работает"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9678a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429560,
+      "text": "==\u0026gt; Познакомьтесь с Opera Neon, нашим новым концепт-браузером - \u003ca href=\"http://www.opera.com/blogs/russia/2017/01/poznakomtes-s-opera-neon-nashim-novym-koncept-brauzerom/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://www.opera.com/blogs/russia/2017/01/poznakomtes-s-opera-neon-nashim-novym-koncept-brauzerom/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9678b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429561,
+      "text": "\u003cstrong\u003emoney_bot 💬\u003c/strong\u003e  93.98 € | 2 754 грн. | 5 964.95 руб."
+    },
+    {
+      "id": "65d60e09111d6e5c56d9678c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429617,
+      "text": "стринги приятнее были, а опера чот meh"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9678d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim",
+      "datetime": 1484429645,
+      "text": "Да, таки 425 и 360: \u003ca href=\"http://ain.ua/vladelec-jira-kupil-trello\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://ain.ua/vladelec-jira-kupil-trello\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9678e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429652,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Владелец JIRA купил сервис управления проектами Trello за $425 млн Ольга Карпенко 10 Января 2017 2988 Компания Atlassian, владелец популярного сервиса по управлению бизнесом JIRA, приобрела другой популярный сервис управления проектами Trello. Сумма сделки составила $425 млн, как сообщает ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003e  Владелец JIRA купил сервис управления проектами Trello за $425 млн - AIN.UA    \u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9678f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429658,
+      "text": "neon для работы не нужен, поиграться - да"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96790",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429660,
+      "text": "кто заведует маниботом?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96791",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429675,
+      "text": "чет непонятно кому он отвечает и на что"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96792",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Zhukov",
+      "datetime": 1484429682,
+      "text": "он там пока чёрти какой альфа"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96793",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484429693,
+      "text": "пощупал этот неон - единое что понравилось - возможность сплитать экран"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96794",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429697,
+      "text": "я спросил про $100"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96795",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429698,
+      "text": "$75476"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96796",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429702,
+      "text": "\u003cstrong\u003emoney_bot 💬\u003c/strong\u003e  93.98 € | 2 754 грн. | 5 964.95 руб."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96797",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429705,
+      "text": "\u003cstrong\u003emoney_bot 💬\u003c/strong\u003e  70 936.09 € | 2 078 609.04 грн. | 4 502 105.66 руб."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96798",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429709,
+      "text": "вот"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96799",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484429710,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Svolentin\" class=\"mention\"\u003e@Svolentin\u003c/span\u003e тебе и отвечает"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9679a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429712,
+      "text": "понял??"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9679b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484429716,
+      "text": "И до этого тебе отвечал"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9679c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429733,
+      "text": "очень неявно"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9679d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429755,
+      "text": "ибо с задержкой"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9679e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Zhukov",
+      "datetime": 1484429773,
+      "text": "на webkit"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9679f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484429778,
+      "text": "и такое ощущение что он перед ответом в обменник ходит"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1484429786,
+      "text": "ему надо говорить, что он переводил"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Zhukov",
+      "datetime": 1484429787,
+      "text": "на chromium, если точнее"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484429810,
+      "text": "На Хабре правильно сказали - очередная победа дизайна над разумом"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429828,
+      "text": "chromium на blink"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Gilyaziev",
+      "datetime": 1484429869,
+      "text": "два раза правой кнопкой мыши"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429887,
+      "text": "Круто!!!!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484429910,
+      "text": "день точно не зря прожит"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429920,
+      "text": "Спасибо умпутун, я думал тоже труба не умеет в неё"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484429933,
+      "text": "сафари в 360 не умеет"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967a9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serge Bedzhik",
+      "datetime": 1484429952,
+      "text": "Ещё \u003ca href=\"http://elitebits.com/tubeg_pro/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://elitebits.com/tubeg_pro/\u003c/a\u003e можно, ещё опция поверх всех окон рулит"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967aa",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484429955,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Mac App Store is the best way to purchase software for Mac, with free updates and easy refunding Build on best native framework to deliver fast performance TubeG Pro is built with recommended by Apple video player, framework is built on AV Foundation Play your favorite videos on second screen in ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eTubeG Pro YouTube app for Mac - Elite Bits\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ab",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484430001,
+      "text": "Чтобы потом на принтере напечатать"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ac",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas Burnashev",
+      "datetime": 1484430045,
+      "text": "интересно, что в этой опере хромовский дев туул"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ad",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484430223,
+      "text": "А этот телевизор гнется?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ae",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1484430242,
+      "text": "главной фишкой в опере раньше для меня была возможность сохранения и загрузки сессий"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967af",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484430266,
+      "text": "жду с нетерпением когда кто-то откроет лавку где можно будет удалять логотипы за недорого"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484430279,
+      "text": "FFox вроде сессии позволяет сохранять"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484430337,
+      "text": "Ваау."
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1484430372,
+      "text": "т.е. открыто несколько окон по 30 вкладок, и работать с ними не окончил, но память и всё такое,  - сохранил сессию до лучших времён, октрыл пустую, оперу, по-работал, а когда нужно вернуться к той теме по которой сессия сохраненена, - загрузил её и всё сразу с кэшем"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484430382,
+      "text": "айтерм круче даже чем платный vSSH"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484430431,
+      "text": "А как там картинку показать?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1484430444,
+      "text": "FF тоже появилась в своё время возможность работы с сессиями, но что-то там было не на столько хорошо... не помню уж"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484430462,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"kapurator\" class=\"mention\"\u003e@kapurator\u003c/span\u003e а я просто разные браузеры использую под разные цели - для себя Я, для работы Хром, для отдыха ФФ"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1484430508,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ArturK777\" class=\"mention\"\u003e@ArturK777\u003c/span\u003e да я тож разные параллельно , для этих целей ))"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1484430514,
+      "text": "\u003ca href=\"https://www.iterm2.com/documentation-images.html\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.iterm2.com/documentation-images.html\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967b9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484430516,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Images iTerm2 is able to display images within the terminal. Using a similar mechanism, it can also facilitate file transfers over any transport (such as ssh or telnet), even in a non-8-bit-clean environment. Just want to try it out and don\u0026#39;t care about the protocol? Use the imgcat tool. Download ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eImages - Documentation - iTerm2 - macOS Terminal Replacement\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ba",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484430521,
+      "text": "А какой шрифт вы используете в iTerm? Стандартный Menlo?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967bb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484430562,
+      "text": "Anonymous Pro Minus или Menlo"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967bc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484430583,
+      "text": "Monaco?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967bd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484430592,
+      "text": "шг?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967be",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484430599,
+      "text": "во всем виноваты русские хакеры"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967bf",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kapurator",
+      "datetime": 1484430663,
+      "text": "дошло до того что хром глушил остановкой процесса, а потом он при восстановлении из аварийно закрытого режима восстанавливал сессию )))  такая вот замена сессий опеы была ))"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484430666,
+      "text": "вбросьте примеры шрифтов"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484430685,
+      "text": "==\u0026gt; Хакеры атакуют MongoDB: число скомпрометированных систем превысило 27 000 / Блог компании Positive Technologies / ХабрахабрХабрахабр - \u003ca href=\"https://habrahabr.ru/company/pt/blog/319186/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://habrahabr.ru/company/pt/blog/319186/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Sabitov",
+      "datetime": 1484430735,
+      "text": "должно дойти до 27017"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484430792,
+      "text": "платное обучение"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1484430804,
+      "text": "\u003ca href=\"https://yadi.sk/i/nhCL5PzD3934cV\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://yadi.sk/i/nhCL5PzD3934cV\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484430809,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  MailMapsImagesmore2017-01-15_00-53-09.png Send: © 2012—2017 «Yandex» En  En Ru Ua Tr ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eYandex.Disk\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1484430829,
+      "text": "Это биткоин падает"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex",
+      "datetime": 1484430847,
+      "text": "кстати, а кто-то пробовал из шрифтов Hack 2.0?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1484430853,
+      "text": "а кажется они не шифрубт а просто удалчет переписывая"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967c9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wizard_adeptus",
+      "datetime": 1484430931,
+      "text": "Пользуясь возможностью, хочу выразить искреннее восхищение ведущим подкаста Радио-Т, Умпутуну и его команде. Слушаю вас с 138 выпуска. Вы всегда на высоте, я профессионально вырос с вашей помощью. Огромное спасибо Вам за вашу работу. Так держать, желаю Вам сил и здоровья и далее нести свет знаний в этот мир. Умпутун, Бобук и Ксюша всегда на высоте. Ура товарищи!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ca",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex",
+      "datetime": 1484430966,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e крутой котик в строке состояния :) а радуга у него от радости происходит? :)"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967cb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1484430984,
+      "text": "это примерно скроллбар"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967cc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431066,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ufw"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967cd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431075,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ты прав"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ce",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431097,
+      "text": "есть такая проблема, докер експозит порты через иптаблесы"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967cf",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431112,
+      "text": "даже если правила накатывается сверху"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431142,
+      "text": "это проблема иптаблеса и докера"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serge Bedzhik",
+      "datetime": 1484431147,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alexelev\" class=\"mention\"\u003e@alexelev\u003c/span\u003e пробовал и остался на \u003ca href=\"https://github.com/tonsky/FiraCode\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/tonsky/FiraCode\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484431150,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  README. md Fira Code: monospaced font with programming ligatures ProblemProgrammers use a lot of symbols, often encoded with several characters. For the human brain, sequences like -\u0026gt;, \u0026lt;= or := are single logical tokens, even if they take two or three characters on the screen. Your eye spends ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGitHub - tonsky/FiraCode: Monospaced font with programming ligatures\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431152,
+      "text": "и линупса"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431209,
+      "text": "ufw это интерфейс для трансляции правил в иптаблес ало"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431304,
+      "text": "а как на соседнем хосте давать доступ ?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484431340,
+      "text": "в последних версиях - подымается на всех интерфейсах, но по сети можно ходить только по паролю"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431345,
+      "text": "при перезапуске контейнера правило перезапишется"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431395,
+      "text": "и сетевой доступ будет дан всем, даже если в правилах файрвола указано что только с соседа"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967d9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1484431620,
+      "text": "какой pure - там java-интероп!!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967da",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wizard_adeptus",
+      "datetime": 1484431695,
+      "text": "Весьма пьян, и вроде не до подкаста, но вспомнил голос Ксюши. Как же можно не зайти, не послушать приятную компанию )"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967db",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431786,
+      "text": "с целью поржать"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967dc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergei Borisov",
+      "datetime": 1484431885,
+      "text": "\u003cblockquote\u003e\nYour connection to this site is not fully secure\u003cbr/\u003e\u003ca href=\"https://news.radio-t.com/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://news.radio-t.com/\u003c/a\u003e\u003c/blockquote\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967dd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484431889,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Загружаю. ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eНовости для Радио-Т\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967de",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484431908,
+      "text": "через Dom"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967df",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484431978,
+      "text": "а как в такой компановке будет работать \u0026#34;парковка\u0026#34; в авторизацию на публичных wifi?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484432059,
+      "text": "айв что ли?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "naushniki",
+      "datetime": 1484432105,
+      "text": "некоторые провайдеры (например мобильный билайн) совершенно нагло добавляют в странички свой код. я уж не говорю про всякие левые публичные wi-fi точки. так что https нужен всем сайтам"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484432176,
+      "text": "разуплотнить"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1484432288,
+      "text": "\u003ca href=\"https://code.flickr.net/2017/01/05/a-year-without-a-byte/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://code.flickr.net/2017/01/05/a-year-without-a-byte/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432293,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  One of the largest cost drivers in running a service like Flickr is storage. We’ve described multiple techniques to get this cost down over the years: use of COS, creating sizes dynamically on GPUs and perceptual compression. These projects have been very successful, but our storage cost is still ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eA Year Without a Byte | code.flickr.com\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "naushniki",
+      "datetime": 1484432352,
+      "text": "расскажи анекдот про фликр"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432357,
+      "text": "\u003cstrong\u003eanek-bot 💬\u003c/strong\u003e  Людям физического труда для восстановления своих сил нужен 7-8 часовой ночной сон. Людям умственного труда нужно спать часов 9-10. Ну а программистов будить нельзя вообще."
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1484432376,
+      "text": "есть еще humans.txt"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484432404,
+      "text": "ага, особенно Яндекс.робот не забивает на роботе.тхт"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967e9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484432437,
+      "text": "да, сарказм"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ea",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484432468,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"vitalvas\" class=\"mention\"\u003e@vitalvas\u003c/span\u003e давно пора"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967eb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484432473,
+      "text": "так, бобук шутки не понял"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ec",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "naushniki",
+      "datetime": 1484432489,
+      "text": "помимо известных поисковых систем, есть гигантская уйма всяких роботов и краулеров, которые не читают robots.txt"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ed",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wizard_adeptus",
+      "datetime": 1484432500,
+      "text": "Бобук генерит в свет много крылатых фраз. Многие из них использую среди маглов )"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ee",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484432538,
+      "text": "у Яндекса даже где-то в правилах написано что робот может прийти с левого адреса под видом браузера и проверить что-то"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ef",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "naushniki",
+      "datetime": 1484432542,
+      "text": "имхо robots.txt нужен, чтобы помогать роботам делать их работу, а не запрещать. так что говорить тут особо не о чем."
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f0",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wizard_adeptus",
+      "datetime": 1484432567,
+      "text": "Маглы, те кто не слушают Радио-Т"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f1",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wizard_adeptus",
+      "datetime": 1484432576,
+      "text": "В наше случае"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f2",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kudman",
+      "datetime": 1484432580,
+      "text": "))"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f3",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484432585,
+      "text": "кто не знает Гарри Потного тому не надо"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f4",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484432624,
+      "text": "Замените маглов на тех, кто не использует Силу"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f5",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484432687,
+      "text": "Умница Ксюша!"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f6",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484432690,
+      "text": "да да его сперли))0"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f7",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484432731,
+      "text": "Evgeney(Умпутун) - скажи - Трамп будет лучше Обамы? Рейгана?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f8",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484432754,
+      "text": "30к? по 10 за монитор?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967f9",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1484432760,
+      "text": "Забыли ручки открутить"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967fa",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1484432771,
+      "text": "на самом деле русские его урвали"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967fb",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LewWadoo",
+      "datetime": 1484432802,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967fc",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432806,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e увеличена (текущее значение: 19)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d967fd",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem M.",
+      "datetime": 1484432807,
+      "text": "покедова"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967fe",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1484432850,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"grey\" class=\"mention\"\u003e@grey\u003c/span\u003e --"
+    },
+    {
+      "id": "65d60e09111d6e5c56d967ff",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432854,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"grey\" class=\"mention\"\u003e@grey\u003c/span\u003e уменьшена (текущее значение: -1)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96800",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1484432860,
+      "text": "Шерлока смотреть?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96801",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem",
+      "datetime": 1484432861,
+      "text": ":D"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96802",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1484432862,
+      "text": "Для тех кому интересно, о чём \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e  говорила - \u003ca href=\"http://hpmor.ru/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://hpmor.ru/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96803",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432872,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Петуния вышла замуж не за Дурсля, а за университетского профессора, и Гарри попал в гораздо более благоприятную среду. У него были частные учителя, дискуссии с отцом, а главное — книги, сотни и тысячи научных и фантастических книг. В 11 лет Гарри знаком с квантовой механикой, когнитивной ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eГарри Поттер и методы рационального мышления | Элиезер Юдковский (Less Wrong)\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96804",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DimaTolkachIt",
+      "datetime": 1484432883,
+      "text": "А что если это PR-ход Razer: показать что ноутбук такой небольшой, что его можно незаметно украсть с выставки?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96805",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484432885,
+      "text": "с тачем канечна"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96806",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem",
+      "datetime": 1484432894,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Maverick-Crank-GRey\" class=\"mention\"\u003e@Maverick-Crank-GRey\u003c/span\u003e о, спс"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96807",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1484432911,
+      "text": "Бери с тач баром, потому что пальчики. А клаву отдельную купишь"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96808",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LewWadoo",
+      "datetime": 1484432980,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96809",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432983,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e увеличена (текущее значение: 50)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d9680a",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1484432984,
+      "text": "главное не мклочиться"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9680b",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1484432987,
+      "text": "а как там склавиатурой она устраиват на новых?"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9680c",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Artem",
+      "datetime": 1484432990,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9680d",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484432992,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e увеличена (текущее значение: 21)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d9680e",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "naushniki",
+      "datetime": 1484433016,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d9680f",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484433022,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e увеличена (текущее значение: -5)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96810",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LewWadoo",
+      "datetime": 1484433037,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96811",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484433040,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e увеличена (текущее значение: 22)."
+    },
+    {
+      "id": "65d60e09111d6e5c56d96812",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Malozemov",
+      "datetime": 1484433152,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60e09111d6e5c56d96813",
+      "issue": 529,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1484433157,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e увеличена (текущее значение: 23)."
+    }
+  ]
 }

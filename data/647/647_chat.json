@@ -1,3 +1,1977 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d4083d69c0d5d460ccd7c0",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1556393362,
+      "text": "Тут вроде кто-то в чате был с Core может ответят, но имхо коре это минимализм ради минимализма"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c1",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556394367,
+      "text": "Бобрый вечер"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c2",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1556394539,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c3",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556394541,
+      "text": "\u003cstrong\u003etweet-bot 💬\u003c/strong\u003e  \u003ca href=\"https://twitter.com/bobuk/status/1121518392077320213\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://twitter.com/bobuk/status/1121518392077320213\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c4",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556394569,
+      "text": "Всем привет :-)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c5",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556394586,
+      "text": "моя вернулся :-)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c6",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1556394596,
+      "text": "хмм, одна из hue lампочек начала чирикать. это как-то чинится, или только менять ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c7",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556394650,
+      "text": "Мне кажется,  спрашивал у коллек из сименса , говорят лечение мало вероятно  :("
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c8",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1556394652,
+      "text": "Ты что это у нее ум начал развиватся - скоро заговорит :)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7c9",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556394736,
+      "text": "да вообще с этими умными лампочками все говорят беда"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ca",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1556394810,
+      "text": "ну у меня из 18 одна такая, подозреваю что с самого начала так чирикала, просто я не обращал внимания. Остальныы пока нормально"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7cb",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556394938,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e нуу как повезет, может таки и будущее впереди, но вот парни из сименса прям говорили, все плохо и пока не стоит брать. Может врут чо :-)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7cc",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556395251,
+      "text": "а бобук будет ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7cd",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395352,
+      "text": "Привет!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ce",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556395354,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hello!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7cf",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395413,
+      "text": "Бобук как-то советовал пасворд-менеджер под линукс. Кто-то может подсказать, что для этого сейчас пользуют?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d0",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395436,
+      "text": "И почему не родной встроеный аналог связки ключей?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d1",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556395498,
+      "text": "ребята, а может всеми слушателями радио которые в нерезиновой собрать и пиво попить ? например в любимом месте студентов  кто из бауманки , в брюгге на баумонской улице ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d2",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yuri Gerasymenko",
+      "datetime": 1556395520,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sflash-biz\" class=\"mention\"\u003e@sflash-biz\u003c/span\u003e вроде keepass"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d3",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395530,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"yuri_ger_twitter\" class=\"mention\"\u003e@yuri_ger_twitter\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d4",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556395531,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"yuri_ger_twitter\" class=\"mention\"\u003e@yuri_ger_twitter\u003c/span\u003e увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d5",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1556395547,
+      "text": "keepassx"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d6",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556395681,
+      "text": "ООО :-) Пермь :-)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d7",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1556395684,
+      "text": "а \u003cspan data-link-type=\"mention\" data-screen-name=\"gray\" class=\"mention\"\u003e@gray\u003c/span\u003e сегодня тоже на выезде судя по звуку?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d8",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395718,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"polyx\" class=\"mention\"\u003e@polyx\u003c/span\u003e по поводу core, я выбрал потому, что я не умею так далеко пальцы кидать, где цифирии и F1-F12!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7d9",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395756,
+      "text": "точность пока страдает"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7da",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556395970,
+      "text": "виски"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7db",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556395989,
+      "text": "палёнка у Умпутуна!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7dc",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556395990,
+      "text": "просто из штландии а не бурббон"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7dd",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1556396001,
+      "text": "В ларьках не берите хенеси!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7de",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556396021,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7df",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556396094,
+      "text": "Бобук,  я тут с хилби устроил треш по биотелеметрии :-) вдрух яндексу будет интересно :-)ъ"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e0",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556396134,
+      "text": "==\u0026gt; Docker Hub Hacked – 190k accounts, GitHub tokens revoked, builds disabled | Hacker News - \u003ca href=\"https://news.ycombinator.com/item?id=19763413\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://news.ycombinator.com/item?id=19763413\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e1",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1556396727,
+      "text": "В конец надо вписывать 666 :-) ну точно дьявол не возьмет :-)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e2",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556396806,
+      "text": "Через пробел дописывать надо цифирьки в конце, сто раз уже говорили, как только пробел в пароле появляется, все брут системы сразу пас"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e3",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556396968,
+      "text": "==\u0026gt; Веб-разработчики пишут небезопасный код по умолчанию - \u003ca href=\"https://habr.com/ru/company/globalsign/blog/449452/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://habr.com/ru/company/globalsign/blog/449452/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e4",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556396970,
+      "text": "А кто либо использует 2FA по сертификату с токена? 🦑"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e5",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Gilyaziev",
+      "datetime": 1556397418,
+      "text": "по поводу base64 возможно прикрутили Basic Authentication"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e6",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1556397450,
+      "text": "А не потому ли BASE64 по умолчанию посылает браузер, если использовать HTML \u0026lt;form\u0026gt;"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e7",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1556397469,
+      "text": "Вот, Рустам правду глаголит"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e8",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556397626,
+      "text": "уже 10 минут на 1 месте точитесь, давайте дальше"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7e9",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1556397630,
+      "text": "Да, \u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e прав. Обычно, непонимающие часто не имеют связи с полом. Чаще они летают в облаках своих фантазий."
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ea",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1556397668,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e, не мешай им хвосты распускать! Это же шоу."
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7eb",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556397702,
+      "text": "а что они обсуждают? я уже запутался"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ec",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Razumov",
+      "datetime": 1556397719,
+      "text": "Если входные значения в [1,1000] и взять хеш-функцию func (int x) { return x }, то как раз будет 1:1 хеш функция"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ed",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Razumov",
+      "datetime": 1556397776,
+      "text": "Менее упоротый вариант - это остаток от деления"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ee",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Razumov",
+      "datetime": 1556397971,
+      "text": "Можно перебрать по словарям же"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ef",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398051,
+      "text": "еще был слив пин кодов от банковский карт"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f0",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ivan Permyakov",
+      "datetime": 1556398135,
+      "text": "в один туториал смотрели"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f1",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398286,
+      "text": "грей разумную мысль говорит"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f2",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556398495,
+      "text": "==\u0026gt; Avian’s Blog: Google is eating our mail - \u003ca href=\"https://www.tablix.org/~avian/blog/archives/2019/04/google_is_eating_our_mail/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.tablix.org/~avian/blog/archives/2019/04/google_is_eating_our_mail/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f3",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398609,
+      "text": "с каким ответом отбивалась почта то?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f4",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398625,
+      "text": "может тупо даже SPF не было ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f5",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Razumov",
+      "datetime": 1556398636,
+      "text": "в начале статьи есть"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f6",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398766,
+      "text": "550  ошибка"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f7",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398812,
+      "text": "юзайте сторонние сервисы SMTP"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f8",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556398885,
+      "text": "это ошибка выжившего, попробуй на яндекс отправлять, тоже будешь получать ошибку"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7f9",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556399024,
+      "text": "я сразу говорю заказчику - если вы будете юзать email, сразу примеритесь с тем, что будут большие проблемы с недоставкой почтой, такие реали"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7fa",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556399047,
+      "text": "в основном, gmail в спам, как правило перекладывает мои письма"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7fb",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556399369,
+      "text": "==\u0026gt; Huge new iPhone 11 leak reminds us how much better Apple is at hardware than Android vendors - \u003ca href=\"https://bgr.com/2019/04/26/iphone-11-leaks-2019-photos-show-iphone-xi-design/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://bgr.com/2019/04/26/iphone-11-leaks-2019-photos-show-iphone-xi-design/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7fc",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556399444,
+      "text": "Фигня какая-то с камерами, зуб даю, в сентябре в этом квадрате мы увидим нормальное расположение камер"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7fd",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556399501,
+      "text": "Ширила реально не хватает"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7fe",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556399517,
+      "text": "*ширика"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd7ff",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556399565,
+      "text": "ну счелкать затвором =)\u003cbr/\u003eвообще перескопную камеру надо делать и зашибись =)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd800",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556399573,
+      "text": "грей, p30pro как тебе? реально шикарно фоткает?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd801",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1556399602,
+      "text": "Профи фотографы страдали по поводу ультраширика на самсунге с10 (ультраширик там линейный, перспективные искажения очень интересные)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd802",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556399613,
+      "text": "Ландшафтная и интерьерная съемка"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd803",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sim-fo",
+      "datetime": 1556399637,
+      "text": "Вы конечно интересно рассуждаете.. 16.. 24.. без привязки к физическому размеру матрицы? )"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd804",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556399651,
+      "text": "Бобук вступил на опасную территорию)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd805",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1556399653,
+      "text": "там именно около 12мм в эквиваленте и \u0026#34;бочка\u0026#34; минимальна (совсем не фишай)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd806",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556399656,
+      "text": "Они в 35мм эквиваленте"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd807",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1556399664,
+      "text": "Я использую"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd808",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556399668,
+      "text": "=)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd809",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1556399670,
+      "text": "Мне надо"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd80a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556399723,
+      "text": "ну там водозащита была =)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd80b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556399755,
+      "text": "iphone5 был прекрасен"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd80c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556399822,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e  ну да SE продлил срок этого формата как мог"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd80d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556399824,
+      "text": "Ширил, портретник, телеобъектив"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd80e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556399912,
+      "text": "Я бы хотел телефон толще, тяжелее и дольше работу от аккумулятора"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd80f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556399929,
+      "text": "а еще прекрасно всомнить камеры и технологи Lytro"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd810",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1556400062,
+      "text": "вообще-то 4-ки еще живут"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd811",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556400083,
+      "text": "досих пор с 5s хожу но кажется последний год"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd812",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556400124,
+      "text": "У меня 3GS работает норм. В руке лежит идеально"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd813",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556400149,
+      "text": "Приложений только нет ("
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd814",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556400151,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd815",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556400289,
+      "text": "У меня каждый день с собой два телефона, дройд и яблоко. Очень многие не понимают такого формата. Всяк кулик ведь своё болото хвалит"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd816",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556400315,
+      "text": "Да просто накосячил"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd817",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400316,
+      "text": "любители айфона, расскажите, как в этом телефоне принудительно включить HDR режим при фотографировании?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd818",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1556400348,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e в стандартном приложении камеры - никак"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd819",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556400361,
+      "text": "вверхеприложения где и вспышка включается"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd81a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400367,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"neurohunter\" class=\"mention\"\u003e@neurohunter\u003c/span\u003e ахахаххахахаха, ах**ть"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd81b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400383,
+      "text": "тел за 50к и нельзя HDR включить"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd81c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1556400387,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"LyrionTannister\" class=\"mention\"\u003e@LyrionTannister\u003c/span\u003e у меня тоже. Но iPhone лучше :)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd81d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1556400425,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e я страшное скажу - у меня даже на камере за пару сотен нет кнопки \u0026#34;HDR\u0026#34;"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd81e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556400461,
+      "text": "Лучше или хуже это субьективщина, у каждого свой юскейс и тяжесть синдрома утёнка\u003cbr/\u003eДля меня идеал обе платформы сразу под рукой"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd81f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556400508,
+      "text": "==\u0026gt; Google Cloud makes some strong moves to differentiate itself from AWS and Microsoft – TechCrunch - \u003ca href=\"https://techcrunch.com/2019/04/11/google-cloud-makes-some-strong-moves-to-differentiate-itself-from-aws-and-microsoft/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2019/04/11/google-cloud-makes-some-strong-moves-to-differentiate-itself-from-aws-and-microsoft/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd820",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400516,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"neurohunter\" class=\"mention\"\u003e@neurohunter\u003c/span\u003e на самсунге есть, и оно реально работает если снимать против солнца"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd821",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556400538,
+      "text": "Ходынка"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd822",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1556400641,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e ну на айфоне HDR-снимок будет в таких условиях создан. Кстати, вот выше правильно сказали - если отключить в настройках \u0026#34;Авто HDR\u0026#34;, то в стандартной камере на айфоне появится кнопка \u0026#34;HDR\u0026#34;"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd823",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556400739,
+      "text": "На собственном опыте могу сказать, что HDR в телефонных камерах лучшую картинку выдаёт из GCam с Pixel-ей и ещё дюжины телефонов. Спасибо за алгоритм сшивки большой стопки фотографий"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd824",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556400747,
+      "text": "В стандартной камере iPhone пункт HDR - 3 варианта (Авто, вкл, выкл)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd825",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400845,
+      "image_url": "https://files.gitter.im/radio-t/chat/9iiq/photo_2019-04-28_00-34-02.jpg",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/9iiq/photo_2019-04-28_00-34-02.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd826",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556400861,
+      "text": "Pavel Vishnyakov, ты не смог найти как в iPhone hdr включить?))"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd827",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400866,
+      "text": "где вы находите  кнопку HDR ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd828",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556400899,
+      "text": "Скриншот из Яндекс Драйва?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd829",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400907,
+      "text": "ага"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd82a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556400911,
+      "text": "0руб)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd82b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556400913,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e упомянул 0 RUB\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eRUB\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e0\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUSD\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.02\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.01\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.41\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.03\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd832",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556400938,
+      "text": "Ага, при этом я увидел кусок калужской области за Балабаново"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd833",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401068,
+      "text": "за 0руб выходит я могу получить 0.02USD"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd834",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556401069,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e упомянул 0.02 USD\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eUSD\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e0.02\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.02\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.88\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.54\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e27.12\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eRUB\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e1.31\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e65.73\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.04\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2.15\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd83b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401107,
+      "text": "-10RUB"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd83c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556401108,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e упомянул 10 RUB\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eRUB\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e10\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUSD\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.15\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.02\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.13\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.01\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e4.13\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.41\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.33\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.03\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd843",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556401158,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e \u003ca href=\"https://yadi.sk/i/GW8ypanQgyJ8MQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://yadi.sk/i/GW8ypanQgyJ8MQ\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd844",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556401160,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e   ...\u003c/p\u003e\u003cp\u003e  _IMG\u003cem\u003e5756.PNG — Yandex.Disk\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd845",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1556401216,
+      "text": "там случай был что уволили чувака где-то (начальник был им доволен. хвалил), машина посчитала что он херово работает+)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd846",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401222,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e у меня нет этого"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd847",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401260,
+      "text": "по моему вы уже обсуждали как роботы увольняют"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd848",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556401264,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e так у тебя может и не айфон) китайцы сейчас хорошо копии делают..."
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd849",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401278,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e может быть)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd84a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401285,
+      "text": "может это самсунг"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd84b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556401304,
+      "text": "Просто китайский нонейм подделка"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd84c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1556401322,
+      "text": "интересно алгоритм учитывает гендерную принадлежность? я уверен фемки и тут бунт устроят"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd84d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1556401374,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e нет, я когда-то давно (еще на 6s, скорее всего) включил авто-HDR и больше не трогал. А настройка просто переезжает со всем остальным, когда я переезжаю на новый iPhone"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd84e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1556401382,
+      "text": "Приветы всем :)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd84f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556401383,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hello!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd850",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556401386,
+      "text": "Увольняют - ещё норм. Вот когда начнут нанимать только с помощью ML так... будет страшно"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd851",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401434,
+      "text": "пусть роботы попробуют уволить негра гея"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd852",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1556401503,
+      "text": "я думаю эти факторы идут в к-т производительности)), или просто условие чтоб обходить таких ;D"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd853",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556401504,
+      "text": "==\u0026gt; Яндекс опубликовал обзор рынка ИТ-вакансий / Блог компании Яндекс / Хабр - \u003ca href=\"https://habr.com/ru/company/yandex/blog/449270/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://habr.com/ru/company/yandex/blog/449270/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd854",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556401534,
+      "text": "Уволят, а потом ещё и юридически размажут взвывших рептилойдов"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd855",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401558,
+      "text": "фулстек +200%"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd856",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401593,
+      "text": "это, наверное, после вашего выпуска, HR узнали про них"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd857",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556401715,
+      "text": "160000руб"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd858",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556401717,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"evgensr\" class=\"mention\"\u003e@evgensr\u003c/span\u003e упомянул 160 000 RUB\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eRUB\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e160000\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUSD\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2 434.36\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.02\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2 149.75\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.01\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e66 010.12\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.41\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e5 229.13\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.03\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.68\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd85f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556401720,
+      "text": "вообще зависит где Умпуту проживать будет"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd860",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1556401725,
+      "text": "Мне кажется или прямой эфир звучит лучше чем запись ? или это мои koss porto pro старички так делают :)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd861",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556401734,
+      "text": "а то половина отсуммы будет"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd862",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556401744,
+      "text": "Я 19 лет в айти и при этом я не попадаю в моду статистики из статьи, всегда есть статистическая средняя температура по палате, один получает 10 другой 1000 а все вместе они 92"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd863",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556401844,
+      "text": "А опыт в годах как считается в статье? С момента начала работы или с моменты выхода в компанию или с момента начала работы с технологией?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd864",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556401971,
+      "text": "=)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd865",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402031,
+      "text": "А то как то нелогично, я могу сказать, что имея опыт 19 лет в айти и один год в разработке на Яве, я ломаю всю статистику"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd866",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556402056,
+      "text": "а ссылку на это выступление =)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd867",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556402137,
+      "text": "они семантический неподходит =)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd868",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556402208,
+      "text": "А какую статью обсуждают ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd869",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402222,
+      "text": "\u003ca href=\"https://news.radio-t.com/post/iandeks-opublikoval-obzor-rynka-it-vakansii-blog-kompanii-iandeks-khabr\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://news.radio-t.com/post/iandeks-opublikoval-obzor-rynka-it-vakansii-blog-kompanii-iandeks-khabr\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd86a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556402224,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Все темыАрхив Загружаю. .. Radio-T, ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eНовости для Радио-Т\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd86b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1556402262,
+      "text": "плавно проваливаемся в темы слушателей?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd86c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556402264,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e да какая разница"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd86d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402282,
+      "text": "Я имя не расслышал, Ричард как его там?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd86e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402333,
+      "text": "Ботан"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd86f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Razumov",
+      "datetime": 1556402348,
+      "text": "Ричард Хикки (англ. Richard Hickey, более известный как Rich Hickey)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd870",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402367,
+      "text": "Аригато"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd871",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vergily",
+      "datetime": 1556402394,
+      "image_url": "https://files.gitter.im/radio-t/chat/5Inf/image.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/5Inf/image.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd872",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402464,
+      "text": "hickey\u003cbr/\u003eA usually dark-colored skin mark left on any part of the body after having it sucked for a long period of time."
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd873",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402479,
+      "text": "Засос)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd874",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402514,
+      "text": "А первый вариант так вообще Гравицапа"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd875",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556402542,
+      "text": "==\u0026gt; Темы слушателей 647 - \u003ca href=\"https://radio-t.com/p/2019/04/23/prep-647/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://radio-t.com/p/2019/04/23/prep-647/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd876",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556402556,
+      "text": "Чем отличается Юникод от строки?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd877",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556402742,
+      "text": "У Рича Хикки интересная причёска :—D"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd878",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "evgensr",
+      "datetime": 1556403305,
+      "text": "все, я спать, слишком скучно"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd879",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556403310,
+      "text": "Если ты никогда не говорил, то речевой центр мозга атрофирован. В первые годы жизни отмирают неиспользуемые нейроны"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd87a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403325,
+      "text": "Вот вот"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd87b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403403,
+      "text": "МРТ делали же, когда человек решает задачу проговаривая и рассуждая вслух, у него загорается больше зон головного мозга"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd87c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403448,
+      "text": "Нейроны правда не отмирают, рушатся аксонные связи"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd87d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556403543,
+      "text": "Китайский гот"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd87e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403553,
+      "text": "\u003cp\u003eКогда человек постоянно что то определенное делает, учится гитаре или прогать на Го, зона мозга, ответственное за это, как мышца прокачивается, аксоны формируют узелки, сложные нейронные связи\u003c/p\u003e\u003cp\u003eТак что не зря говорят, повторение — мать учения\u003c/p\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd87f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556403622,
+      "text": "Много общается с другими людьми вживую... )"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd880",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556403702,
+      "text": "Новым Delphi"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd881",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403731,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e покажи этот код с тестами своему Китайцу, в прошлом выпуске рассказывал про его допил проекта на Го без тестов)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd882",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403767,
+      "text": "Где можно послушать выпуски Daily Geek Show?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd883",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556403820,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"LyrionTannister\" class=\"mention\"\u003e@LyrionTannister\u003c/span\u003e ты перепутал Бобука с Умпутуном )"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd884",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403829,
+      "text": "Точно"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd885",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403851,
+      "text": "Это все потому что писал слушая Гришу"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd886",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556403970,
+      "text": "Свифт прекрасен, читаю Мэтта Нойберга, его лайфхаки и нестандартные приемы отлично раскрывают потенциал языка"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd887",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1556403971,
+      "text": "для джавы тоже можно добавлять shebang line"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd888",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vdimir",
+      "datetime": 1556404018,
+      "text": "И для C"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd889",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404057,
+      "text": "Пайтон всё же скриптовый язык, в отличии от"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd88a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1556404073,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"LyrionTannister\" class=\"mention\"\u003e@LyrionTannister\u003c/span\u003e \u003ca href=\"https://radio-t.com/p/2019/04/23/prep-647/#remark42__comment-aef05b08-ddd8-466b-84f4-4fe236705d30\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://radio-t.com/p/2019/04/23/prep-647/#remark42__comment-aef05b08-ddd8-466b-84f4-4fe236705d30\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd88b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556404075,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Апр 23, 2019 - 1556034844 \u003ca href=\"mailto:podcast@radio-t\" rel=\"nofollow\"\u003epodcast@radio-t\u003c/a\u003e. com Апр 23, 2019 - 1556034844 prep « Радио-Т 646 Твитнуть Поделиться ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eТемы для 647\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd88c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404266,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e спасибо! А то УВП я уже дослушал уже до 70 выпуска (во время пробежек по два три выпуска за раз) где голос был севший)\u003cbr/\u003eИ не хватает ДГС вставок между выпусками)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd88d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404318,
+      "text": "А Дима ЯПП молодец, втянулся и не бросил это дело"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd88e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404535,
+      "text": "Подкасты в яндексе появились, правда криво там работа с ними"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd88f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404567,
+      "text": "В Яндекс Музыке. Но там ни шоунотов нет ни нормального нейминга"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd890",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404638,
+      "text": "Я на дройде подсласты слушаю в Castbox, ибо в отличие от Тунца в нём доступны все выпуски, начиная с первого"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd891",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404645,
+      "text": "*подкасты"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd892",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404692,
+      "text": "Арзамас радио? Эксклюзив?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd893",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404868,
+      "text": "Вспоминая, сколько места занимает система в Питере, Долорес, Бернарде и Клементине... Автопилот и такой маленький..."
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd894",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556404909,
+      "text": "его сейчас нет же родстера только старенький Лотус"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd895",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556404925,
+      "text": "а если S то D100"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd896",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556404931,
+      "text": "Если девушка на Тесле - то говорят, что насосала у того у кого кризис среднего возраста"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd897",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556404935,
+      "text": "Смарт есть мелкий, похож на роадстер"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd898",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556405047,
+      "text": "Белую для Калифорнии или модель Y"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd899",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1556405064,
+      "text": "в 20-м"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd89a",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556405101,
+      "text": "А можно купить только монитор ?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd89b",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405128,
+      "text": "И поставить его в киарио?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd89c",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405231,
+      "text": "Зарядная станция должна быть особая, если хочется заряжать её за пару часов, а не за двенадцать.\u003cbr/\u003eВ плане прохлопать заправку, лучше брать BMW i3, ибо в ней есть моторчик генератор и бачок на галлон бензина"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd89d",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1556405239,
+      "text": "ягуар писпис круче"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd89e",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405262,
+      "text": "На i3 я ездил, довольно шустрый троллейбус"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd89f",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405296,
+      "text": "Ягуар лесом идёт; кто с ним сталкивался, тот в курсе"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a0",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1556405298,
+      "text": "jaguar i pace"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a1",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1556405345,
+      "text": "проблема в скорости зарядки"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a2",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405380,
+      "text": "Макс же обещал заправки, где замена батареи за 5 минут осуществляется на заряжённую?? У вас в калифорнии уже есть такие? \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a3",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1556405392,
+      "text": "\u003ca href=\"https://www.youtube.com/watch?time_continue=2\u0026amp;v=cF1kPptiKfI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.youtube.com/watch?time_continue=2\u0026amp;v=cF1kPptiKfI\u003c/a\u003e     тесла и рядом не стояла"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a4",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556405395,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  We are giving a MAXXD Utility Trailer away on 5/3/19!! ( Enter Here - \u003ca href=\"https://bit\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://bit\u003c/a\u003e. ly/2K8Wh3F )As soon as we get the 1972 Opel GT back to the shop, we dive right into it to see if she will run aft. ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eYouTube\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a5",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405398,
+      "text": "*Маск"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a6",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1556405433,
+      "text": "такого нигде нет"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a7",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405483,
+      "text": "Евгений ещё выпуске в 30м UWP рассказывал, что всегда ездит пока лампочка не загорится неожиданно"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a8",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1556405545,
+      "text": "При условии что на пути есть Supercharger станция"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8a9",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405586,
+      "text": "6 часов опасно, надо делать перерывы каждые 2 часа, на тот свет всегда успеем"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8aa",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1556405605,
+      "text": "генератор с канистрой в багажник :)"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8ab",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405639,
+      "text": "Генератор с канистрой уже встроен в BMW i3"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8ac",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1556405658,
+      "text": "Видал чувака с генератором в багажнике Теслы"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8ad",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405820,
+      "text": "КПД внешнего генератора будет крайне низко, ибо конвертация в 220 переменный ток а потом Теслой обратно, садится будет на ходу быстрее, чем заряжаться"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8ae",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556405836,
+      "text": "Кафка? Солженицина?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8af",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556405927,
+      "text": "Отличный выпуск!"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8b0",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405928,
+      "text": "А пираты будут сегодня?"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8b1",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1556405932,
+      "text": "Всем пока"
+    },
+    {
+      "id": "65d4083d69c0d5d460ccd8b2",
+      "issue": 647,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LyrionTannister",
+      "datetime": 1556405938,
+      "text": "Три часа, огоблин"
+    }
+  ]
 }

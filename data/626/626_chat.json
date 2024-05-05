@@ -1,3 +1,2183 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d60bc3c7547d3855c9ef5d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SERGEY",
+      "datetime": 1543679306,
+      "text": "Хай, бояре!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef5e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Arxivarius",
+      "datetime": 1543685369,
+      "text": "привет привет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef5f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543685371,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef60",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1543685684,
+      "text": "Сальвэ"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef61",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1543691027,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef62",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1543691038,
+      "text": "news!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef63",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543691039,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://blog.golang.org/go2-here-we-come\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eGo 2, here we come! - The Go Blog\u003c/a\u003e 2018-12-01\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/qldb/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAmazon QLDB\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eApplication Load Balancer can now Invoke Lambda Functions to Serve HTTP(S) Requests\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eNew for AWS Lambda – Use Any Programming Language and Share Common Components | Amazon Web Services\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.foundationdb.org/blog/announcing-document-layer/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAnnouncing FoundationDB Document Layer\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef64",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1543691047,
+      "text": "темы слушателей!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef65",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543691049,
+      "text": "\u003cstrong\u003ertnumber-bot 💬\u003c/strong\u003e  \u003cstrong\u003eТемы слушателей:\u003c/strong\u003e\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e[+19]\u003c/strong\u003e История по доставке вредоносного кода через заброшенный npm пакет \u003ca target=\"_blank\" data-link-type=\"issue\" data-issue=\"116\" href=\"https://github.com/dominictarr/event-stream/issues/116\" data-provider=\"github\" data-issue-repo=\"dominictarr/event-stream\" class=\"issue\"\u003edominictarr/event-stream#116\u003c/a\u003e Краткая последовательность действий 1. Найдите популярную библиотеку, в которой давно не было активности 2. Напишите автору, что хотите продолжить разрабатывать 3. Получите доступ к репозиторию и добавьте свой код 4. Ваш код доезжает до 2 млн приложений за неделю\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+9]\u003c/strong\u003e Гугл запустило Cloud Source Repositories. Приватные Git репозитории. Бесплатно до 5 пользователей/50 ГБ \u003ca href=\"https://cloud.google.com/source-repositories/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://cloud.google.com/source-repositories/\u003c/a\u003e \u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+7]\u003c/strong\u003e Firecracker новая супер лёгкая виртуализация от Amazon \u003ca href=\"https://aws.amazon.com/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/blogs/aws/firecracker-lightweight-virtualization-for-serverless-computing/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+6]\u003c/strong\u003e Aminal - Golang terminal emulator from scratch \u003ca href=\"https://github.com/liamg/aminal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/liamg/aminal\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+5]\u003c/strong\u003e Corel купил Parallels за кэш. Нафига? \u003ca href=\"https://techcrunch.com/2018/11/27/source-canadas-corel-is-acquiring-virtualization-specialist-parallels-in-an-all-cash-deal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2018/11/27/source-canadas-corel-is-acquiring-virtualization-specialist-parallels-in-an-all-cash-deal\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef66",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1543692585,
+      "text": "трям всем ранним"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef67",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SERGEY",
+      "datetime": 1543692767,
+      "text": "у нас поздно уже"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef68",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Bershadsky",
+      "datetime": 1543692927,
+      "text": "всем привет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef69",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1543692934,
+      "text": "Привет!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef6a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543692935,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef6b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildar Gilfanov",
+      "datetime": 1543693709,
+      "text": "здрасте всем"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef6c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1543694136,
+      "text": "О! Сегодня же гиковский выпуск"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef6d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1543694176,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef6e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694177,
+      "text": "\u003cstrong\u003etweet-bot 💬\u003c/strong\u003e  \u003ca href=\"https://twitter.com/bobuk/status/1068816971926523905\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://twitter.com/bobuk/status/1068816971926523905\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef6f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Usanov",
+      "datetime": 1543694374,
+      "text": "Всем привет!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef70",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Zalata",
+      "datetime": 1543694425,
+      "text": "Вечер добр!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef71",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543694489,
+      "text": "!анекдот"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef72",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Zalata",
+      "datetime": 1543694535,
+      "text": "Анекдот!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef73",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694537,
+      "text": "К сексопатологу на консультацию приходит парочка.\u003cul\u003e\n\u003cli\u003eЗнаете, доктор, мы совершенно не удовлетворяем друг  друга.  Читаем\u003cbr/\u003eлитературу,  стараемся...  и  ничего.  Можно  мы   попробуем   под   вашим\u003cbr/\u003eнаблюдением?\u003c/li\u003e\n\u003cli\u003eНу что ж? - говорит  врач.  -  Пройдите  за  ширму,  и  попробуйте,\u003cbr/\u003eскажем, сменить позу. Я еще позвоню моему коллеге-психологу.  Может  быть,\u003cbr/\u003eон поможет?\u003cbr/\u003eЗвонит:\u003c/li\u003e\n\u003cli\u003eАлло! Слушай, тут у меня одна пара...\u003c/li\u003e\n\u003cli\u003eДа гоните вы их, коллега, гоните! - кричат из трубки. - Они уже  по\u003cbr/\u003eдесять раз у всех врачей были - им просто негде.\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef74",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543694547,
+      "text": ":)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef75",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694613,
+      "text": "я недавно клевый анекдот услышал бородатый правда"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef76",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543694615,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef77",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1543694645,
+      "text": "Доброе! Ура, гиковский"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef78",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1543694654,
+      "text": "чо там как?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef79",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694659,
+      "text": "ой неправильно скопировал"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef7a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1543694660,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e отлично, будешь зам. Грея"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef7b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1543694661,
+      "text": "Hi ALl!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef7c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694673,
+      "text": "в анекдоте сталин кинул кошку в ведро с горчицей"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef7d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694680,
+      "text": "в той версии что я слышал"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef7e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694701,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ArturK777\" class=\"mention\"\u003e@ArturK777\u003c/span\u003e нет спасибо я не потяну)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef7f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543694718,
+      "text": "Анекдот!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef80",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694719,
+      "text": "Жена моет пол, муж с газетой сидит в кресле. Жена обращается к нему:\u003cul\u003e\n\u003cli\u003eПодними ноги, я вытру пол.\u003c/li\u003e\n\u003cli\u003eТы без моей помощи не можешь даже пол вымыть... \u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef81",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543694747,
+      "text": "как все команды посмотреть?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef82",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694755,
+      "text": "help!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef83",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694755,
+      "text": "\u003cem\u003esay! кто? who? как? rules? пинг когда? when? how? доколе? правила? ping news! новости! анекдот! анкедот! joke! chuck! so! ??                           \u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef84",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694770,
+      "text": "еще есть боты но они бесполезные"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef85",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543694770,
+      "text": "доколе?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef86",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694772,
+      "text": "\u003cem\u003eникто не знает. пока не надоест\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef87",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543694792,
+      "text": "who?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef88",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694793,
+      "text": "\u003cem\u003eмы! Ksenks, Umputun, Bobuk и Gray\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef89",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Zalata",
+      "datetime": 1543694793,
+      "text": "Ping"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef8a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694794,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef8b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Zalata",
+      "datetime": 1543694807,
+      "text": "So!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef8c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694808,
+      "text": "\u003cem\u003e\u003ca href=\"https://stackoverflow.com/questions/53574601/c-qt-creator-could-not-send-data-to-com-port\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ec++ Qt creator could not send data to com port\u003c/a\u003e c++,qt,serial-port\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef8d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543694810,
+      "text": "chuck!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef8e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694811,
+      "text": "\u003cul\u003e\n\u003cli\u003eChuck Norris doesn\u0026#39;t needs try-catch, exceptions are too afraid to raise.\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef8f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "iDeBugger Freeman",
+      "datetime": 1543694811,
+      "text": "??"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef90",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1543694814,
+      "text": "say!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef91",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694815,
+      "text": "\u003cem\u003eВы надеетесь, что на экзаменах вам поставят \u0026#34;3\u0026#34;? Да, поставят, но легче вам от этого не станет.\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef92",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543694900,
+      "text": "а аня будет? сегодня же выпуск про амазон..."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef93",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1543694979,
+      "text": "joke!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef94",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543694980,
+      "text": "\u003cul\u003e\n\u003cli\u003eКапитан, в море надвигается шторм!\u003c/li\u003e\n\u003cli\u003eШторм? Надо немедлено всех предупредить. Дайте мне мою позорную трубу.\u003c/li\u003e\n\u003cli\u003eВы хотели сказать \u0026#34;подзорную\u0026#34;?\u003c/li\u003e\n\u003cli\u003eПозорную! Я хотел сказать - позорную!\u003c/li\u003e\n\u003cli\u003eА! Держите Ваш Simens А35! \u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef95",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695013,
+      "text": "chuck!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef96",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695021,
+      "text": "ну вот"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef97",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1543695049,
+      "text": "gek!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef98",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695069,
+      "text": "ping"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef99",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695070,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef9a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695073,
+      "text": "chuck!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef9b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695074,
+      "text": "\u003cul\u003e\n\u003cli\u003eThere are no steroids in baseball. Just players Chuck Norris has breathed on.\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef9c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1543695096,
+      "text": "translate!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef9d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543695108,
+      "text": "это как с канатной дорогой в москве"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef9e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695130,
+      "text": "а где у нас канатная дорога в москве?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9ef9f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695141,
+      "text": "у нас"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa0",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543695195,
+      "text": "\u003ca href=\"https://www.google.ru/search?q=канатная+дорога+в+москве\u0026amp;oq=канатная+дорога+в+москве\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.google.ru/search?q=канатная+дорога+в+москве\u0026amp;oq=канатная+дорога+в+москве\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa1",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695196,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  400. That’s an error. Your client has issued a malformed or illegal request. That’s all we ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eError 400 (Bad Request)!!1\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa2",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695254,
+      "text": "забавно"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa3",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695289,
+      "text": "были ли на собеседовании вопросы про оружие?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa4",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Zima",
+      "datetime": 1543695305,
+      "text": "сержант пейн)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa5",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695306,
+      "text": "вдруг он фанат кольта"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa6",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695455,
+      "text": "ооо я себе тож купил"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa7",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695459,
+      "text": "дешевые правда \u003ca href=\"https://ru.aliexpress.com/item/GIMTO/32845396591.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://ru.aliexpress.com/item/GIMTO/32845396591.html\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa8",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695461,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Магазин №223897 China Этот магазин был открыт Apr 19, 2013 Детальный рейтинг продавца(из 5) Соответствие описанию: Общение с продавцом: Скорость доставки: Подробная информация о рейтинге продавца недоступна, если число оценок меньше ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eЭлитный бренд Для мужчин часы GIMTO Мужские кварцевые часы Спорт Тонкий Сталь Спорт Кварцевые часы Для мужчин Водонепроницаемый Повседневное наручные часы relogio купить на AliExpress\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efa9",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695468,
+      "text": "но мне для работы надо"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efaa",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543695491,
+      "text": "фото в студию"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efab",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1543695555,
+      "image_url": "https://files.gitter.im/radio-t/chat/j1O5/otxbb-201812-01141905-vq4hb.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/j1O5/otxbb-201812-01141905-vq4hb.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efac",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1543695562,
+      "text": "x\u003ca href=\"https://bolknote.ru/all/physical-tcp-packet/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://bolknote.ru/all/physical-tcp-packet/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efad",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1543695564,
+      "text": "\u003ca href=\"https://bolknote.ru/all/physical-tcp-packet/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://bolknote.ru/all/physical-tcp-packet/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efae",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695565,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  , обеспечивается гарантированная доставка, надо полагать В чате бывших сотрудников «Яндекса» сегодня всплыла безвестная картинка с пакетом (на самом деле — сумкой) с принтом в виде TCP-пакета. Каламбур зашёл, местные гики изошли слюной. Я тоже заинтересовался — где такую взять и ценой вопроса. ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eФизическое воплощение TCP-пакета\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efaf",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695568,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  , обеспечивается гарантированная доставка, надо полагать В чате бывших сотрудников «Яндекса» сегодня всплыла безвестная картинка с пакетом (на самом деле — сумкой) с принтом в виде TCP-пакета. Каламбур зашёл, местные гики изошли слюной. Я тоже заинтересовался — где такую взять и ценой вопроса. ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eФизическое воплощение TCP-пакета\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb0",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543695568,
+      "text": "хороши"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb1",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695597,
+      "text": "интересно как их будет ркн блокировать"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb2",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1543695619,
+      "text": "номер!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb3",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543695620,
+      "text": "\u003cstrong\u003ertnumber-bot 💬\u003c/strong\u003e  Выпуск # 626, гиковский"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb4",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1543695629,
+      "text": "Добрый вечер."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb5",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Avalone",
+      "datetime": 1543695721,
+      "text": "Ух ты, слушаю несколько лет и в первый раз онлайн )"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb6",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1543695743,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Avalone\" class=\"mention\"\u003e@Avalone\u003c/span\u003e Всё в жизни бывает впервые."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb7",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695756,
+      "text": "да он к вам не пойдет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb8",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Захар",
+      "datetime": 1543695771,
+      "text": "это тот который лондонский?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efb9",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695779,
+      "text": "нет это который летчик"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efba",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543695941,
+      "text": "в рф можно нарушать"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efbb",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543696016,
+      "text": "==\u0026gt; Go 2, here we come! - The Go Blog - \u003ca href=\"https://blog.golang.org/go2-here-we-come\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://blog.golang.org/go2-here-we-come\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efbc",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543696023,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efbd",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Konstantin",
+      "datetime": 1543696049,
+      "text": "News!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efbe",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543696050,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://blog.golang.org/go2-here-we-come\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eGo 2, here we come! - The Go Blog\u003c/a\u003e 2018-12-01\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eApplication Load Balancer can now Invoke Lambda Functions to Serve HTTP(S) Requests\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eNew for AWS Lambda – Use Any Programming Language and Share Common Components | Amazon Web Services\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/qldb/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAmazon QLDB\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.foundationdb.org/blog/announcing-document-layer/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAnnouncing FoundationDB Document Layer\u003c/a\u003e 2018-11-30\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efbf",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Bershadsky",
+      "datetime": 1543696119,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Avalone\" class=\"mention\"\u003e@Avalone\u003c/span\u003e я тоже первый раз онлайн слушаю"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc0",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543696332,
+      "text": "а че за проблемы они решали то?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc1",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543696333,
+      "text": "Вангую: будет GO 3 (выглядит круче!)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc2",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543696429,
+      "text": "Go2 это как Web 2.0"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc3",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543696484,
+      "text": "GO global offensive"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc4",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543696732,
+      "text": "чето кажется го 2 не нужен"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc5",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543697202,
+      "text": "==\u0026gt; New – AWS Transfer for SFTP – Fully Managed SFTP Service for Amazon S3 | Amazon Web Services - \u003ca href=\"https://aws.amazon.com/blogs/aws/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/blogs/aws/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc6",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543697512,
+      "text": "чето непонятно что имеется ввиду под мощой"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc7",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543697521,
+      "text": "колво клинентов?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc8",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543697528,
+      "text": "скорость передачи?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efc9",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543697532,
+      "text": "или че"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efca",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543697866,
+      "text": "с ценником 200$ так себе убийство"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efcb",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543697867,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e упомянул 200 USD\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eUSD\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e200\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e176.72\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.88\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e5 638.07\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e28.19\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eRUB\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e13 411.42\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e67.06\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e426.36\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2.13\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.05\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd2",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543698042,
+      "text": "==\u0026gt; Introducing AWS App Mesh – service mesh for microservices on AWS | Amazon Web Services - \u003ca href=\"https://aws.amazon.com/blogs/compute/introducing-aws-app-mesh-service-mesh-for-microservices-on-aws/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/blogs/compute/introducing-aws-app-mesh-service-mesh-for-microservices-on-aws/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd3",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Myshev",
+      "datetime": 1543698102,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e какой самый простой способ заставить amazon echo воспроизводить прямое вещание radiot? Или может из чата кто знает?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd4",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543698114,
+      "text": "ооо клевая штука"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd5",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543698123,
+      "text": "мне как раз прямо сейчас такое надо"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd6",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543698155,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"PavelMyshev_twitter\" class=\"mention\"\u003e@PavelMyshev_twitter\u003c/span\u003e аня написала что-то чтобы играть ща найду"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd7",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543698217,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"PavelMyshev_twitter\" class=\"mention\"\u003e@PavelMyshev_twitter\u003c/span\u003e \u003ca href=\"https://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd8",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543698219,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  \u0026#34;Alexa, ask Israeli Radio to play ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eAmazon.com: Radio-T: Alexa Skills\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efd9",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Myshev",
+      "datetime": 1543698350,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e спасибо, я только приобрел echo, еще осваиваюсь. Я думаю, там можно настроить расписание, чтобы alexa сама по расписанию напоминала о прямом эфире и включала? Было бы вообще удобно"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efda",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543698371,
+      "text": "нет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efdb",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543698395,
+      "text": "она сама не инициирует разговор"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efdc",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543698405,
+      "text": "тока если будильник какой ставить)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efdd",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Myshev",
+      "datetime": 1543698489,
+      "text": "аа, она только на будильник сама начинает, а в других случаях не умеет. Понятно, спасибо. Возможно мне было бы удобны какие-то напоминалки голосовые, ну ладно"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efde",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543698834,
+      "text": "==\u0026gt; Amazon DynamoDB On-Demand – No Capacity Planning and Pay-Per-Request Pricing | AWS News Blog - \u003ca href=\"https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efdf",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543698988,
+      "text": "ыыы а че форумы еще существуют?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe0",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543699249,
+      "text": "может пользователи просто по сайту ходят часами"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe1",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543699285,
+      "text": "а вообще каждый плагин вордпресса по 3-4 запроса к базе"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe2",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543699309,
+      "text": "==\u0026gt; Application Load Balancer can now Invoke Lambda Functions to Serve HTTP(S) Requests - \u003ca href=\"https://aws.amazon.com/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe3",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543699337,
+      "text": "ой а расскажите где ее использовать?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe4",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543699341,
+      "text": "очень интересно"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe5",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Влад С",
+      "datetime": 1543699397,
+      "text": "В dynamo еще и  транзакции добавили"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe6",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Влад С",
+      "datetime": 1543699403,
+      "text": "\u003ca href=\"https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transactions.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transactions.html\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe7",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543699404,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Amazon DynamoDB Transactions Amazon DynamoDB transactions simplify the developer experience of making coordinated, all-or-nothing changes to multiple items both within and across tables. Transactions provide atomicity, consistency, isolation, and durability (ACID) in DynamoDB, enabling you to ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eAmazon DynamoDB Transactions - Amazon DynamoDB\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe8",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543699781,
+      "text": "ой излейте про лямбду пожалуйста"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efe9",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543700205,
+      "text": "а зачем бложикам скорость?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efea",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Bershadsky",
+      "datetime": 1543700237,
+      "text": "Лямбда это не про скорость"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efeb",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Bershadsky",
+      "datetime": 1543700363,
+      "text": "Для питончика есть chalice и zappa"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efec",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543700385,
+      "text": "lambda легко деплоится автоматом"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efed",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543700386,
+      "text": "в ci"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efee",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543700420,
+      "text": "через  terraform в полпинка работает и с версиями и прочим тестированием"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efef",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543700528,
+      "text": "Тебе надо не файлик, а target"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff0",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Bershadsky",
+      "datetime": 1543700549,
+      "text": "Chalice пишется самим aws. И cli для деплоя и всего всего уже в фреймворке"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff1",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543700549,
+      "text": "Ты можешь один и тот же код деплоить в разные лямбды с разными target function"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff2",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543700569,
+      "text": "==\u0026gt; New for AWS Lambda – Use Any Programming Language and Share Common Components | Amazon Web Services - \u003ca href=\"https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff3",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543700889,
+      "text": "опять я не успел"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff4",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543700923,
+      "text": "==\u0026gt; Announcing Drone Cloud, A Free Continuous Integration Service for x86 and Arm - \u003ca href=\"https://blog.drone.io/drone-cloud/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://blog.drone.io/drone-cloud/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff5",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Влад С",
+      "datetime": 1543700990,
+      "text": "Все работает"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff6",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543701116,
+      "text": "анекдот!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff7",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543701118,
+      "text": "\u003cul\u003e\n\u003cli\u003eЖора, я достал секретную микросхему!\u003c/li\u003e\n\u003cli\u003eИ как?\u003c/li\u003e\n\u003cli\u003eВкусно, прямо как «Орбит – секретная микросхема»! \u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff8",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Влад С",
+      "datetime": 1543701118,
+      "text": "Я не про это писал, я про сайт"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9eff9",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543701136,
+      "text": "Подскажите хороший учебный пример микросервисов"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9effa",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543701140,
+      "text": "анедот!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9effb",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543701171,
+      "text": "анекдот!"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9effc",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543701172,
+      "text": "\u003cul\u003e\n\u003cli\u003eЧто такое вечность, спрашиваете вы, сэр? Одолжите мне 100 фунтов, и\u003cbr/\u003eвы узнаете, что это такое!\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9effd",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543701175,
+      "text": "Тяжело тебе программируемая наверное) если даже слово анекдот с опечаткой )"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9effe",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543701223,
+      "text": "сижу в темноте, второй раз анеклот написал)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9efff",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543701227,
+      "text": "дык в программировании больше 3х символов никто не печатает"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f000",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543701247,
+      "text": "автокомплит и вот это все"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f001",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1543701263,
+      "text": "ну я таб жмакаю, не дополняет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f002",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543701296,
+      "text": "я думал бобук новый ноутбук для разработчика рекламирует"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f003",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1543701303,
+      "text": "с 384 Gb ram"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f004",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543701324,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e тут скорее вопрос про общую внимательность..."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f005",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543701665,
+      "text": "интересно сколько там teamcity"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f006",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Abashev",
+      "datetime": 1543701704,
+      "text": "\u003ca href=\"https://res.cloudinary.com/snyk/image/upload/v1539774333/blog/jvm-ecosystem-report-2018.pdf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://res.cloudinary.com/snyk/image/upload/v1539774333/blog/jvm-ecosystem-report-2018.pdf\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f007",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543702114,
+      "text": "==\u0026gt; Announcing FoundationDB Document Layer - \u003ca href=\"https://www.foundationdb.org/blog/announcing-document-layer/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.foundationdb.org/blog/announcing-document-layer/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f008",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543702416,
+      "text": "\u003ca href=\"https://github.com/apple/foundationdb/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/apple/foundationdb/\u003c/a\u003e вроде как сорсы"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f009",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543702418,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  README. md FoundationDB is a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGitHub - apple/foundationdb: FoundationDB - the open source, distributed, transactional key-value store\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f00a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702439,
+      "text": "да боюсь они переехать с монги хотят :)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f00b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702447,
+      "text": "вот им и нужна совместимость"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f00c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1543702467,
+      "text": "\u003ca href=\"https://github.com/apple/foundationdb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/apple/foundationdb\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f00d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543702469,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  README. md FoundationDB is a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It organizes data as an ordered key-value store and employs ACID transactions for all operations. It is especially well-suited for read/write workloads but ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGitHub - apple/foundationdb: FoundationDB - the open source, distributed, transactional key-value store\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f00e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543702501,
+      "text": "это я как раз с сайта и нашел"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f00f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1543702511,
+      "text": "там сверху в меню Github"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f010",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702591,
+      "text": "ну собрать можно один раз, проверить суммы"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f011",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702647,
+      "text": "база на джаве - горе в семье"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f012",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702702,
+      "text": "насколько я помню эта была первая база (кроме гугла) где были распределенные ACID транзакции."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f013",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702709,
+      "text": "поэтому ее apple и купил"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f014",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1543702770,
+      "text": "\u003ca href=\"https://db-engines.com/en/system/FoundationDB%3BMongoDB%3BOracle+NoSQL\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://db-engines.com/en/system/FoundationDB%3BMongoDB%3BOracle+NoSQL\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f015",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543702772,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Editorial information provided by DB-EnginesNameCreated as commercial project in 2013, FoundationDB has been acquired by Apple in March 2015 and was withdrawn from the market. As a consequence, the product was removed from the DB-Engines ranking. In April 2018, Apple open-sourced FoundationDB and ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eFoundationDB vs. MongoDB vs. Oracle NoSQL Comparison\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f016",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543702935,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e ты что-то писал с использованием микросервисов?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f017",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543702981,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e да я много всякой фигни пишу) а что?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f018",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543702991,
+      "text": "бобук, можно было закончить на \u0026#34;пользователи npm научатся...\u0026#34;"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f019",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543703005,
+      "text": "я вот щаз продукт пилю из микросервисов"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f01a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543703014,
+      "text": "прямо пока слушаю"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f01b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543703133,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e какой/какие ЯП используешь?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f01c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543703162,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e возьми go-kit :)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f01d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543703227,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e спасибо. еще хочу живого человека, чтобы разобраться в самых общих вопросах, о которых почти всегда не пишут в руководствах"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f01e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543703285,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e так почти везде есть примеры готовые."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f01f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543703303,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e зависит от проекта - вот прямо щаз нод жс. система по вебсокетам регистрирует пользователей иии посылает запросы во всякие 3d парти апи иии отдает json в приложения а те уже рендерят"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f020",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543703331,
+      "text": "рендеринг на сервере я только слышал но никогда такого не видел и не знаю людей которые это трогали"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f021",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543703411,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e а еще более в общем, для чего данная система?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f022",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543703460,
+      "text": "там немного запутано - это приложения на фончики и расширения для браузеров чтобы интегрировать crmы для продажников"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f023",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543703477,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e Мне намного проще разбирать примеры, когда я общие принципы уже понимаю. А по общим принципам в разговоре можно за 1-2 минуты все выяснить..."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f024",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1543703528,
+      "text": "для запуска торговых роботов в изолированной среде есть смысл с докера на файркрекер переходить?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f025",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Abashev",
+      "datetime": 1543703586,
+      "text": "на рокет если переходить"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f026",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543703628,
+      "text": "звук пропал :("
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f027",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543703644,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e это у вас релоудите страничку"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f028",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1543703688,
+      "text": "мы на крипте, грошей нет для ваших бирж"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f029",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "xtwist",
+      "datetime": 1543703701,
+      "text": "да и регулирование там, скучно"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f02a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543703953,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e и это в нем еще не было цвета."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f02b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704068,
+      "text": "на маке винзип популярен"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f02c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704118,
+      "text": "там же есть uncompress"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f02d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704131,
+      "text": "сори, unarchiver"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f02e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1543704169,
+      "text": "xara еще есть =)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f02f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1543704191,
+      "text": "иллюстратор был и есть лидер рынка"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f030",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704229,
+      "text": "30 чет дорого"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f031",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704233,
+      "text": "моя 9"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f032",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1543704292,
+      "text": "корел еще и под мак был"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f033",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704306,
+      "text": "за 9 это не все приложения"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f034",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704344,
+      "text": "а зачем девочке все приложения?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f035",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1543704359,
+      "text": "и как теперь с Parallels Desktop =)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f036",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704368,
+      "text": "потому что разница между 9 и 30 очень смешная"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f037",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704381,
+      "text": "ну в целом да)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f038",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704415,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bubuger\" class=\"mention\"\u003e@bubuger\u003c/span\u003e да никак они много чем владеют и все ок"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f039",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704558,
+      "text": "права хотя бы но нужны"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f03a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704563,
+      "text": "права + карточка"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f03b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704590,
+      "text": "ну фамилия поменялся :)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f03c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704601,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e люди замуж выходят :)"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f03d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704641,
+      "text": "566 отелей"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f03e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704643,
+      "text": "охренеть"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f03f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex Perfilov",
+      "datetime": 1543704714,
+      "text": "в отелях часто конференции делают, может они и визиторов туда писали"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f040",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Viacheslav Makarov",
+      "datetime": 1543704746,
+      "text": "\u003ca href=\"https://news.radio-t.com/post/priverzhentsy-staticheskoi-i-dinamicheskoi-tipizatsii-nikogda-ne-poimut-drug-druga-i-typescript-im-ne-pomozhet-khabr\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://news.radio-t.com/post/priverzhentsy-staticheskoi-i-dinamicheskoi-tipizatsii-nikogda-ne-poimut-drug-druga-i-typescript-im-ne-pomozhet-khabr\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f041",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543704748,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Все темыАрхив Загружаю. .. Radio-T, ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eНовости для Радио-Т\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f042",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1543704756,
+      "text": "\u003ca href=\"https://gamesnostalgia.com/en/game/golden-axe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://gamesnostalgia.com/en/game/golden-axe\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f043",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543704758,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Game Review Golden Axe is a side-scrolling hack and slash fantasy game created by Sega and released for arcade machines in 1989. The game was ported the same year to the SEGA Mega Drive/Genesis and in 1990 to the Amiga, Atari ST and MS-DOS platforms. There are also versions for the Commodore 64 and ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGolden Axe Game Download\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f044",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543704866,
+      "text": "спасибо"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f045",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543705329,
+      "text": "если не в москву то говорят в сибирь"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f046",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1543705441,
+      "text": "потому, что bodyshop"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f047",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1543705654,
+      "text": "в америке с этим проще, тут просто могут уволить без ничего (кроме разве что потери в карме на глассдоре), впрочем и ты тоже можешь уйти в любой момент, без трехмесячного анонса как в германии"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f048",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543705754,
+      "text": "чето алексей не то говорит"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f049",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543705766,
+      "text": "у нас в рф 15 000 оутсорсеров"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f04a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Abashev",
+      "datetime": 1543705783,
+      "text": "а че я не так сказал?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f04b",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1543705811,
+      "text": "может я просто слуашал невнимательно но аутсорса в рф дофига"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f04c",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Abashev",
+      "datetime": 1543705819,
+      "text": "ну да"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f04d",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Abashev",
+      "datetime": 1543705827,
+      "text": "я и не готоворил что нет"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f04e",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1543705898,
+      "text": "Весь Нижегородский ИТ это оутсорс. В том же ЕПАМе в том числе."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f04f",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543705938,
+      "text": "Сколько разработчик получает в USA?"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f050",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1543705941,
+      "text": "Да норм платят оутсорсеры по местому рынку. По глобальному рынку - это да, плятят сущие копейки."
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f051",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1543705955,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e ~$100/h"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f052",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1543705956,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"niksite\" class=\"mention\"\u003e@niksite\u003c/span\u003e упомянул 100 USD\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eUSD\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e100\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eEUR\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e88.36\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.88\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2 819.04\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e28.19\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eRUB\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e6 705.71\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e67.06\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e213.18\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2.13\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.03\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f059",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1543705967,
+      "text": "Ну вот. Из-за бобука"
+    },
+    {
+      "id": "65d60bc3c7547d3855c9f05a",
+      "issue": 626,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1543706039,
+      "text": "В штатах тоже в разных местах по разному платят. Одно дело в Mountine View, другое - в Алабаме какой."
+    }
+  ]
 }

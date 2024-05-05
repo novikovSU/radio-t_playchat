@@ -1,3 +1,940 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d4083a23d5c3d023d14898",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1556994994,
+      "text": "ping"
+    },
+    {
+      "id": "65d4083a23d5c3d023d14899",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556994995,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d1489a",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1556996438,
+      "text": "всем привет"
+    },
+    {
+      "id": "65d4083a23d5c3d023d1489b",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nezval",
+      "datetime": 1556996994,
+      "text": "Привет!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d1489c",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556996996,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hello!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d1489d",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mak2456",
+      "datetime": 1556997285,
+      "text": "Hello"
+    },
+    {
+      "id": "65d4083a23d5c3d023d1489e",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556997287,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hello!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d1489f",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1556997808,
+      "text": "hi all!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a0",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1556997823,
+      "text": "help!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a1",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556997823,
+      "text": "\u003cem\u003esay! когда? when? rules? правила? ping пинг who? доколе? кто? как? how? news! новости! анекдот! анкедот! joke! chuck! so! ??                           \u003c/em\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a2",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1556997842,
+      "text": "so!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a3",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556997843,
+      "text": "\u003cem\u003e\u003ca href=\"https://stackoverflow.com/questions/54308956/how-do-i-prevent-the-use-of-arbitrary-methods-for-example-string-lastindexof\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eHow do I prevent the use of arbitrary methods, for example String.lastIndexOf()\u003c/a\u003e java,classloader\u003c/em\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a4",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mak2456",
+      "datetime": 1556997923,
+      "text": "доколе?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a5",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556997925,
+      "text": "\u003cem\u003eникто не знает. пока не надоест\u003c/em\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a6",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1556997938,
+      "text": "chuck!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a7",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556997938,
+      "text": "\u003cul\u003e\n\u003cli\u003e4 out of 5 doctors fail to recommend Chuck Norris as a solution to most problems. Also, 80% of doctors die unexplained, needlessly brutal deaths.\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a8",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nezval",
+      "datetime": 1556998020,
+      "text": "анкедот!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148a9",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1556998021,
+      "text": "Кончились праздники. Стоит мужик около витрины винно-водочного отдела гастронома, вздыхает, из глаз чуть ли не слезы катятся. Подходит к нему другой:\u003cul\u003e\n\u003cli\u003eТы чего? Водку, что ли, не завезли?\u003c/li\u003e\n\u003cli\u003eЗавезли.\u003c/li\u003e\n\u003cli\u003eДенег нет?\u003c/li\u003e\n\u003cli\u003eЕсть.\u003c/li\u003e\n\u003cli\u003eВ чем же дело?\u003c/li\u003e\n\u003cli\u003eНе хочется! \u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148aa",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1556999083,
+      "text": "ping!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ab",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1556999378,
+      "text": "этой песни нет в Apple Music"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ac",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1556999393,
+      "text": "откуда тогда у \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e этот трек"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ad",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1556999510,
+      "text": "а этот трек вообще не шазамится"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ae",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1556999583,
+      "text": "это \u0026#34;подсейф\u0026#34; вроде"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148af",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "κρμγ",
+      "datetime": 1557000158,
+      "text": "intel сделали ssd dimm для датацентров"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b0",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "κρμγ",
+      "datetime": 1557000189,
+      "text": "теперь-то монга перестанет тормозить"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b1",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1557000222,
+      "text": "последнего трека вообще нигде нет"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b2",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1557000266,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e расскажи, где ты эту музыку берешь?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b3",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1557000291,
+      "text": "та сносно слышно"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b4",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557000317,
+      "text": "Умпутун наконец то открутил басы у себя, звук зачетный сегодня"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b5",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1557000413,
+      "text": "Умпутун лиш немного меньше бубнит, можно бы еще  прибрать низов..."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b6",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1557000419,
+      "text": "слышен"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b7",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1557000436,
+      "text": "Переехали бы уже на что нибудь другое вместо скайпа"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b8",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1557000445,
+      "text": "Грей не бубнит совсем и это норм"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148b9",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557000448,
+      "text": "наоборот убавить и все будут в одном кепстре"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ba",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557000571,
+      "text": "возможно что тролиты в микрофонном тракте усохли"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148bb",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergii Velykodnyi",
+      "datetime": 1557000572,
+      "text": "hey hey"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148bc",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557000980,
+      "text": "лыжная мазь нанесена?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148bd",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1557000984,
+      "text": "навострил уши"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148be",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Klubov",
+      "datetime": 1557000988,
+      "text": "Вострить значит направить"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148bf",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1557001008,
+      "text": "ущи навостряют, про лыжи не слышал"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c0",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557001035,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c1",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557001059,
+      "text": "вострить - прост. рег. (ru) делать острым ◆ Вот почему, может быть, просыпаясь от зимней спячки, черёмуха взялась за дело и вострила, и вострила миллионы злых пик на людей. М. Пришвин"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c2",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557001077,
+      "text": "офкат"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c3",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1557001140,
+      "text": "бобук изменяет с эхом?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c4",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557001151,
+      "text": "May the fourth be with you!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c5",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Klubov",
+      "datetime": 1557001276,
+      "text": "Сказки дедушки Умпутуна"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c6",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1557001334,
+      "text": "\u003ca href=\"https://www.youtube.com/watch?v=eEBOvqMfPoI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.youtube.com/watch?v=eEBOvqMfPoI\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c7",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557001335,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  When programmers describe code as \u0026#39;procedural\u0026#39;, it\u0026#39;s generally not meant as a compliment. There is the belief that we have collectively moved pass such thinking and onto better paradigms. But a paradigm is no more than a pattern language, a family of solutions fit for a context. Change the kind of ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eProcedural Programming: It\u0026#39;s Back? It Never Went Away - YouTube\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c8",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitriy Aulov",
+      "datetime": 1557001360,
+      "text": "Про фаззинг"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148c9",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Gilyaziev",
+      "datetime": 1557001361,
+      "text": "про css гриды"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ca",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugene",
+      "datetime": 1557001382,
+      "text": "procedural programming === functional programming?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148cb",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557001425,
+      "text": "==\u0026gt; Вы не Google - \u003ca href=\"https://habr.com/ru/post/450230/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://habr.com/ru/post/450230/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148cc",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557001686,
+      "text": "Так, похоже, что Ксюше нужно сёздить на каникулы к бабушке в Россию. Чтоб больше говорила русских слов 😋"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148cd",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557001711,
+      "text": "амазинг войс"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ce",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557001791,
+      "text": "\u003cem\u003eадвакатесса\u003c/em\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148cf",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1557001879,
+      "text": "Но вариант с традиционностью DynamoDB выглядит крайне нереалистичным же"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d0",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1557002156,
+      "text": "Кстати, бобук хотел магазин с механическими клавиатурами в Москве.\u003cbr/\u003eЕсть вроде такой: \u003ca href=\"https://geekboards.ru/page/showroom\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://geekboards.ru/page/showroom\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d1",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "κρμγ",
+      "datetime": 1557003147,
+      "text": "когда-нибудь напишу пост на хубр, как уехал с кафки на spring data реп вокруг одной монго-коллекции с парой кастомных методов, и избавился наконец-то от многомесячного гемора с потерей целостности данных, которые кафка честно отправляла в полуинициализированный или перегруженный микросервис."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d2",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "κρμγ",
+      "datetime": 1557003231,
+      "text": "конечно, кафка всё это умеет, но настолько странно и неочевидно, что кхм, никто и не пытался осилить"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d3",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "slashs71",
+      "datetime": 1557003395,
+      "text": "Привет"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d4",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557003397,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Привет!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d5",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557003533,
+      "text": "Ага, а теперь расскажите мне, как протестировать сложную retry strategy без вставки туда Clock"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d6",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557003666,
+      "text": "Лады, выкрутился."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d7",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1557003714,
+      "text": "пора тестировать матрас на время засыпа под гиковский говор"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d8",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557003793,
+      "text": "Нет, Лёха, в новом мире мэш-систем а-ля Istio, никто уже повторения и отсечки в код не вставляет."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148d9",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557003829,
+      "text": "Ой, забыл, что Лёха ничего не видит."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148da",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557003887,
+      "text": "==\u0026gt; Go is on a trajectory to become the next enterprise programming language - \u003ca href=\"https://hackernoon.com/go-is-on-a-trajectory-to-become-the-next-enterprise-programming-language-3b75d70544e?gi=3cb5962b5f43\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://hackernoon.com/go-is-on-a-trajectory-to-become-the-next-enterprise-programming-language-3b75d70544e?gi=3cb5962b5f43\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148db",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557003888,
+      "text": "Demo-driven Development"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148dc",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557003997,
+      "text": "\u0026#34;Ой, а что делать институтам в Хидерабаде, которые штампуют java-программистов!\u0026#34;"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148dd",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557004000,
+      "text": "\u003cstrong\u003estat-bot 💬\u003c/strong\u003e  Топ слов: быть (212), есть (113), мочь (92), давать (60), говорить (59)"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148de",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557004033,
+      "text": "Эй-эй, вы там на Пайка не наезжайте! Вас же какашками закидают."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148df",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557004127,
+      "text": "Да нет, этот не о том. Это о том, что go написали когда Пайка глаза начали кровью сиходить от сишного кода в Гугле 😉"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e0",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557004170,
+      "text": "О! Это Хикки правильно подметил!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e1",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557004188,
+      "text": "как говорят джависты на работе - есть спринг и там все в три кнопки"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e2",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557004219,
+      "text": "Хочу мою большую кнопку \u0026#34;Do my job!\u0026#34;"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e3",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maverick Crank GRey",
+      "datetime": 1557004758,
+      "text": "А-а-а, я тоже хочу понимать код, который мне приходит на review, а там... Scala 😫"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e4",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1557004852,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e функция извлечения корня или синус это магия, или ты знаешь как она работает?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e5",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557004956,
+      "text": "тогда не используйте компьютеры"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e6",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557004969,
+      "text": "вы не сможите их воссоздать"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e7",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "chakmidlot",
+      "datetime": 1557005058,
+      "text": "из пристуствующих только умпутун написал свой компилятор С, перед тем как использовать готовый?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e8",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Klubov",
+      "datetime": 1557005100,
+      "text": "Велосипедист"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148e9",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Klubov",
+      "datetime": 1557005186,
+      "text": "\u003cblockquote\u003e\nиз присутсвующих только умпутун написал свой компилятор С, перед тем как использовать готовый?\u003cbr/\u003eон еще не написал - пишет ассемблер\u003c/blockquote\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ea",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Khaskel",
+      "datetime": 1557005240,
+      "text": "а что за платформа?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148eb",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557005394,
+      "text": "абстрагироваться нужно до уровня атома))"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ec",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Khaskel",
+      "datetime": 1557005419,
+      "text": "на фреймворке тоже 8 строчек будет"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ed",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Khaskel",
+      "datetime": 1557005437,
+      "text": "7 в конфиге, одна в коде"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ee",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557005641,
+      "text": "так или иначе, мы все пологаемся на магию нижележащих слоев"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ef",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander",
+      "datetime": 1557005759,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"akgor3k_twitter\" class=\"mention\"\u003e@akgor3k_twitter\u003c/span\u003e +1"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f0",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557005760,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"akgor3k_twitter\" class=\"mention\"\u003e@akgor3k_twitter\u003c/span\u003e увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f1",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1557005769,
+      "text": "Всем привет!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f2",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557005933,
+      "text": "==\u0026gt; Give me back my monolith - Craig Kerstiens - \u003ca href=\"http://www.craigkerstiens.com/2019/03/13/give-me-back-my-monolith/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://www.craigkerstiens.com/2019/03/13/give-me-back-my-monolith/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f3",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Klubov",
+      "datetime": 1557006296,
+      "text": "Как попилить на 150 сервисов, не понимая предварительно как они между собой общаются?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f4",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557006701,
+      "text": "люди подвержены хайпу, они не задумываются о последствиях"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f5",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "κρμγ",
+      "datetime": 1557006895,
+      "text": "люди всегда найдут способ, как добраться до private полей)"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f6",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557006900,
+      "text": "стадное чувство в отдельно взятой области деятельности"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f7",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557007169,
+      "text": "==\u0026gt; Java Is Not Dying (Yet) - DZone Java - \u003ca href=\"https://dzone.com/articles/java-is-not-dying-yet?utm_campaign=Feed\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://dzone.com/articles/java-is-not-dying-yet?utm_campaign=Feed\u003c/a\u003e: dzone"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f8",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557007681,
+      "text": "==\u0026gt; Темы слушателей 648 - \u003ca href=\"https://radio-t.com/p/2019/04/30/prep-648/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://radio-t.com/p/2019/04/30/prep-648/\u003c/a\u003e"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148f9",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557007841,
+      "text": "кубернетас более 90)"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148fa",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1557007998,
+      "text": "точнее кинсул(("
+    },
+    {
+      "id": "65d4083a23d5c3d023d148fb",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1557007999,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  ))\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"akgor3k_twitter\" class=\"mention\"\u003e@akgor3k_twitter\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148fc",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1557008183,
+      "text": "Бобука нет, а проно обсуждают"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148fd",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1557008242,
+      "text": "service meh"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148fe",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1557009001,
+      "text": "Что закончилось уже ?"
+    },
+    {
+      "id": "65d4083a23d5c3d023d148ff",
+      "issue": 648,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1557009550,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sflash-biz\" class=\"mention\"\u003e@sflash-biz\u003c/span\u003e ага. работал ночами! ) чувствуется ты разбираешься..)"
+    }
+  ]
 }

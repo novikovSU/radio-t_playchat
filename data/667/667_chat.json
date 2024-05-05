@@ -1,3 +1,3910 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d40809d9fd9de1989976ec",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "gex",
+      "datetime": 1568489580,
+      "text": "¡привет!"
+    },
+    {
+      "id": "65d40809d9fd9de1989976ed",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "gex",
+      "datetime": 1568489637,
+      "text": "может, кто в курсе, как будет ворочаться sql server на 1 гб памяти? (стартовый тариф на диджитал оушене)"
+    },
+    {
+      "id": "65d40809d9fd9de1989976ee",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568491107,
+      "text": "а чего никто не пишет в чат?"
+    },
+    {
+      "id": "65d40809d9fd9de1989976ef",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568491109,
+      "text": "бобук!"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1568491111,
+      "text": "Сильно сомневаюсь, что ms sql будет нормально на 1 гб крутиться под linux. Нужно хотя бы 2."
+    },
+    {
+      "id": "65d40809d9fd9de1989976f1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568491111,
+      "text": "\u003cstrong\u003etweet-bot 💬\u003c/strong\u003e  \u003ca href=\"https://twitter.com/bobuk/status/1172183422514737152\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://twitter.com/bobuk/status/1172183422514737152\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1568491143,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sozinovss\" class=\"mention\"\u003e@sozinovss\u003c/span\u003e ну запуститься и ладно :-)"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1568491346,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"kdvperm\" class=\"mention\"\u003e@kdvperm\u003c/span\u003e +"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ТыжСисАдмин",
+      "datetime": 1568491355,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"gex18344464_twitter\" class=\"mention\"\u003e@gex18344464_twitter\u003c/span\u003e Смотря что за бд, объём бд, запросов и .т.п. В общем она будет ворочаться без проблем сама по себе, а как с данными, это уже вопрос"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1568491355,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"gex18344464_twitter\" class=\"mention\"\u003e@gex18344464_twitter\u003c/span\u003e вопрос больше а для его он там должен ворочаться :-) данные , запросы пользователи ? :-) хоть какие то метрики :-)"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568491364,
+      "text": "Что с унцей?"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568491382,
+      "text": "унца отунцилась"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491383,
+      "text": "Она не в силах"
+    },
+    {
+      "id": "65d40809d9fd9de1989976f9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1568491412,
+      "text": "уже есть"
+    },
+    {
+      "id": "65d40809d9fd9de1989976fa",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491424,
+      "text": "не шмогла"
+    },
+    {
+      "id": "65d40809d9fd9de1989976fb",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568491425,
+      "text": "ага, заунцала обратно"
+    },
+    {
+      "id": "65d40809d9fd9de1989976fc",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugene",
+      "datetime": 1568491426,
+      "text": "кста, а почему чат подкаста в гиттере, а не в ремарке?"
+    },
+    {
+      "id": "65d40809d9fd9de1989976fd",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491441,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sleshJdev\" class=\"mention\"\u003e@sleshJdev\u003c/span\u003e +"
+    },
+    {
+      "id": "65d40809d9fd9de1989976fe",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491462,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sleshJdev\" class=\"mention\"\u003e@sleshJdev\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d40809d9fd9de1989976ff",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568491463,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"sleshJdev\" class=\"mention\"\u003e@sleshJdev\u003c/span\u003e увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d40809d9fd9de198997700",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568491468,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"sleshJdev\" class=\"mention\"\u003e@sleshJdev\u003c/span\u003e , а он разве рилтайм?"
+    },
+    {
+      "id": "65d40809d9fd9de198997701",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568491468,
+      "text": "потому что ремарк не чат?"
+    },
+    {
+      "id": "65d40809d9fd9de198997702",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491482,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"SanekK\" class=\"mention\"\u003e@SanekK\u003c/span\u003e мог бы быть"
+    },
+    {
+      "id": "65d40809d9fd9de198997703",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugene",
+      "datetime": 1568491493,
+      "text": "запредить коментировать коментарии - и вот тебе чат"
+    },
+    {
+      "id": "65d40809d9fd9de198997704",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568491505,
+      "text": "ult ije\u0026amp;"
+    },
+    {
+      "id": "65d40809d9fd9de198997705",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491508,
+      "text": "лол"
+    },
+    {
+      "id": "65d40809d9fd9de198997706",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568491510,
+      "text": "где шоу?"
+    },
+    {
+      "id": "65d40809d9fd9de198997707",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491533,
+      "text": "шоу будет не расходитесь"
+    },
+    {
+      "id": "65d40809d9fd9de198997708",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491560,
+      "text": "ща всё будет"
+    },
+    {
+      "id": "65d40809d9fd9de198997709",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton Samarchyan",
+      "datetime": 1568491570,
+      "text": "уже 6 минут ничего нет"
+    },
+    {
+      "id": "65d40809d9fd9de19899770a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568491609,
+      "text": "главное не бухтеть"
+    },
+    {
+      "id": "65d40809d9fd9de19899770b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugene",
+      "datetime": 1568491610,
+      "text": "они всегда опаздывают"
+    },
+    {
+      "id": "65d40809d9fd9de19899770c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491635,
+      "text": "подпаздывают"
+    },
+    {
+      "id": "65d40809d9fd9de19899770d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1568491710,
+      "text": "привет всем"
+    },
+    {
+      "id": "65d40809d9fd9de19899770e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568491712,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d40809d9fd9de19899770f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Рызыванов",
+      "datetime": 1568491729,
+      "text": "hi!"
+    },
+    {
+      "id": "65d40809d9fd9de198997710",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568491740,
+      "text": "Ага а пошел процесс"
+    },
+    {
+      "id": "65d40809d9fd9de198997711",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491748,
+      "text": "починить скайп можно обновив версию скайпа на новую"
+    },
+    {
+      "id": "65d40809d9fd9de198997712",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Рызыванов",
+      "datetime": 1568491768,
+      "text": "что сломалось то?"
+    },
+    {
+      "id": "65d40809d9fd9de198997713",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikita Milko",
+      "datetime": 1568491788,
+      "text": "Всем привет!"
+    },
+    {
+      "id": "65d40809d9fd9de198997714",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491790,
+      "text": "у Умпутуна версия 5.0a"
+    },
+    {
+      "id": "65d40809d9fd9de198997715",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568491802,
+      "text": "Duck - Гусь"
+    },
+    {
+      "id": "65d40809d9fd9de198997716",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491812,
+      "text": "ДакДакГусь"
+    },
+    {
+      "id": "65d40809d9fd9de198997717",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Рызыванов",
+      "datetime": 1568491818,
+      "text": "сейчас вы в Зуме?"
+    },
+    {
+      "id": "65d40809d9fd9de198997718",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568491818,
+      "text": "666 продолжается?)"
+    },
+    {
+      "id": "65d40809d9fd9de198997719",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568491825,
+      "text": "будете пробовать новую балалайку вместо скайпа?"
+    },
+    {
+      "id": "65d40809d9fd9de19899771a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Nechaev",
+      "datetime": 1568491828,
+      "text": "А что если Умпутун подключится сам к себе с другого акаунта?"
+    },
+    {
+      "id": "65d40809d9fd9de19899771b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568491841,
+      "text": "Сайоми Бук"
+    },
+    {
+      "id": "65d40809d9fd9de19899771c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568491856,
+      "text": "О! Я слышу голоса"
+    },
+    {
+      "id": "65d40809d9fd9de19899771d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568491865,
+      "text": "Мне нравиться мой pc"
+    },
+    {
+      "id": "65d40809d9fd9de19899771e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568491907,
+      "text": "новые кишочки могут оказаться не лучше старых"
+    },
+    {
+      "id": "65d40809d9fd9de19899771f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Feodor",
+      "datetime": 1568491925,
+      "text": "а может веб версию попробовать?"
+    },
+    {
+      "id": "65d40809d9fd9de198997720",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568491929,
+      "text": "PC лучше макOS, Note 10 Plus красивее iPhone"
+    },
+    {
+      "id": "65d40809d9fd9de198997721",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568491953,
+      "text": "Ещё надо винду переустановить!"
+    },
+    {
+      "id": "65d40809d9fd9de198997722",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568491955,
+      "text": "brew cask zap skype"
+    },
+    {
+      "id": "65d40809d9fd9de198997723",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1568491997,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e А может mumble? =) у них свежая версия недавно вышла"
+    },
+    {
+      "id": "65d40809d9fd9de198997724",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568492032,
+      "text": "запустите убунту с флешки, накатите скайп и вперед"
+    },
+    {
+      "id": "65d40809d9fd9de198997725",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1568492038,
+      "text": "да"
+    },
+    {
+      "id": "65d40809d9fd9de198997726",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1568492068,
+      "text": "а проверить в диалоге а не в групповом?"
+    },
+    {
+      "id": "65d40809d9fd9de198997727",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ТыжСисАдмин",
+      "datetime": 1568492071,
+      "text": "TeamSpeak поднять ещё предложите :D"
+    },
+    {
+      "id": "65d40809d9fd9de198997728",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568492118,
+      "text": "Урррра :)))"
+    },
+    {
+      "id": "65d40809d9fd9de198997729",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492249,
+      "text": "Он за 20 ВПН сидит"
+    },
+    {
+      "id": "65d40809d9fd9de19899772a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492256,
+      "text": "и хочет задержку меньше"
+    },
+    {
+      "id": "65d40809d9fd9de19899772b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568492261,
+      "text": "Discord ставьте :)"
+    },
+    {
+      "id": "65d40809d9fd9de19899772c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andres",
+      "datetime": 1568492272,
+      "text": "это я пришел в онлайне послушать а тут на тебе"
+    },
+    {
+      "id": "65d40809d9fd9de19899772d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568492280,
+      "text": "Че-та я рановато обрадовалась)"
+    },
+    {
+      "id": "65d40809d9fd9de19899772e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568492287,
+      "text": "Из скайпа надо удалить Microsoft"
+    },
+    {
+      "id": "65d40809d9fd9de19899772f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492301,
+      "text": "Umputun отключи VPN нафиг"
+    },
+    {
+      "id": "65d40809d9fd9de198997730",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492347,
+      "text": "Skype уже не торт"
+    },
+    {
+      "id": "65d40809d9fd9de198997731",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568492353,
+      "text": "Зум вроде неплох был в прошлый раз)"
+    },
+    {
+      "id": "65d40809d9fd9de198997732",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Nechaev",
+      "datetime": 1568492363,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e  если \u0026#34;подключившиеся клиенты\u0026#34; хорошо друг друга слышат, то вы можете так же подключится (у себе) с другого аккаунта, чтобы быть одним из подключившихся"
+    },
+    {
+      "id": "65d40809d9fd9de198997733",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Рызыванов",
+      "datetime": 1568492368,
+      "text": "Зум был очень хорош"
+    },
+    {
+      "id": "65d40809d9fd9de198997734",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568492387,
+      "text": "Зум был хуже"
+    },
+    {
+      "id": "65d40809d9fd9de198997735",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492391,
+      "text": "Там можно отключить P2P коннекты в настройках?"
+    },
+    {
+      "id": "65d40809d9fd9de198997736",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568492403,
+      "text": "вот помнится не в скайпе было дело"
+    },
+    {
+      "id": "65d40809d9fd9de198997737",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568492440,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ⁨Library⁩ ▸ ⁨Application Support⁩ \u0026gt; Skype и ⁨Library⁩ ▸ ⁨Application Support⁩\u0026gt; Skype Helper"
+    },
+    {
+      "id": "65d40809d9fd9de198997738",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568492447,
+      "text": "~/Library/Application Support/Skype/"
+    },
+    {
+      "id": "65d40809d9fd9de198997739",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568492471,
+      "text": "А если в другой аккаунт скайп войти ?"
+    },
+    {
+      "id": "65d40809d9fd9de19899773a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568492472,
+      "text": "Нет, в юзеровском"
+    },
+    {
+      "id": "65d40809d9fd9de19899773b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568492474,
+      "text": "App Cleaner от FreeMacSoft очень нормально чистит"
+    },
+    {
+      "id": "65d40809d9fd9de19899773c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1568492477,
+      "text": "Умпутун, а у тебя случайно какой-нибудь anti-ads dns не настроен?"
+    },
+    {
+      "id": "65d40809d9fd9de19899773d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568492501,
+      "text": "Тогда AppCleaner надо пробовать - он автоматом ищет такое"
+    },
+    {
+      "id": "65d40809d9fd9de19899773e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568492509,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e AdGuard может что-то портит ? По времени совпадёт"
+    },
+    {
+      "id": "65d40809d9fd9de19899773f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Demetri0",
+      "datetime": 1568492514,
+      "text": "~/.skype нет случайно? (не знаю ничего про маки, но на linux вроде там)"
+    },
+    {
+      "id": "65d40809d9fd9de198997740",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568492523,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Demetri0\" class=\"mention\"\u003e@Demetri0\u003c/span\u003e нет)"
+    },
+    {
+      "id": "65d40809d9fd9de198997741",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1568492543,
+      "text": "Просто skype частично трафик через msn сервера гоняет"
+    },
+    {
+      "id": "65d40809d9fd9de198997742",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492556,
+      "text": "а если вообще сеть поменять на 4G чтобы проверить в сети ли это дело или нет???"
+    },
+    {
+      "id": "65d40809d9fd9de198997743",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Виталий Бурковский",
+      "datetime": 1568492564,
+      "text": "~/Library/Containers/"
+    },
+    {
+      "id": "65d40809d9fd9de198997744",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568492611,
+      "text": "Вечер добрый. Всем скалы!"
+    },
+    {
+      "id": "65d40809d9fd9de198997745",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492684,
+      "text": "все джавы"
+    },
+    {
+      "id": "65d40809d9fd9de198997746",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492690,
+      "text": "всем джавы"
+    },
+    {
+      "id": "65d40809d9fd9de198997747",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568492691,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"yandex.ru\" class=\"mention\"\u003e@yandex.ru\u003c/span\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997748",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1568492694,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"mail.ru\" class=\"mention\"\u003e@mail.ru\u003c/span\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997749",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492702,
+      "text": "Ксения где?"
+    },
+    {
+      "id": "65d40809d9fd9de19899774a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568492704,
+      "text": "Мэйл ру хуже"
+    },
+    {
+      "id": "65d40809d9fd9de19899774b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568492706,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rambler.ru\" class=\"mention\"\u003e@rambler.ru\u003c/span\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899774c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1568492709,
+      "text": "можно поставить ubuntu на orange pi zero ?"
+    },
+    {
+      "id": "65d40809d9fd9de19899774d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492709,
+      "text": "Авдева"
+    },
+    {
+      "id": "65d40809d9fd9de19899774e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568492710,
+      "text": "Неужели \u003cspan data-link-type=\"mention\" data-screen-name=\"mail.ru\" class=\"mention\"\u003e@mail.ru\u003c/span\u003e ?)))"
+    },
+    {
+      "id": "65d40809d9fd9de19899774f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1568492716,
+      "text": "унца убежала"
+    },
+    {
+      "id": "65d40809d9fd9de198997750",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568492716,
+      "text": "унца пропала"
+    },
+    {
+      "id": "65d40809d9fd9de198997751",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568492720,
+      "text": "и все молчат"
+    },
+    {
+      "id": "65d40809d9fd9de198997752",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Р",
+      "datetime": 1568492721,
+      "text": "музыка пропала"
+    },
+    {
+      "id": "65d40809d9fd9de198997753",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568492725,
+      "text": "Где унца"
+    },
+    {
+      "id": "65d40809d9fd9de198997754",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492726,
+      "text": "без унцы супер"
+    },
+    {
+      "id": "65d40809d9fd9de198997755",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492726,
+      "text": "А где Ун Сай Унсанай?"
+    },
+    {
+      "id": "65d40809d9fd9de198997756",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568492730,
+      "text": "точнее говорят  по одному и   с большими паузами"
+    },
+    {
+      "id": "65d40809d9fd9de198997757",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Logunov",
+      "datetime": 1568492732,
+      "text": "без унцы не то"
+    },
+    {
+      "id": "65d40809d9fd9de198997758",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Усанов Алексей",
+      "datetime": 1568492758,
+      "text": "Унца всё("
+    },
+    {
+      "id": "65d40809d9fd9de198997759",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568492760,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"sunrizz_twitter\" class=\"mention\"\u003e@sunrizz_twitter\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d40809d9fd9de19899775a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568492764,
+      "text": "У Умпутуна сломался коплюктер"
+    },
+    {
+      "id": "65d40809d9fd9de19899775b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568492830,
+      "text": "унца  пропала"
+    },
+    {
+      "id": "65d40809d9fd9de19899775c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568492832,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d40809d9fd9de19899775d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568492839,
+      "text": "Экхо"
+    },
+    {
+      "id": "65d40809d9fd9de19899775e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "audiotone",
+      "datetime": 1568492845,
+      "text": "историческая фигня :)"
+    },
+    {
+      "id": "65d40809d9fd9de19899775f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tim Kostenko",
+      "datetime": 1568492851,
+      "text": "переходите на Discord :)"
+    },
+    {
+      "id": "65d40809d9fd9de198997760",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568492865,
+      "text": "Без унцы прикольно, предлагаю попробовать без унцы"
+    },
+    {
+      "id": "65d40809d9fd9de198997761",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568492877,
+      "text": "только придется шумы убрать старательно))"
+    },
+    {
+      "id": "65d40809d9fd9de198997762",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568492881,
+      "text": "В первый раз в первый класс!"
+    },
+    {
+      "id": "65d40809d9fd9de198997763",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Р",
+      "datetime": 1568492882,
+      "text": "Скажите почему здесь не любят 1Сников?"
+    },
+    {
+      "id": "65d40809d9fd9de198997764",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1568492891,
+      "text": "очень тихо слышно"
+    },
+    {
+      "id": "65d40809d9fd9de198997765",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568492894,
+      "text": "уровни очень  низкие"
+    },
+    {
+      "id": "65d40809d9fd9de198997766",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568492896,
+      "text": "в FT"
+    },
+    {
+      "id": "65d40809d9fd9de198997767",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugene",
+      "datetime": 1568492899,
+      "text": "а мы картинку увидим?"
+    },
+    {
+      "id": "65d40809d9fd9de198997768",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleserche",
+      "datetime": 1568492900,
+      "text": "Без унцы  и впрямь хорошо"
+    },
+    {
+      "id": "65d40809d9fd9de198997769",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568492905,
+      "text": "надо в эфир вывести"
+    },
+    {
+      "id": "65d40809d9fd9de19899776a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "audiotone",
+      "datetime": 1568492913,
+      "text": "как будто все в одно комнате собрались"
+    },
+    {
+      "id": "65d40809d9fd9de19899776b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568492924,
+      "text": "голосуем без унцы - хорошо!"
+    },
+    {
+      "id": "65d40809d9fd9de19899776c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568492926,
+      "text": "такой реверб"
+    },
+    {
+      "id": "65d40809d9fd9de19899776d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568492938,
+      "text": "без унцы - плохо :("
+    },
+    {
+      "id": "65d40809d9fd9de19899776e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugene",
+      "datetime": 1568492953,
+      "text": "сделайте хоть один выпуск с видосиками"
+    },
+    {
+      "id": "65d40809d9fd9de19899776f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568492967,
+      "text": "идите в ютюб наконец"
+    },
+    {
+      "id": "65d40809d9fd9de198997770",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleserche",
+      "datetime": 1568492968,
+      "text": "групповые звонки в FT боль"
+    },
+    {
+      "id": "65d40809d9fd9de198997771",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Некий Странник",
+      "datetime": 1568492980,
+      "text": "кто-то пёрнул"
+    },
+    {
+      "id": "65d40809d9fd9de198997772",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568492986,
+      "text": "нужен отдельный канал для унцы - чтобы включат по желанию"
+    },
+    {
+      "id": "65d40809d9fd9de198997773",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Р",
+      "datetime": 1568492991,
+      "text": "\u003ca href=\"https://support.apple.com/ru-ru/HT209022\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://support.apple.com/ru-ru/HT209022\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997774",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568492993,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Если у вас iPhone X или более поздняя модель, iPad Pro (11 дюймов) или iPad Pro (12,9 дюйма, 3-го поколения), в групповых вызовах FaceTime можно использовать Animoji и Memoji. Если у вас iPhone 7 или более поздняя модель и iPod touch (7-го поколения), можно использовать другие эффекты камеры, ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eИспользование групповых вызовов FaceTime на iPhone, iPad и iPod touch - Служба поддержки Apple\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997775",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493004,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e а можешь себя потише, а поток погромче?"
+    },
+    {
+      "id": "65d40809d9fd9de198997776",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568493013,
+      "text": "Нужен отдельный канал для каждого ведущего чтобы включать по желанию ))"
+    },
+    {
+      "id": "65d40809d9fd9de198997777",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Р",
+      "datetime": 1568493050,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e \u003ca href=\"https://support.apple.com/ru-ru/HT209022\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://support.apple.com/ru-ru/HT209022\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997778",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493051,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e спасибо!"
+    },
+    {
+      "id": "65d40809d9fd9de198997779",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568493051,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Если у вас iPhone X или более поздняя модель, iPad Pro (11 дюймов) или iPad Pro (12,9 дюйма, 3-го поколения), в групповых вызовах FaceTime можно использовать Animoji и Memoji. Если у вас iPhone 7 или более поздняя модель и iPod touch (7-го поколения), можно использовать другие эффекты камеры, ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eИспользование групповых вызовов FaceTime на iPhone, iPad и iPod touch - Служба поддержки Apple\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899777a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568493052,
+      "text": "О! Унца!"
+    },
+    {
+      "id": "65d40809d9fd9de19899777b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1568493054,
+      "text": "апл айди и пароль :-)"
+    },
+    {
+      "id": "65d40809d9fd9de19899777c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568493058,
+      "text": "Ксюшу хорошо слышно)"
+    },
+    {
+      "id": "65d40809d9fd9de19899777d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493070,
+      "text": "тепленькая пошла.."
+    },
+    {
+      "id": "65d40809d9fd9de19899777e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493071,
+      "text": "Лицовремя - тихо слышно"
+    },
+    {
+      "id": "65d40809d9fd9de19899777f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568493088,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ppalex7\" class=\"mention\"\u003e@ppalex7\u003c/span\u003e просто он еще не добавил вывод звука из FT в эфир"
+    },
+    {
+      "id": "65d40809d9fd9de198997780",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568493107,
+      "text": "Можно ли из выпуска вырезать унцу каким нибудь алгоритмом ? помню где-то валялся отдельно файл с унцой"
+    },
+    {
+      "id": "65d40809d9fd9de198997781",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568493115,
+      "text": "унция пропала"
+    },
+    {
+      "id": "65d40809d9fd9de198997782",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493117,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e +"
+    },
+    {
+      "id": "65d40809d9fd9de198997783",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "audiotone",
+      "datetime": 1568493131,
+      "text": "все сначала"
+    },
+    {
+      "id": "65d40809d9fd9de198997784",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568493199,
+      "text": "Бобук в пиджаке?"
+    },
+    {
+      "id": "65d40809d9fd9de198997785",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493202,
+      "text": "радио-цирк"
+    },
+    {
+      "id": "65d40809d9fd9de198997786",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568493221,
+      "text": "Блин, как же хочется дискорда, чтобы можно было каждому ведущему звук подкрутить как самому захочется"
+    },
+    {
+      "id": "65d40809d9fd9de198997787",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493251,
+      "text": "матрица поломалась )"
+    },
+    {
+      "id": "65d40809d9fd9de198997788",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493294,
+      "text": "у  Ксении видно черную изоленту на видео)"
+    },
+    {
+      "id": "65d40809d9fd9de198997789",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleserche",
+      "datetime": 1568493303,
+      "text": "собрались лебедь рак и щука"
+    },
+    {
+      "id": "65d40809d9fd9de19899778a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikita Milko",
+      "datetime": 1568493312,
+      "text": "Кто-то может мне объяснить, что такое «унца»?"
+    },
+    {
+      "id": "65d40809d9fd9de19899778b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493333,
+      "text": "Все тихо кроме умпутуна"
+    },
+    {
+      "id": "65d40809d9fd9de19899778c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568493339,
+      "text": "унцы нету"
+    },
+    {
+      "id": "65d40809d9fd9de19899778d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568493339,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"milkyNik\" class=\"mention\"\u003e@milkyNik\u003c/span\u003e , фоновая мелодия"
+    },
+    {
+      "id": "65d40809d9fd9de19899778e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493344,
+      "text": "так - фейстайм не отстает от скайпа ))"
+    },
+    {
+      "id": "65d40809d9fd9de19899778f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493352,
+      "text": "их хорошо слышно когда они не  молчатт)"
+    },
+    {
+      "id": "65d40809d9fd9de198997790",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493353,
+      "text": "нет слышно тихо всех"
+    },
+    {
+      "id": "65d40809d9fd9de198997791",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493354,
+      "text": "Унца за будет"
+    },
+    {
+      "id": "65d40809d9fd9de198997792",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568493358,
+      "text": "Нет унцы"
+    },
+    {
+      "id": "65d40809d9fd9de198997793",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493362,
+      "text": "Ща"
+    },
+    {
+      "id": "65d40809d9fd9de198997794",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568493362,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997795",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493363,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e мы сегодня без унцы?"
+    },
+    {
+      "id": "65d40809d9fd9de198997796",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493366,
+      "text": "никого нет"
+    },
+    {
+      "id": "65d40809d9fd9de198997797",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493372,
+      "text": "кто здесь?"
+    },
+    {
+      "id": "65d40809d9fd9de198997798",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493376,
+      "text": "Леха слышен"
+    },
+    {
+      "id": "65d40809d9fd9de198997799",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1568493377,
+      "text": "хотя бы голоса были, какая унца )"
+    },
+    {
+      "id": "65d40809d9fd9de19899779a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493381,
+      "text": "расходимся 😂"
+    },
+    {
+      "id": "65d40809d9fd9de19899779b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568493382,
+      "text": "Лешу отлично слышно"
+    },
+    {
+      "id": "65d40809d9fd9de19899779c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493396,
+      "text": "Умпутун и Алексей - хорошо"
+    },
+    {
+      "id": "65d40809d9fd9de19899779d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493407,
+      "text": "остальных - нет"
+    },
+    {
+      "id": "65d40809d9fd9de19899779e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568493408,
+      "text": "Может как и вчера, через зуму?"
+    },
+    {
+      "id": "65d40809d9fd9de19899779f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493425,
+      "text": "Вчера?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1568493426,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Jamshoot66\" class=\"mention\"\u003e@Jamshoot66\u003c/span\u003e у тебя неделя за один день прошла"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "audiotone",
+      "datetime": 1568493432,
+      "text": "ну да, с зумой все стабильно было"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493434,
+      "text": "да ладно - глядишь и до дискорда дойдем ))"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568493440,
+      "text": "Матёрые компьютерщики собрались, ага-ага!"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1568493444,
+      "text": "помню пили мы пиво в ночь с пятницы на понедельник"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568493452,
+      "text": "да дискорд надо было еще в прошлый раз ставить"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568493453,
+      "text": "Дискорд - норм тема"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568493459,
+      "text": "Оу, действительно, неделя же прошла =("
+    },
+    {
+      "id": "65d40809d9fd9de1989977a8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568493461,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"Jamshoot66\" class=\"mention\"\u003e@Jamshoot66\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d40809d9fd9de1989977a9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tim Kostenko",
+      "datetime": 1568493463,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"stirch\" class=\"mention\"\u003e@stirch\u003c/span\u003e  я предлагал))"
+    },
+    {
+      "id": "65d40809d9fd9de1989977aa",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493465,
+      "text": "может уже на  zoom вернемся?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ab",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568493469,
+      "text": "эпле говно короче"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ac",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493485,
+      "text": "ссылочку Сережа присылал"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ad",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568493493,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"kryzyvanov_twitter\" class=\"mention\"\u003e@kryzyvanov_twitter\u003c/span\u003e А за что 1Сников можно любить?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ae",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493494,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"stalker_tk_gitlab\" class=\"mention\"\u003e@stalker_tk_gitlab\u003c/span\u003e уже почти все предлагали 😂😂"
+    },
+    {
+      "id": "65d40809d9fd9de1989977af",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493495,
+      "text": "Ах эти современные технологии. Тайные силы электричества !"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AntonPotapenko",
+      "datetime": 1568493507,
+      "text": "Гиковский выпуск, не иначе)"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493511,
+      "text": "это морфиус"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493512,
+      "text": "звонок правда как из матрицы)"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493525,
+      "text": "Коммутатор на Зеоне звонит"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493534,
+      "text": "Wake up neo"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493536,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputunsCAT\" class=\"mention\"\u003e@umputunsCAT\u003c/span\u003e это точно. юзабилити фейстайма такое Г"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493537,
+      "text": "Морфей бог сна"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493538,
+      "text": "там может и есть, а у нас нет"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493541,
+      "text": "ой"
+    },
+    {
+      "id": "65d40809d9fd9de1989977b9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493547,
+      "text": "прорвались)"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ba",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493551,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ipashe_twitter\" class=\"mention\"\u003e@ipashe_twitter\u003c/span\u003e щас нео придет"
+    },
+    {
+      "id": "65d40809d9fd9de1989977bb",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Константин Р",
+      "datetime": 1568493554,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"diimdeep\" class=\"mention\"\u003e@diimdeep\u003c/span\u003e а за что не любят?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977bc",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493566,
+      "text": "90 человек в онлайне"
+    },
+    {
+      "id": "65d40809d9fd9de1989977bd",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493573,
+      "text": "но только двух"
+    },
+    {
+      "id": "65d40809d9fd9de1989977be",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493578,
+      "text": "хорошо"
+    },
+    {
+      "id": "65d40809d9fd9de1989977bf",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493591,
+      "text": "звук кстати в фейстайме гуд"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1568493591,
+      "text": "Почему бы Discord не попробовать вам?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493609,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"AdAstraPerVitae_twitter\" class=\"mention\"\u003e@AdAstraPerVitae_twitter\u003c/span\u003e все должны страдать 😂😂"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493617,
+      "text": "Есть еще FCC"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1568493619,
+      "text": "42"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleserche",
+      "datetime": 1568493625,
+      "text": "Звук в фт действительно классный, даже если сразу несколько человек говорит"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493639,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Aleserche\" class=\"mention\"\u003e@Aleserche\u003c/span\u003e а юзабилити говно"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493656,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e сделай потише чуть-чуть"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493662,
+      "text": "не клипайв"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493666,
+      "text": "Коргия"
+    },
+    {
+      "id": "65d40809d9fd9de1989977c9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493668,
+      "text": "\u003ca href=\"https://www.freeconferencecall.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.freeconferencecall.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ca",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568493670,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  100% Free Conference Call Service. Really. Conference call services that put limits on your conferencing aren\u0026#39;t really free. That\u0026#39;s not us. FreeConferenceCall. com, an award-winning conferencing solution, is everything you want it to be — from phone conferencing service with international ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003e\u003cbr/\u003eFree Audio Conferencing | FreeConferenceCall.com\n\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de1989977cb",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568493671,
+      "text": "Бобука хорошо слышно)"
+    },
+    {
+      "id": "65d40809d9fd9de1989977cc",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493672,
+      "text": "Бобук немного громковато"
+    },
+    {
+      "id": "65d40809d9fd9de1989977cd",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568493675,
+      "text": "о, бообука и лешу слышно"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ce",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1568493676,
+      "text": "Какой кодек в ФТ? Видео Н265, а звук? ААС-"
+    },
+    {
+      "id": "65d40809d9fd9de1989977cf",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493682,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e как из микрофона нокии звучит ))"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493688,
+      "text": "Бобук с эхом"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493690,
+      "text": "У бобука  микрофон в зуме оверлевел"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493695,
+      "text": "Немного овердрайв у бобука"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493706,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e, верни половинку назад"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493713,
+      "text": "норм!"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568493717,
+      "text": "У Бобика дисторшн был )"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Evterev",
+      "datetime": 1568493741,
+      "text": "Впервые слушаю онлайн, а не в записи. Такие проблемы со стартом программы каждый раз?))"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493741,
+      "text": "Ща хорошо"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568493746,
+      "text": "Умпутуна громче всех слышно"
+    },
+    {
+      "id": "65d40809d9fd9de1989977d9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "human453453467",
+      "datetime": 1568493754,
+      "text": "Что происходит? Какие-то технические неполадки на радио о технологиях?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977da",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493757,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e а сколько комментариев про качество звука было к прошлому выпуску?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977db",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PerAsperaAdAstra",
+      "datetime": 1568493774,
+      "text": "Какой кодек в ФТ? Видео Н265, а звук? НЕ ААС?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977dc",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Demetri0",
+      "datetime": 1568493775,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"vladimirevterev\" class=\"mention\"\u003e@vladimirevterev\u003c/span\u003e нет"
+    },
+    {
+      "id": "65d40809d9fd9de1989977dd",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493778,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e унца в тот раз была же вроде?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977de",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568493780,
+      "text": "грея и ксюшу хуже слышно"
+    },
+    {
+      "id": "65d40809d9fd9de1989977df",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568493783,
+      "text": "тише"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493791,
+      "text": "Умпутуна капельку бы потише"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1568493804,
+      "text": "только начинают? хммм"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493805,
+      "text": "Умпутун громче других"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493817,
+      "text": "просто Сережа стал меньше перебивать)"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493824,
+      "text": "Хуже"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493838,
+      "text": "унцу?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568493843,
+      "text": "унца"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493844,
+      "text": "унцу нальем?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493846,
+      "text": "Унцу"
+    },
+    {
+      "id": "65d40809d9fd9de1989977e9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AntonPotapenko",
+      "datetime": 1568493849,
+      "text": "Темы слушателей и расходимся"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ea",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493850,
+      "text": "Унца"
+    },
+    {
+      "id": "65d40809d9fd9de1989977eb",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleserche",
+      "datetime": 1568493850,
+      "text": "подкаст будет короче на час"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ec",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568493854,
+      "text": "Хеннесси ХО со льдом"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ed",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1568493866,
+      "text": "Грея плоховато слышно"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ee",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493866,
+      "text": "45 минут - акадеиический час долой"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ef",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568493868,
+      "text": "а Ксения? не слышно. Она тут?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493872,
+      "text": "Грей может чуть погромче?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568493872,
+      "text": "Иронично, что zoom работает хорошо у всех кроме Грея"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493872,
+      "text": "радио-П?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568493872,
+      "text": "Осталось отлить"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f4",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568493872,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"AdAstraPerVitae_twitter\" class=\"mention\"\u003e@AdAstraPerVitae_twitter\u003c/span\u003e , H.264 and AAC-ELD – video and audio codecs respectively."
+    },
+    {
+      "id": "65d40809d9fd9de1989977f5",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stirch",
+      "datetime": 1568493894,
+      "text": "онлайн пьянка ) всем надо тогда налить"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f6",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493894,
+      "text": "Грей можеш погромче чутка?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f7",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493895,
+      "text": "пора на перемену"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f8",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568493907,
+      "text": "а почему Ксения молчит?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977f9",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ASAELG",
+      "datetime": 1568493911,
+      "text": "унцы не будет?"
+    },
+    {
+      "id": "65d40809d9fd9de1989977fa",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493913,
+      "text": "Сейчас всех хорошо слышно"
+    },
+    {
+      "id": "65d40809d9fd9de1989977fb",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "human453453467",
+      "datetime": 1568493913,
+      "text": "Судя по темам, можно просто сказать, что эпл скатились и можно закончить"
+    },
+    {
+      "id": "65d40809d9fd9de1989977fc",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493921,
+      "text": "хост - собирающий"
+    },
+    {
+      "id": "65d40809d9fd9de1989977fd",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568493930,
+      "text": "Лёху надо капельку потише"
+    },
+    {
+      "id": "65d40809d9fd9de1989977fe",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568493941,
+      "text": "тор кто платит за груповуху"
+    },
+    {
+      "id": "65d40809d9fd9de1989977ff",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "human453453467",
+      "datetime": 1568493942,
+      "text": "Не стоит начинать митинг"
+    },
+    {
+      "id": "65d40809d9fd9de198997800",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568493942,
+      "text": "Грея тихо слышно"
+    },
+    {
+      "id": "65d40809d9fd9de198997801",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493943,
+      "text": "Грея погромче"
+    },
+    {
+      "id": "65d40809d9fd9de198997802",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568493947,
+      "text": "Унца :)"
+    },
+    {
+      "id": "65d40809d9fd9de198997803",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568493959,
+      "text": "Грея погромче"
+    },
+    {
+      "id": "65d40809d9fd9de198997804",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568493972,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e Если несколько человек занесли денег?"
+    },
+    {
+      "id": "65d40809d9fd9de198997805",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "human453453467",
+      "datetime": 1568493979,
+      "text": "Грея плохо слышно, но все ок"
+    },
+    {
+      "id": "65d40809d9fd9de198997806",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "misterixis",
+      "datetime": 1568493994,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e грея погремче: пожалуйста"
+    },
+    {
+      "id": "65d40809d9fd9de198997807",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568494000,
+      "text": "Ксюша тоже тиховато"
+    },
+    {
+      "id": "65d40809d9fd9de198997808",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568494006,
+      "text": "Ксюша тихо как в последнем выпуске"
+    },
+    {
+      "id": "65d40809d9fd9de198997809",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568494014,
+      "text": "Грея и Ксюшу громче"
+    },
+    {
+      "id": "65d40809d9fd9de19899780a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ASAELG",
+      "datetime": 1568494021,
+      "text": "звук как будто лучше скайпа во всех прошлых выпусках"
+    },
+    {
+      "id": "65d40809d9fd9de19899780b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568494037,
+      "text": "Бобук опять будет зевать в эфире?"
+    },
+    {
+      "id": "65d40809d9fd9de19899780c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "human453453467",
+      "datetime": 1568494040,
+      "text": "Мб раз такой необычный выпуск, забить на айфоны?"
+    },
+    {
+      "id": "65d40809d9fd9de19899780d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568494043,
+      "text": "Грея и Ксюшу громче"
+    },
+    {
+      "id": "65d40809d9fd9de19899780e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1568494049,
+      "text": "давайте обсудим как вилсу забанили 2 раза"
+    },
+    {
+      "id": "65d40809d9fd9de19899780f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568494050,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997810",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568494092,
+      "text": "норм прога"
+    },
+    {
+      "id": "65d40809d9fd9de198997811",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568494164,
+      "text": "==\u0026gt; Here’s everything Apple announced today at the iPhone 11 event – TechCrunch - \u003ca href=\"https://techcrunch.com/2019/09/10/apple-event-roundup-iphone-11/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2019/09/10/apple-event-roundup-iphone-11/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997812",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "A 384",
+      "datetime": 1568494302,
+      "text": "Wire попробуйте там звук хорошо,можно через веб звонить"
+    },
+    {
+      "id": "65d40809d9fd9de198997813",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grinne",
+      "datetime": 1568494382,
+      "text": "Ксюшу тихо слышно"
+    },
+    {
+      "id": "65d40809d9fd9de198997814",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568494411,
+      "text": "да ну вилсу давай сразу навального обсуждать"
+    },
+    {
+      "id": "65d40809d9fd9de198997815",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleserche",
+      "datetime": 1568494584,
+      "text": "текущее обсуждение показательно. Про iphone 11 нечего говорить"
+    },
+    {
+      "id": "65d40809d9fd9de198997816",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568494597,
+      "text": "По нерекомендации бобука подсел на Firefox Nightly"
+    },
+    {
+      "id": "65d40809d9fd9de198997817",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568494603,
+      "text": "огонь"
+    },
+    {
+      "id": "65d40809d9fd9de198997818",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1568494647,
+      "text": "уныло выглядело"
+    },
+    {
+      "id": "65d40809d9fd9de198997819",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568494693,
+      "text": "Кстати, этот новый рендеринг не только в nightly. Сижу с FF Dev Edition, который на базе беты и оно работает"
+    },
+    {
+      "id": "65d40809d9fd9de19899781a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568494765,
+      "text": "Раньше FF автоматически триггерил раскрутку кулеров даже с 1 открытым табом. А сейчас точно не хуже хромиума"
+    },
+    {
+      "id": "65d40809d9fd9de19899781b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568494885,
+      "text": "у меня профиль от FF 3.6 валяется по приколу запустил, 20 аддонов на XUL такое там.. даже сейчас так не умеют"
+    },
+    {
+      "id": "65d40809d9fd9de19899781c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568494950,
+      "text": "В тему обсуждения\u003cbr/\u003e\u003ca href=\"https://www.quora.com/What-is-the-new-Apple-U1-chip-and-why-is-it-important/answer/Brian-Roemmele?ch=10\u0026amp;share=7e467f08\u0026amp;srid=Pi3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.quora.com/What-is-the-new-Apple-U1-chip-and-why-is-it-important/answer/Brian-Roemmele?ch=10\u0026amp;share=7e467f08\u0026amp;srid=Pi3\u003c/a\u003e\u003cbr/\u003e\u003ca href=\"https://news.ycombinator.com/item?id=20944148\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://news.ycombinator.com/item?id=20944148\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899781d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568494951,
+      "text": "Да там вроде 100+ на старте"
+    },
+    {
+      "id": "65d40809d9fd9de19899781e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568494952,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  What is the Apple U1 chip, and why is it important. The biggest Apple announcement today was what Apple actually didn’t announce—yet. “Hey Siri, we lost Spot the dog, do you know where he is?” Siri:”Spot is located 87 feet forward and down 2 feet from the height of the iPhone. Please hold up your ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eBrian Roemmele\u0026#39;s answer to What is the new Apple U1 chip, and why is it important? - Quora\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899781f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568495010,
+      "text": "Скажите что использовать для кросс платформенной разработки приложений для телефона?"
+    },
+    {
+      "id": "65d40809d9fd9de198997820",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568495017,
+      "text": "react-native норм?"
+    },
+    {
+      "id": "65d40809d9fd9de198997821",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568495093,
+      "text": "\u003ca href=\"https://techcrunch.com/2019/09/11/apple-hid-a-secret-message-in-its-latest-youtube-video/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2019/09/11/apple-hid-a-secret-message-in-its-latest-youtube-video/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997822",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568495094,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Apple hid a secret message in its latest YouTube video Greg Kumparak \u003cspan data-link-type=\"mention\" data-screen-name=\"grg\" class=\"mention\"\u003e@grg\u003c/span\u003e / 3 days Shortly after Apple’s iPhone 11 event yesterday, the company posted a drastically condensed “supercut” of everything they announced. Taking the two hour event and boiling it down to a little over two minutes, they ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eApple hid a secret message in its latest YouTube video – TechCrunch\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997823",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568495099,
+      "text": "\u003ca href=\"https://techcrunch.com/wp-content/uploads/2019/09/apple-message.png?resize=680,249\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/wp-content/uploads/2019/09/apple-message.png?resize=680,249\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997824",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1568495185,
+      "text": "лучше описание сверхов))) что я слышал"
+    },
+    {
+      "id": "65d40809d9fd9de198997825",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitriy Aulov",
+      "datetime": 1568495188,
+      "text": "и плачут"
+    },
+    {
+      "id": "65d40809d9fd9de198997826",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568495206,
+      "text": "тихо жахнул и пошел"
+    },
+    {
+      "id": "65d40809d9fd9de198997827",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stas",
+      "datetime": 1568495258,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e, кстати на \u003ca href=\"https://gitlab.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://gitlab.com\u003c/a\u003e поиск по проектам и сортировка нормально работают сейчас, self hosted версии нет под рукой чтобы посмотреть"
+    },
+    {
+      "id": "65d40809d9fd9de198997828",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568495260,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Challenge: Your DevOps toolchain is complex, expensive to maintain, and brittle With GitLab, you can simplify your toolchain. Ditch the plug-ins, minimize the integrations, and get back to releasing great software. Challenge: Your developers are slowed down by bottlenecks, hand-offs, and re-work ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003e\u003cbr/\u003eThe first single application for the entire DevOps lifecycle - GitLab\u003cbr/\u003e|\u003cbr/\u003eGitLab\n\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997829",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568495265,
+      "text": "Героин Хиро"
+    },
+    {
+      "id": "65d40809d9fd9de19899782a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568495284,
+      "text": "Ганджа?"
+    },
+    {
+      "id": "65d40809d9fd9de19899782b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568495310,
+      "text": "Как будто в MMORPG женскими персонажами играют девчонки)"
+    },
+    {
+      "id": "65d40809d9fd9de19899782c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1568495331,
+      "text": "нуу)) на женский задок в ммо поприятнее смотреть))"
+    },
+    {
+      "id": "65d40809d9fd9de19899782d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568495331,
+      "text": "Я куплю если там half-life 3 будет"
+    },
+    {
+      "id": "65d40809d9fd9de19899782e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568495370,
+      "text": "мне кажется что Ксюша на самом деле злобный престарелый двачер, который просто пользуется программой для изменения голоса на женский"
+    },
+    {
+      "id": "65d40809d9fd9de19899782f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568495394,
+      "text": "Так вот и не ясно почему умпутун считает что это вроде как на девчонок"
+    },
+    {
+      "id": "65d40809d9fd9de198997830",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1568495440,
+      "text": "так вот за что народ в эпплах бабло тратит? На игрушки, Карл"
+    },
+    {
+      "id": "65d40809d9fd9de198997831",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568495497,
+      "text": "пэйпал может и забанить за такое"
+    },
+    {
+      "id": "65d40809d9fd9de198997832",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568495512,
+      "text": "\u003ca href=\"https://github.com/dheera/shadow-clock\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/dheera/shadow-clock\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997833",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568495514,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  README. md shadow-clockA simple 3D-printable wall clock that displays time using shadows. This was inspired by a number of similar projects 0 1 2 but I wanted to create something that was simpler, cheaper, and easier to assemble now that we have these amazing individually-addressable LED strips ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGitHub - dheera/shadow-clock: a wall clock\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997834",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568495651,
+      "text": "в европе 6 евро"
+    },
+    {
+      "id": "65d40809d9fd9de198997835",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568495653,
+      "text": "\u003cstrong\u003emoney-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"mellafon\" class=\"mention\"\u003e@mellafon\u003c/span\u003e упомянул 6 EUR\u003ctable\u003e\n\u003cthead\u003e\n\u003ctr\u003e\n\u003cth style=\"text-align:center\"\u003eEUR\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003e6\u003c/th\u003e\n\u003cth style=\"text-align:center\"\u003eКурсы\u003c/th\u003e\n\u003c/tr\u003e\n\u003c/thead\u003e\n\u003ctbody\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUSD\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e6.79\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e1.13\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eUAH\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e184.24\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e30.71\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eRUB\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e446.56\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e74.43\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBYN\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e14.59\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e2.43\u003c/td\u003e\n\u003c/tr\u003e\n\u003ctr\u003e\n\u003ctd style=\"text-align:center\"\u003eBTC\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0\u003c/td\u003e\n\u003ctd style=\"text-align:center\"\u003e0.00\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/tbody\u003e\n\u003c/table\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899783c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568495714,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e бывают ли агрегаторы, чтобы смотреть все подписки в одной программе ?"
+    },
+    {
+      "id": "65d40809d9fd9de19899783d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568495714,
+      "text": "showtime и hbo везде за отдельные деньги"
+    },
+    {
+      "id": "65d40809d9fd9de19899783e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568495745,
+      "text": "popcorn time 😁"
+    },
+    {
+      "id": "65d40809d9fd9de19899783f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1568495762,
+      "text": "попкорн же мертвый вроде"
+    },
+    {
+      "id": "65d40809d9fd9de198997840",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568495771,
+      "text": "Белоснежка и 7 гномов"
+    },
+    {
+      "id": "65d40809d9fd9de198997841",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568495784,
+      "text": "аггрегатор - Apple TV"
+    },
+    {
+      "id": "65d40809d9fd9de198997842",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568495798,
+      "text": "попкорн не обновляется но работает"
+    },
+    {
+      "id": "65d40809d9fd9de198997843",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568495816,
+      "text": "В popcorn можно свои торренты добавлять ?"
+    },
+    {
+      "id": "65d40809d9fd9de198997844",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568495897,
+      "text": "XBMC с плагинами наверное тоже умеет все"
+    },
+    {
+      "id": "65d40809d9fd9de198997845",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568495974,
+      "text": "вроде и к старому ipad можно было ручку"
+    },
+    {
+      "id": "65d40809d9fd9de198997846",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex Nikonov",
+      "datetime": 1568496016,
+      "text": "точно можно было"
+    },
+    {
+      "id": "65d40809d9fd9de198997847",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1568496068,
+      "text": "заказал часы сразу"
+    },
+    {
+      "id": "65d40809d9fd9de198997848",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1568496091,
+      "text": "2018 ipad 9.7\u0026#34; поддерживал Pencil"
+    },
+    {
+      "id": "65d40809d9fd9de198997849",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568496112,
+      "text": "аррррррррьььь"
+    },
+    {
+      "id": "65d40809d9fd9de19899784a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568496142,
+      "text": "а платина есть?"
+    },
+    {
+      "id": "65d40809d9fd9de19899784b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lazerbeat",
+      "datetime": 1568496149,
+      "text": "для мусульман"
+    },
+    {
+      "id": "65d40809d9fd9de19899784c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568496151,
+      "text": "у меня на pebble time тоже компас есть)"
+    },
+    {
+      "id": "65d40809d9fd9de19899784d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568496270,
+      "text": "У меня Часы живут 15 лет на одной зарядке )"
+    },
+    {
+      "id": "65d40809d9fd9de19899784e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568496286,
+      "text": "А самсунг с амолед со сберегающим режимом это не бомба"
+    },
+    {
+      "id": "65d40809d9fd9de19899784f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568496310,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e а компас в них есть?"
+    },
+    {
+      "id": "65d40809d9fd9de198997850",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MercurieVV",
+      "datetime": 1568496323,
+      "text": "Больше 24х часов идут. Предидущее поколение"
+    },
+    {
+      "id": "65d40809d9fd9de198997851",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568496375,
+      "text": "Ксюша опять отвернулась от микрофона"
+    },
+    {
+      "id": "65d40809d9fd9de198997852",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1568496376,
+      "text": "Но ведь в нижнем белье же спят"
+    },
+    {
+      "id": "65d40809d9fd9de198997853",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568496378,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d40809d9fd9de198997854",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568496379,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e увеличена (текущее значение: 42)."
+    },
+    {
+      "id": "65d40809d9fd9de198997855",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexandr Duplishchev",
+      "datetime": 1568496443,
+      "text": "о)"
+    },
+    {
+      "id": "65d40809d9fd9de198997856",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568496450,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e неа, только время )"
+    },
+    {
+      "id": "65d40809d9fd9de198997857",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568496507,
+      "text": "А стало понятно зачем в часах аппстор?"
+    },
+    {
+      "id": "65d40809d9fd9de198997858",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568496558,
+      "text": "кому нужен 13мм"
+    },
+    {
+      "id": "65d40809d9fd9de198997859",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568496618,
+      "text": "на утечках выгляжело страшно, на презентации и на видео уже смотрится норм, как по мне."
+    },
+    {
+      "id": "65d40809d9fd9de19899785a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568496641,
+      "text": "Визуально можно сделать все кругляшки одного радиуса"
+    },
+    {
+      "id": "65d40809d9fd9de19899785b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568496646,
+      "text": "квадрат особо не выделяется, поэтому видны только кругляши"
+    },
+    {
+      "id": "65d40809d9fd9de19899785c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568496651,
+      "text": "5 кружков поместить в крадрат - сложная задача щ_Щ"
+    },
+    {
+      "id": "65d40809d9fd9de19899785d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568496737,
+      "text": "вначале вертикальный блок камер в X тоже смотрелся непривычно, но потом ниче, привкли"
+    },
+    {
+      "id": "65d40809d9fd9de19899785e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568496778,
+      "text": "Все ещё непривычно, даже Х"
+    },
+    {
+      "id": "65d40809d9fd9de19899785f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568496797,
+      "text": "Все камеры можно выдвинуть вперёд по самой длинной... будет ровно"
+    },
+    {
+      "id": "65d40809d9fd9de198997860",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568496806,
+      "text": "Правда я все ещё с SE жду"
+    },
+    {
+      "id": "65d40809d9fd9de198997861",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568496930,
+      "text": "Камерой в айфоне пользоваться крайне не приятно, если кроме телефона нет других девайсов от эпл. Скинуть ~100 фоток на комп - гемморой тот ещё."
+    },
+    {
+      "id": "65d40809d9fd9de198997862",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568496931,
+      "text": "Не знаю, мне 28мм больше нравилось чем 24мм"
+    },
+    {
+      "id": "65d40809d9fd9de198997863",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568496944,
+      "text": "Собака мутант в противогазе"
+    },
+    {
+      "id": "65d40809d9fd9de198997864",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568496972,
+      "text": "Сделать батарейку девайса потолще и утопить все камеры"
+    },
+    {
+      "id": "65d40809d9fd9de198997865",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497023,
+      "text": "Проскролил страничку айфона \u003ca href=\"https://www.apple.com/iphone-11-pro/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.apple.com/iphone-11-pro/\u003c/a\u003e 80% страницы про камеру =)"
+    },
+    {
+      "id": "65d40809d9fd9de198997866",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568497025,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  When we set out to design a pro-level camera system, we wanted the three cameras to work together seamlessly as one. The fundamental challenge: Even though we used the same color system across all three sensors, different camera modules vary in terms of color and sensitivity. To allow for that, our ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eiPhone 11 Pro - Apple\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997867",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497029,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Jamshoot66\" class=\"mention\"\u003e@Jamshoot66\u003c/span\u003e  AirDrop пробовал?"
+    },
+    {
+      "id": "65d40809d9fd9de198997868",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568497044,
+      "text": "Вот кстати хороший вопрос - почему камеры в ноутах такая гадость?\u003cbr/\u003eНу могут же нормальную запихнуть, что и видно по фронталкам мобильничков, но не делают."
+    },
+    {
+      "id": "65d40809d9fd9de198997869",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568497105,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"mellafon\" class=\"mention\"\u003e@mellafon\u003c/span\u003e airdrop нет на линукс. Для видны оригинала нет, аналог не видел мой телефон."
+    },
+    {
+      "id": "65d40809d9fd9de19899786a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497131,
+      "text": "Потому что камеры в ноутах не для фото"
+    },
+    {
+      "id": "65d40809d9fd9de19899786b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497133,
+      "text": "а для галочки"
+    },
+    {
+      "id": "65d40809d9fd9de19899786c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497138,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Jamshoot66\" class=\"mention\"\u003e@Jamshoot66\u003c/span\u003e Да ты прав"
+    },
+    {
+      "id": "65d40809d9fd9de19899786d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568497148,
+      "text": "МакБукПро\u003cem\u003eсрали\u003c/em\u003eвсе_полимеры"
+    },
+    {
+      "id": "65d40809d9fd9de19899786e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568497164,
+      "text": "Все продую blacmagic камеру, буду снимать на iPhone ))))"
+    },
+    {
+      "id": "65d40809d9fd9de19899786f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497164,
+      "text": "я видел опенсорс реализвация аирдропа"
+    },
+    {
+      "id": "65d40809d9fd9de198997870",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497197,
+      "text": "\u003ca href=\"https://github.com/seemoo-lab/opendrop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/seemoo-lab/opendrop\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997871",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568497199,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  README. md OpenDrop: an Open Source AirDrop ImplementationOpenDrop is a command-line tool that allows sharing files between devices directly over Wi-Fi. Its unique feature is that it is protocol-compatible with Apple AirDrop which allows to share files with Apple devices running iOS and macOS. ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eGitHub - seemoo-lab/opendrop: An open Apple AirDrop implementation written in Python\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997872",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimonkov",
+      "datetime": 1568497208,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"diimdeep\" class=\"mention\"\u003e@diimdeep\u003c/span\u003e , понятно что для галочки, но блин, могли бы проапгрейдить.\u003cbr/\u003eБанально чтобы камеры делать и ставить одни и те же, сокращая расходы на производство."
+    },
+    {
+      "id": "65d40809d9fd9de198997873",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568497220,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e bmpcc 4k?"
+    },
+    {
+      "id": "65d40809d9fd9de198997874",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568497260,
+      "text": "Перепробовал несколько прог. Какие точно - уже не помню. Но, в итоге плюнул и перекидывал через почту, по ~3 фотки. Больше почти не фоткаю на телефон."
+    },
+    {
+      "id": "65d40809d9fd9de198997875",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497266,
+      "text": "вангую ряды зеркалок в покрыты 2см пыли"
+    },
+    {
+      "id": "65d40809d9fd9de198997876",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1568497271,
+      "text": "mirrorless"
+    },
+    {
+      "id": "65d40809d9fd9de198997877",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497363,
+      "text": "Как показывает Эппл будущее камер не в размере сенсора а в размере алгоритмов и процессоров"
+    },
+    {
+      "id": "65d40809d9fd9de198997878",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497376,
+      "text": "Я fullframe продал"
+    },
+    {
+      "id": "65d40809d9fd9de198997879",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497426,
+      "text": "Вот блог Ai гугла про камеру"
+    },
+    {
+      "id": "65d40809d9fd9de19899787a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497428,
+      "text": "\u003ca href=\"https://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://ai.googleblog.com/2018/11/night-sight-seeing-in-dark-on-pixel.html\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899787b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568497430,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Wednesday, November 14, ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003e\u003cbr/\u003eGoogle AI Blog: Night Sight: Seeing in the Dark on Pixel Phones\n\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899787c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1568497452,
+      "text": "лучший фотоаппарат, это тот который всегда с собой"
+    },
+    {
+      "id": "65d40809d9fd9de19899787d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497494,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Jamshoot66\" class=\"mention\"\u003e@Jamshoot66\u003c/span\u003e попробуй  \u003ca href=\"https://www.apple.com/shop/product/MJYT2AM/A/lightning-to-sd-card-camera-reader\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eпереходник\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899787e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568497496,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  With the Lightning to SD Card Camera Reader, it’s easy to download photos and videos from your digital camera to your iPad or iPhone so you can view them on the gorgeous Retina display and share them with family and friends. After you insert the SD card into the reader, your iPad or iPhone ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eLightning to SD Card Camera Reader — Apple - Apple\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899787f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Vasili4",
+      "datetime": 1568497498,
+      "text": "люди, фотографирующие картины в музеях - отдельная группа :D"
+    },
+    {
+      "id": "65d40809d9fd9de198997880",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568497538,
+      "text": "Alexander Kozlov, URSA"
+    },
+    {
+      "id": "65d40809d9fd9de198997881",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1568497603,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e серьезно)"
+    },
+    {
+      "id": "65d40809d9fd9de198997882",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568497612,
+      "text": "Не видел Canon 5D на селфи палке"
+    },
+    {
+      "id": "65d40809d9fd9de198997883",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1568497711,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"diimdeep\" class=\"mention\"\u003e@diimdeep\u003c/span\u003e 5D тяжеловат, а вот EOS R вполне уже можно :)"
+    },
+    {
+      "id": "65d40809d9fd9de198997884",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497730,
+      "text": "5 часов батарейки \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ?"
+    },
+    {
+      "id": "65d40809d9fd9de198997885",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497912,
+      "text": "Лучше и то и другое"
+    },
+    {
+      "id": "65d40809d9fd9de198997886",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1568497974,
+      "text": "Bobuk имел ввиду людей без рук?"
+    },
+    {
+      "id": "65d40809d9fd9de198997887",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568498024,
+      "text": "\u003ca href=\"https://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.amazon.com/Permanent-Record-Edward-Snowden/dp/1250237238\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997888",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568498028,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  List Price: $30.00 Save: $6.01 (20%) FREE Shippingon orders over $25 shipped by Amazon or get Fast, Free Shipping with Amazon Prime This title will be released on September 17, 2019. Ships from and sold by Amazon. com. Pre-order: Add to Cart Want to receive this the day it comes out? Select Two-Day ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003ePermanent Record: Edward Snowden: 9781250237231: Amazon.com: Books\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997889",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568498055,
+      "text": "==\u0026gt; Sunsetting Python 2 - \u003ca href=\"https://www.python.org/doc/sunset-python-2/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.python.org/doc/sunset-python-2/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899788a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1568498069,
+      "text": "peoplekind)"
+    },
+    {
+      "id": "65d40809d9fd9de19899788b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1568498102,
+      "text": "jokerRadioTgpc"
+    },
+    {
+      "id": "65d40809d9fd9de19899788c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1568498120,
+      "text": "\u003ca href=\"https://jokerconf.com/registration/personal/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://jokerconf.com/registration/personal/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899788d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568498122,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  *Для участников категории Full Pass видеозаписи будут доступны после заполнения формы обратной связи. Участники категории Online смогут получить видео без заполнения обратной связи. Посещение всех докладов Оба дня Посещение выставки Да Общение в дискуссионных зонах Да Комплект документов для ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eБилеты Personal на Joker 2019\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899788e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568498268,
+      "text": "в .net тоже самое"
+    },
+    {
+      "id": "65d40809d9fd9de19899788f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568498271,
+      "text": "что и в jave"
+    },
+    {
+      "id": "65d40809d9fd9de198997890",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568498544,
+      "text": "До 30 лет, ещё дети"
+    },
+    {
+      "id": "65d40809d9fd9de198997891",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568498574,
+      "text": "Между прочим, нынешнее поколение, в 18 лет не знает как чеку из гранаты вытащить)"
+    },
+    {
+      "id": "65d40809d9fd9de198997892",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1568498577,
+      "text": "Мужчины до 40 лет ещё дети )"
+    },
+    {
+      "id": "65d40809d9fd9de198997893",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568498585,
+      "text": "Феерверки я им бы не доверял)"
+    },
+    {
+      "id": "65d40809d9fd9de198997894",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568498706,
+      "text": "В питоне просто привыкли к стабильности. Надо было как в жс: по фреймворку в неделю — уже бы жили на py 42"
+    },
+    {
+      "id": "65d40809d9fd9de198997895",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568498725,
+      "text": "==\u0026gt; Mozilla launches VPN as part of resurrected Firefox Test Pilot program - \u003ca href=\"https://venturebeat.com/2019/09/10/mozilla-launches-vpn-as-part-of-resurrected-firefox-test-pilot-program/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://venturebeat.com/2019/09/10/mozilla-launches-vpn-as-part-of-resurrected-firefox-test-pilot-program/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997896",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ihor Dvoretskyi",
+      "datetime": 1568498808,
+      "text": "Так все кроме ФФ все равно будет ходить открыто. Зачем оно?"
+    },
+    {
+      "id": "65d40809d9fd9de198997897",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568498860,
+      "text": "==\u0026gt; ungleich blog - Turn off DoH, Firefox. Now. - \u003ca href=\"https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997898",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568499335,
+      "text": "==\u0026gt; Accelerating the GitHub Sponsors beta with Stripe Connect - The GitHub Blog - \u003ca href=\"https://github.blog/2019-09-10-accelerating-the-github-sponsors-beta/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.blog/2019-09-10-accelerating-the-github-sponsors-beta/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de198997899",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1568499461,
+      "text": "\u003ca href=\"https://clc.to/kgO_TQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://clc.to/kgO_TQ\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899789a",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568499463,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  If you are not redirected automatically, follow this link to ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eRedirecting...\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899789b",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Wolf",
+      "datetime": 1568499484,
+      "text": ";DD"
+    },
+    {
+      "id": "65d40809d9fd9de19899789c",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568499627,
+      "text": "==\u0026gt; Great products do less, but better - \u003ca href=\"https://uxdesign.cc/great-products-do-less-things-but-better-5dde0ee3fc76?gi=85708717ec43\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://uxdesign.cc/great-products-do-less-things-but-better-5dde0ee3fc76?gi=85708717ec43\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899789d",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1568500213,
+      "text": "\u003ca href=\"https://littlealchemy2.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://littlealchemy2.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899789e",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568500215,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  play ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eLittle Alchemy 2\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de19899789f",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1568500216,
+      "text": "красотааа"
+    },
+    {
+      "id": "65d40809d9fd9de1989978a0",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1568500295,
+      "text": "==\u0026gt; Темы слушателей 667 - \u003ca href=\"https://radio-t.com/p/2019/09/10/prep-667/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://radio-t.com/p/2019/09/10/prep-667/\u003c/a\u003e"
+    },
+    {
+      "id": "65d40809d9fd9de1989978a1",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jamshoot66",
+      "datetime": 1568502106,
+      "text": "Из-за лупы глаза у Джорджа просто огромные! (с) Пеппа"
+    },
+    {
+      "id": "65d40809d9fd9de1989978a2",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1568502232,
+      "text": "Спасибо!"
+    },
+    {
+      "id": "65d40809d9fd9de1989978a3",
+      "issue": 667,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Demetri0",
+      "datetime": 1568502435,
+      "text": "Качество не хуже вышло уж точно. Спасибо за подкаст, пока."
+    }
+  ]
 }

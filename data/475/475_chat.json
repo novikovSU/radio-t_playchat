@@ -1,3 +1,4990 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d745ca7c4a38b6b1c669dd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "спросить то больше некого"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669de",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450544410,
+      "text": "umputun: Не совсем понятно, и не многие знают что на патреоне бывает не только раз в месяц, но и за \u0026#39;выпуски\u0026#39;. Я вот например не знал."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669df",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "все еще ненашел как docker-machine ssh ключь шарить между своей коммандой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450544410,
+      "text": "umputun: может стоило там пост в посте написать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450544410,
+      "text": "umputun: полагаю про docker-machine есть на \u003ca href=\"http://p.umputun.com/?\"\u003ehttp://p.umputun.com/?\u003c/a\u003e Хочется почитать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450544410,
+      "text": "MniLL: оно как-то слишком сложно для меня, а толку почти нет"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450544410,
+      "text": "sudo: про docker-machine есть много чего в интернетах, чего мне еще об этом писать?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "sudo: нету там ничего"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450544410,
+      "text": "да и о чем там писать нечто осбенное я тоже не понимаю"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450544410,
+      "text": "перепутал с holms"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "umputun: не production ready он еще. там даже управлять контейнерами можешь только ты сам)  нет как подключениями управлять, например указать какой ssh ключь использовать в digital ocean"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "тоесть другой человек не сможет управлять хостом"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669e9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "есть только ssh ключь черeз git шарить )))"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669ea",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "вообщем я там все описал"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669eb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "\u003ca href=\"http://www.radio-t.com/p/2015/11/10/prep-470/#disqus_thread\"\u003ehttp://www.radio-t.com/p/2015/11...\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669ec",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450544410,
+      "text": "блин я бы в следуйщий раз даже в гости зашел бы , бесит что  orchestration все еще сырой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669ed",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimka82ii",
+      "datetime": 1450544410,
+      "text": "а скиньте кто-нибудь линк на чатик бобука в телеграме, не канал, а чатик."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669ee",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "StarWars",
+      "datetime": 1450544410,
+      "text": "The Star Wars: Holiday Special 1978-ого года."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669ef",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "StarWars",
+      "datetime": 1450544410,
+      "text": "ХАНА СОЛО УБЪЮТ"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1450544410,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450544410,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450544415,
+      "text": "--\u0026gt; jc-radiot initiated! https://news.radio-t.com"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "все еще ненашел как docker-machine ssh ключь шарить между своей коммандой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450548067,
+      "text": "umputun: может стоило там пост в посте написать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450548067,
+      "text": "umputun: полагаю про docker-machine есть на \u003ca href=\"http://p.umputun.com/?\"\u003ehttp://p.umputun.com/?\u003c/a\u003e Хочется почитать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450548067,
+      "text": "MniLL: оно как-то слишком сложно для меня, а толку почти нет"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450548067,
+      "text": "sudo: про docker-machine есть много чего в интернетах, чего мне еще об этом писать?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "sudo: нету там ничего"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669f9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450548067,
+      "text": "да и о чем там писать нечто осбенное я тоже не понимаю"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669fa",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450548067,
+      "text": "перепутал с holms"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669fb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "umputun: не production ready он еще. там даже управлять контейнерами можешь только ты сам)  нет как подключениями управлять, например указать какой ssh ключь использовать в digital ocean"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669fc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "тоесть другой человек не сможет управлять хостом"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669fd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "есть только ssh ключь черeз git шарить )))"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669fe",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "вообщем я там все описал"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c669ff",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "\u003ca href=\"http://www.radio-t.com/p/2015/11/10/prep-470/#disqus_thread\"\u003ehttp://www.radio-t.com/p/2015/11...\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a00",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "holms",
+      "datetime": 1450548067,
+      "text": "блин я бы в следуйщий раз даже в гости зашел бы , бесит что  orchestration все еще сырой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a01",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dimka82ii",
+      "datetime": 1450548067,
+      "text": "а скиньте кто-нибудь линк на чатик бобука в телеграме, не канал, а чатик."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a02",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "StarWars",
+      "datetime": 1450548067,
+      "text": "The Star Wars: Holiday Special 1978-ого года."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a03",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "StarWars",
+      "datetime": 1450548067,
+      "text": "ХАНА СОЛО УБЪЮТ"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a04",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450548067,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a05",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450548067,
+      "text": "--\u0026gt; jc-radiot initiated! https://news.radio-t.com"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a06",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1450548067,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a07",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450548067,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a08",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450548073,
+      "text": "--\u0026gt; jc-radiot initiated! https://news.radio-t.com"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a09",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mwconvergence",
+      "datetime": 1450551013,
+      "text": "ping"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a0a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450551014,
+      "text": "pong"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a0b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mwconvergence",
+      "datetime": 1450551041,
+      "text": "say!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a0c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450551042,
+      "text": "Чужой нос другим соблазн."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a0d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "biko",
+      "datetime": 1450551518,
+      "text": "ping"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a0e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450551519,
+      "text": "pong"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a0f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450551735,
+      "text": "umputun, саламат паги! (добрый день)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a10",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450551765,
+      "text": "mersenne: и тебе шалом"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a11",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450551937,
+      "text": "Всем доброй ночи! Пошёл голосовать за темы выпуска."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a12",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450552081,
+      "text": "О, точно"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a13",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450552110,
+      "text": "надо кстати народу напоминать голосовать за темы выпуска и во время выпуска тоже"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a14",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450552916,
+      "text": "mersenne: эээ ... это ты про наши темы? мы к ним голосование прикручиваем прямо сейчас"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a15",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450552974,
+      "text": "umputun, нет, про темы для выпусков, что на главной сайта, а про новости я забыл."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a16",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450553046,
+      "text": "пока голоса в ньюсах можно считать по количеству комментариев"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a17",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450553064,
+      "text": "ведь если человек захотел оставить комментарий, значит тема его явно волнует"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a18",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450553072,
+      "text": "mersenne: меее, счас будет по лайкам"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a19",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450553115,
+      "text": "hi all"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a1a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450553138,
+      "text": "umputun, лайки наше всё"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a1b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450553463,
+      "text": "Пока нет ведущих, предлагаю полюбоваться этим \u003ca href=\"http://megamozg.ru/company/triggmine/blog/22760/\"\u003ehttp://megamozg.ru/company/trigg...\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a1c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mwconvergence",
+      "datetime": 1450553520,
+      "text": "say!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a1d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450553521,
+      "text": "В личном смысле разница между предателем по слабости и предателем по умыслу и расчету очень велика; в политическом отношении этой разницы нет."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a1e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450553590,
+      "text": "Парни жгут :) roltrol.by и apicula.ru"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a1f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450553849,
+      "text": "текущая песня напомнила о фильме пятый элемент"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a20",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450553860,
+      "text": "надо будет посмотреть в канун"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a21",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450553883,
+      "text": "Для специалистов не новость, но Google в 2 регионах обошёл Яндекс: Калиниград и Владивосток. В мобильных устройствах Яндекс проиграл \u003ca href=\"http://megamozg.ru/post/22784/\"\u003ehttp://megamozg.ru/post/22784/\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a22",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450553963,
+      "text": "mersenne: а я недавно пересмотрел все звёздные войны, кроме новых. в full hd старые фильмы по графике не уступают новым творениям Лукаса в натурализме"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a23",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450554015,
+      "text": "да, старварсы тоже очень новогодняя серия фильмов"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a24",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450554056,
+      "text": "на равне с такими нетленками как «операция ы» и «с лёгким паром»"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a25",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450554120,
+      "text": "~\u0026gt; \u003ca href=\"http://megamozg.ru/post/22784/~пускай\"\u003ehttp://megamozg.ru/post/22784/~\ufffd...\u003c/a\u003e конкурируют"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a26",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Harry",
+      "datetime": 1450554247,
+      "text": "привет! во сколько начало эфира?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a27",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450554251,
+      "text": "mersenne: конкуренции больше нет. у меня вот приложение Яндекса используется только тогда, когда я ничего толкового не могу найти в Google Now, что очень редко."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a28",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mwconvergence",
+      "datetime": 1450554260,
+      "text": "say!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a29",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450554261,
+      "text": "Неискусного вождя, желающего уподобиться Атилле, смело назову «нагайкой» провидения."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a2a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450554268,
+      "text": "Harry: \u003ca href=\"http://www.radio-t.com/online/\"\u003ehttp://www.radio-t.com/online/\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a2b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Harry",
+      "datetime": 1450554326,
+      "text": "о, спасибо."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a2c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450554383,
+      "text": "Jagr, ну и аминь тогда."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a2d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1450554531,
+      "text": "Бобра, чат"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a2e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450554560,
+      "text": "mersenne: ещё пару лет и несколько городов-миллионников Яндекс точно потеряет. Наметился Хабаровск. Крым (наследие украинской привычки к Google) уже и ряд средних городов (Махачкала, Грозный, Якутск, практически Сочи) уже потеряны."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a2f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сэм Абдулаев",
+      "datetime": 1450554614,
+      "text": "ping"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a30",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450554615,
+      "text": "pong"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a31",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450554676,
+      "text": "ровно в 11, но обычно задерживают минут на 15"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a32",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450554784,
+      "text": "Яндекс.Карты 7.0.1 для iOS уже в App Store. Уведомления о платных дорогах, паромных переправах и перекрытиях. Плюс множество исправлений. После ПЛАТОН такое актуально :("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a33",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450554897,
+      "text": "кстати, водилы такси пользуются навигаторами только для сверки движения, а дальнобоям пофиг - они и так знают основные маршруты"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a34",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bunkerok",
+      "datetime": 1450554897,
+      "text": "так нафига оно в картах, надо бы в навигаторе"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a35",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450554902,
+      "text": "народ может голосовать за темы на news"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a36",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450554908,
+      "text": "Есть кто OS X пользуется? У вас вылез scrollbar где надо и не надо с некоторых пор?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a37",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "track",
+      "datetime": 1450554918,
+      "text": "\u0026gt;\u0026gt;Jagr: ...старые фильмы по графике не уступают новым творениям Лукаса в натурализме~ты их в оригинале посмотри... Лукас их раз в лет 10  ремастирует"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a38",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450554924,
+      "text": "bunkerok: многие смотрят пробки и там строят маршруты"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a39",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450554932,
+      "text": "umputun: народ разучился голосовать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a3a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450554937,
+      "text": "barlog: нет, все по старому"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a3b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450554957,
+      "text": "\u003ca href=\"http://4dropz.com/8QhkH0mYPpT6\"\u003ehttp://4dropz.com/8QhkH0mYPpT6\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a3c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450554973,
+      "text": "japster: хмм, а у тебя какая настройка стоит для скролбаров?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a3d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450554983,
+      "text": "track: ну я смотрел в максимум доступном качестве на сегодня: качественный BDrip 1920*1080. Жду в 4k ;)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a3e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450554984,
+      "text": "barlog: ща посмотрю"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a3f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450555020,
+      "text": "\u003ca href=\"http://take.ms/pEuxe\"\u003ehttp://take.ms/pEuxe\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a40",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450555027,
+      "text": "barlog: \u003ca href=\"http://take.ms/pEuxe\"\u003ehttp://take.ms/pEuxe\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a41",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "track",
+      "datetime": 1450555036,
+      "text": "Jagr: я не про разрешение, а про версии фильмов"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a42",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450555059,
+      "text": "japster: у меня при такой настройке везде скролбар включен постоянно :( поменял на \u0026#39;When scrolling\u0026#39;."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a43",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "track",
+      "datetime": 1450555064,
+      "text": "первых 3-х штук 5 точно"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a44",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450555095,
+      "text": "barlog: не, у меня все ок, только что проверил"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a45",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450555112,
+      "text": "унца"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a46",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555118,
+      "text": "товсь!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a47",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450555121,
+      "text": "japster: благодарю, теперь хоть буду знать, что это именно моя проблема."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a48",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ceyt",
+      "datetime": 1450555149,
+      "text": "Давайте проведём целый Радио-Т с кантри на фоне."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a49",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450555216,
+      "text": "ceyt: тогда уж лучше \u0026#34;Лада седан\u0026#34;"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a4a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555240,
+      "text": "umputun, было бы неплохо иметь счётчик лайков на главной ньюсов у каждой темы"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a4b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ceyt",
+      "datetime": 1450555241,
+      "text": "barlog: Не знаю, о чём речь."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a4c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1450555250,
+      "text": "umputun: а плющев сегодня будет?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a4d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450555257,
+      "text": "mersenne: все будет ..."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a4e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "track",
+      "datetime": 1450555279,
+      "text": "Jagr: вот тебе для затравочки https://www.youtube.com/watch?v=Xezn-0xottw"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a4f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555282,
+      "text": "зашибись"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a50",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450555293,
+      "text": "всем хай"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a51",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450555294,
+      "text": "umputun: А не поделишься плэйлистом пре-шоу?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a52",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555402,
+      "text": "ping"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a53",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450555403,
+      "text": "pong"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a54",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555411,
+      "text": "which"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a55",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555412,
+      "text": "снм привет :bm:"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a56",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555417,
+      "text": "who"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a57",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555421,
+      "text": "*всем"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a58",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555424,
+      "text": "who?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a59",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450555425,
+      "text": "Umputun, Bobuk, Gray, Ksenks и проходящие гости"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a5a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555432,
+      "text": "which?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a5b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555435,
+      "text": "say!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a5c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450555436,
+      "text": "Воспитателю надо глубоко знать жизнь, чтобы к ней готовить."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a5d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450555441,
+      "text": "Так дружно люди зашли, похоже это боты"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a5e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450555443,
+      "text": "Кто?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a5f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555444,
+      "text": "uname"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a60",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555502,
+      "text": "какой состав сегодня?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a61",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1450555504,
+      "text": "who?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a62",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450555505,
+      "text": "Umputun, Bobuk, Gray, Ksenks и проходящие гости"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a63",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555515,
+      "text": "Плющев обещается вместо Бобука"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a64",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555541,
+      "text": "Просьба входящим голосовать за темы в новостях, чтобы ведущим было что выбирать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a65",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555551,
+      "text": "https://news.radio-t.com/"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a66",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555592,
+      "text": "73 человека такого наголосовать могут, что мало не покажется"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a67",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1450555604,
+      "text": "mersenne: а как голосовать?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a68",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noobie",
+      "datetime": 1450555636,
+      "text": "да да"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a69",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450555638,
+      "text": "да!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a6a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ggmarkes",
+      "datetime": 1450555640,
+      "text": ":+1:"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a6b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450555643,
+      "text": "добрый вечер"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a6c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Harry",
+      "datetime": 1450555646,
+      "text": "уррря =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a6d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Metlonec",
+      "datetime": 1450555654,
+      "text": "добрый вечер"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a6e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450555655,
+      "text": "Всем доброго времени суток"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a6f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1450555659,
+      "text": ""
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a70",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ceyt",
+      "datetime": 1450555660,
+      "text": "Чуточку поменьше раскатистости в голосе."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a71",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555665,
+      "text": "какой довольный бас умпутуна :peka:"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a72",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555666,
+      "text": "оооо"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a73",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555669,
+      "text": "Алексей"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a74",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555669,
+      "text": "libbkmz,  нажимаешь на заголовок новости и заходишь в полное описание и там внизу будет кнопка рекомендовать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a75",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555682,
+      "text": "будет технический выпуск?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a76",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555686,
+      "text": "libbkmz, нужна регистрация в сервисе disqus"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a77",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450555687,
+      "text": "новостей нет... расходимся :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a78",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450555696,
+      "text": "а Бобук успеет?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a79",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bunkerok",
+      "datetime": 1450555707,
+      "text": "позовите Плющева"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a7a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bunkerok",
+      "datetime": 1450555712,
+      "text": "он же написал вам в твиттер"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a7b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555718,
+      "text": "libbkmz, у тебя два часа на регистрацию и голосование"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a7c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1450555744,
+      "text": "и как интересно умпутун пароли пересылает"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a7d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DrUID",
+      "datetime": 1450555759,
+      "text": "Пусть зачитывает"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a7e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450555760,
+      "text": "rauch, rest\u0026#39;ом из монги"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a7f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450555763,
+      "text": "а мне? =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a80",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Trognorf",
+      "datetime": 1450555765,
+      "text": "и нам тоже"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a81",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450555873,
+      "text": "ping?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a82",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450555882,
+      "text": "pong!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a83",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450555884,
+      "text": "а за чаем сходить"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a84",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450555888,
+      "text": "говорил"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a85",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ggmarkes",
+      "datetime": 1450555894,
+      "text": "говорил"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a86",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450555899,
+      "text": "+1"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a87",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450555905,
+      "text": "А Бобук почему не пришёл? После корпоратива не смог отойти?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a88",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450555928,
+      "text": "barlog: вполне вероятно"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a89",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450555947,
+      "text": "Мозг же"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a8a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556074,
+      "text": "Дензл Вашингтон"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a8b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450556088,
+      "text": "один из двух известных черных чуваков?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a8c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450556094,
+      "text": "Вы пока начнете, у меня поезд тронется и сеть пропадет("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a8d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556099,
+      "text": "Ну да"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a8e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556119,
+      "text": "Sadv1r: Приятной дороги =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a8f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "quasiyoke",
+      "datetime": 1450556126,
+      "text": "Рановато для рекламы."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a90",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "quasiyoke",
+      "datetime": 1450556135,
+      "text": "Номера выпуска-то не було."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a91",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450556140,
+      "text": "dedal.qq: Благодарю =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a92",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1450556165,
+      "text": "кат был?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a93",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450556186,
+      "text": "umputun: А плюсики и минусики не подходят?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a94",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450556192,
+      "text": "Кажется кат и номер выпуска как-то пропустили"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a95",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556195,
+      "text": "\u0026#34;нажал на ссылку и.... ничего не произошло\u0026#34; (с)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a96",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556228,
+      "text": "На чей зад?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a97",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556236,
+      "text": "Sadv1r: Все в порядке. Уже было"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a98",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "quasiyoke",
+      "datetime": 1450556264,
+      "text": "(@)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a99",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556291,
+      "text": "А есть фото человека, который нашёл этот баг?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a9a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556291,
+      "text": "28 раз, потом ентор"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a9b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Jagr",
+      "datetime": 1450556329,
+      "text": "barlog: вполне вероятно"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a9c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556329,
+      "text": "Мозг же"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a9d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556329,
+      "text": "Дензл Вашингтон"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a9e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450556329,
+      "text": "один из двух известных черных чуваков?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66a9f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450556329,
+      "text": "Вы пока начнете, у меня поезд тронется и сеть пропадет("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556329,
+      "text": "Ну да"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556329,
+      "text": "Sadv1r: Приятной дороги =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "quasiyoke",
+      "datetime": 1450556329,
+      "text": "Рановато для рекламы."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "quasiyoke",
+      "datetime": 1450556329,
+      "text": "Номера выпуска-то не було."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450556329,
+      "text": "dedal.qq: Благодарю =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1450556329,
+      "text": "кат был?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450556329,
+      "text": "umputun: А плюсики и минусики не подходят?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sadv1r",
+      "datetime": 1450556329,
+      "text": "Кажется кат и номер выпуска как-то пропустили"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556329,
+      "text": "\u0026#34;нажал на ссылку и.... ничего не произошло\u0026#34; (с)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aa9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556329,
+      "text": "На чей зад?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aaa",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556329,
+      "text": "Sadv1r: Все в порядке. Уже было"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aab",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "quasiyoke",
+      "datetime": 1450556329,
+      "text": "(@)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aac",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556329,
+      "text": "А есть фото человека, который нашёл этот баг?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aad",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556329,
+      "text": "28 раз, потом ентор"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aae",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450556329,
+      "text": "go to lilo"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aaf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1450556329,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450556329,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450556332,
+      "text": "barlog: Это какая то команда в какой то канторе, которая безопасностью занимается специально"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450556335,
+      "text": "--\u0026gt; jc-radiot initiated! https://news.radio-t.com"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556352,
+      "text": "Сел подрочить и клавиатура под руку попала"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556360,
+      "text": "Так и нажал 28 раз"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556365,
+      "text": "Другого объяснения нет"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450556391,
+      "text": "написал войну и мир заснув мордой на планшете"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556394,
+      "text": "dedal.qq: представляю картину - там сидят полуголые чуваки за компами и ходит между рядами чел с кнутом и бьёт их"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556431,
+      "text": "Можно через kvm в rescue"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ab9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556439,
+      "text": "mersenne: заснул мородой на планшете: приснилось, что написал войну и мир. Реальность: написал книгу донцовой."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aba",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450556478,
+      "text": "по ipvm можно было в grub достучаться"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66abb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450556541,
+      "text": "Так можно в любой ПК с Linux на борту зайти, сбросив пароль root через single user mode."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66abc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556542,
+      "text": "Апдейт отключает клавишу baackspace"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66abd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556564,
+      "text": "barlog: Сарказм или реально?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66abe",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556583,
+      "text": "GRIDARK: с одного раза слабо угадать? ;)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66abf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450556614,
+      "text": "barlog: Все, понял) :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450556624,
+      "text": "CCLeaner для MAC"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450556634,
+      "text": "barlog, донцова лучше продаётся"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556759,
+      "text": "Маккипер — это вирус для OS X, это не программа, вернее троян, албанский. Зачем их обсуждать?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450556783,
+      "text": "mackeeper очень стремная хрень, я к нему отношусь как к спаму"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450556801,
+      "text": "сколько у вас /System/Library/Caches/com.apple.coresymbolicationd/ весит?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450556858,
+      "text": "undefine: 244 мб"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450556864,
+      "text": "https://www.shodan.io/search?query=mongodb"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556875,
+      "text": "Те, у кого MongoDB торчит открытыми портами в интернет называются \u0026#39;в активном поиске\u0026#39;"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450556902,
+      "text": "у меня 2.5G. чяднт?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ac9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450556933,
+      "text": "может э"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aca",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450556938,
+      "text": "может они медом помазаны?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66acb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450556955,
+      "text": "undefine: та все так, если у вас нету проблем с местом на диске то забейте."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66acc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bunkerok",
+      "datetime": 1450556960,
+      "text": "undefine: вся папка caches 34 mb"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66acd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450556970,
+      "text": "undefine: 3.7 Gb"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ace",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450557072,
+      "text": "https://www.shodan.io/search?query=mongodb"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66acf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450557075,
+      "text": "пинг"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450557076,
+      "text": "ну понг, и что ?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "gbazil",
+      "datetime": 1450557093,
+      "text": "..."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450557102,
+      "text": ":-D"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450557149,
+      "text": "в AWS нужно порты еще открыть"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450557154,
+      "text": "так что виноваты DO"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450557155,
+      "text": "Ребата. Есть вопрос по отвлеченной теме.~Есть шрифт с font4web на фтронтенде. Суть в том, что высота строки в окошках и макоси - разная. Кто сталкивался? Решили?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450557155,
+      "text": "скорее всего кто-то сделал несколько туториалов на node+mongo и все повторяют х)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450557224,
+      "text": "undefine: а в чем прикол с размером caches?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450557298,
+      "text": "вот вот) и я про это)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ad9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450557307,
+      "text": "Aleksey_A: оно у меня растет регулярно, а диск не резиновый"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ada",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450557417,
+      "text": "Монгу можно купить? О сколько нам открытий чудных..."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66adb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nkt",
+      "datetime": 1450557471,
+      "text": "да дибилы apt-get install mongodb делают, а про /etc/... ничо не знают. Или dev версия приложения, там действительно наплевать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66adc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nkt",
+      "datetime": 1450557496,
+      "text": "DO - это не клауд. Это VPS с удобным апи."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66add",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450557529,
+      "text": "undefine: его вроде можно очищать удалением файла data, не?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ade",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450557539,
+      "text": "nkt, с мощным API"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66adf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450557564,
+      "text": "Aleksey_A: я так делал неделю назад. это что, в крон загнать надо что-ли"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450557689,
+      "text": "undefine: ну если он так быстро растет, то может и имеет смысл"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "netforhack",
+      "datetime": 1450557712,
+      "text": "эх, 27017 же не только монга использует, я думал какой-то процент из этих открытых портов будут сервера counter-strike"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ceyt",
+      "datetime": 1450557756,
+      "text": "netforhack: Они пытались спрятаться, не получилось."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450557805,
+      "text": "https://www.shodan.io/search?query=mongodb"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450557833,
+      "text": "Они на локалхост вроде еще в 2.2 сделали"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450557848,
+      "text": "Так же можно редис поругать, он досихпор слушает отовсюду"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450557925,
+      "text": "У меня стоит юзер нейм и пароль на монге, на дев сервере и она торчит попой наружу(Понимаю что пароль не спасет). Сегодня пришло письмо от диджитал оушена про мой дроплет и эту статью."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "justslava",
+      "datetime": 1450558077,
+      "text": "и elasticsearch тоже в копилку"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450558103,
+      "text": "зацените баг окна десктопного чатика радио-т: \u003ca href=\"http://cl.ly/3n1V0v2W330n\"\u003ehttp://cl.ly/3n1V0v2W330n\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ae9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450558227,
+      "text": "undefine, похоже на проблемы с манипулятором типа мышь"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aea",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450558272,
+      "text": "у меня макбучный тачпад"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aeb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450558305,
+      "text": "и я не могу это повторить с другими окнами"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aec",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MustangDSG",
+      "datetime": 1450558367,
+      "text": "ping"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aed",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450558368,
+      "text": "pong"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aee",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "RedFox",
+      "datetime": 1450558518,
+      "text": "say!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aef",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450558519,
+      "text": "Что вы матом ругаетесь ? Как маленькие дети."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450558548,
+      "text": "wtf?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450558549,
+      "text": "rtfm"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450558653,
+      "text": "А иконки JB в прошлый раз хвалили уже?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450558668,
+      "text": "да"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450558695,
+      "text": "Эх, пропустил... :("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450558711,
+      "text": "опутили их ниже плинтуса чо"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450558720,
+      "text": "старые иконки были с душой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450558739,
+      "text": "а теперь какой-то диско-бар хромая коняка"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450558756,
+      "text": "есть плагин 2012 года, это уже не первая замена иконок :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66af9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450558785,
+      "text": "42:01 выпуска 474"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66afa",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450558810,
+      "text": "https://bulenkov.com/2012/10/10/intellij-idea-11-icons-pack-plugin/"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66afb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450558824,
+      "text": "у амазона конских денег стоит трафик"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66afc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450558834,
+      "text": "в DO дофига включено уже"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66afd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450558851,
+      "text": "так что t2.nano не всегда дешевле"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66afe",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450558888,
+      "text": "20"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66aff",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450558945,
+      "text": "кстати взял недавно по вашей рефералке себе Оушен"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b00",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Semior",
+      "datetime": 1450558975,
+      "text": "say!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b01",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450558977,
+      "text": "Лесть всегда нам нравится, когда она касается качеств, которых нам недостает. Скажите дураку, что он очень умен, и плуту, что он честнейший человек в свете, и они заключат вас в свои объятия."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b02",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "netforhack",
+      "datetime": 1450558995,
+      "text": "у ДО разве не 100 мбит канал в мир?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b03",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450559025,
+      "text": "20"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b04",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559034,
+      "text": "jc-radio-t напилось  :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b05",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559062,
+      "text": "20 гиг + терабайт трафика за 5 баксов - это просто шара"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b06",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450559104,
+      "text": "А мне пофиг, я уже стёр этот скитч"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b07",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559109,
+      "text": "они убили скитч сразу как его купили"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b08",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559116,
+      "text": "сделали из него такое Г"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b09",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559116,
+      "text": ""
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b0a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450559139,
+      "text": "Зачем Skitch есть прекрасный Monosnap."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b0b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559152,
+      "text": "+1"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b0c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450559169,
+      "text": "есть прекрасный Print Screen"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b0d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559180,
+      "text": "не, он не очень прекрасный"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b0e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559186,
+      "text": ":)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b0f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450559203,
+      "text": "pechkin1007: а как вы там сразу зальете куда-то?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b10",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450559207,
+      "text": "Гова в еверноте стало очень много"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b11",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450559221,
+      "text": "Но до сих пор ни одного аналога евернота так и не вышло"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b12",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450559224,
+      "text": "мой заливает куда то например"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b13",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559232,
+      "text": "evernote убьет stitch :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b14",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559236,
+      "text": "https://www.pinterest.com/pin/484699978619088311/"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b15",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450559290,
+      "text": "Почему-то я вспомнил про Nero"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b16",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450559301,
+      "text": "umputun, а ты теперь pocket используешь вместо evernote?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b17",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450559310,
+      "text": "Еvtomax, о да, Nero"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b18",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450559325,
+      "text": "Надо просто более гибкую платность делать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b19",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559340,
+      "text": "тема дня - Скайп упал... уже минут 15 нет связи"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b1a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559357,
+      "text": "Вроде работает"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b1b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559373,
+      "text": "Только что залогинился"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b1c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450559384,
+      "text": "у меня тоже работает"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b1d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450559393,
+      "text": "у ведущих видимо тоже"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b1e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450559410,
+      "text": "презентации ищи и Premium only"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b1f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559434,
+      "text": "фантастическое изобретение «послать заметку по email»... А много вообще у evernote пользователей?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b20",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559438,
+      "text": "не, в бесплатной тоже вроде есть."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b21",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450559459,
+      "text": "таск менеджер?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b22",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559480,
+      "text": "я про режим презентации"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b23",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559492,
+      "text": "после нового блокнота в МакОси - евернот я стер"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b24",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559539,
+      "text": "а ведущие чат не читают?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b25",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559545,
+      "text": "Блин, охренеть, я ничего не понимаю, зачем писать заметки во что-то кроме системных приложений?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b26",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450559545,
+      "text": "Использую Tomboy с owncloud"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b27",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559545,
+      "text": "да, похоже  презентация доступна только в платной версии"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b28",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559588,
+      "text": "Маководные ведущие обсуждают приложение (платное) для Notes."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b29",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559620,
+      "text": "aefimov: а как получишь доступ ксистемным заметкам из винды например?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b2a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559638,
+      "text": "через сайт эпла"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b2b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559640,
+      "text": "Они в почте храняться, если что"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b2c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450559681,
+      "text": "чем же заменить скитч?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b2d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559699,
+      "text": "Yandex.Disk :)))"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b2e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450559700,
+      "text": "aefimov: а зачем системное, можно же в титрадку записывать :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b2f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450559732,
+      "text": "umputun: Monosnap крут)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b30",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559738,
+      "text": "aefimov: для меня не вариант"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b31",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559750,
+      "text": "japstep: можно сказать телефону, там сидит тетка, которая все сама запомнит и напомнит"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b32",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nkt",
+      "datetime": 1450559762,
+      "text": "эм. а аудитория?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b33",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450559781,
+      "text": "аудитория скитча начала юзать евернот"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b34",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559798,
+      "text": "aleksey_a: какая ось?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b35",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450559844,
+      "text": "aefimov: OSX, ios и винда :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b36",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450559918,
+      "text": "Ой, ой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b37",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450559948,
+      "text": "aleksey_a: я Я.Диск советую для макоси, не смотря на то что сам из Я :) Оно поймает стандартный Cmd+Shift+4[+ Space], добавит циферки, загрузит в облако и расшарит"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b38",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450559984,
+      "text": "только это не информатика"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b39",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450560044,
+      "text": "а вот обучение слепой печати это круто…. но это некон отделение фихкультуры"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b3a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450560053,
+      "text": "aefimov: спасибо за совет. Посмотрю на досуге :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b3b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450560127,
+      "text": "Если пользователю надо разбираться, как это работает, то значит это всё недоделанное."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b3c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450560129,
+      "text": "ну это нормально… у нас была информатика… и хоть как-то там давали логику, алгоритмы"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b3d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560138,
+      "text": "Основы POSIX дать детям"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b3e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560157,
+      "text": "будет веха в жизни, до и после POSIX"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b3f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450560159,
+      "text": "а мы на информатике в CS гоняли :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b40",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560168,
+      "text": "Взрослые не могут научится JavaScript, а вы про детей..."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b41",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560261,
+      "text": "Все эти вакансии - это какая-то непонятная фигня"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b42",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560271,
+      "text": "aleksey_a: выглядит вот так: https://yadi.sk/i/IGtF8Z6wmLrxT"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b43",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560272,
+      "text": "Я им резюме шлю, а на собеседование не зовут"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b44",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450560276,
+      "text": "Повышение владению компьютером и понимания работы систем просто необходимо, часть старого поколения до сих пор не умеет пользоться кредитной картой."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b45",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450560289,
+      "text": "Вот написали программисты инстаграм, и что мы имеем? селфи и еду? вы реально думаете, что больше программистов будет способствовать развитию человечества? =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b46",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560317,
+      "text": "по моему мало кто ругает советское образование"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b47",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450560366,
+      "text": "главное создать проблему"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b48",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560368,
+      "text": "У плотников нет 6 разраяда"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b49",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450560390,
+      "text": "aefimov: а тэги там тоже можно назначать?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b4a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560398,
+      "text": "barlog: может это даны?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b4b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560424,
+      "text": "не у всех специальностей есть 6 разрядов, вот я о чём"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b4c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560434,
+      "text": "aleksey_a: теги -- надпись на картинке, или что? это скриншотилка"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b4d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450560498,
+      "text": "aefimov: я про те, которые в Evernote для заметки назначаешь."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b4e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450560534,
+      "text": "aefimov: а, ты про скриншоты, тогда понятно."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b4f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450560538,
+      "text": "Это глупая идея просто по тому, что информатику ставят выше всего остального, имхо"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b50",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450560681,
+      "text": "Школа отстой, Обама чмо, поехали дальше"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b51",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450560684,
+      "text": "по моему профит не в знаниях, а в разрабатывании мозга, другими словами, чем больше прогнать знаний в школе, тем лучше потом человек будет воспринимать и перерабатывать другую, более полезную информацию"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b52",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560689,
+      "text": "чот видимо Apple покорен полностью, теперь ведущие специалисты по образованию, школьному и советсткому"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b53",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560698,
+      "text": "это проблема ЕГЭ vs. Нормальная экзаменовка"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b54",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560705,
+      "text": "А я столько разной фигни помню про всё, чему в школе учили :( Лучше бы что-то полезное помнил. Только полезному в школе не учили в советской, только говну какому-то."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b55",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560719,
+      "text": "на нормальных экзаменах проверяют понимание"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b56",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560727,
+      "text": "на ЕГЭ зубрёжку"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b57",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560734,
+      "text": "Сокращение многочленов методом дополнения до полного квадрата я только в институте узнал. Вот такая школа у меня была."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b58",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450560755,
+      "text": "Убивают магию =("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b59",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Korot",
+      "datetime": 1450560759,
+      "text": "а у них супер герои и  супер способности"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b5a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560793,
+      "text": "mersenne: в советских школах не было экзаменов. Были контрольные. Ничем от ЕГЭ это не отличается. Таже зубрёжка нужна."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b5b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450560797,
+      "text": "Это я обучал программированию нашу училку в 1986"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b5c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560798,
+      "text": "компьютеры тогда боялись трогать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b5d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560827,
+      "text": "Паскаль тоже в продакшене не используется"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b5e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560842,
+      "text": "Давайте про apple? :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b5f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450560854,
+      "text": "Я так и не осилил физику :("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b60",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560860,
+      "text": "barlog, только учитель может переспросить или задать дополнительный вопрос, переформулировать задачу, а ЕГЭ проверяет кратковременную память"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b61",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560863,
+      "text": "aefimov: на этой неделе видел вакансию на Delphi"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b62",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560868,
+      "text": "Четырех тактный дизельный, ОООК"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b63",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450560870,
+      "text": "если уж и учить, то начинать со структур данных и алгоритмов"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b64",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450560874,
+      "text": "потом уже программирование"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b65",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450560882,
+      "text": "какая практика без теории?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b66",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450560891,
+      "text": "mersenne: ничего учитель не переспрашивал. Писалась контольная, а проверяли её в другой школе, чтобы не было предвязости к ученикам."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b67",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450560893,
+      "text": "barlog: по Delphi до сих пор книги пишут :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b68",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450560911,
+      "text": "Delphi не есть Паскакаль :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b69",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450560946,
+      "text": "А уж учить пользованию конкретными программами - это как учить ложкой есть"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b6a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ceyt",
+      "datetime": 1450560947,
+      "text": "Вот как мы смотрим на школы 150-200-летней давности, так и на сегодняшнее образование будут через сто лет смотреть, а тут обсуждение идёт в ключе «сегодняшний подход к обучению лучше не сделать»."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b6b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450560947,
+      "text": "c lheujq cnjhjys ghjcnj vjuen rjujnj pfbynthbce.tn pgyznvz ghjuhfvvbhjdfybtv"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b6c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450560968,
+      "text": "унпутун за свое место и зарплату боится)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b6d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450560972,
+      "text": "с другой стороны просто могут когото заинтересуют занятся программированием~"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b6e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450560979,
+      "text": "barlog, а годовые, четвертные контрольные? у нас переспрашивали и справедливо судили"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b6f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450560991,
+      "text": "Да просто не надо от детей требовать одни пятёрки получать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b70",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450561037,
+      "text": "бейсиком они только хуже сделают, по себе знаю!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b71",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450561040,
+      "text": "Астрономии давно нет"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b72",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561040,
+      "text": "mersenne: а обычные контрольные на что влияли-то?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b73",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450561041,
+      "text": "вредители)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b74",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kudman",
+      "datetime": 1450561096,
+      "text": "для этого надо немного погуглить в яндексе"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b75",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450561097,
+      "text": "многим пригодились знания по полезным ископаемым??? особеннос статистика по добыче за какую-то там пятилетку"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b76",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis",
+      "datetime": 1450561106,
+      "text": "в россии скоро не нужна будет география :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b77",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450561110,
+      "text": "не трогайте землю, она стоит на трех китах, и плоская"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b78",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561111,
+      "text": "barlog, на итоговую оценку, когда между четвёркой и пятёркой (3/4), учитель мог задать вопрос для проверки понимания учеником материала и изменить в лучшую сторону"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b79",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450561120,
+      "text": "История лженаука (ложь с которой все согласны), география полезна"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b7a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561152,
+      "text": "mersenne: это на итоговую оценку в аттестат о среднем образовании?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b7b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450561174,
+      "text": "Sonica: Современная система образования предполагает, что если знание пригодится, например, одному из 100, то это знание надо включить в программу обучения :-)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b7c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450561189,
+      "text": "umputun: Тут скорее нужно менять способ обучения."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b7d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1450561196,
+      "text": "Пора валить :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b7e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450561202,
+      "text": "Еvtomax: Да причины-то понятно, только это не делает такой подход осмысленным"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b7f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561208,
+      "text": "aefimov: куда?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b80",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450561218,
+      "text": "umputun: Дядя, это про высокие технологии подкаст?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b81",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561218,
+      "text": "barlog, благодаря низкой текучке, да — ребёнка понимающего предмет будут оберегать и холить, разбирать материал дополнительно и вытягивать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b82",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561246,
+      "text": "mersenne: я не понимаю зачем ты пытаешься убедить в своей лжи"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b83",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450561253,
+      "text": "школа анахронизм при наличии интернета"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b84",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Korot",
+      "datetime": 1450561257,
+      "text": "и мы не узнаем, что земля круглая"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b85",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561258,
+      "text": "mersenne: считай как считаешь"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b86",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450561267,
+      "text": "some0ne: Ваши личные воспоминания - не меньшая ложь, чем история страны."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b87",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561276,
+      "text": "mersenne: в СССР вообще всё хорошо было, лучшая страна за всю историю мира"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b88",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dustwalker",
+      "datetime": 1450561282,
+      "text": "Умпутун троллит, все ведуться"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b89",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "japster",
+      "datetime": 1450561286,
+      "text": "umputun: Radio-teacher"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b8a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EZhusalin",
+      "datetime": 1450561339,
+      "text": "Если ваш ребенок не знает, что что-то существует, кроме его города, то вам не география нужна, а доктор"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b8b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561361,
+      "text": "Я Умпутуну всё меньше меньше верю. Совсем перестал понимать где он троллит, а где он правда такой."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b8c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450561369,
+      "text": "Я как-то жил 20 лет до того как узнал, что рядом есть Камчатка (деревня), так и жил бы )"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b8d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450561384,
+      "text": "Блин, это всё могут сделать познавательные передачи на ютубе. Зачем школа для этого?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b8e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561389,
+      "text": "barlog, я не говорю что в СССР самое лучшее образование, но умпутуна вон образовало как-то."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b8f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450561395,
+      "text": "Вы не поверите, астраномии в росии уже лет 15 нету"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b90",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450561408,
+      "text": "а как определить то правильно, что является базой а что нет? =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b91",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450561409,
+      "text": "России*"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b92",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561414,
+      "text": "mersenne: а школа тут причём? У него два высших образования. И то хромает иногда."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b93",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450561420,
+      "text": "Еvtomax: Мои воспоминания не переписываются каждые 10 лет под нужды правителей"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b94",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kudman",
+      "datetime": 1450561433,
+      "text": "товариш майор слушает и прикроет радоТ, т.к. про игил говорят"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b95",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1450561437,
+      "text": "Слой знаний? Я в свое время так стал ненавидеть то, что изучали в школе, даже книги долго не читал )))"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b96",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450561474,
+      "text": "some0ne: Ваша память очень избирательна и неточна. Ваше подсознание почти всегда перестроит всё так, чтобы вам было комфортно."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b97",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561475,
+      "text": "barlog, школа закладывает основы того как человек должен получать знания и решать задачи"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b98",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561505,
+      "text": "mersenne: это нормальная школа, а советская ничего не закладывала, только говно разное."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b99",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450561521,
+      "text": "Звук!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b9a",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561535,
+      "text": "GRIDARK: не надо ковырять в ухе циркулем"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b9b",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GRIDARK",
+      "datetime": 1450561546,
+      "text": "Ксюша вещает откуда-то не от туда. ("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b9c",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561551,
+      "text": "Ой ой Ксюшу кудато по геграфии отправили отправил провайдер"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b9d",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "GERMAN",
+      "datetime": 1450561563,
+      "text": "процесс познания тренирует мозг как мышцу гиря"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b9e",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561565,
+      "text": "barlog, советская закладывала инженерные знания и на выходе получались люди вполне инженерные."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66b9f",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561578,
+      "text": "GRIDARK: Ксения работает в Фейсбуке, в фейсбуке начался день плохого интернета"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sudo",
+      "datetime": 1450561579,
+      "text": "а как в магазине цены складывать?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561596,
+      "text": "mersenne: я не понимаю зачем ты мне лжешь? Я учился в советской школе в СССР."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561598,
+      "text": "как это а фуэте крутить а прыгать повыше и подальше"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450561600,
+      "text": "mersenne: Но победили торгаши :-)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561602,
+      "text": "математика нужна чтобы уметь решать задачи и иметь абстрактное мышление"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561606,
+      "text": "sudo: на калькуляторе же"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561614,
+      "text": "самое оно для математики и физики"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EZhusalin",
+      "datetime": 1450561617,
+      "text": "Историю забыл"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450561634,
+      "text": "umputun: наброс удался судя по бурлению в чатике"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66ba9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561634,
+      "text": "barlog, я не лгу тебе, перед богом тебе говорю, вот!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66baa",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450561638,
+      "text": "Химия — не наука, а философия существования."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bab",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561640,
+      "text": "как это а теория появления мира?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bac",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "abc",
+      "datetime": 1450561641,
+      "text": "Так а кому нужна физика и зачем?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bad",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450561643,
+      "text": "Получатся все технические специалисты, а кто за кассой стоять будет?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bae",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561649,
+      "text": "историю тоже в топку"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66baf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561658,
+      "text": "если это все убрать то и программистов небудет"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mickalaj",
+      "datetime": 1450561660,
+      "text": "физкультура"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561662,
+      "text": "рисование и музыку"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dustwalker",
+      "datetime": 1450561662,
+      "text": "Физкультуру забыли"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561663,
+      "text": "Главное религоведение не убирать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561664,
+      "text": "mersenne: не согласен"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450561669,
+      "text": "Только физика - соль"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1450561669,
+      "text": "И патриотическое воспитание"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561679,
+      "text": "mersenne: про историю"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561700,
+      "text": "Жаль бобука нет или Плющева…. для такой темы"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bb9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450561701,
+      "text": "получасовка технофашизма"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bba",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dustwalker",
+      "datetime": 1450561706,
+      "text": "Все заменить явой питоном и вебдизайном"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bbb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1450561706,
+      "text": "Та физкультура, что сейчас в школах, вредна."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bbc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450561710,
+      "text": "ping"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bbd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450561711,
+      "text": "pong"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bbe",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561712,
+      "text": "Aleksey_A, я считаю детям до 21 историю не надо изучать, как и библию какую-нибудь."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bbf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561714,
+      "text": "А музыку?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "abc",
+      "datetime": 1450561729,
+      "text": "Телевизор не даёт такого эффекта"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561738,
+      "text": "история по телеку хорошая идея кстати"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561747,
+      "text": "вместо дома два"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "abc",
+      "datetime": 1450561750,
+      "text": "Подобные идеи ещё в начале XX века предлагали, оно не работает"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561767,
+      "text": "оно потом же как голосовать будут"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ggmarkes",
+      "datetime": 1450561776,
+      "text": "umputun: вы считаете советское образование избыточно?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561782,
+      "text": "mersenne: ну я так вообще считаю, что в 7 лет идти в школу рано"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561786,
+      "text": "в политике особено про внешней политике без географии как?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450561793,
+      "text": "Давайте лучше к темам слушателей! =("
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bc9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sonica",
+      "datetime": 1450561794,
+      "text": "зарплату считать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bca",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561831,
+      "text": "Aleksey_A, ну так не идите, а мы пойдём)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bcb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561850,
+      "text": "mersenne: лана ;)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bcc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "nkt",
+      "datetime": 1450561856,
+      "text": "Математика? А нафига логарифмы нужны обычным людям?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bcd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EZhusalin",
+      "datetime": 1450561868,
+      "text": "Блин, я недавно пытался поделить в столбик. В итоге запустил калькулятор, потмоу что не вспомнил как)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bce",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561869,
+      "text": "Aleksey_A, вообще переполненные классы в школах это зло, реальное зло, больше чем история и программирование"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bcf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1450561870,
+      "text": "деприкейтед"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450561900,
+      "text": "а линейки то логорифмическую вы где последний раз видели"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561902,
+      "text": "nkt, мозг развивает, матан творит чудеса и спасает от альцгеймера"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450561905,
+      "text": "mersenne: вот здесь не могу не согласиться"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450561983,
+      "text": "Aleksey_A, говорят в китайских/японских школах на класс по 50 детей сидит, но азиаты вообще люди особые"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksey_A",
+      "datetime": 1450562055,
+      "text": "mersenne: им иначе ни как :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450562615,
+      "text": "https://42notes.wordpress.com/2015/04/15/create-manage-a-docker-swarm-cluster-on-digital/"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450562699,
+      "text": "супер статья)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "some0ne",
+      "datetime": 1450562717,
+      "text": "пахнет политотой"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450562754,
+      "text": "набрала плюсики на фоне танцпола"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bd9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1450562767,
+      "text": "там суть в том кто разрабатывает очень стратегические программы, студенты"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bda",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450562780,
+      "text": "к президенту никто не попал"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bdb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450562808,
+      "text": "Коротко, украли исходники какой то системы защиты подводной россии"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bdc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450562819,
+      "text": "Там говнокод и бекдор, который отключает защиту с 5 до 5 30 утра"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bdd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450562825,
+      "text": "вроде как)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bde",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stewie",
+      "datetime": 1450562853,
+      "text": "а вы не путаете Яндекс.Кит, Яндекс.Sheel и Яндекс.Лаунчер?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bdf",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stewie",
+      "datetime": 1450562862,
+      "text": "а вы не путаете Яндекс.Кит, Яндекс.Shell и Яндекс.Лаунчер?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450562870,
+      "text": "Яндекс.Плодовит"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450562923,
+      "text": "Евгений, а вы в итоге пересадили вашего питониста на ГО в итоге?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1450563098,
+      "text": "да хоть на php, хосспади"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563173,
+      "text": "2.7 тёплый и ламповый"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563182,
+      "text": "(видимо)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563220,
+      "text": "Лопнул патентный троль и всех заляпал"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563327,
+      "text": "дроно-фото съёмка"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1450563347,
+      "text": "порноху уже снимают на дроны?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1450563355,
+      "text": "и давать сбивать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66be9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ceyt",
+      "datetime": 1450563363,
+      "text": "Отстреливаться дроны будут."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bea",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563364,
+      "text": "да, строительная индустрия это лишь прикрытие"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66beb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563388,
+      "text": "дронов как и bluray продвигают порно компании"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bec",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563460,
+      "text": "больших дронов наверное надо регулировать"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bed",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563562,
+      "text": "Радио-Т — республиканцы подбивают бабок в прямом эфире."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bee",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450563653,
+      "text": "Спасибо"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bef",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Harry",
+      "datetime": 1450563680,
+      "text": "Thx!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf0",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563693,
+      "text": "а был ли бобук?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf1",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1450563696,
+      "text": "Бобука будет трудно микшировать."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf2",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DrUID",
+      "datetime": 1450563731,
+      "text": "Продам пиратскую запись радио Т"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf3",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1450563734,
+      "text": "100% Бобука и можно будет делать ИИ."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf4",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1450563740,
+      "text": "ИИ Бобука."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf5",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563780,
+      "text": "унцамания"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf6",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1450563789,
+      "text": "две унцы!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf7",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563794,
+      "text": "поэтому это точно!"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf8",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "DrUID",
+      "datetime": 1450563798,
+      "text": "Черт  не вышел бизнес"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bf9",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "modos189",
+      "datetime": 1450563816,
+      "text": "почему \u0026#34;унца\u0026#34;?"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bfa",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563841,
+      "text": "традиция"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bfb",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "modos189",
+      "datetime": 1450563862,
+      "text": "в каком выпуске объяснение?)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bfc",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563928,
+      "text": "с унцией там ничего общего"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bfd",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563945,
+      "text": "это просто переложение звучания в одно слово"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bfe",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450563989,
+      "text": "«унц-унц-ту-ту-тунц» играющее на заднем фоне каждого выпуска названия не имело"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66bff",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450563999,
+      "text": "Кстати, а тут, в чатике, девушки то есть? =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c00",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450564000,
+      "text": "поэтому назвали унцей"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c01",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1450564029,
+      "text": "но всё это было давно и неправда ."
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c02",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1450565804,
+      "text": "==\u0026gt; Log into most any Linux system by hitting backspace 28 times - \u003ca href=\"http://www.engadget.com/2015/12/18/log-into-most-any-linux-system-by-hitting-backspace-28-times/\"\u003ehttp://www.engadget.com/2015/12/...\u003c/a\u003e"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c03",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450565816,
+      "text": "починил :)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c04",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450565821,
+      "text": "луше поздно чем"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c05",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dedal.qq",
+      "datetime": 1450565892,
+      "text": "umputun: Ты - большой молодец =)"
+    },
+    {
+      "id": "65d745ca7c4a38b6b1c66c06",
+      "issue": 475,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1450565931,
+      "text": "dedal.qq: ну дык :)"
+    }
+  ]
 }

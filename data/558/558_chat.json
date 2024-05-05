@@ -1,3 +1,4136 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d60cedf275c9f2d53f8740",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasily Suvorov",
+      "datetime": 1502537019,
+      "text": "ping"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8741",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502537022,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8742",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Petyukh",
+      "datetime": 1502554710,
+      "text": "тут кто-то сейчас есть?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8743",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502557007,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8744",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502557051,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"mykmykpet\" class=\"mention\"\u003e@mykmykpet\u003c/span\u003e ага есть"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8745",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1502560514,
+      "text": "Всем ранним привет!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8746",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502564683,
+      "text": "все, заблокировал кекса в коментариях по подозрению в том, что он хорошо написанный бот :) но я его предупреждал"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8747",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502564755,
+      "text": "news!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8748",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502564756,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.theverge.com/circuitbreaker/2017/8/10/16125294/microsoft-surface-consumer-reports-hardware-freezing-shutdowns-problems\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eConsumer Reports stops recommending Microsoft Surface PCs over reliability concerns\u003c/a\u003e 2017-08-11\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.engadget.com/2017/08/10/microsoft-surface-reliability-consumer-reports/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eMicrosoft claims Surface reliability isn\u0026#39;t really that bad\u003c/a\u003e 2017-08-11\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eNew – AWS SAM Local (Beta) – Build and Test Serverless Applications Locally | Amazon Web Services\u003c/a\u003e 2017-08-11\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://betanews.com/2017/08/09/addressing-five-common-myths-about-cloud-security/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAddressing five common myths about cloud security\u003c/a\u003e 2017-08-11\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.themartec.com/insidelook/full-stack-developer-myth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eThe Myth of the Full Stack Developer…\u003c/a\u003e 2017-08-11\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8749",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502564763,
+      "text": "темы пользователей!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f874a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502564764,
+      "text": "\u003cstrong\u003ertnumber-bot 💬\u003c/strong\u003e  \u003cstrong\u003eТемы слушателей:\u003c/strong\u003e\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003e[+16]\u003c/strong\u003e Atom начали переписывать на C++. \u003ca href=\"http://blog.atom.io/2017/08/08/atom-1-19.html#improved-responsiveness-and-memory-usage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://blog.atom.io/2017/08/08/atom-1-19.html#improved-responsiveness-and-memory-usage\u003c/a\u003e Если серьёзно, то молодцы, что взялись за скорость.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+11]\u003c/strong\u003e Яндекс и Сбербанк создают совместное предприятие на базе \u0026#34;Яндекс.Маркета\u0026#34; - \u003ca href=\"https://ria.ru/economy/20170809/1500045720.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://ria.ru/economy/20170809/1500045720.html\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+10]\u003c/strong\u003e Интересно мнение Umputun по поводу contex в Golang и этой статьи:   \u003ca href=\"https://faiface.github.io/post/context-should-go-away-go2/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://faiface.github.io/post/context-should-go-away-go2/\u003c/a\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+10]\u003c/strong\u003e Вышла новая версия vs-code 1.15 \u003ca href=\"https://code.visualstudio.com/updates/v1_15\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://code.visualstudio.com/updates/v1_15\u003c/a\u003e п.с. Господи, какие-же у них жирные апдейты. Кстати, здорово, что хоть баг с появлением лишних пробелов пофиксили. И umputun пусть глянет, там его долгожданные workspaces появились.\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e[+9]\u003c/strong\u003e Куда занести денег чтоб больше не было часовых обсуждений крипто-\u0026#34;валют\u0026#34;?\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f874b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502564941,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e Бобук любит хорошо написанных ботов :worried:"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f874c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502565007,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e этот был пугающе хорош :) а с такими челеовечество должно разбираться жестоко и быстро, а то сам знаешь что будет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f874d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1502565064,
+      "text": "Спасибо курсу биткоина за новенький iPad Pro :) А посоветуйте интересных приложений для него и Apple Pencil?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f874e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502566226,
+      "text": "всем приветы"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f874f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502566288,
+      "text": "привет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8750",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502566290,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Доброго времени суток!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8751",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergii Velykodnyi",
+      "datetime": 1502567221,
+      "text": "hello world"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8752",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502567222,
+      "text": "\u003cstrong\u003ehello 💬\u003c/strong\u003e  Hello!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8753",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502567307,
+      "text": "треш какой-то, дайте унцы!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8754",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "oleksandrmaistrenko",
+      "datetime": 1502567513,
+      "text": "прешоу :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8755",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502567608,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"oleksandrmaistrenko\" class=\"mention\"\u003e@oleksandrmaistrenko\u003c/span\u003e где прошу? нет ничего музыка играет!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8756",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502567647,
+      "text": "че тут за попса играет я думал у умпутуна вкус получше будет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8757",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502567746,
+      "text": "Насчет Биткоинов  - помните Бобук говорил пару месяцев назад подождать до конца и июня и покупать. Бобук оказался прав."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8758",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502567813,
+      "text": "контейнеры, сексизм, и цветовая схема cmd... жырный выпуск будет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8759",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502567876,
+      "text": "оооеее"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f875a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502567884,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"holms\" class=\"mention\"\u003e@holms\u003c/span\u003e нормальная музыка имхо"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f875b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502567921,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e какая-то хрень перед той песней играла - прям шакира"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f875c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502567945,
+      "text": "в смысле \u0026#34;бобу оказался прав\u0026#34;? он всегда прав"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f875d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502567972,
+      "text": "скромный такой вааще"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f875e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "oleksandrmaistrenko",
+      "datetime": 1502567974,
+      "text": "ну вот и унца"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f875f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502568039,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e Тогда подскажи, как сейчас быть? Покупать биткоины или уже ждать падения?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8760",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568075,
+      "text": "ДИСКЛЕЙМЕР: я не знаю, и не даю советов по деньгам."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8761",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568089,
+      "text": "но думаю что после введения segwit курс еще вырастет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8762",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1502568124,
+      "text": "Всем чмоки в этом чате"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8763",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502568133,
+      "text": "буээ"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8764",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502568192,
+      "text": "люди спрашивают советов как распоряжаться своими деньгами... мдээ..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8765",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502568210,
+      "text": "уже 5 лет думаю что курс возрастет а он и растет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8766",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Slav-on",
+      "datetime": 1502568250,
+      "text": "Мои мысли когда кто-то верит что обогатиться на биткоинах: \u003ca href=\"https://smpda.com/wallpapers/240x320/animals/hi/052.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://smpda.com/wallpapers/240x320/animals/hi/052.jpg\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8767",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502568254,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e Учитывая весь мой предыдущий опыт, могу гарантированно обвалить  курс биткоина (достаточно мне его купить на все деньги). 100% результат на Долларе, евро и недвижимости в Москве )"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8768",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568263,
+      "text": "taime"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8769",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568264,
+      "text": "давай"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f876a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502568269,
+      "text": ")))))))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f876b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502568298,
+      "text": "Она говорила, что летом на природе ей нравится быть"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f876c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502568299,
+      "text": "... такая тема, кто на замене?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f876d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergii Velykodnyi",
+      "datetime": 1502568322,
+      "text": "Ксюша не отпрашивалась в прошлый раз"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f876e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502568323,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e он от продажи падает то"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f876f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502568363,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"holms\" class=\"mention\"\u003e@holms\u003c/span\u003e Это был сарказм. Мне дико не везет. Если я что-то покупаю - оно обваливается."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8770",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502568369,
+      "text": ")))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8771",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502568384,
+      "text": "почему это не унца (в айтбнс)?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8772",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502568416,
+      "text": "AdGuard блокирует чат-)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8773",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502568438,
+      "text": "Гости будут?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8774",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "apotapov",
+      "datetime": 1502568468,
+      "text": "Alexey?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8775",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502568484,
+      "text": "Зачем Бобук уйдёт и всё?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8776",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502568490,
+      "text": "bobuk уйдёт.."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8777",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568536,
+      "text": "чо, никто интернешнл не смотрит?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8778",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ivan Cheremisin",
+      "datetime": 1502568549,
+      "text": "Смотрит"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8779",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Den Lukash",
+      "datetime": 1502568552,
+      "text": "Куда сходить посмореть? ))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f877a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568560,
+      "text": "ура"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f877b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ivan Cheremisin",
+      "datetime": 1502568566,
+      "text": "через год ждем интренешнл в финале команды ботов"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f877c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568569,
+      "text": "пишите тут как третий раунд с ликвидами"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f877d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex Malozemov",
+      "datetime": 1502568575,
+      "text": "Как кто относится к Vue.js?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f877e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502568598,
+      "text": "Одно и тоже же-))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f877f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502568609,
+      "text": "Я использовать начал, доволен."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8780",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502568625,
+      "text": "выбирал между реактор анугляром и вью для дом проекта - выбрал вью"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8781",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502568633,
+      "text": "558"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8782",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502568647,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8783",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502568654,
+      "text": "он сказал поехали"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8784",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502568657,
+      "text": "\u003cstrong\u003edoit-bot 💬\u003c/strong\u003e  \u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e Do it!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8785",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502568657,
+      "text": "Cat"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8786",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex Malozemov",
+      "datetime": 1502568671,
+      "text": "нуу, ок думаю как минимум стоит попробовать."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8787",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502568734,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"rt-bot\" class=\"mention\"\u003e@rt-bot\u003c/span\u003e wat?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8788",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "neurohunter",
+      "datetime": 1502568744,
+      "text": "Блин - только подключился к трансляции, а там сразу же реклама"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8789",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502568746,
+      "text": "ЛИКВИДЗ ЛИКВИДЗ ЛИКВИДЗ!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f878a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502568785,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"resvel\" class=\"mention\"\u003e@resvel\u003c/span\u003e плюс в том что это просто html и js без всяких новых сущностей вроде jsx"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f878b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502568815,
+      "text": "во вью можно подключить jsx"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f878c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502568823,
+      "text": "зачем?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f878d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502568834,
+      "text": "хз :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f878e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502568839,
+      "text": "==\u0026gt; Consumer Reports stops recommending Microsoft Surface PCs over reliability concerns - \u003ca href=\"https://www.theverge.com/circuitbreaker/2017/8/10/16125294/microsoft-surface-consumer-reports-hardware-freezing-shutdowns-problems\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.theverge.com/circuitbreaker/2017/8/10/16125294/microsoft-surface-consumer-reports-hardware-freezing-shutdowns-problems\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f878f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502568840,
+      "text": "ну вот и я о том же"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8790",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502568857,
+      "text": "ну вдруг, кому-то хочется"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8791",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502568864,
+      "text": "с опытом из реакта, например :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8792",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502568881,
+      "text": "пусть сидят на реакте"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8793",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502568882,
+      "text": "многим, вот pug, нравится"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8794",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569020,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e, соблюдаешь ли ты вот эту рекомендацию? \u003ca href=\"https://www.python.org/dev/peps/pep-0008/#maximum-line-length\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.python.org/dev/peps/pep-0008/#maximum-line-length\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8795",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502569022,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Code should be written in a way that does not disadvantage otherimplementations of Python (PyPy, Jython, IronPython, Cython, Psyco,and such). For example, do not rely on CPython\u0026#39;s efficient implementation ofin-place string concatenation for statements in the form a += bor a = a + b. This ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003ePEP 8 -- Style Guide for Python Code | Python.org\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8796",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569056,
+      "text": "singleton11\u0026gt; нет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8797",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569074,
+      "text": "а сколько у тебя длина строки?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8798",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569083,
+      "text": "135"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8799",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569095,
+      "text": "ого :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f879a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502569129,
+      "text": "==\u0026gt; Microsoft claims Surface reliability isn\u0026#39;t really that bad - \u003ca href=\"https://www.engadget.com/2017/08/10/microsoft-surface-reliability-consumer-reports/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.engadget.com/2017/08/10/microsoft-surface-reliability-consumer-reports/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f879b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569153,
+      "text": "это в спокойном состоянии. а если потеребить - больше"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f879c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1502569177,
+      "text": "Оо"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f879d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502569184,
+      "text": "Тыкать пальцами в экран - плохо. Потом все заляпано ("
+    },
+    {
+      "id": "65d60cedf275c9f2d53f879e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502569185,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  )\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f879f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502569197,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e +"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569321,
+      "text": "чо там? как ликвидны?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1502569322,
+      "text": "Surface book pro это лажа."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569352,
+      "text": "ликвиды. долбанная автозамена"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502569421,
+      "text": "неликвиды"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502569434,
+      "text": "==\u0026gt; New – AWS SAM Local (Beta) – Build and Test Serverless Applications Locally | Amazon Web Services - \u003ca href=\"https://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/blogs/aws/new-aws-sam-local-beta-build-and-test-serverless-applications-locally/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anatoly",
+      "datetime": 1502569545,
+      "text": "43er   ]]]]0"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502569545,
+      "text": "это для тех кому не хватило ))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569556,
+      "text": "блин"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569559,
+      "text": "не рассказывает никто"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87a9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569566,
+      "text": "ну и ладно, пойду включу трансляцию"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87aa",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1502569677,
+      "text": "а как локально тестировать dynamodb?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ab",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1502569701,
+      "text": "кто какие либы использует для html5 ?  createjs.com хорош?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ac",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502569749,
+      "text": "вим под андроид, балин"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ad",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1502569850,
+      "text": "белкорез \u003ca href=\"https://archive.is/u1UZ7/f24d1c50e47f3df200f950f7e7d9a48eb3b91864/scr.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://archive.is/u1UZ7/f24d1c50e47f3df200f950f7e7d9a48eb3b91864/scr.png\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ae",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Karpovich",
+      "datetime": 1502569852,
+      "text": "Директор Microsoft отговорит вас от ажура"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87af",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502569854,
+      "text": "AWS SAM Local и инстанс колом"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Tolkach",
+      "datetime": 1502569866,
+      "text": "бобука уволят из майкрософта"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502569875,
+      "text": "давно пора"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Karpovich",
+      "datetime": 1502569897,
+      "text": "вспомнил что там работает))))))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Tolkach",
+      "datetime": 1502569901,
+      "text": "а не, исправляется"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrey Zabara",
+      "datetime": 1502569906,
+      "text": "\u003cblockquote\u003e\nSurface book pro это лажа.\u003cbr/\u003eПочему, в чем проблемы (не считая окон конечно)\u003c/blockquote\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569910,
+      "text": "я ж не работаю там"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569915,
+      "text": "а как же google app engine?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569916,
+      "text": "но мне нравится ход ваших мыслей"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569937,
+      "text": "мне кажется, что ажур не №2, а №3, не?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87b9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569942,
+      "text": "нет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ba",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569947,
+      "text": "аппенджин существенно меньше"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87bb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569957,
+      "text": "там же кубернетис"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87bc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569960,
+      "text": "только не аппенджин. компьютенжин"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87bd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502569963,
+      "text": "да всем пофиг"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87be",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502569973,
+      "text": "\u003cblockquote\u003e\nтолько не аппенджин. компьютенжин точно, да\u003c/blockquote\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87bf",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502570011,
+      "text": "эйжуром .нет чуваки в основном пользуются"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1502570032,
+      "text": "все клауды - фигня\u003cbr/\u003eнет клауда - нет проблем"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502570048,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"singleton11\" class=\"mention\"\u003e@singleton11\u003c/span\u003e У меня Linux сервера там.. Бесплатно на 3 года дали ))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502570069,
+      "text": "Вот и мне казалось что ажур с гуглом наравне"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502570086,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e тут вопрос в том, что венду на эйжуре проще запускать"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502570106,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"singleton11\" class=\"mention\"\u003e@singleton11\u003c/span\u003e да. но дорого"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton",
+      "datetime": 1502570113,
+      "text": "хотя, в авсе тоже венду можно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1502570193,
+      "text": "И аккуратно ни слова о дибильных законах..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502570211,
+      "text": "да законы тут непричем же"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1502570234,
+      "text": "От вируса под Mac спасает только переустановка ОС \u003ca href=\"http://safe.cnews.ru/news/top/2017-08-11_ot_vredonosnogo_po_mughthesec_mozhno_spastis\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://safe.cnews.ru/news/top/2017-08-11_ot_vredonosnogo_po_mughthesec_mozhno_spastis\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87c9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502570238,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Атака Mughthesec В Сети распространяется новое вредоносное ПО под названием Mughthesec, перед которым уязвимы все устройства под управлением macOS. Mughthesec является усовершенствованной версией давно известного вируса OperatorMac. Такого мнения, в частности, придерживается исследователь ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eОт вируса под Mac спасает только переустановка ОС - CNews\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ca",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Semior001",
+      "datetime": 1502570259,
+      "text": "варю я тут кофе, и пока слушаю, у меня сливки убежали =(("
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87cb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502570260,
+      "text": "\u003cstrong\u003ebrackets-bot 💬\u003c/strong\u003e  ))\u003cbr/\u003eЗакрывай скобки, \u003cspan data-link-type=\"mention\" data-screen-name=\"Semior001\" class=\"mention\"\u003e@Semior001\u003c/span\u003e !!!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87cc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502570280,
+      "text": "Что нового можно сказать про Умпутуна, он как не шарил в .NET так и не шарит."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87cd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502570308,
+      "text": "Ради него Вы уйдёте?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ce",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502570459,
+      "text": "школоло, и тишина..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87cf",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502570502,
+      "text": "да темы каки-то..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ivan Cheremisin",
+      "datetime": 1502570530,
+      "text": "ждал эту тему про интеллекет)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502570593,
+      "text": "дай томненько. зачитай манифест"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502570601,
+      "text": "\u003ca href=\"http://cdn-assets.tcelectronic.com/ImageGen.ashx?image=/media/646305/c300-half-front-2.png\u0026amp;Constrain=True\u0026amp;width=630\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://cdn-assets.tcelectronic.com/ImageGen.ashx?image=/media/646305/c300-half-front-2.png\u0026amp;Constrain=True\u0026amp;width=630\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502570615,
+      "text": "==\u0026gt; Context should go away for Go 2 — faiface blog - \u003ca href=\"https://faiface.github.io/post/context-should-go-away-go2/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://faiface.github.io/post/context-should-go-away-go2/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502570625,
+      "text": "ksenks +1"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502570626,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e увеличена (текущее значение: 10)."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1502570630,
+      "text": "тест Bendera-Umputuna"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502570641,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bubuger\" class=\"mention\"\u003e@bubuger\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502570642,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"bubuger\" class=\"mention\"\u003e@bubuger\u003c/span\u003e увеличена (текущее значение: 3)."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87d9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502570662,
+      "text": "НО НО! Umputuna-Bendera !"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87da",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502570686,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e по алфавиту же"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87db",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502570716,
+      "text": "По весомости вклада!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87dc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "neurohunter",
+      "datetime": 1502570880,
+      "text": "Кстати, проблема в том, что она не будет первой, если есть треки, начинающиеся с цифры"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87dd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502570887,
+      "text": "==\u0026gt; A silent, 10-minute song is climbing the iTunes charts - \u003ca href=\"https://www.engadget.com/2017/08/10/silent-10-minute-song-itunes-car-stereo-trick/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.engadget.com/2017/08/10/silent-10-minute-song-itunes-car-stereo-trick/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87de",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502570926,
+      "text": "Таки сейчас нам ведущие докажут, что в случае Apple - это фича"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87df",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502570946,
+      "text": "+1 у меня тоже! ))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Karpovich",
+      "datetime": 1502570968,
+      "text": "U2"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502570981,
+      "text": "это клиника. унесенные ветром.... технологии говорили они..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502571161,
+      "text": "\u003ca href=\"https://www.cnet.com/au/how-to/out-of-space-on-your-iphone-try-this-magic-trick-to-free-up-more/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.cnet.com/au/how-to/out-of-space-on-your-iphone-try-this-magic-trick-to-free-up-more/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502571163,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  It seems like iPhone storage is always at a premium, especially if you have an entry-level model with just 16GB -- an economic necessity for many an iPhone owner. It\u0026#39;s the rare person who doesn\u0026#39;t know the pain of trying to download a new app or snap a few more photos and seeing the dreaded \u0026#34;not ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eThis weird trick can free up gigabytes of space on your iPhone - CNET\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502571206,
+      "text": "==\u0026gt; Context should go away for Go 2 — faiface blog - \u003ca href=\"https://faiface.github.io/post/context-should-go-away-go2/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://faiface.github.io/post/context-should-go-away-go2/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrey Zabara",
+      "datetime": 1502571276,
+      "text": "Господа, если вас не затруднит, объясните мне пожалуйста момент на счет iPhone (сам далек от тех тонкостей мобильных устройств) - почему iPhone не греется? (или может он греется, но может хорошая теплоотдача.. но почему не греется в руке… или он тоже греется при нагрузке как и остальные ведроида)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "neurohunter",
+      "datetime": 1502571305,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"chrom\" class=\"mention\"\u003e@chrom\u003c/span\u003e греется. Особенно если играть долго/4К видео снимать"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vladimir Karpovich",
+      "datetime": 1502571311,
+      "text": "Как не греется? ТЫ поиграй на нем"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502571323,
+      "text": "a roadmap for Go 2.0 \u003ca href=\"https://i.redd.it/mw5yyyows5fz.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://i.redd.it/mw5yyyows5fz.png\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87e9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502571325,
+      "text": "ААААааааааААААА!!!!!!!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ea",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrey Zabara",
+      "datetime": 1502571328,
+      "text": "я не обладатель.. по этому и спашиваю"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87eb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502571335,
+      "text": "GG for Team Liquid!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ec",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502571388,
+      "text": "фух"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ed",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502571390,
+      "text": "я рад"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ee",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "neurohunter",
+      "datetime": 1502571393,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"chrom\" class=\"mention\"\u003e@chrom\u003c/span\u003e он иногда (в жару / на солнце) еще и ПЕРЕгревается и выключается"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ef",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502571397,
+      "text": "теперь можно убегать из эфира )"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Den Lukash",
+      "datetime": 1502571416,
+      "text": "Было бы круто сбавить уромень ГИКОВОСТИ ;)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry",
+      "datetime": 1502571486,
+      "text": "Подождите контексты это типо как with в питоне ?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571502,
+      "text": "до стандартного контекста для graceful shutdown изобретали свои “контексты\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502571514,
+      "text": "Как в js, никакого прерывания)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502571525,
+      "text": "\u003ca href=\"https://i.redd.it/7t1p88ct13ez.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://i.redd.it/7t1p88ct13ez.jpg\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1502571530,
+      "text": "чуваки, я пошел из чата. Но буду стараться учавствовать из машины"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502571542,
+      "text": "А в. Net передаётся cancelation token"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex Malozemov",
+      "datetime": 1502571620,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502571621,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87f9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1502571627,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87fa",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502571628,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e увеличена (текущее значение: 2)."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87fb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1502571640,
+      "text": "try/catch - нет уж, лучше убейте"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87fc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502571652,
+      "text": "та го2 не быть, как и перл6 )"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87fd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571657,
+      "text": "пайк сильно рассказыл, что не будет адресуемых гороутин"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87fe",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502571682,
+      "text": "Лол в С# 1.0 был yield break"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f87ff",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571715,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"found10f_twitter\" class=\"mention\"\u003e@found10f_twitter\u003c/span\u003e да, C# это lol"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8800",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502571775,
+      "text": "В С# уже все было, когда Умпутун еще под стол ходил :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8801",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mansiper",
+      "datetime": 1502571779,
+      "text": "Почему был?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8802",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571839,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"found10f_twitter\" class=\"mention\"\u003e@found10f_twitter\u003c/span\u003e ты лучше расскажи куда этот C# запрягать, и как следствие кому он нужен?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8803",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502571857,
+      "text": "Да почти куда угодно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8804",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502571921,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e а куда нельзя?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8805",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502571950,
+      "text": "А куда сессию пихаешь \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8806",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571965,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"akleandrov\" class=\"mention\"\u003e@akleandrov\u003c/span\u003e ни один адекватный человек не потащит шарп на линукс"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8807",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502571986,
+      "text": "WAT^!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8808",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571992,
+      "text": "ну окошки порисовать ок"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8809",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502571995,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e почему?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f880a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502571999,
+      "text": "юнити еще ок"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f880b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572009,
+      "text": ".NET Core, не?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f880c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502572019,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"4sily_twitter\" class=\"mention\"\u003e@4sily_twitter\u003c/span\u003e да потому что он там ни в красную армию не уперся никому"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f880d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502572021,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e net core в проде уже норм работает"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f880e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572040,
+      "text": "Даже на JVM его можно было компилировать, пока где-то пол года назад создатель IKVM не сказал что он устал от мудаков которые рулят джавой и хотят ввести могдули. Как услышал про модули в Джаве сказал что забивает на проект."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f880f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572053,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e это аргумент из серии \u0026#34;мне это не интересно, а значит, не интересно никому\u0026#34; :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8810",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502572093,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"4sily_twitter\" class=\"mention\"\u003e@4sily_twitter\u003c/span\u003e реальность меня не будет слушать"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8811",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502572121,
+      "text": "в реальности шарп остался винд-онли"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8812",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502572126,
+      "text": "Бобук с орбиты Земли вещает"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8813",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572127,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"akleandrov\" class=\"mention\"\u003e@akleandrov\u003c/span\u003e более того, ASP.NET core очень неплох по производительности. Другой вопрос, что .NET core пока является огрызком основного фреймворка - да. Но допиливают довольно шустро."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8814",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502572135,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e из троллейбуса"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8815",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572144,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e в вашей реальности - возможно ;)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8816",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Bystritskiy",
+      "datetime": 1502572145,
+      "text": "Бобук из 90х вещает"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8817",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1502572148,
+      "text": "бобук хуже гостя стал"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8818",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572152,
+      "text": "а \u0026#34;жава тормозит\u0026#34; ;)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8819",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502572160,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"4sily_twitter\" class=\"mention\"\u003e@4sily_twitter\u003c/span\u003e именно так"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f881a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572180,
+      "text": "Умпутун куда сессию правильно пихать?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f881b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502572181,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"4sily_twitter\" class=\"mention\"\u003e@4sily_twitter\u003c/span\u003e я в курсе, мы используем"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f881c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572236,
+      "text": "Уже есть .NET Standard"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f881d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502572245,
+      "text": "Ой, оказывается не только моя реальность говорит, что дотнет не катит :)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f881e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572257,
+      "text": "Уже даже до версии 2.0 в драфте дошел"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f881f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502572258,
+      "text": "Да, осенью standart 2.0"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8820",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572266,
+      "text": "Вопрос в том, для чего именно не катит?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8821",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572274,
+      "text": "В моей реальности всё, что не C++, не катит ;)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8822",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502572276,
+      "text": "И можно везде таргет ставить"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8823",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502572307,
+      "text": "Бобука слышно словно лётчика)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8824",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1502572319,
+      "text": "=) 99₵"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8825",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1502572340,
+      "text": "прекрасно как из..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8826",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572340,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"LIAHUNDR_twitter\" class=\"mention\"\u003e@LIAHUNDR_twitter\u003c/span\u003e \u0026#34;Коля жми, а я накрою, Ваня бей, а я прикрою\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8827",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502572343,
+      "text": "Пусть Бобук скажет \u0026#34;Поехали!\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8828",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502572355,
+      "text": "ахаххах"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8829",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502572366,
+      "text": "точно.. слышно, как Гагарина _"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f882a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502572378,
+      "text": "беха уже не торт"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f882b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502572387,
+      "text": "==\u0026gt; Why I\u0026#39;m not a fan of pair programming - \u003ca href=\"https://dev.to/mortoray/why-im-not-a-fan-of-pair-programming\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://dev.to/mortoray/why-im-not-a-fan-of-pair-programming\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f882c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502572402,
+      "text": "Ура!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f882d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1502572403,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e чо ета?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f882e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572410,
+      "text": "На парное только ленивый не наезжал"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f882f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502572417,
+      "text": "Парно программировать лучше с девушкой, и лучше не программировать"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8830",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502572429,
+      "text": "трёхколёсное программирование"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8831",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502572439,
+      "text": "\u0026#34;Синхронное программирование\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8832",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502572440,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"screed\" class=\"mention\"\u003e@screed\u003c/span\u003e спакуха бро. тут все свои ;)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8833",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572465,
+      "text": "ого"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8834",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572469,
+      "text": "))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8835",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572475,
+      "text": "шо за 18+"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8836",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572479,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e трёхкостыльное тогда уж"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8837",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572483,
+      "text": "Бобук ушел в сексистскую степь"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8838",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502572484,
+      "text": "Скурпулёзненько)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8839",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502572486,
+      "text": "БДСМ-программирование"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f883a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1502572489,
+      "text": "и hight sierra =)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f883b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1502572499,
+      "text": "Ксюша очень взрослая. Старая, что ли?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f883c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "LIAHUNDR",
+      "datetime": 1502572500,
+      "text": "Лучше стало слышно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f883d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502572544,
+      "text": "слиться в сенергии"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f883e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502572563,
+      "text": "... слить посильно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f883f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502572665,
+      "text": "когда этим занимаешься вдвоем, то качество несомненно совсем другое"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8840",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572752,
+      "text": "доминантное программирование"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8841",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "screed",
+      "datetime": 1502572803,
+      "text": "нет ничего зазорного чтобы в этом признаться"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8842",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502572853,
+      "text": "Человек привыкает ко всему со временем."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8843",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572856,
+      "text": "а как же мемасики смотреть, если рядом сидит коллега"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8844",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572866,
+      "text": "не я не согласен"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8845",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "neurohunter",
+      "datetime": 1502572874,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"gangstaJS\" class=\"mention\"\u003e@gangstaJS\u003c/span\u003e на третьем мониторе"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8846",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502572891,
+      "text": "я один слушаю, представив, что речь идет о сексе? )"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8847",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572964,
+      "text": "иногда подойдешь к коллеге постоишь рядом и это помогает ему баг пофиксить"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8848",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502572985,
+      "text": "и наоборот"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8849",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vasiliy Galkin",
+      "datetime": 1502572991,
+      "text": "Ещё хорошо вместе ловить странный баг - человек, сидящий рядом, может вывести тебя из \u0026#34;замкнутого круга\u0026#34;."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f884a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502573138,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e и никогда нет желание вживую обсудить?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f884b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573233,
+      "text": "+"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f884c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502573236,
+      "text": "50 оттенков программирования"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f884d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mark Bulatenko",
+      "datetime": 1502573248,
+      "text": "В какой-то момент ты будешь ставить пробелы, а твой дружок будет менять их на табы. Будет очень весело."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f884e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502573258,
+      "text": "беспорядочные связи это не ок"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f884f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573271,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bulatenkom\" class=\"mention\"\u003e@bulatenkom\u003c/span\u003e ай молодца"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8850",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502573289,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bulatenkom\" class=\"mention\"\u003e@bulatenkom\u003c/span\u003e надо подбирать партнера нормального - с табами..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8851",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502573290,
+      "text": "или пробелами)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8852",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502573314,
+      "text": "а если он начнет ставить пробел после if, удушу падлу"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8853",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502573328,
+      "text": "кстати  о книжках поделитесь кто сейчас что читает"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8854",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502573350,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e это смотря что тебе интересно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8855",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502573367,
+      "text": "никто не может заменить Умпутуна!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8856",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573384,
+      "text": "\u0026#34;заменить Умпутуна\u0026#34; - пффф"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8857",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502573384,
+      "text": "я вообще не связанное с программированием. выбираю что почитать просто может что интересное будет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8858",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502573573,
+      "text": "Умпутун же девочку питону учил. Хороший он преподаватель. Чего вы"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8859",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Tolkach",
+      "datetime": 1502573599,
+      "text": "99"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f885a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502573601,
+      "text": "В армии поэтому требуют чтоб человек дословно повторял приказ!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f885b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502573605,
+      "text": "Когда хорошо объясняют - тебе кажется все понятным. Поэтому Умпутун скорее хорошо объясняет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f885c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573616,
+      "text": "питону? освоить питона"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f885d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502573686,
+      "text": "==\u0026gt; Google Diversity Memo - \u003ca href=\"https://diversitymemo.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://diversitymemo.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f885e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573694,
+      "text": "Могу рассказать вам отличную шутку про UDP, но боюсь она до вас ..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f885f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1502573699,
+      "text": "goolag"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8860",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502573701,
+      "text": "если рекурсивная функция то из середины не надо"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8861",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502573779,
+      "text": "Нормально литературно он пишет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8862",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502573824,
+      "text": "Он в суд подал на Гугл, удачи ему"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8863",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573867,
+      "text": "+"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8864",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573920,
+      "text": "гендер ненадежен"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8865",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502573930,
+      "text": "я ему не доверяю"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8866",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502573958,
+      "text": "VP целый наехал"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8867",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574004,
+      "text": "все специалисты психи ненормальные"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8868",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502574082,
+      "text": "пацан - перец"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8869",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502574179,
+      "text": "в ёгурте не хватает ёгурта"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f886a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574213,
+      "text": "мне кажется сейчас невозможно опубликовать работу, противоречащую \u0026#34;глобальной политике\u0026#34;."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f886b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502574239,
+      "text": "кахайтесь, макаронни"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f886c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574276,
+      "text": "diversity это чистый социализм и ничего более"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f886d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Maksimenko",
+      "datetime": 1502574286,
+      "text": "второй рекламы не будет?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f886e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574303,
+      "text": "надо брать девочек, потому что леваки наезжают - вот и вся позиция"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f886f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574311,
+      "text": "вроде того."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8870",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502574404,
+      "text": "причем, выдавила именно индейцев"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8871",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502574406,
+      "text": "читер она"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8872",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502574581,
+      "text": "В радио-Т, тоже квоты на женщин. 1 место"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8873",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574598,
+      "text": "по понятным причинам же"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8874",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vvnazarov",
+      "datetime": 1502574598,
+      "text": "ой, аКсюша несколько минут назад сказала, что есть научные исследования, которые отвергают биологическую разницу полов?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8875",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502574616,
+      "text": "Как сказал Карлин \u0026#34;земля в порядке - это нам п**дец\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8876",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574636,
+      "text": "про climat change разница в том, что одни считают что это влияние человека, а другие считают что это скорее часть глобального цикла"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8877",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502574652,
+      "text": "Ксюша, есть ли квоты на девушек в фейсбуке? для них планка ниже? проще задачки задают?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8878",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574672,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"maks-a\" class=\"mention\"\u003e@maks-a\u003c/span\u003e ксюша это отрицает"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8879",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502574805,
+      "text": "сам факт наличия спец курсов программирования только для девочек - это и есть дискриминация. сами девочки этого не понимают что ли?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f887a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502574860,
+      "text": "вы мне еще за задний привод ответите"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f887b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574865,
+      "text": "проблема в насильном насаждении diversity. типа \u0026#34;у нас плозая статистика, давайте возьмем 10 женщин и 10 черных\u0026#34;. а потом выясняется что работает за них тот же белый инженер."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f887c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502574877,
+      "text": "в фейсбуке есть \u0026#34;интервью от реферала из фб\u0026#34;? это же тоже приоритетная очередь, тоже дискриминация. почему никто не возмущается?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f887d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574909,
+      "text": "что делать если не идут девочки-программистки работать? есть какая-то книга/курсы? как заманить девочку-программиста."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f887e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574920,
+      "text": "никак"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f887f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502574948,
+      "text": "а зачем заманивать? ну не идут ну и пусть"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8880",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574948,
+      "text": "девочки идут на филологию, потом не могут найти работу, а виноваты конечно белые цисгендерные мужики"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8881",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502574957,
+      "text": "ну сделали курсы для девочек. потом они прошли те же интервью что и мальчики. планка та же. квалификация на высоте. в чем проблема?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8882",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502574959,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e а как же diversity?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8883",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502574964,
+      "text": "а как там дела с геями обстаят в IT?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8884",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502574988,
+      "text": "с геями не знаю, а пид*расов полно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8885",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502574994,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e оно законодательно обязательно?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8886",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575003,
+      "text": "проблемы?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8887",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575030,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e пока нет, но чувствую скоро будут гнобить за это."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8888",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Shapovalenko",
+      "datetime": 1502575072,
+      "text": "всех девочек на фронтенд"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8889",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502575073,
+      "text": "я русский в американской кампании, никаких преференций ни разу не видел"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f888a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575081,
+      "text": "Оксфордский акцент."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f888b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575087,
+      "text": "нанимает в Делл я сам нанималлл"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f888c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575111,
+      "text": "мне говорили брать на работу людей из diversity с меньшими требованиями"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f888d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502575113,
+      "text": "vinsentru и ксюше плюс. квот нет."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f888e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502575120,
+      "text": "вот разнарядки быть не должно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f888f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575124,
+      "text": "я б тем у кого проблемы, психолога за бенифит выписывал бы"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8890",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575125,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e думаю нет."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8891",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575143,
+      "text": "КСЮША Я ТАК И ДЕЛАЛ"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8892",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575145,
+      "text": "Квотирование, и голливуде есть уже давно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8893",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575160,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e уже всякие местные \u0026#34;комьюнити\u0026#34; начали задавать вопросы. как у вас дела с diversity?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8894",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575162,
+      "text": "оно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8895",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502575164,
+      "text": "каким боком голливуд к IT-компаниям?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8896",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1502575185,
+      "text": "кандитат или кандидатка? а?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8897",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575187,
+      "text": "\u0026#34;К нам придет diversity member - пожалуйста по лечше с техническими деталями с этим member\u0026#39;ом"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8898",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575193,
+      "text": "надо вынести ваще людей за скобки"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8899",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575203,
+      "text": "что б страдали..."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f889a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575208,
+      "text": "и в команде такой человек только проблемы нес"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f889b",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575221,
+      "text": "поддерживаю \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f889c",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575222,
+      "text": "Вот наняли N белых и осталось нанять M другого цвета. Ты приходишь и тебе говорят, все иди досвидания, белая квота вычерпана. И все. Это нормально?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f889d",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575226,
+      "text": "зря уволили"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f889e",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vinsentru",
+      "datetime": 1502575240,
+      "text": "Ксюша этого не видит, потому что проводит технические интервью, а решение взять черного или женщину происходит уровнем выше"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f889f",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575242,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e это называется \u0026#34;говорить правду\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgen",
+      "datetime": 1502575243,
+      "text": "кря кря"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502575246,
+      "text": "злословие"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575247,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e не знаю я сейчас в новой компании и есть девочки программисты. а о наличии какой-то обязаловки по их найму не знаю"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502575247,
+      "text": "Если из-за дайверсити у тебя положительное предубеждение к индейцам - то это орде дайверсити"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502575284,
+      "text": "Рекурсия"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575303,
+      "text": "в Ирландии закон даже есть что бы корпорации держали определенное к-во  членов diversity  иначе штрафы епта"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502575348,
+      "text": "==\u0026gt; The Myth of the Full Stack Developer… - \u003ca href=\"https://www.themartec.com/insidelook/full-stack-developer-myth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.themartec.com/insidelook/full-stack-developer-myth\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575362,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e это не законодательная штука, просто такой \u0026#34;самоконтроль\u0026#34;."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey",
+      "datetime": 1502575370,
+      "text": "Вот вам дайвёрсити \u003ca href=\"https://pikabu.ru/story/universalnaya_zaryadka_dlya_noutbuka_5259558\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://pikabu.ru/story/universalnaya_zaryadka_dlya_noutbuka_5259558\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88a9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575378,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_vpol__twitter\" class=\"mention\"\u003e@_vpol__twitter\u003c/span\u003e контроль чего?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88aa",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502575388,
+      "text": "kostya, нет квот. у всех одна и та же планка. не прошел - до свидания, приходи через год. прошел - молодец. мало девочек проходит планку? пусть рекрутеры ищут больше девочек на вход этого процесса. давайте делать классы и школы программирования для девочек, поднимать их уровень. через время на вход этой системы будет приходить больше девочек с более высокой квалификацией. на выходе будет больше процент девочек. цель дайверсити достигнута. ура! нет квот."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ab",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502575422,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"maks-a\" class=\"mention\"\u003e@maks-a\u003c/span\u003e делать классы специально для девочек - это дайверсити!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ac",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575424,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e \u0026#34;кого мы нанимаем и почему.\u0026#34;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ad",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575449,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"maks-a\" class=\"mention\"\u003e@maks-a\u003c/span\u003e Да есть квоты. Я про Голливуд писал."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ae",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Roman Gorodeckij",
+      "datetime": 1502575471,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"maks-a\" class=\"mention\"\u003e@maks-a\u003c/span\u003e в Dell inc. тоже есть квоты  я сам дебилов принимал"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88af",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575512,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"maks-a\" class=\"mention\"\u003e@maks-a\u003c/span\u003e Просто все идет к тому что и в ИТ могут появится скоро."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575522,
+      "text": "How about \u0026#34;a lot of blue\u0026#34; in windows console?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maks",
+      "datetime": 1502575537,
+      "text": "kostya, когда в IT появится, тогда и поговорим."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1502575585,
+      "text": "\u003ca href=\"https://learnxinyminutes.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://learnxinyminutes.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502575587,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Languages Translations asciidoc de-de   id-id   pt-br   awk bf es-es   fa-ir   fr-fr   it-it   ko-kr   nl-nl   pl-pl   pt-br   ro-ro   ru-ru   tr-tr   zh-cn   c es-es   pt-br   ru-ru   tr-tr   zh-cn   c# de-de   es-es   fr-fr   pt-br   tr-tr   zh-cn   c++ es-es   fr-fr   it-it   pt-br   ru-ru   ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eLearn X in Y Minutes: Scenic Programming Language Tours\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575588,
+      "text": "подождите, о каком уровне SQL программиста мы говорим?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575627,
+      "text": "80% людей использующих SQL базы никогда ничего не оптимизировали и в основном ограничиваются ANSI-SQL."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575628,
+      "text": "да и будут эти девочки программировать всю жизнь а новое поколение государства мигранты будут рожать. чиновникам то это выгодно у них новые рабочие места по выдаче пособий. Если государства и насаждают диверсити законодательно, то движется это этим раздутым бюрократическим аппаратом."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mark Bulatenko",
+      "datetime": 1502575632,
+      "text": "уровня select * from lab_table;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575652,
+      "text": "Что лучше нанять 1фронтендер + 1 бэкендер или 2 фулстек девелоопера?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88b9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575700,
+      "text": "конечно первое"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ba",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575711,
+      "text": "fool stack juniloper"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88bb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575741,
+      "text": "ну раньше фронтенд был css+html+js сейчас же со всякими реактами это просто программирование типа зачем фронтендеры нужны то?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88bc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1502575776,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"found10f_twitter\" class=\"mention\"\u003e@found10f_twitter\u003c/span\u003e вместо 1 фронт+1 бэк+1 опс лучше 1 фул стэк. ;)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88bd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502575786,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e так, а react, angular и прочее - это как раз фронтенд"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88be",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575787,
+      "text": "у кого есть отдельный человек под названием верстальщик?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88bf",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575810,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e вот именно фронте для бекендеров."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575812,
+      "text": "верстальщик=фронтенд"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575819,
+      "text": "! верстальщик"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575831,
+      "text": "верстальщик = кодер!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502575851,
+      "text": "за три года во всех областях - это не Джуниор, это вредитель"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575852,
+      "text": "верстальщику положено молоко"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575852,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e когда бутстрап вышел это как раз помогло многим бекендерам стать фулстэк"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502575854,
+      "text": "верстальщик не подер, он шаблонщик в лучшем случае"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502575856,
+      "image_url": "https://files.gitter.im/radio-t/chat/doye/DD1quNvXsAAyCuE.jpg-large-_1_.jpg",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/doye/DD1quNvXsAAyCuE.jpg-large-_1_.jpeg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mark Bulatenko",
+      "datetime": 1502575874,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e ++"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88c9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502575875,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"eklementev\" class=\"mention\"\u003e@eklementev\u003c/span\u003e увеличена (текущее значение: 1)."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ca",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502575887,
+      "text": "сейчас бекендер может писать фронтенд не имея особых знаний о css"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88cb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502575904,
+      "text": "так и запишем - умпутун фул-стек!!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88cc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502575925,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"malamud\" class=\"mention\"\u003e@malamud\u003c/span\u003e У меня самая эффективная связка была: 1 прогер пишет  API + 1 прогер пишет клиент на react"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88cd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502575995,
+      "text": "+++"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ce",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576001,
+      "text": "Про потерянное время, очень точное ощущение! \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e +1"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88cf",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576009,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e +1"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1502576010,
+      "text": "\u003cstrong\u003ekarma-bot 💬\u003c/strong\u003e  Карма пользователя \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e увеличена (текущее значение: 6)."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kostya",
+      "datetime": 1502576026,
+      "text": "who cares?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tigerrrr",
+      "datetime": 1502576044,
+      "text": "\u003ca href=\"https://blog.additminds.com/content/images/2016/03/frontend.jpg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://blog.additminds.com/content/images/2016/03/frontend.jpg\u003c/a\u003e"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502576046,
+      "text": "а что там с портабельностью?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502576055,
+      "text": "в общем ждем webassembly"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576104,
+      "text": "atom? ^electron?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576231,
+      "text": "mail.ru напишет свой сщтеуче"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey",
+      "datetime": 1502576292,
+      "text": "Я конечно не придираюсь, но \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e а где реклама второго спонсора?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576294,
+      "text": "что стремено? о чем речь была?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88d9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576348,
+      "text": "верните грея!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88da",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey",
+      "datetime": 1502576349,
+      "text": "Этот голос круче мощщщного АПИ"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88db",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576365,
+      "text": "неее"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88dc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576481,
+      "text": "даёшь послешоууу!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88dd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vpol",
+      "datetime": 1502576485,
+      "text": "че там, будут дженерики в go 2.0?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88de",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576502,
+      "text": "докеров"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88df",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mark Bulatenko",
+      "datetime": 1502576502,
+      "text": "crypto"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Fominykh",
+      "datetime": 1502576524,
+      "text": "3800"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Tolkach",
+      "datetime": 1502576568,
+      "text": "обострения"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576568,
+      "text": "припадки"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey",
+      "datetime": 1502576594,
+      "text": "рецесив?)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576601,
+      "text": "огонь! дякуемо"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502576602,
+      "text": "Вот про net напомнили"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502576613,
+      "text": "Больше 4 легенда"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502576618,
+      "text": "Людей"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576642,
+      "text": "так шо там? неликвидов порвали?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88e9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502576668,
+      "text": "да кому нужен этот дот нет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ea",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576671,
+      "text": "скажи!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88eb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "malamud",
+      "datetime": 1502576686,
+      "text": "единственное что так крутое это F#"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ec",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mark Bulatenko",
+      "datetime": 1502576704,
+      "text": "бобук же есть"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ed",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Kleandrov",
+      "datetime": 1502576707,
+      "text": "Так и его так же можно для net core"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ee",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Tolkach",
+      "datetime": 1502576717,
+      "text": "у Ксюши  в очереди Kafka"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ef",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576718,
+      "text": "только девушки в дот нет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f0",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576731,
+      "text": "а Кафка потом"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f1",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576773,
+      "text": "заслужил!!!!"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f2",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey",
+      "datetime": 1502576774,
+      "text": "кафка уже не огонь, там Кинезис"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f3",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Eugeny Klementev",
+      "datetime": 1502576795,
+      "text": "всем пока, было интересно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f4",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dima Tolkach",
+      "datetime": 1502576821,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ASlivets\" class=\"mention\"\u003e@ASlivets\u003c/span\u003e а если я не в AWS?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f5",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576823,
+      "text": "посоветуйте медиаплеер для просмотра mkv из локальной сети"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f6",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502576853,
+      "text": "vlc?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f7",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576858,
+      "text": "железяку"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f8",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576863,
+      "text": "подключить к телевизору"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88f9",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502576877,
+      "text": "amazon fire TV stick может из локалки воспроизводить разные форматы?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88fa",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502576879,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e любую, что плекс умеет"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88fb",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgen Shevchenko",
+      "datetime": 1502576945,
+      "text": "Блин, у меня после окончания подкаста iTunes резко и голосно включает следующую станцию. Прям как айфон в машине))"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88fc",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502576946,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e если не хочется плекс сервер - то любую, что коди умеет."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88fd",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502576994,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e firetv stick может и плекс и коди и все что угодно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88fe",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502577035,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e говоришь за плекс заплатить можно?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f88ff",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502577066,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pubbin\" class=\"mention\"\u003e@pubbin\u003c/span\u003e за app? да"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8900",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502577068,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e  в локалке достаточно иметь samba ? (у меня жесткий диск к роутеру Asus подключен)"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8901",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502577084,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e  да, для коди достаточно"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8902",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pubbin",
+      "datetime": 1502577111,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e трям"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8903",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502577160,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e спасибо"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8904",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1502577245,
+      "text": "всем спасибо, всего доброго."
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8905",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Scott Lynn",
+      "datetime": 1502577399,
+      "text": "еще не залил подкаст ?"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8906",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502577419,
+      "text": "за 7 минут?\u0026gt;"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8907",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Scott Lynn",
+      "datetime": 1502577461,
+      "text": "во флориде за 1 сек заливается"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8908",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502577487,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"dogsy17_twitter\" class=\"mention\"\u003e@dogsy17_twitter\u003c/span\u003e наверное и за 2сек рендерится"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f8909",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1502577500,
+      "text": "но у меня тут другая скорость света"
+    },
+    {
+      "id": "65d60cedf275c9f2d53f890a",
+      "issue": 558,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Scott Lynn",
+      "datetime": 1502577552,
+      "text": "эх деревня щикахо"
+    }
+  ]
 }

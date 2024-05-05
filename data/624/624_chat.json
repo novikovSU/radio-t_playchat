@@ -1,3 +1,796 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d60bcecd92d958faaba7dc",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1542484565,
+      "text": "пинг"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7dd",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542484568,
+      "text": "\u003cem\u003eпонг\u003c/em\u003e"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7de",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542484595,
+      "text": "погода ODESA UA!"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7df",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542485149,
+      "text": "Голос тусовки низкий, Умпутуна высок, надо подкрутить чтото"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e0",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Tolstov",
+      "datetime": 1542485153,
+      "text": "Как-то Умпутуна слышно заметно громче, чем других"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e1",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1542485159,
+      "text": "можно прибавить бобука? умутун слишком громогласен на его фоне"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e2",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542485198,
+      "text": "Грей тихий остался"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e3",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Art",
+      "datetime": 1542485209,
+      "text": "это нормально ;D"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e4",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542485214,
+      "text": "ктото задонатил"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e5",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542485225,
+      "text": "всё теперь всё ОК"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e6",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Tolstov",
+      "datetime": 1542485237,
+      "text": "теперь нормально"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e7",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1542485340,
+      "text": "Давно подкаст начался?"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e8",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1542485360,
+      "text": "А то у меня с Москвой то ли два часа то ли час разницы."
+    },
+    {
+      "id": "65d60bcecd92d958faaba7e9",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1542485365,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"IhorBondartsov\" class=\"mention\"\u003e@IhorBondartsov\u003c/span\u003e примерно во вторник"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7ea",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542485375,
+      "text": "Подскаст ещё не начался, это разминка связок"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7eb",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542485390,
+      "text": "Полоскания горл"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7ec",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Valiev",
+      "datetime": 1542485499,
+      "text": "а тесла гарантирует что внутри бардачка нету гранаты и при открытии крышки чека не выдергивается?)"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7ed",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542485555,
+      "text": "Там механизм другой"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7ee",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542485568,
+      "text": "Открываешь, тебе разрешают в него потянуться"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7ef",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542485579,
+      "text": "Если граната там - могут не разрешить )"
+    },
+    {
+      "id": "65d60bcecd92d958faaba7f0",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542485678,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f1",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Konstantin",
+      "datetime": 1542485910,
+      "text": "News!"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f2",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542485911,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=49615\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eOpenNews: Время поддержки Ubuntu 18.04 увеличено до 10 лет\u003c/a\u003e 2018-11-16\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=49594\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eOpenNews: HTTP поверх протокола QUIC будет стандартизирован как HTTP/3 \u003c/a\u003e 2018-11-16\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.bloomberg.com/tosv2.html?vid=\u0026amp;uuid=141a5020-e49c-11e8-8b7a-cb9ae0cfd8f4\u0026amp;url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMS0wOS8ta2VlcC10YWxraW4tbGFycnktYW1hem9uLWlzLWNsb3NlLXRvLXRvc3Npbmctb3JhY2xlLXNvZnR3YXJl\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003e‘Keep Talkin’ Larry’: Amazon Is Close to Tossing Oracle Software\u003c/a\u003e 2018-11-09\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.itnews.com.au/news/amazon-and-oracle-in-database-drama-515447\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAmazon and Oracle in database drama\u003c/a\u003e 2018-11-14\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://aws.amazon.com/corretto/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eAmazon Corretto Production-ready distribution of OpenJDK\u003c/a\u003e 2018-11-14\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f3",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542485920,
+      "text": "==\u0026gt; OpenNews: Время поддержки Ubuntu 18.04 увеличено до 10 лет - \u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=49615\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://www.opennet.ru/opennews/art.shtml?num=49615\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f4",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1542486092,
+      "text": "steam от вальва уже перевели на 18.04 или до сих пор на 14"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f5",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1542486174,
+      "text": "флатпак педалировать надо, репозитории с пакетами устарели морально и аморально"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f6",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542486470,
+      "text": "==\u0026gt; OpenNews: HTTP поверх протокола QUIC будет стандартизирован как HTTP/3  - \u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=49594\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttp://www.opennet.ru/opennews/art.shtml?num=49594\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f7",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1542487018,
+      "text": "Там же udp на транспорте. Роутерам должно быть фиолетово"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f8",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1542487040,
+      "text": "Делать что-то умное все равно не получится из-за tlc"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7f9",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1542487049,
+      "text": "tls"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7fa",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1542487122,
+      "text": "ждём и верим в распространение ipv6"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7fb",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542487332,
+      "text": "==\u0026gt; ‘Keep Talkin’ Larry’: Amazon Is Close to Tossing Oracle Software - \u003ca href=\"https://www.bloomberg.com/tosv2.html?vid=\u0026amp;uuid=141a5020-e49c-11e8-8b7a-cb9ae0cfd8f4\u0026amp;url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMS0wOS8ta2VlcC10YWxraW4tbGFycnktYW1hem9uLWlzLWNsb3NlLXRvLXRvc3Npbmctb3JhY2xlLXNvZnR3YXJl\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.bloomberg.com/tosv2.html?vid=\u0026amp;uuid=141a5020-e49c-11e8-8b7a-cb9ae0cfd8f4\u0026amp;url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMS0wOS8ta2VlcC10YWxraW4tbGFycnktYW1hem9uLWlzLWNsb3NlLXRvLXRvc3Npbmctb3JhY2xlLXNvZnR3YXJl\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7fc",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1542487588,
+      "text": "хром в фокусе"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7fd",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1542487618,
+      "text": "что-то третий раз звук отваливается"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7fe",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542487647,
+      "text": "\u003ca href=\"https://outline.com/UzUdUE\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://outline.com/UzUdUE\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba7ff",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542487649,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e   ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003eOutline - Read \u0026amp; annotate without distractions\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba800",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542487757,
+      "text": "==\u0026gt; Amazon and Oracle in database drama - \u003ca href=\"https://www.itnews.com.au/news/amazon-and-oracle-in-database-drama-515447\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.itnews.com.au/news/amazon-and-oracle-in-database-drama-515447\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba801",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542487767,
+      "text": "==\u0026gt; Amazon Corretto Production-ready distribution of OpenJDK - \u003ca href=\"https://aws.amazon.com/corretto/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://aws.amazon.com/corretto/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba802",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1542488275,
+      "text": "Да ладно! Не прошло и 5 лет - в radio-t появятся главы!"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba803",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542488305,
+      "text": "==\u0026gt; Oracle Database 12.2."
+    },
+    {
+      "id": "65d60bcfcd92d958faaba804",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SanekK",
+      "datetime": 1542488307,
+      "text": "неужто в радиоте и uwp будут главы"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba805",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1542488369,
+      "text": "А модули как вендор можно заинитить в корне пакета и будет работать? Или в каждом пакете надо инитить?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba806",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Medkov",
+      "datetime": 1542488582,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e идея не нова и уже используется)"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba807",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542488612,
+      "text": "Покажи где?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba808",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1542488749,
+      "text": "После этого крика души от Oracle понимаешь, что наши 10М строк - это не так уж и страшно"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba809",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1542488811,
+      "text": "Слава ораклу! SAP слава!"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba80a",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitriy Aulov",
+      "datetime": 1542488818,
+      "text": "линтер вс"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba80b",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1542488833,
+      "text": "длдюгшгш"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba80c",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Radamsa",
+      "datetime": 1542488844,
+      "text": "вс же вроде на базе постгреса?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba80d",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542488867,
+      "text": "вс - это тупо постгрес )"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba80e",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Radamsa",
+      "datetime": 1542488872,
+      "text": "ну да"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba80f",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mkots",
+      "datetime": 1542488896,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Azeeson\" class=\"mention\"\u003e@Azeeson\u003c/span\u003e есть примеры на гитхабе почитать?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba810",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542488984,
+      "text": "==\u0026gt; Фулстеки — это вечные мидлы. Не идите по этому пути, если не хотите страдать / Хабрахабр - \u003ca href=\"https://habr.com/post/429612/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://habr.com/post/429612/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba811",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Medkov",
+      "datetime": 1542488993,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Mkots_gitlab\" class=\"mention\"\u003e@Mkots_gitlab\u003c/span\u003e нет, это внутри компании, свой велосипед"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba812",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542489004,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba813",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mkots",
+      "datetime": 1542489084,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Azeeson\" class=\"mention\"\u003e@Azeeson\u003c/span\u003e жаль. А может видели что--то подобное с открытым кодом, сам искал некоторое время, но ничего не нашел"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba814",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1542489122,
+      "text": "Умпутун может все что угодно, только верстку не может он ;)"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba815",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542489138,
+      "text": "На фронтенд в любом случае будет страшно смотреть"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba816",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1542489251,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e а где ты таких разработчиков видел?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba817",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1542489280,
+      "text": "У меня есть. Не продам."
+    },
+    {
+      "id": "65d60bcfcd92d958faaba818",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1542489292,
+      "text": "вот жук :)"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba819",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542489340,
+      "text": "Хороший фут чину разработчик, это CEO, который наймёт всех кого надо и сделает full stack."
+    },
+    {
+      "id": "65d60bcfcd92d958faaba81a",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1542489395,
+      "text": "Опытный разработчик по идее может сделать все, но при этом разные части будут на разном уровне. Бекэндеры могут фронтэнд, но этот фронтэнд будет ну такое. Фронтэндеры могут бекэнд на каком-то уровне, но смотреть на этот бекэнд без слез в большинстве случаев не получится. Плюс сколько у такого разработчика уйдет времени на все это - тоже большой вопрос."
+    },
+    {
+      "id": "65d60bcfcd92d958faaba81b",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Egor Baranov",
+      "datetime": 1542489558,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e сколько мильёнов доларов в час такие стоят?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba81c",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542489752,
+      "text": "Full stack это ещё и ui/ux специалист."
+    },
+    {
+      "id": "65d60bcfcd92d958faaba81d",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1542489871,
+      "text": "капитан Блад"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba81e",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542489874,
+      "text": "==\u0026gt; Mark Zuckerberg ordered all Facebook executives to use Android phones - \u003ca href=\"https://www.theverge.com/2018/11/14/18095729/mark-zuckerberg-order-facebook-executive-android-phones\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.theverge.com/2018/11/14/18095729/mark-zuckerberg-order-facebook-executive-android-phones\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba81f",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542489876,
+      "text": "А ещё Анатолий analtoy"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba820",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1542489955,
+      "text": "теперь ясно почему Ксюша офлайн - NDA"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba821",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542490182,
+      "text": "==\u0026gt; Facebook changes algorithm to demote “borderline content” that almost violates its policy - \u003ca href=\"https://techcrunch.com/2018/11/15/facebook-borderline-content/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2018/11/15/facebook-borderline-content/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba822",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1542490184,
+      "text": "После того, как Сири произнесла мое имя как Пабло я понял, что переучивать остальных, видимо, бесполезно"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba823",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1542490256,
+      "text": "curlы"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba824",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleksandr Boiko",
+      "datetime": 1542490443,
+      "text": "по-украински ты вообще Павло =)"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba825",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1542490683,
+      "text": "После Олексея мне уже нечему удивляться"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba826",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542490684,
+      "text": "==\u0026gt; Cloudflare Brings its 1.1.1.1 DNS Service to Android \u0026amp; iOS Mobile Devices - \u003ca href=\"https://www.bleepingcomputer.com/news/security/cloudflare-brings-its-1111-dns-service-to-android-and-ios-mobile-devices/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://www.bleepingcomputer.com/news/security/cloudflare-brings-its-1111-dns-service-to-android-and-ios-mobile-devices/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba827",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1542491185,
+      "text": "С Бургеркингом это более недавняя история, на Хабре прям чуть ли не месяц ее обсасывали"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba828",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542491221,
+      "text": "==\u0026gt; Protonmail Hacked - Pastebin.com - \u003ca href=\"https://pastebin.com/bwvqHhbA?fbclid=IwAR3Nk2wKnv4MjRycU0oQQas5eXQ3v5x9Or_KAsefmgmykH0PviLS74fIR1c\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://pastebin.com/bwvqHhbA?fbclid=IwAR3Nk2wKnv4MjRycU0oQQas5eXQ3v5x9Or_KAsefmgmykH0PviLS74fIR1c\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba829",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Arxivarius",
+      "datetime": 1542492180,
+      "text": "Блин, забыл что вы вещаете. Привет школьники"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba82a",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1542492482,
+      "text": "анимешники не палятся"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba82b",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542492613,
+      "text": "Нужно вытащить швабру?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba82c",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1542492658,
+      "text": "В чате каждый раз новые люди..."
+    },
+    {
+      "id": "65d60bcfcd92d958faaba82d",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1542493126,
+      "text": "так задержка же =)"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba82e",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1542493146,
+      "text": "на чатурбейте зрители могут влиять"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba82f",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1542493238,
+      "text": "Готов помочь)"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba830",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor",
+      "datetime": 1542493374,
+      "text": "Только как найти репу что бы можно было форкнуть и что то написать. И это ж гошечька я правильно понял?"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba831",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1542493637,
+      "text": "угу, это тут \u003ca href=\"https://github.com/radio-t/radio-t-site\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/radio-t/radio-t-site\u003c/a\u003e, тикет \u003ca target=\"_blank\" data-link-type=\"issue\" data-issue=\"1\" href=\"https://github.com/radio-t/radio-t-site/issues/1\" data-provider=\"github\" data-issue-repo=\"radio-t/radio-t-site\" class=\"issue\"\u003eradio-t/radio-t-site#1\u003c/a\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba832",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1542493639,
+      "text": "\u003cp\u003e\u003cstrong\u003eexcerpt 💬\u003c/strong\u003e  Find code, projects, and people on GitHub: Contact Support — GitHub Status — ...\u003c/p\u003e\u003cp\u003e  \u003cem\u003ePage not found · GitHub\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d60bcfcd92d958faaba833",
+      "issue": 624,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1542493673,
+      "text": "я попозже волью в publisher то, что начал"
+    }
+  ]
 }

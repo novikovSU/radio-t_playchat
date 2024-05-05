@@ -1,3 +1,2830 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d60e649f0285d0db61587d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468744802,
+      "text": "o"
+    },
+    {
+      "id": "65d60e649f0285d0db61587e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468670804,
+      "text": "news!"
+    },
+    {
+      "id": "65d60e649f0285d0db61587f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468670804,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://techcrunch.com/2016/07/13/digitalocean-launches-block-storage-and-lets-you-store-terabytes-of-data/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eDigitalOcean launches block storage and lets you store terabytes of data\u003c/a\u003e 2016-07-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eBlock Storage: More Space to Scale\u003c/a\u003e 2016-07-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.jetbrains.com/idea/whatsnew/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eIntelliJ IDEA 14\u003c/a\u003e 2016-07-14\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.engadget.com/2016/07/12/pokemon-go-augmented-reality/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ePokémon Go is the \u0026#39;aha\u0026#39; moment AR has been waiting for\u003c/a\u003e 2016-07-15\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://techcrunch.com/2016/07/14/atlassian-acquires-statuspage/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eAtlassian acquires StatusPage\u003c/a\u003e 2016-07-15\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615880",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468671012,
+      "text": "ыыыы скайп на электроне под линукс))))"
+    },
+    {
+      "id": "65d60e649f0285d0db615881",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468671305,
+      "text": "если он работает на webrtc то он работать будет далеко не на всех пингвин мобилях... вебртс еще не на всех типах интернетов работает...."
+    },
+    {
+      "id": "65d60e649f0285d0db615882",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468671377,
+      "text": "а в сегодняшнем выпуске будет ли кто-либо из ведущих на альфе версии скайпа? :trollface:"
+    },
+    {
+      "id": "65d60e649f0285d0db615883",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Николай Петюх",
+      "datetime": 1468676142,
+      "text": "Пацаны, не знаете, в чём прикол: на прошлой записи Умпутун меня забанил, а потом разбанил, но я всё равно не могу зайти в чат с той учётки. ТП молчит, Умпутун говорит, что это не к нему вопрос. Может, кто сталкивался?"
+    },
+    {
+      "id": "65d60e649f0285d0db615884",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468676341,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"mykmykpet_twitter\" class=\"mention\"\u003e@mykmykpet_twitter\u003c/span\u003e а вы пробовали перезайти в гиттер?"
+    },
+    {
+      "id": "65d60e649f0285d0db615885",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Николай Петюх",
+      "datetime": 1468676813,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e пробовал перезайти в том же браузере, в другом браузере, в десктопном клиенте, в мобильном клиенте, в мобильном клиенте из-под другого провайдера, на другом компе и из другой страны - ничего не помогло, получаю ошибку 404"
+    },
+    {
+      "id": "65d60e649f0285d0db615886",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468677273,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"mykmykpet_twitter\" class=\"mention\"\u003e@mykmykpet_twitter\u003c/span\u003e в активити нет анбана \u003ca href=\"https://i.imgur.com/j3rZONl.png\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://i.imgur.com/j3rZONl.png\u003c/a\u003e видимо вы все-таки забанены"
+    },
+    {
+      "id": "65d60e649f0285d0db615887",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686054,
+      "text": "help!"
+    },
+    {
+      "id": "65d60e649f0285d0db615888",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468686054,
+      "text": "\u003cem\u003esay! когда? when? как? how? доколе? rules? правила? ping пинг кто? who? news! новости! анекдот! анкедот! joke! chuck! so! ??\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615889",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686075,
+      "text": "say!"
+    },
+    {
+      "id": "65d60e649f0285d0db61588a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468686075,
+      "text": "\u003cem\u003e Всеобщий мир царил бы на земле, если бы не было понятий «мое» и «твое».\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61588b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686093,
+      "text": "when!"
+    },
+    {
+      "id": "65d60e649f0285d0db61588c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686113,
+      "text": "when?"
+    },
+    {
+      "id": "65d60e649f0285d0db61588d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468686113,
+      "text": "\u003cem\u003e\u003ca href=\"https://radio-t.com/online/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eкаждую субботу, 23:00 мск\u003c/a\u003e\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61588e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686128,
+      "text": "how?"
+    },
+    {
+      "id": "65d60e649f0285d0db61588f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686171,
+      "text": "доколе?"
+    },
+    {
+      "id": "65d60e649f0285d0db615890",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686196,
+      "text": "анекдот!"
+    },
+    {
+      "id": "65d60e649f0285d0db615891",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468686196,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"OhDaeto\" class=\"mention\"\u003e@OhDaeto\u003c/span\u003e \u003cem\u003eтебя слишком много, отдохни ...\u003c/em\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615892",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "OhDaeto",
+      "datetime": 1468686225,
+      "text": "rules?"
+    },
+    {
+      "id": "65d60e649f0285d0db615893",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zavitok",
+      "datetime": 1468688540,
+      "text": "добрый вечер"
+    },
+    {
+      "id": "65d60e649f0285d0db615894",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Petyukh",
+      "datetime": 1468693531,
+      "text": "Ну наконец-то меня разбанили. Неделю ждал"
+    },
+    {
+      "id": "65d60e649f0285d0db615895",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1468693653,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"NikolayPetyukh\" class=\"mention\"\u003e@NikolayPetyukh\u003c/span\u003e как говорил известный персонаж - \u0026#34;наказания без вины не бывает”. Будешь в след. раз обдумывать контент"
+    },
+    {
+      "id": "65d60e649f0285d0db615896",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Petyukh",
+      "datetime": 1468693713,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e так я же не знал, что оно втулит картинку на полэкрана"
+    },
+    {
+      "id": "65d60e649f0285d0db615897",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1468693748,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"NikolayPetyukh\" class=\"mention\"\u003e@NikolayPetyukh\u003c/span\u003e значит получил за незнание :) тоже дело"
+    },
+    {
+      "id": "65d60e649f0285d0db615898",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Petyukh",
+      "datetime": 1468693812,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e не спорю\u003cbr/\u003eно вы тоже не святой - сказали мне ещё в ту субботу, что разбанили, а это оказалось неправдой"
+    },
+    {
+      "id": "65d60e649f0285d0db615899",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1468693869,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"NikolayPetyukh\" class=\"mention\"\u003e@NikolayPetyukh\u003c/span\u003e эээ … странные вещи говоришь. Я сегодня, чтоб помочь тебе сделал unban all а ты меня еще пеняешь ?"
+    },
+    {
+      "id": "65d60e649f0285d0db61589a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Petyukh",
+      "datetime": 1468693903,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ааа, ну тогда спасибо"
+    },
+    {
+      "id": "65d60e649f0285d0db61589b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468696538,
+      "text": "вечер добрый :koala:"
+    },
+    {
+      "id": "65d60e649f0285d0db61589c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Petyukh",
+      "datetime": 1468696556,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e йоу"
+    },
+    {
+      "id": "65d60e649f0285d0db61589d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1468696616,
+      "text": "А Бобука типо не будет сегодня?"
+    },
+    {
+      "id": "65d60e649f0285d0db61589e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468696653,
+      "text": "судя по твиттеру, не будет"
+    },
+    {
+      "id": "65d60e649f0285d0db61589f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698312,
+      "text": "Судя по твиттеру и Умпутуна тоже не будет"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bogdan demchenko",
+      "datetime": 1468698574,
+      "text": "news!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468698574,
+      "text": "\u003cul\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://techcrunch.com/2016/07/13/digitalocean-launches-block-storage-and-lets-you-store-terabytes-of-data/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eDigitalOcean launches block storage and lets you store terabytes of data\u003c/a\u003e 2016-07-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eBlock Storage: More Space to Scale\u003c/a\u003e 2016-07-13\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.jetbrains.com/idea/whatsnew/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eIntelliJ IDEA 14\u003c/a\u003e 2016-07-14\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://www.engadget.com/2016/07/12/pokemon-go-augmented-reality/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ePokémon Go is the \u0026#39;aha\u0026#39; moment AR has been waiting for\u003c/a\u003e 2016-07-15\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cem\u003e\u003ca href=\"https://techcrunch.com/2016/07/14/atlassian-acquires-statuspage/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eAtlassian acquires StatusPage\u003c/a\u003e 2016-07-15\u003c/em\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003e\u003ca href=\"https://news.radio-t.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003eвсе новости и темы\u003c/a\u003e\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1468698618,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e напрасно ты судишь по твитерам незанкомцев"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698630,
+      "text": "Только Покемоны делают этот выпуск не гиковским"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698655,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e Видимо."
+    },
+    {
+      "id": "65d60e649f0285d0db6158a5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698696,
+      "text": "Но я посто пошутил))"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468698759,
+      "text": "покемоны — огонь. прям детская мечта осуществилась и всё такое :koala:"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey",
+      "datetime": 1468698772,
+      "text": "даешь покемонов на весь выпуск!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Gregory Dudnikof",
+      "datetime": 1468698844,
+      "text": "покемоны... покемоны везде. Пожалуйста, только не здесь)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158a9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468698865,
+      "text": "плкемоны убивают"
+    },
+    {
+      "id": "65d60e649f0285d0db6158aa",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468698884,
+      "text": "судя по тТВ"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ab",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698902,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e А Вы не читайте советских газет..."
+    },
+    {
+      "id": "65d60e649f0285d0db6158ac",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468698912,
+      "text": "так и вижу, как ксюша спорит с умпутуном, что лучше не эволюционировать пикачу, а умпутун говорит, что только хипстеры его не эволюционируют"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ad",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698944,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e На 95% безвреднее"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ae",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468698953,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e законом не запрещено!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158af",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468698989,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e парб где хочу (я йог)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699011,
+      "text": "Сегодня Бабушка спрашивала не играю ли я в покемонов, сказала ни в коем случае не играть, ибо уже 7 трупов"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699030,
+      "text": "Зомбоящик влияет на мнения"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699041,
+      "text": "Я не один такой, к сожалению."
+    },
+    {
+      "id": "65d60e649f0285d0db6158b3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Gregory Dudnikof",
+      "datetime": 1468699085,
+      "text": "А что там про трупы? Я, видимо, пропустил это совсем"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699098,
+      "text": "И тут покемоны... скоро в туалет пойдёшь, а там какой-нибудь пикачу"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699100,
+      "text": "Один в реке нашли"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699116,
+      "text": "Другого заманили за угол и избили."
+    },
+    {
+      "id": "65d60e649f0285d0db6158b7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699131,
+      "text": "Сегодня мой отец сменил свой старенький Сименс на какой-то индуский Андроид чтобы играть в покемонов, насмотревшись на меня"
+    },
+    {
+      "id": "65d60e649f0285d0db6158b8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699133,
+      "text": "И так далее и увсех нашли телефон с игрой."
+    },
+    {
+      "id": "65d60e649f0285d0db6158b9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699140,
+      "text": "Шок! Сенсация!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ba",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Gregory Dudnikof",
+      "datetime": 1468699143,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e так уже... Теперь никакой уединённости - всюду из-за углов выскакивают, а за ними ещё и люди с телефонами бегают))"
+    },
+    {
+      "id": "65d60e649f0285d0db6158bb",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Semior001",
+      "datetime": 1468699148,
+      "text": "Здрасьте всем. \u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e а у меня слоупок в унитазе"
+    },
+    {
+      "id": "65d60e649f0285d0db6158bc",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Gres",
+      "datetime": 1468699151,
+      "text": "плейлист в прешоу  такой же как лет 5 назад) взностальгировалось вдруг)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158bd",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699181,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"GR3S\" class=\"mention\"\u003e@GR3S\u003c/span\u003e а зачем менять если и так все хорошо?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158be",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699190,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Semior001\" class=\"mention\"\u003e@Semior001\u003c/span\u003e я как истинный гусар пожалуй промолчу :)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158bf",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Gregory Dudnikof",
+      "datetime": 1468699203,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e правильно я понимаю, что следующего найдут застреленным, пороются в телефоне и скажут, что, мол, во всём пикачу виноват?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699205,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Semior001\" class=\"mention\"\u003e@Semior001\u003c/span\u003e А Сквиртл в бдие?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Semior001",
+      "datetime": 1468699215,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e мне он мешает спокойно испражняться"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Миша",
+      "datetime": 1468699223,
+      "text": "унц унц. всем привет"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699223,
+      "text": "УНЦА"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699229,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Semior001\" class=\"mention\"\u003e@Semior001\u003c/span\u003e а зачем вы смотрите на унитаз через телефон?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699236,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"gregsonar\" class=\"mention\"\u003e@gregsonar\u003c/span\u003e более чем. Это же сми."
+    },
+    {
+      "id": "65d60e649f0285d0db6158c6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699257,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e наверное там приложение для улучшения реальности)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ваче",
+      "datetime": 1468699262,
+      "text": "\u003ca href=\"https://habrahabr.ru/post/305782/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://habrahabr.ru/post/305782/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699293,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e идея на миллион. игру можно назвать \u0026#34;меткий стрелок\u0026#34;"
+    },
+    {
+      "id": "65d60e649f0285d0db6158c9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699300,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"gregsonar\" class=\"mention\"\u003e@gregsonar\u003c/span\u003e парень как то от внутреннего кровоизлияния умер, при этом играл в кс. И вот компутеры убивают. Новость этого глда между прочем."
+    },
+    {
+      "id": "65d60e649f0285d0db6158ca",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1468699327,
+      "text": "hi"
+    },
+    {
+      "id": "65d60e649f0285d0db6158cb",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699339,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e в награду за меткость будет пущее улучшение реальности))"
+    },
+    {
+      "id": "65d60e649f0285d0db6158cc",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699341,
+      "text": "Извиняюсь за ошибки, пишу с тача. Лчень не привык к нему."
+    },
+    {
+      "id": "65d60e649f0285d0db6158cd",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699363,
+      "text": "может тут тоже надо сказать «порно», чтобы она пришла?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ce",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699378,
+      "text": "Слышно."
+    },
+    {
+      "id": "65d60e649f0285d0db6158cf",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699378,
+      "text": "а тем временем зарелизился lighttpd — самый лучший веб-сервер"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1468699383,
+      "text": "слышно"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699385,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e это уже DLC бомбардирощик:)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699420,
+      "text": "*бомбардировщик"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrey Lavrov",
+      "datetime": 1468699423,
+      "text": "А Бобук где?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Palm, Face Palm",
+      "datetime": 1468699431,
+      "text": "покемонов ловит"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699447,
+      "text": "Бобук - ой  \u003cspan data-link-type=\"mention\" data-screen-name=\"lavrovpy\" class=\"mention\"\u003e@lavrovpy\u003c/span\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699470,
+      "text": "Налей мне, Умпутун, поллитра тормозухи..."
+    },
+    {
+      "id": "65d60e649f0285d0db6158d7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699502,
+      "text": "два месяца назад подворачивали штанины, месяц назад вейпили, сегодня охотятся на покемонов)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699505,
+      "text": "где шутки?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158d9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699511,
+      "text": "Это стол - на нёмедят!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158da",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699522,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e Грей уже не тот"
+    },
+    {
+      "id": "65d60e649f0285d0db6158db",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699535,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e странно, мне 25, а я чувствую себя стариком"
+    },
+    {
+      "id": "65d60e649f0285d0db6158dc",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699539,
+      "text": "в квартире настолько ничего нет, что Ксюша живёт в Икее?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158dd",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1468699549,
+      "text": "так не положено бобку ловить, в российском app store нет ещё"
+    },
+    {
+      "id": "65d60e649f0285d0db6158de",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699564,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e 25 покемонов?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158df",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468699565,
+      "text": "Эх, а раньше охота на покемонов называли белой горячкой."
+    },
+    {
+      "id": "65d60e649f0285d0db6158e0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699567,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e Пора менять."
+    },
+    {
+      "id": "65d60e649f0285d0db6158e1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699574,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bubuger\" class=\"mention\"\u003e@bubuger\u003c/span\u003e у бобука положено на то, что его нет в российском аппсторе"
+    },
+    {
+      "id": "65d60e649f0285d0db6158e2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468699577,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"gray\" class=\"mention\"\u003e@gray\u003c/span\u003e так и есть, у нас тут в Кремниевой Долине нифига нет, интернет тормозной и глючный, а мебель вся в ИКЕЯ, да, которая в 15 километров."
+    },
+    {
+      "id": "65d60e649f0285d0db6158e3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zavitok",
+      "datetime": 1468699579,
+      "text": "оживились"
+    },
+    {
+      "id": "65d60e649f0285d0db6158e4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699581,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bubuger\" class=\"mention\"\u003e@bubuger\u003c/span\u003e Как соотносятся Бобук и российский ЭппСтор?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158e5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zavitok",
+      "datetime": 1468699587,
+      "text": "ещё раз здравствуйте"
+    },
+    {
+      "id": "65d60e649f0285d0db6158e6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699589,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e мне 14, чувствую себя нормально."
+    },
+    {
+      "id": "65d60e649f0285d0db6158e7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699591,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e стопок текилы:)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158e8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699610,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e бобук также отсутствует как и конфигуратор"
+    },
+    {
+      "id": "65d60e649f0285d0db6158e9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468699617,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e если что - в ИКЕЯ есть веб-магазин, можно там заказать с доставкой"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ea",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699640,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"niksite_twitter\" class=\"mention\"\u003e@niksite_twitter\u003c/span\u003e посмотрев рендеры в каталоге"
+    },
+    {
+      "id": "65d60e649f0285d0db6158eb",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699644,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e ты просто не застал аналоговых покемонов:)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ec",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468699658,
+      "text": "Про покемонов \u003ca href=\"https://twitter.com/MrNobre/status/754144048529625088\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://twitter.com/MrNobre/status/754144048529625088\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ed",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699663,
+      "text": "всегда большой стол надо без тумбы"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ee",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699670,
+      "text": "телескопический стол"
+    },
+    {
+      "id": "65d60e649f0285d0db6158ef",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699676,
+      "text": "тоже хочу"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699687,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"outcoldman\" class=\"mention\"\u003e@outcoldman\u003c/span\u003e что там?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468699692,
+      "text": "Бобук мертв?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699700,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"outcoldman\" class=\"mention\"\u003e@outcoldman\u003c/span\u003e ничоси!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699703,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e ну и слава богу что не застал :D"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699713,
+      "text": "Тина Канделаки давно пиарила поднимающийся стол"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699721,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"PostelBobuka\" class=\"mention\"\u003e@PostelBobuka\u003c/span\u003e бобук -ой (опять)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468699731,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e человек x00 идут в Central Park ищут покемона"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699737,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e зря весело было... можно было сначала играть в покемонов, а потом поссориться и пойти не стрелу"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699752,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"PostelBobuka\" class=\"mention\"\u003e@PostelBobuka\u003c/span\u003e Бобук жил, Бобук жив, Бобук будет жить!"
+    },
+    {
+      "id": "65d60e649f0285d0db6158f9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699784,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"outcoldman\" class=\"mention\"\u003e@outcoldman\u003c/span\u003e а разве они не везде?"
+    },
+    {
+      "id": "65d60e649f0285d0db6158fa",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1468699802,
+      "text": "\u003ca href=\"https://www.facebook.com/stiystil/?fref=ts\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.facebook.com/stiystil/?fref=ts\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6158fb",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468699809,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e хз, я не играю. Судя по видео - они внезапно могут возникать"
+    },
+    {
+      "id": "65d60e649f0285d0db6158fc",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468699818,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e ленин не умрет, и юный октябрь впереди)"
+    },
+    {
+      "id": "65d60e649f0285d0db6158fd",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468699821,
+      "text": "да, стул важнее"
+    },
+    {
+      "id": "65d60e649f0285d0db6158fe",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468699835,
+      "text": "Со стоячим столом что хорошо, если немного уставший и сонный. Сядешь в стул и заснешь, а стоя еще можно выжать что-нибудь."
+    },
+    {
+      "id": "65d60e649f0285d0db6158ff",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699855,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e везде, просто они спаунятся на карте рандомно (почти), есть редкие, есть нет. вот там вот заспаунился довольно-таки редкий."
+    },
+    {
+      "id": "65d60e649f0285d0db615900",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699857,
+      "text": "можно взять высокий стол и стул из бара. И даже стол двигать не надо."
+    },
+    {
+      "id": "65d60e649f0285d0db615901",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699875,
+      "text": "Один раз в бар зашел и с стулом ушел."
+    },
+    {
+      "id": "65d60e649f0285d0db615902",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699878,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e понял. скорблю по человечеству"
+    },
+    {
+      "id": "65d60e649f0285d0db615903",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699890,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e не драматизируйте :koala:"
+    },
+    {
+      "id": "65d60e649f0285d0db615904",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699891,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e в прочем к чёрту луна парк!"
+    },
+    {
+      "id": "65d60e649f0285d0db615905",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468699894,
+      "text": "А кто-нибудь работал за 8k 70 дюймовым?"
+    },
+    {
+      "id": "65d60e649f0285d0db615906",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468699900,
+      "text": "Пасаны будут ли работать покемоны если карты нету в google maps ?"
+    },
+    {
+      "id": "65d60e649f0285d0db615907",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699902,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e А зачем уходить?"
+    },
+    {
+      "id": "65d60e649f0285d0db615908",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468699913,
+      "text": "я про карту местности"
+    },
+    {
+      "id": "65d60e649f0285d0db615909",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699919,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"B1ackGh0st\" class=\"mention\"\u003e@B1ackGh0st\u003c/span\u003e да"
+    },
+    {
+      "id": "65d60e649f0285d0db61590a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699933,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"B1ackGh0st\" class=\"mention\"\u003e@B1ackGh0st\u003c/span\u003e Такого не бывает"
+    },
+    {
+      "id": "65d60e649f0285d0db61590b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699952,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"B1ackGh0st\" class=\"mention\"\u003e@B1ackGh0st\u003c/span\u003e по крайней мере, поле вам нарисуют. покемоны на поле будут спауниться, просто скорее всего реже, чем обычно."
+    },
+    {
+      "id": "65d60e649f0285d0db61590c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468699958,
+      "text": "В СФ можно кучу аеронов купить БУ. Стартапы распродают неудавшиеся."
+    },
+    {
+      "id": "65d60e649f0285d0db61590d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468699960,
+      "text": "А под ним можно спать."
+    },
+    {
+      "id": "65d60e649f0285d0db61590e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468699963,
+      "text": "хм..."
+    },
+    {
+      "id": "65d60e649f0285d0db61590f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699971,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e ага, раз в полгода"
+    },
+    {
+      "id": "65d60e649f0285d0db615910",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468699983,
+      "text": "Я смотрел как-то, но доставка в WA было дорогая. Ксюше можно, она же теперь в СФ"
+    },
+    {
+      "id": "65d60e649f0285d0db615911",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468699986,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e можно с ноутом придти."
+    },
+    {
+      "id": "65d60e649f0285d0db615912",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468699986,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e и вы не драматизируйте :koala:"
+    },
+    {
+      "id": "65d60e649f0285d0db615913",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468699999,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"alxmamaev\" class=\"mention\"\u003e@alxmamaev\u003c/span\u003e И?"
+    },
+    {
+      "id": "65d60e649f0285d0db615914",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700003,
+      "text": "у ксюши женский рост"
+    },
+    {
+      "id": "65d60e649f0285d0db615915",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700005,
+      "text": "Метр двадцать в припрыжку - рост Ксюши"
+    },
+    {
+      "id": "65d60e649f0285d0db615916",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468700010,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e и никто не выгонит."
+    },
+    {
+      "id": "65d60e649f0285d0db615917",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468700045,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e \u003ca href=\"https://www.google.ru/maps/@63.0531532,113.4557428,12z\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.google.ru/maps/@63.0531532,113.4557428,12z\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615918",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468700047,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"igoradamenko\" class=\"mention\"\u003e@igoradamenko\u003c/span\u003e Покемоны тусуются там, где реальные люди тусуются. В чистом поле не будет покемонов"
+    },
+    {
+      "id": "65d60e649f0285d0db615919",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1468700061,
+      "text": "Вот, кстати, официальный сайт конструкции стола \u003ca href=\"http://stiystil.com.ua/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://stiystil.com.ua/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61591a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468700085,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e а есть покемон алкозавр?"
+    },
+    {
+      "id": "65d60e649f0285d0db61591b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700089,
+      "text": "динамічний стіл для динамічної роботи"
+    },
+    {
+      "id": "65d60e649f0285d0db61591c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468700098,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e пока нет"
+    },
+    {
+      "id": "65d60e649f0285d0db61591d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468700101,
+      "text": "Проффи работают лежа... на диване"
+    },
+    {
+      "id": "65d60e649f0285d0db61591e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468700104,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e он-то там будет. вот тебе и людь, который тусуется. думаю, скорее всего это решено"
+    },
+    {
+      "id": "65d60e649f0285d0db61591f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700107,
+      "text": "динамичный стиль для динамичных роботов"
+    },
+    {
+      "id": "65d60e649f0285d0db615920",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468700107,
+      "text": "КАТ!!!!"
+    },
+    {
+      "id": "65d60e649f0285d0db615921",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700111,
+      "text": "Может сразу сюкзачёк и столик на грудь."
+    },
+    {
+      "id": "65d60e649f0285d0db615922",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700137,
+      "text": "Стоя? Лишь бы не лёжа."
+    },
+    {
+      "id": "65d60e649f0285d0db615923",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468700161,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e жаль, чуваки из \u0026#34;на ход ноги\u0026#34; будут грустны"
+    },
+    {
+      "id": "65d60e649f0285d0db615924",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700188,
+      "text": "Это кто говорит про бездельник )) что засыпает в рабочее время))"
+    },
+    {
+      "id": "65d60e649f0285d0db615925",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468700202,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e профилактика профессиональных болезней программеров - геморроя, например"
+    },
+    {
+      "id": "65d60e649f0285d0db615926",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468700215,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"PostelBobuka\" class=\"mention\"\u003e@PostelBobuka\u003c/span\u003e Сиеста очень полезна"
+    },
+    {
+      "id": "65d60e649f0285d0db615927",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468700239,
+      "text": "сюда же - сидеть на фитнесс-мячах вместо аэронов, стоячие рабочие места, ходячие рабочие места и все такое"
+    },
+    {
+      "id": "65d60e649f0285d0db615928",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468700245,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"pasha-gooff\" class=\"mention\"\u003e@pasha-gooff\u003c/span\u003e как-то сурово учитывая ник получилось"
+    },
+    {
+      "id": "65d60e649f0285d0db615929",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1468700289,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Kriger\" class=\"mention\"\u003e@Kriger\u003c/span\u003e 🤔"
+    },
+    {
+      "id": "65d60e649f0285d0db61592a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700314,
+      "text": "дима пишет подкасты в поезде"
+    },
+    {
+      "id": "65d60e649f0285d0db61592b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468700317,
+      "text": "Гимнастический стул помогает просто держать осанку"
+    },
+    {
+      "id": "65d60e649f0285d0db61592c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700330,
+      "text": ")))"
+    },
+    {
+      "id": "65d60e649f0285d0db61592d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468700356,
+      "text": "Чтобы так не сидеть \u003ca href=\"http://www.adventuresinpoortaste.com/wp-content/uploads/2015/01/south-park-warcraft.jpg\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://www.adventuresinpoortaste.com/wp-content/uploads/2015/01/south-park-warcraft.jpg\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61592e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700377,
+      "text": "дайте китайцу картекостероидов"
+    },
+    {
+      "id": "65d60e649f0285d0db61592f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700385,
+      "text": "от волчанки?"
+    },
+    {
+      "id": "65d60e649f0285d0db615930",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700415,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e от волчанки цитостатики"
+    },
+    {
+      "id": "65d60e649f0285d0db615931",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700457,
+      "text": "А откуда Умпутун знает о \u0026#34;не тормози - сникерсни\u0026#34;? Неужели эта реклама и в штатах идёт?"
+    },
+    {
+      "id": "65d60e649f0285d0db615932",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700466,
+      "text": "у него территория смысла)"
+    },
+    {
+      "id": "65d60e649f0285d0db615933",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468700467,
+      "text": "УРА!"
+    },
+    {
+      "id": "65d60e649f0285d0db615934",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468700474,
+      "text": ":("
+    },
+    {
+      "id": "65d60e649f0285d0db615935",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468700475,
+      "text": "ходячий стол линус придумал \u003ca href=\"https://www.youtube.com/watch?v=SOXeXauRAm0\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.youtube.com/watch?v=SOXeXauRAm0\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615936",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468700511,
+      "text": "правда он за ним не работает уже..."
+    },
+    {
+      "id": "65d60e649f0285d0db615937",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700535,
+      "text": "Может такой столик? \u003ca href=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBuVVVyRQm3uSfpogS7PWvrb2Vp8L7P7NsIXU_3DfVw8n56-L\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdBuVVVyRQm3uSfpogS7PWvrb2Vp8L7P7NsIXU_3DfVw8n56-L\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615938",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700550,
+      "text": "Возить с собой можно."
+    },
+    {
+      "id": "65d60e649f0285d0db615939",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700561,
+      "text": "Давайте о глупостях не будем)"
+    },
+    {
+      "id": "65d60e649f0285d0db61593a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468700585,
+      "text": "разве хакнули? там вроде бы ддос"
+    },
+    {
+      "id": "65d60e649f0285d0db61593b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700609,
+      "text": "А если разместить особо ценного покемона где-нибудь на военной базе?"
+    },
+    {
+      "id": "65d60e649f0285d0db61593c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700619,
+      "text": "началась новая волна порно с покемонами даже"
+    },
+    {
+      "id": "65d60e649f0285d0db61593d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700630,
+      "text": ")))"
+    },
+    {
+      "id": "65d60e649f0285d0db61593e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468700676,
+      "text": "==\u0026gt; DigitalOcean launches block storage and lets you store terabytes of data - \u003ca href=\"https://techcrunch.com/2016/07/13/digitalocean-launches-block-storage-and-lets-you-store-terabytes-of-data/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2016/07/13/digitalocean-launches-block-storage-and-lets-you-store-terabytes-of-data/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61593f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700686,
+      "text": "На МКС нужно покемона."
+    },
+    {
+      "id": "65d60e649f0285d0db615940",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700702,
+      "text": "Вот если бы покемоны были на ДО..."
+    },
+    {
+      "id": "65d60e649f0285d0db615941",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468700712,
+      "text": "DO все ближе к AWS по функциям, но API более человеческое?"
+    },
+    {
+      "id": "65d60e649f0285d0db615942",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700716,
+      "text": "думаю DO в полном составе ловит покемонов"
+    },
+    {
+      "id": "65d60e649f0285d0db615943",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaly Tokarenko",
+      "datetime": 1468700746,
+      "text": "Вообще для этой игрушки неслабый датацентр нужен."
+    },
+    {
+      "id": "65d60e649f0285d0db615944",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexanderMamaev",
+      "datetime": 1468700749,
+      "text": "Сказали , что начнем без покемонов. \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615945",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468700815,
+      "text": "Простите а дома нельзя их хранить и по rdp заходить бесплатно"
+    },
+    {
+      "id": "65d60e649f0285d0db615946",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468700830,
+      "text": "владелец опеннета уехал ловить покемонов в тюмень и сервер упал"
+    },
+    {
+      "id": "65d60e649f0285d0db615947",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468700841,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"PostelBobuka\" class=\"mention\"\u003e@PostelBobuka\u003c/span\u003e так не интересно"
+    },
+    {
+      "id": "65d60e649f0285d0db615948",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468700903,
+      "text": "В докере же можно"
+    },
+    {
+      "id": "65d60e649f0285d0db615949",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468700927,
+      "text": "Можно же сделать: primary и secondary подключение."
+    },
+    {
+      "id": "65d60e649f0285d0db61594a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis Gladkikh",
+      "datetime": 1468700944,
+      "text": "primary как по проводу, а для secondary просто автоматически маунтить как по сети"
+    },
+    {
+      "id": "65d60e649f0285d0db61594b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468701169,
+      "text": "чем блок сторадж хорош, так и не понял"
+    },
+    {
+      "id": "65d60e649f0285d0db61594c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bob Eigen",
+      "datetime": 1468701189,
+      "text": "??"
+    },
+    {
+      "id": "65d60e649f0285d0db61594d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468701293,
+      "text": "приатачил хетзнеровской сторедж бокс к нескольким инстансов\u003cbr/\u003eдо немного опоздал"
+    },
+    {
+      "id": "65d60e649f0285d0db61594e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468701308,
+      "text": "может для медиа хранения - видео музыка итп"
+    },
+    {
+      "id": "65d60e649f0285d0db61594f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468701328,
+      "text": "hetzner-сторадж это аттачить как? По тормозному sftp что ли?"
+    },
+    {
+      "id": "65d60e649f0285d0db615950",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468701390,
+      "text": "у меня работает по cifs"
+    },
+    {
+      "id": "65d60e649f0285d0db615951",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468701414,
+      "text": "samba? это что-то виндовое?"
+    },
+    {
+      "id": "65d60e649f0285d0db615952",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468701431,
+      "text": "==\u0026gt; Block Storage: More Space to Scale - \u003ca href=\"https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615953",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468701438,
+      "text": "убунта"
+    },
+    {
+      "id": "65d60e649f0285d0db615954",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468701641,
+      "text": "fullstack это тот, кто раньше звался эникейщик?"
+    },
+    {
+      "id": "65d60e649f0285d0db615955",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468701683,
+      "text": "В редакторе atom после установки пакетов через (apm install \u003cstrong\u003e*\u003c/strong\u003e) нужно их гдето настраивать или они сразу настраиваются и активируются ?"
+    },
+    {
+      "id": "65d60e649f0285d0db615956",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468701700,
+      "text": "==\u0026gt; IntelliJ IDEA 14 - \u003ca href=\"https://www.jetbrains.com/idea/whatsnew/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://www.jetbrains.com/idea/whatsnew/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615957",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1468701904,
+      "text": "breadcrumbs полезны, если функция не входит в один экран"
+    },
+    {
+      "id": "65d60e649f0285d0db615958",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1468702009,
+      "text": "при копировании патча в буфер обмена автоматом открывается предложение наложить патч, окно типа диалога коммита"
+    },
+    {
+      "id": "65d60e649f0285d0db615959",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Gres",
+      "datetime": 1468702048,
+      "text": "FiraCode"
+    },
+    {
+      "id": "65d60e649f0285d0db61595a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468702049,
+      "text": "pragmata, но вам оно не нравится"
+    },
+    {
+      "id": "65d60e649f0285d0db61595b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702053,
+      "text": "А вот кто реально пользуется лигатурами?"
+    },
+    {
+      "id": "65d60e649f0285d0db61595c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Dmitry Gres",
+      "datetime": 1468702056,
+      "text": "ъороший шрифт"
+    },
+    {
+      "id": "65d60e649f0285d0db61595d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1468702061,
+      "text": "Бобука опять нет?"
+    },
+    {
+      "id": "65d60e649f0285d0db61595e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702074,
+      "text": "Голосование?"
+    },
+    {
+      "id": "65d60e649f0285d0db61595f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468702091,
+      "text": "бобук что-то про лигатуры рассказывал когда то в этом подкасте, жаль его нет"
+    },
+    {
+      "id": "65d60e649f0285d0db615960",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1468702227,
+      "text": "PragmataPro or Monoid"
+    },
+    {
+      "id": "65d60e649f0285d0db615961",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468702283,
+      "text": "Sublimetext3 - наше всё, зачем нужна idea то?"
+    },
+    {
+      "id": "65d60e649f0285d0db615962",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468702333,
+      "text": "У нас просто python/go и нет java."
+    },
+    {
+      "id": "65d60e649f0285d0db615963",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702395,
+      "text": "VS Code сильно круче для Go, чем ST"
+    },
+    {
+      "id": "65d60e649f0285d0db615964",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468702420,
+      "text": "самая вменяемая поддержка go есть только в idea"
+    },
+    {
+      "id": "65d60e649f0285d0db615965",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468702434,
+      "text": "Раз в год пытаюсь PyCharm и ему подобное воспользовать. Не идет."
+    },
+    {
+      "id": "65d60e649f0285d0db615966",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702436,
+      "text": "\u003ca href=\"http://go-ide.com\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://go-ide.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615967",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Mironov",
+      "datetime": 1468702490,
+      "text": "В idea уже довольно давно go-плагин вполне удобен"
+    },
+    {
+      "id": "65d60e649f0285d0db615968",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468702557,
+      "text": "atom с go-plus как небольшая альтернатива idea"
+    },
+    {
+      "id": "65d60e649f0285d0db615969",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702582,
+      "text": "да работает он :)"
+    },
+    {
+      "id": "65d60e649f0285d0db61596a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468702587,
+      "text": "с которой можно жить"
+    },
+    {
+      "id": "65d60e649f0285d0db61596b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702602,
+      "text": "Все они работают через \u003ca href=\"https://github.com/derekparker/delve\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/derekparker/delve\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61596c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468702619,
+      "text": "дебаг алертами"
+    },
+    {
+      "id": "65d60e649f0285d0db61596d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702708,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e Такие дебагеры есть (но другие), но вот они как-раз не нужны. Перезапускать код каждый раз не катит. delve же работает как gdb – подключается к процессу"
+    },
+    {
+      "id": "65d60e649f0285d0db61596e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468702782,
+      "text": "\u003ca href=\"https://github.com/mailgun/godebug\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/mailgun/godebug\u003c/a\u003e, например"
+    },
+    {
+      "id": "65d60e649f0285d0db61596f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468702802,
+      "text": "То есть, IDEA нужна любителям дебаггеров и тем, кто регулярно рефакторит большие объемы кода?"
+    },
+    {
+      "id": "65d60e649f0285d0db615970",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1468702917,
+      "text": "Copybook?"
+    },
+    {
+      "id": "65d60e649f0285d0db615971",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "miolini",
+      "datetime": 1468702993,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e это оно ^"
+    },
+    {
+      "id": "65d60e649f0285d0db615972",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468703437,
+      "text": "Дядя Боб не пишет на Go :D"
+    },
+    {
+      "id": "65d60e649f0285d0db615973",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468703790,
+      "text": "А это программа передается заказчику полностью или нету разницы как она упадет и не приведет к репутационным издержкам"
+    },
+    {
+      "id": "65d60e649f0285d0db615974",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468703918,
+      "text": "в  go паника не является средством отлова ошибки\u003cbr/\u003eона нужна для совсем критических ситуаций\u003cbr/\u003eи то для этого есть recover, который можно всунуть в defer"
+    },
+    {
+      "id": "65d60e649f0285d0db615975",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468703927,
+      "text": "Проверять и падать, да.  Хороший, с erlang пошедший, подход."
+    },
+    {
+      "id": "65d60e649f0285d0db615976",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Palazhchenko",
+      "datetime": 1468704009,
+      "text": "С поправкой на виртуальную машину и изолированные процессы в Erlang, и бинарный код и горутины в общей памяти в Go ;)"
+    },
+    {
+      "id": "65d60e649f0285d0db615977",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468704173,
+      "text": "если приложения падает на делении на 0, то это не проблема приложения а проблема кривости рук программиста"
+    },
+    {
+      "id": "65d60e649f0285d0db615978",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "PostelBobuka",
+      "datetime": 1468704207,
+      "text": "Как с яндекс картой - часто дает нечеткий ответ"
+    },
+    {
+      "id": "65d60e649f0285d0db615979",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468704216,
+      "text": "зависит от того - сайт ли у вас с котиками или финансовый API, первый можно деградировать"
+    },
+    {
+      "id": "65d60e649f0285d0db61597a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1468704299,
+      "text": "редирект и ответ 302"
+    },
+    {
+      "id": "65d60e649f0285d0db61597b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468704515,
+      "text": "==\u0026gt; Atlassian acquires StatusPage - \u003ca href=\"https://techcrunch.com/2016/07/14/atlassian-acquires-statuspage/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2016/07/14/atlassian-acquires-statuspage/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61597c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Юкка Букка",
+      "datetime": 1468704884,
+      "text": "как-то слишком много Грея сегодня"
+    },
+    {
+      "id": "65d60e649f0285d0db61597d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468704910,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"_Bookoff_twitter\" class=\"mention\"\u003e@_Bookoff_twitter\u003c/span\u003e да не правда, Грея много не бывает"
+    },
+    {
+      "id": "65d60e649f0285d0db61597e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468705087,
+      "text": "==\u0026gt; Cloud With Me makes setting up and managing AWS servers easier - \u003ca href=\"https://techcrunch.com/2016/07/12/cloud-with-me-makes-setting-up-and-managing-aws-servers-easier/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://techcrunch.com/2016/07/12/cloud-with-me-makes-setting-up-and-managing-aws-servers-easier/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db61597f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468705088,
+      "text": "сколько Ксюша платит в месяц за икеявские столы"
+    },
+    {
+      "id": "65d60e649f0285d0db615980",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468705120,
+      "text": "бобука не хватает :)"
+    },
+    {
+      "id": "65d60e649f0285d0db615981",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Krimmel German",
+      "datetime": 1468705246,
+      "text": "кстати, уже есть аддон убирающий все упоминания про покемонов \u003ca href=\"https://github.com/JamieFarrelly/PokeGone\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/JamieFarrelly/PokeGone\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615982",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Vitaliy Vasilenko",
+      "datetime": 1468705638,
+      "text": "о! вопрос!\u003cbr/\u003eкак правильно оценить стоимость стартапа для продажи?"
+    },
+    {
+      "id": "65d60e649f0285d0db615983",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468705686,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"vitalvas\" class=\"mention\"\u003e@vitalvas\u003c/span\u003e годовая прибыль или миллионные объемы личных данных пользователей"
+    },
+    {
+      "id": "65d60e649f0285d0db615984",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468706067,
+      "text": "Грей прав... таких серверов полно ииииии малый бизнес не хочет думать ему лишь бы попроще и побыстрее"
+    },
+    {
+      "id": "65d60e649f0285d0db615985",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1468706137,
+      "text": "==\u0026gt; The life-changing benefits of side projects - \u003ca href=\"https://medium.com/@gammons/the-life-changing-benefits-of-side-projects-5e2fe47a8961\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://medium.com/@gammons/the-life-changing-benefits-of-side-projects-5e2fe47a8961\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615986",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468706140,
+      "text": "Народ дайте ссылку где объясняется что такое микросервисы на пальцах"
+    },
+    {
+      "id": "65d60e649f0285d0db615987",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alex",
+      "datetime": 1468706160,
+      "text": "ребята затроллили грея :)"
+    },
+    {
+      "id": "65d60e649f0285d0db615988",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468706468,
+      "text": "техника работает если на 5 минут отдыха компьютер блокируется а иначе никак)"
+    },
+    {
+      "id": "65d60e649f0285d0db615989",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468706688,
+      "text": "ура!"
+    },
+    {
+      "id": "65d60e649f0285d0db61598a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1468706731,
+      "text": "Видимо, у Жени сломался интернет"
+    },
+    {
+      "id": "65d60e649f0285d0db61598b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468706760,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"grayru\" class=\"mention\"\u003e@grayru\u003c/span\u003e Ксюшу и Умпутуна слышно"
+    },
+    {
+      "id": "65d60e649f0285d0db61598c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468706762,
+      "text": "уже было и про раст и про котлин же"
+    },
+    {
+      "id": "65d60e649f0285d0db61598d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468706795,
+      "text": "было несколько лет назад, но вряд ли там что-то шибко новое"
+    },
+    {
+      "id": "65d60e649f0285d0db61598e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468706817,
+      "text": "мозилла на расте уже движок начала собирать для браузера"
+    },
+    {
+      "id": "65d60e649f0285d0db61598f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468706862,
+      "text": "опаньки"
+    },
+    {
+      "id": "65d60e649f0285d0db615990",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgeny Khudoba",
+      "datetime": 1468706890,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e по Rust, думаю, проще подговорит бабака, чтобы он привел кого-нибудь из яндекса на защиту раста"
+    },
+    {
+      "id": "65d60e649f0285d0db615991",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikolay Panov",
+      "datetime": 1468706892,
+      "text": "а грея просто забанили, болтал неожиданно много (no offence) :)"
+    },
+    {
+      "id": "65d60e649f0285d0db615992",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468706936,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"xilec\" class=\"mention\"\u003e@xilec\u003c/span\u003e \u003ca href=\"https://i.imgur.com/NdWBL89.png\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://i.imgur.com/NdWBL89.png\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615993",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468706990,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e \u003ca href=\"https://github.com/servo/servo\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://github.com/servo/servo\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db615994",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707031,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e да я к тому что браузер пилят а сайтик лежит"
+    },
+    {
+      "id": "65d60e649f0285d0db615995",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707039,
+      "text": "че то не серьезно"
+    },
+    {
+      "id": "65d60e649f0285d0db615996",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707060,
+      "text": "мозилла вообще не очень серьёзная компания)"
+    },
+    {
+      "id": "65d60e649f0285d0db615997",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707083,
+      "text": "лет за 10 может и загнуться"
+    },
+    {
+      "id": "65d60e649f0285d0db615998",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707169,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e ну с учетом того что последние лет 5 они с руки гугла кушают может и да"
+    },
+    {
+      "id": "65d60e649f0285d0db615999",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707191,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e кстати у меня открылся сайт"
+    },
+    {
+      "id": "65d60e649f0285d0db61599a",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707206,
+      "text": "искра наверное глючит"
+    },
+    {
+      "id": "65d60e649f0285d0db61599b",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707228,
+      "text": "ооо да у меня тоже пошел качать найтли билд"
+    },
+    {
+      "id": "65d60e649f0285d0db61599c",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707283,
+      "text": "ну это же альфа версия скайпа"
+    },
+    {
+      "id": "65d60e649f0285d0db61599d",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707295,
+      "text": "два года с прошлого релиза вообще говоря"
+    },
+    {
+      "id": "65d60e649f0285d0db61599e",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707322,
+      "text": "новая версия ставится рядом со старой"
+    },
+    {
+      "id": "65d60e649f0285d0db61599f",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707331,
+      "text": "у меня servo упало при вводе запроса на главной"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707332,
+      "text": "у меня две так и стоят"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707338,
+      "text": "грусть"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707357,
+      "text": "веб-камера работает, но в низком в VGA-разрешении"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707396,
+      "text": "чето вы странное говорите - уже давно есть веб клиент"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707415,
+      "text": "electron, typescript это же MS"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707423,
+      "text": "\u003ca href=\"https://web.skype.com/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://web.skype.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707556,
+      "text": "а у меня фликр и гугл на серво открылись"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a7",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468707590,
+      "text": "Зачем постоянно загружать обновления и новые версии если в браузере всегда может быть последняя стабл версия. и это не только про скайп"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a8",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468707603,
+      "text": "\u003ca href=\"https://hyperterm.org/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://hyperterm.org/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6159a9",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1468707604,
+      "text": "Там можно сделать powermode!"
+    },
+    {
+      "id": "65d60e649f0285d0db6159aa",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1468707607,
+      "text": "Как в Атоме"
+    },
+    {
+      "id": "65d60e649f0285d0db6159ab",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "noroot",
+      "datetime": 1468707609,
+      "text": "А как же emacs, и eshell"
+    },
+    {
+      "id": "65d60e649f0285d0db6159ac",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1468707612,
+      "text": "))"
+    },
+    {
+      "id": "65d60e649f0285d0db6159ad",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stanislav Popov",
+      "datetime": 1468707688,
+      "text": "терминал на электроне в альфе вроде, по задумке будет дополнять функционал на стороне терминала, а не на стороне сервера, как iterm, в отличие от установки zsh и т.д.\u003cbr/\u003eМне идея нравится, может быть когда-нибудь сделают такой открытый терминал с кучей плагинов, сейчас такого нет"
+    },
+    {
+      "id": "65d60e649f0285d0db6159ae",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468707695,
+      "text": "будующее за покипорно"
+    },
+    {
+      "id": "65d60e649f0285d0db6159af",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468707755,
+      "text": "так они ещё выпустились не во всех странах :)"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b0",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707773,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e еще раз попробовал... рендеринг дикий конечно иии \u003ca href=\"https://i.imgur.com/6iHLHk2.png\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://i.imgur.com/6iHLHk2.png\u003c/a\u003e на 460 мб оперативы на одну вкладку... че то как то стремненько даже для найт билда"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b1",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468707775,
+      "text": "\u003ca href=\"https://igoradamenko.github.io/pokemon-go/\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttps://igoradamenko.github.io/pokemon-go/\u003c/a\u003e"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b2",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Igor Adamenko",
+      "datetime": 1468707781,
+      "text": "а вот держите :koala:"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b3",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "B1ackGh0st",
+      "datetime": 1468707810,
+      "text": "в литве помоему хотят запретить на гос уровне"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b4",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Erusy",
+      "datetime": 1468707870,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Modi34\" class=\"mention\"\u003e@Modi34\u003c/span\u003e со временем на этм будет работать firefox"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b5",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Oleg Buylov",
+      "datetime": 1468707902,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Erusy\" class=\"mention\"\u003e@Erusy\u003c/span\u003e ))) видимо таки помрет через 10 лет"
+    },
+    {
+      "id": "65d60e649f0285d0db6159b6",
+      "issue": 504,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "harriedgemusic",
+      "datetime": 1468708086,
+      "text": "Для процессоров MIPS представлен первый открытый гипервизор -\u0026gt; \u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=44798\" rel=\"nofollow\" target=\"_blank\" class=\"link\"\u003ehttp://www.opennet.ru/opennews/art.shtml?num=44798\u003c/a\u003e"
+    }
+  ]
 }

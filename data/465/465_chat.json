@@ -1,3 +1,2380 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d7461467406a250534caa8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "umputun: WARNING: 140 у меня тоже есть, дело не в этом следовательно"
+    },
+    {
+      "id": "65d7461467406a250534caa9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "оно и лист не понинмает"
+    },
+    {
+      "id": "65d7461467406a250534caaa",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "на самом деле это сообщение об ошибке"
+    },
+    {
+      "id": "65d7461467406a250534caab",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "umputun: и вообще кажется вы не добавили -v ключик: mplayer file.mp3 -ao coreaudio:device_id=39 -v"
+    },
+    {
+      "id": "65d7461467406a250534caac",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "umputun: оно device_id=list понимает только если указать mp3 файл"
+    },
+    {
+      "id": "65d7461467406a250534caad",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "добавил"
+    },
+    {
+      "id": "65d7461467406a250534caae",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "umputun: у меня оно выдает сильно больше информации"
+    },
+    {
+      "id": "65d7461467406a250534caaf",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "Trying preferred audio driver \u0026#39;coreaudio\u0026#39;, options \u0026#39;device_id=47\u0026#39;~AO: [coreaudio] init([44100Hz][2ch][floatle][0])~AO: [coreaudio] could not get default audio device name: [?ohw]~Failed to initialize audio driver \u0026#39;coreaudio:device_id=47\u0026#39;~Could not open/initialize audio device -\u0026gt; no sound.~Uninit audio filters..."
+    },
+    {
+      "id": "65d7461467406a250534cab0",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "этот not found  был от туда"
+    },
+    {
+      "id": "65d7461467406a250534cab1",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "там много всего, да"
+    },
+    {
+      "id": "65d7461467406a250534cab2",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "у тебя лист тоже дает ошибку?"
+    },
+    {
+      "id": "65d7461467406a250534cab3",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444492811,
+      "text": "Could not parse arguments at the position indicated below:device_id=list"
+    },
+    {
+      "id": "65d7461467406a250534cab4",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "mplayer -ao coreaudio:device_id=list даст ошибку"
+    },
+    {
+      "id": "65d7461467406a250534cab5",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "а mplayer file.mp3 -ao coreaudio:device_id=list — будет работать"
+    },
+    {
+      "id": "65d7461467406a250534cab6",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "umputun для совсем verbose можно еще указать -v -msglevel all=9"
+    },
+    {
+      "id": "65d7461467406a250534cab7",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444492811,
+      "text": "umputun: так и не заработал list? у меня MPlayer 1.1-4.2.1 и list работает"
+    },
+    {
+      "id": "65d7461467406a250534cab8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444492811,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cab9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444492811,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534caba",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444492811,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cabb",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444492811,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cabc",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1444492811,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d7461467406a250534cabd",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444492811,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cabe",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444492817,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cabf",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444496467,
+      "text": "на самом деле это сообщение об ошибке"
+    },
+    {
+      "id": "65d7461467406a250534cac0",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "umputun: и вообще кажется вы не добавили -v ключик: mplayer file.mp3 -ao coreaudio:device_id=39 -v"
+    },
+    {
+      "id": "65d7461467406a250534cac1",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "umputun: оно device_id=list понимает только если указать mp3 файл"
+    },
+    {
+      "id": "65d7461467406a250534cac2",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444496467,
+      "text": "добавил"
+    },
+    {
+      "id": "65d7461467406a250534cac3",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "umputun: у меня оно выдает сильно больше информации"
+    },
+    {
+      "id": "65d7461467406a250534cac4",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "Trying preferred audio driver \u0026#39;coreaudio\u0026#39;, options \u0026#39;device_id=47\u0026#39;~AO: [coreaudio] init([44100Hz][2ch][floatle][0])~AO: [coreaudio] could not get default audio device name: [?ohw]~Failed to initialize audio driver \u0026#39;coreaudio:device_id=47\u0026#39;~Could not open/initialize audio device -\u0026gt; no sound.~Uninit audio filters..."
+    },
+    {
+      "id": "65d7461467406a250534cac5",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444496467,
+      "text": "этот not found  был от туда"
+    },
+    {
+      "id": "65d7461467406a250534cac6",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444496467,
+      "text": "там много всего, да"
+    },
+    {
+      "id": "65d7461467406a250534cac7",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444496467,
+      "text": "у тебя лист тоже дает ошибку?"
+    },
+    {
+      "id": "65d7461467406a250534cac8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444496467,
+      "text": "Could not parse arguments at the position indicated below:device_id=list"
+    },
+    {
+      "id": "65d7461467406a250534cac9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "mplayer -ao coreaudio:device_id=list даст ошибку"
+    },
+    {
+      "id": "65d7461467406a250534caca",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "а mplayer file.mp3 -ao coreaudio:device_id=list — будет работать"
+    },
+    {
+      "id": "65d7461467406a250534cacb",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "umputun для совсем verbose можно еще указать -v -msglevel all=9"
+    },
+    {
+      "id": "65d7461467406a250534cacc",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1444496467,
+      "text": "umputun: так и не заработал list? у меня MPlayer 1.1-4.2.1 и list работает"
+    },
+    {
+      "id": "65d7461467406a250534cacd",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cace",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cacf",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cad0",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cad1",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cad2",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cad3",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1444496467,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d7461467406a250534cad4",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496467,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d7461467406a250534cad5",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496473,
+      "text": "--\u0026gt; Rackspace: Amazon? Sure, you can buy their cloud ... from us \u003ca href=\"http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/\"\u003ehttp://www.theregister.co.uk/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cad6",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444496969,
+      "text": "--\u0026gt; Подкаст выходного дня - импровизации на темы высоких технологий \u003ca href=\"http://radio-t.com\"\u003ehttp://radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cad7",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444500805,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cad8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444500807,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cad9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444501132,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cada",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444501133,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cadb",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "lifedjik",
+      "datetime": 1444501183,
+      "text": "say!"
+    },
+    {
+      "id": "65d7461467406a250534cadc",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444501184,
+      "text": "Сребролюбцы! сколь ничтожны ваши стяжания, коли все ваши сокровища не стоят одного листка из лаврового венка поэта!"
+    },
+    {
+      "id": "65d7461467406a250534cadd",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444501187,
+      "text": "не знаю почему, но новость про Perl 6 радует"
+    },
+    {
+      "id": "65d7461467406a250534cade",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444501962,
+      "text": "А что конкретно из 6-го радует?"
+    },
+    {
+      "id": "65d7461467406a250534cadf",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444502009,
+      "text": "да пожалуй просто что есть движуха"
+    },
+    {
+      "id": "65d7461467406a250534cae0",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444502013,
+      "text": "ну и то что доделали"
+    },
+    {
+      "id": "65d7461467406a250534cae1",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444502091,
+      "text": "в лучших традициях игростроя пестовали 10 лет новую часть (т.е. версию)"
+    },
+    {
+      "id": "65d7461467406a250534cae2",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444504302,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cae3",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444504303,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cae4",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wh01sh3",
+      "datetime": 1444505466,
+      "text": "что за трек?"
+    },
+    {
+      "id": "65d7461467406a250534cae5",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444505474,
+      "text": "чет в чате мертвяк о_о"
+    },
+    {
+      "id": "65d7461467406a250534cae6",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444505518,
+      "text": "wh01sh3: открй для себя shazam - там есть все эти ответы"
+    },
+    {
+      "id": "65d7461467406a250534cae7",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "wh01sh3",
+      "datetime": 1444505570,
+      "text": "ладно, придется :)"
+    },
+    {
+      "id": "65d7461467406a250534cae8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444505771,
+      "text": "TigerShot89: ну ты тоже привнес много жизни, молодец, да."
+    },
+    {
+      "id": "65d7461467406a250534cae9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444505840,
+      "text": "одним глазом посматриваю) Середина ночи,да."
+    },
+    {
+      "id": "65d7461467406a250534caea",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506088,
+      "text": "Впору к никам приписывать часовой пояс местонахождения слушателя."
+    },
+    {
+      "id": "65d7461467406a250534caeb",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tigerrrr",
+      "datetime": 1444506177,
+      "text": "Cupcake, Donut, Eclair, Froyo, ..., Lollipop, Marshmallow... Боюсь, следующая версия будет Insulin."
+    },
+    {
+      "id": "65d7461467406a250534caec",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444506213,
+      "text": "vitaly_t: ну так...москвичи только начинают отмечать наступление вечера а большая часть России уже спит)))"
+    },
+    {
+      "id": "65d7461467406a250534caed",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506233,
+      "text": "Ну а другое полушарие встречает рассвет."
+    },
+    {
+      "id": "65d7461467406a250534caee",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506270,
+      "text": "И скоро у них будет вчера по отношению всей России."
+    },
+    {
+      "id": "65d7461467406a250534caef",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444506274,
+      "text": "vitaly_t: другое полушарие не слушает РадиоТ"
+    },
+    {
+      "id": "65d7461467406a250534caf0",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506283,
+      "text": "Оно даже ведёт его."
+    },
+    {
+      "id": "65d7461467406a250534caf1",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444506300,
+      "text": "ну кроме ведущих и нескольких слушателей"
+    },
+    {
+      "id": "65d7461467406a250534caf2",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506406,
+      "text": "Как народ набежит, нужно попросить народ отметиться кто из слушателей издалека по отношению к России."
+    },
+    {
+      "id": "65d7461467406a250534caf3",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444506437,
+      "text": "TigerShot89: гугл аналиткс с тобой несогласен"
+    },
+    {
+      "id": "65d7461467406a250534caf4",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506469,
+      "text": "umputun: Нууу... гугланалитикс это вражья пропаганда :)"
+    },
+    {
+      "id": "65d7461467406a250534caf5",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1444506480,
+      "text": "Привет люди. Может у кого есть почта от Вуза, Колледжа или Т.П... ? Надо на пару минут"
+    },
+    {
+      "id": "65d7461467406a250534caf6",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444506524,
+      "text": "Хм. Тот кто убежал из русского мира, скучает и слушает русские подкасты))"
+    },
+    {
+      "id": "65d7461467406a250534caf7",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506535,
+      "text": "Лис_Маринки: Никак айдию хочешь студенческую скачать?"
+    },
+    {
+      "id": "65d7461467406a250534caf8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1444506566,
+      "text": "vitaly_t: Хочу ДропБокс качнуть"
+    },
+    {
+      "id": "65d7461467406a250534caf9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444506570,
+      "text": "TigerShot89: это называется ностальгия  :)"
+    },
+    {
+      "id": "65d7461467406a250534cafa",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444506595,
+      "text": "maktorin: однохерственно"
+    },
+    {
+      "id": "65d7461467406a250534cafb",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444506615,
+      "text": "TigerShot89: :)"
+    },
+    {
+      "id": "65d7461467406a250534cafc",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1444506624,
+      "text": "vitaly_t: \u003ca href=\"http://habrahabr.ru/post/267767/\"\u003ehttp://habrahabr.ru/post/267767/\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cafd",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444506685,
+      "text": "TigerShot89: у меня есть 2 подтвержденных случая когда совсем, совсем нерусские и даже плохо понимающие русский язык слушают этот подкаст."
+    },
+    {
+      "id": "65d7461467406a250534cafe",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444506730,
+      "text": "umputun: твой китаец?)"
+    },
+    {
+      "id": "65d7461467406a250534caff",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1444506733,
+      "text": "umputun: И один твой бывший начальник?"
+    },
+    {
+      "id": "65d7461467406a250534cb00",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444506744,
+      "text": "Лис_Маринки:чисто ради интереса, долго думал над ником ? :)"
+    },
+    {
+      "id": "65d7461467406a250534cb01",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444506756,
+      "text": "не, просто энтузиасты"
+    },
+    {
+      "id": "65d7461467406a250534cb02",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444506763,
+      "text": "umputun: неужели китаец? =)"
+    },
+    {
+      "id": "65d7461467406a250534cb03",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444506775,
+      "text": "опоздал"
+    },
+    {
+      "id": "65d7461467406a250534cb04",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444506781,
+      "text": "ArchiM: )"
+    },
+    {
+      "id": "65d7461467406a250534cb05",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506788,
+      "text": "Про китайца давнооо не слышно"
+    },
+    {
+      "id": "65d7461467406a250534cb06",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1444506795,
+      "text": "maktorin: Неа, правда пришлось со временм переделать под актуальную ведущую )"
+    },
+    {
+      "id": "65d7461467406a250534cb07",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444506799,
+      "text": "umputun: учитывая множество непереводимых фраз и слов в подкасте...только ради унцы или приятного лампового звука"
+    },
+    {
+      "id": "65d7461467406a250534cb08",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444506812,
+      "text": "Лис_Маринки: :)"
+    },
+    {
+      "id": "65d7461467406a250534cb09",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444506874,
+      "text": "TigerShot89: один из них изучает русский язык таким образом. потом использует это в обществе русскоязычных коллег с разной степенью абсурдности :)"
+    },
+    {
+      "id": "65d7461467406a250534cb0a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444506899,
+      "text": "umputun: =)"
+    },
+    {
+      "id": "65d7461467406a250534cb0b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444506938,
+      "text": "umputun: sramota hodyachaya"
+    },
+    {
+      "id": "65d7461467406a250534cb0c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444506966,
+      "text": "Лис_Маринки: А как они узнают что это колледжный домен? Будет какойнибудь asdfasfads.ru Или они по каждому случаю будут проверять что домен именно за колледжем?"
+    },
+    {
+      "id": "65d7461467406a250534cb0d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444506970,
+      "text": "Как представлю это с диким акцентом - очень смешно"
+    },
+    {
+      "id": "65d7461467406a250534cb0e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444506982,
+      "text": "vitaly_t: .edu"
+    },
+    {
+      "id": "65d7461467406a250534cb0f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507026,
+      "text": "А... Так в России максимум edu.ru будет."
+    },
+    {
+      "id": "65d7461467406a250534cb10",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507058,
+      "text": "vitaly_t: А вот это уже зависит от степени ленивости авторов проверки"
+    },
+    {
+      "id": "65d7461467406a250534cb11",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507069,
+      "text": "vitaly_t: у них есть база доменов"
+    },
+    {
+      "id": "65d7461467406a250534cb12",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507109,
+      "text": "Я вот когда макбук со студенческой скидкой покупал, списывались с ГОРОНО и проверяли что я студент. И я их понимаю. Потому что 25летний бородатый студент это странно."
+    },
+    {
+      "id": "65d7461467406a250534cb13",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507136,
+      "text": "vitaly_t: на хабре писали, что прокатывало с университетской, но не с .edu"
+    },
+    {
+      "id": "65d7461467406a250534cb14",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507170,
+      "text": "Mr. Gooff: в Украине было 802 ВУЗа"
+    },
+    {
+      "id": "65d7461467406a250534cb15",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507173,
+      "text": "таки шалом"
+    },
+    {
+      "id": "65d7461467406a250534cb16",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507174,
+      "text": "Срочно регистрировать домен за 70р. якобы от универа."
+    },
+    {
+      "id": "65d7461467406a250534cb17",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507218,
+      "text": "хочу взять xiaomi mi4i, есть кому что сказать по этому поводу?"
+    },
+    {
+      "id": "65d7461467406a250534cb18",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507219,
+      "text": "Mr. Gooff: это ж какой объем работы выписать все ВУЗы во всех странах и подерживать актуаьность"
+    },
+    {
+      "id": "65d7461467406a250534cb19",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507246,
+      "text": "sakal: У меня mi4с (cdma) я доволен всем кроме звука на наушники."
+    },
+    {
+      "id": "65d7461467406a250534cb1a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507255,
+      "text": "ArchiM: DNS покруче будет"
+    },
+    {
+      "id": "65d7461467406a250534cb1b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507283,
+      "text": "ArchiM: спасибо, я планирую юзать bluetooth наушники"
+    },
+    {
+      "id": "65d7461467406a250534cb1c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507290,
+      "text": "Mr. Gooff: Это у вас DNS а у нас у некоторых вузов .narod.ru еще =)"
+    },
+    {
+      "id": "65d7461467406a250534cb1d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "radio-t",
+      "datetime": 1444507312,
+      "text": "что у нас сегодня будет? день майкросовт?"
+    },
+    {
+      "id": "65d7461467406a250534cb1e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507322,
+      "text": "sakal: Пробовал, не сильно лучше. Может не те уши попадались."
+    },
+    {
+      "id": "65d7461467406a250534cb1f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507336,
+      "text": "radio-t: а что там майкрософт?"
+    },
+    {
+      "id": "65d7461467406a250534cb20",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507349,
+      "text": "а какая претензия к ушам/звуку?"
+    },
+    {
+      "id": "65d7461467406a250534cb21",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "radio-t",
+      "datetime": 1444507352,
+      "text": "новые девайсы"
+    },
+    {
+      "id": "65d7461467406a250534cb22",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507355,
+      "text": "Всем прислали извенения и 20 минут в скайп кстати?"
+    },
+    {
+      "id": "65d7461467406a250534cb23",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507358,
+      "text": "Кто на Хроме? АдБлок после продажи как-нибудь поменялся в работе?"
+    },
+    {
+      "id": "65d7461467406a250534cb24",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "radio-t",
+      "datetime": 1444507362,
+      "text": "кажется у меня ник неправельный :)"
+    },
+    {
+      "id": "65d7461467406a250534cb25",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444507392,
+      "text": "vitaly_t: юзаю. Не заметил. Как работал так и работает"
+    },
+    {
+      "id": "65d7461467406a250534cb26",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444507401,
+      "text": "ArchiM: да"
+    },
+    {
+      "id": "65d7461467406a250534cb27",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507414,
+      "text": "sakal: Ну я же тестов не проводил. Просто слушаю и звук какой-то плоский, не нравится. Причем с Xiaomi Pistons 2, которые в соседней моторолле звучат супер."
+    },
+    {
+      "id": "65d7461467406a250534cb28",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507433,
+      "text": "ок, спасибо"
+    },
+    {
+      "id": "65d7461467406a250534cb29",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507433,
+      "text": "ArchiM: ага \u0026#34;Бесплатные звонки будут доступны только в течение 7 дней\u0026#34;"
+    },
+    {
+      "id": "65d7461467406a250534cb2a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1444507435,
+      "text": "хмм, и почти никого ... и какн оно будет, ой ой ой"
+    },
+    {
+      "id": "65d7461467406a250534cb2b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507442,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb2c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507443,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb2d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507449,
+      "text": "Who?"
+    },
+    {
+      "id": "65d7461467406a250534cb2e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444507460,
+      "text": "О_О"
+    },
+    {
+      "id": "65d7461467406a250534cb2f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507460,
+      "text": "Кто?"
+    },
+    {
+      "id": "65d7461467406a250534cb30",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507460,
+      "text": "кто?"
+    },
+    {
+      "id": "65d7461467406a250534cb31",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507463,
+      "text": "who?"
+    },
+    {
+      "id": "65d7461467406a250534cb32",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507463,
+      "text": "Мы! Umputun, Bobuk, Gray, Ksenks и приходящие гости"
+    },
+    {
+      "id": "65d7461467406a250534cb33",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507464,
+      "text": "Umputun, Bobuk, Gray, Ksenks и проходящие гости"
+    },
+    {
+      "id": "65d7461467406a250534cb34",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444507464,
+      "text": "как это никого"
+    },
+    {
+      "id": "65d7461467406a250534cb35",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444507473,
+      "text": "sakal: на руках Xiaomi Redmi Note 2 prime , все гуд .   Качество сборки на уровне"
+    },
+    {
+      "id": "65d7461467406a250534cb36",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507475,
+      "text": "help"
+    },
+    {
+      "id": "65d7461467406a250534cb37",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507476,
+      "text": "Вы находитесь в чате подкаста Радио-Т. Трансляция происходит каждую субботу в 23:00 по Москве. Вся информация по подключению к эфиру тут: \u003ca href=\"http://www.radio-t.com/online/\"\u003ehttp://www.radio-t.com/online/\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cb38",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507477,
+      "text": "Да, пока не началось, подскажите, почему унца назвается унцой? Что это такое? Гуглил, но не нашёл ничего на эту тему."
+    },
+    {
+      "id": "65d7461467406a250534cb39",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507488,
+      "text": "say!"
+    },
+    {
+      "id": "65d7461467406a250534cb3a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507489,
+      "text": "Имея в виду какое-либо предприятие, помысли, точно ли оно тебе удастся."
+    },
+    {
+      "id": "65d7461467406a250534cb3b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507496,
+      "text": "vitaly_t: потому что унц-унц-унц"
+    },
+    {
+      "id": "65d7461467406a250534cb3c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Apacci",
+      "datetime": 1444507507,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb3d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507508,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb3e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "iKostet",
+      "datetime": 1444507516,
+      "text": "Народ, кто юзал обои уши Audio-technica ATH-M50 и  MSR7, какие по звуку лучше?"
+    },
+    {
+      "id": "65d7461467406a250534cb3f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507517,
+      "text": "ик! )"
+    },
+    {
+      "id": "65d7461467406a250534cb40",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "serener",
+      "datetime": 1444507522,
+      "text": "вечера доброго"
+    },
+    {
+      "id": "65d7461467406a250534cb41",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507526,
+      "text": "ArchiM, maktorin, а что с русским/английским/китайским языками?"
+    },
+    {
+      "id": "65d7461467406a250534cb42",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "validoll",
+      "datetime": 1444507532,
+      "text": "ура! Добрый вечер и прочее время дня!"
+    },
+    {
+      "id": "65d7461467406a250534cb43",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507533,
+      "text": "все бухают )"
+    },
+    {
+      "id": "65d7461467406a250534cb44",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "libbkmz",
+      "datetime": 1444507534,
+      "text": "umputun: бобук будет?"
+    },
+    {
+      "id": "65d7461467406a250534cb45",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507556,
+      "text": "\u0026#34;Ты, да я, да мы с тобой\u0026#34; - вон, сколько народа!"
+    },
+    {
+      "id": "65d7461467406a250534cb46",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507562,
+      "text": "Бобук китаец?"
+    },
+    {
+      "id": "65d7461467406a250534cb47",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "m0n0",
+      "datetime": 1444507565,
+      "text": "Всем привет!"
+    },
+    {
+      "id": "65d7461467406a250534cb48",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444507566,
+      "text": "vitaly_t: если я правильно помню так назвал слушатель который и написал унцу"
+    },
+    {
+      "id": "65d7461467406a250534cb49",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444507567,
+      "text": "он смайлик"
+    },
+    {
+      "id": "65d7461467406a250534cb4a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "iKostet",
+      "datetime": 1444507574,
+      "text": "#bobukComeBack"
+    },
+    {
+      "id": "65d7461467406a250534cb4b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507583,
+      "text": "sakal: стоит прошивка с miui.su"
+    },
+    {
+      "id": "65d7461467406a250534cb4c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Feeljust",
+      "datetime": 1444507591,
+      "text": "Добрый вечер!"
+    },
+    {
+      "id": "65d7461467406a250534cb4d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444507592,
+      "text": "Ксюша пилит новые смайлики!"
+    },
+    {
+      "id": "65d7461467406a250534cb4e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Лис_Маринки",
+      "datetime": 1444507605,
+      "text": "umputun: Бобук может быть и не в сети. У меня так подруга которая год не в сети так-же отображается."
+    },
+    {
+      "id": "65d7461467406a250534cb4f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "iKostet",
+      "datetime": 1444507612,
+      "text": "и дазлайк"
+    },
+    {
+      "id": "65d7461467406a250534cb50",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1444507635,
+      "text": "слышно"
+    },
+    {
+      "id": "65d7461467406a250534cb51",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507637,
+      "text": "ГА-га-а"
+    },
+    {
+      "id": "65d7461467406a250534cb52",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444507637,
+      "text": "зомбики ходят?"
+    },
+    {
+      "id": "65d7461467406a250534cb53",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1444507637,
+      "text": "слышно"
+    },
+    {
+      "id": "65d7461467406a250534cb54",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444507641,
+      "text": ":) хорошая педаль"
+    },
+    {
+      "id": "65d7461467406a250534cb55",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444507645,
+      "text": "=)"
+    },
+    {
+      "id": "65d7461467406a250534cb56",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "m0n0",
+      "datetime": 1444507646,
+      "text": "и нам так же слышно"
+    },
+    {
+      "id": "65d7461467406a250534cb57",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507648,
+      "text": "umputun: может второй микрофон ловит?"
+    },
+    {
+      "id": "65d7461467406a250534cb58",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444507651,
+      "text": "может это ноги слабеют :)"
+    },
+    {
+      "id": "65d7461467406a250534cb59",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Apacci",
+      "datetime": 1444507662,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb5a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507663,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb5b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507678,
+      "text": "Это от АНБ просачивается."
+    },
+    {
+      "id": "65d7461467406a250534cb5c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444507691,
+      "text": "Бобук даже в тви не отмечался в субботу"
+    },
+    {
+      "id": "65d7461467406a250534cb5d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444507695,
+      "text": "Или от ФСБ."
+    },
+    {
+      "id": "65d7461467406a250534cb5e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444507704,
+      "text": "Радио-Т ещё не началось, а Грей уже анекдоты травит"
+    },
+    {
+      "id": "65d7461467406a250534cb5f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507719,
+      "text": "umputun: новый роутер купил чтоль?"
+    },
+    {
+      "id": "65d7461467406a250534cb60",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444507749,
+      "text": "может умутен через педать все это время выходил :)"
+    },
+    {
+      "id": "65d7461467406a250534cb61",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444507770,
+      "text": "ArchiM: дада хотим услышать про новую балалайку Zyxel)))"
+    },
+    {
+      "id": "65d7461467406a250534cb62",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1444507776,
+      "text": "umputun: Пробовали TOX ?"
+    },
+    {
+      "id": "65d7461467406a250534cb63",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507803,
+      "text": "TigerShot89: от блин я думал какой-то микротик или EdgeRouter Pro"
+    },
+    {
+      "id": "65d7461467406a250534cb64",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sockeye",
+      "datetime": 1444507817,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb65",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sockeye",
+      "datetime": 1444507818,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb66",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507818,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb67",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507819,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb68",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1444507825,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb69",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1444507825,
+      "text": "umputun: Грея надо допросить за Кинопоиск, раз Бобука нет"
+    },
+    {
+      "id": "65d7461467406a250534cb6a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507827,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb6b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Screed",
+      "datetime": 1444507829,
+      "text": "бобук из-за кинопоиска решил прогулять"
+    },
+    {
+      "id": "65d7461467406a250534cb6c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Apacci",
+      "datetime": 1444507838,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb6d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507839,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb6e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444507841,
+      "text": "Дергайте Петю или Муртазина, нужно же нам узнать как фото рамки живут :)"
+    },
+    {
+      "id": "65d7461467406a250534cb6f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507846,
+      "text": "[2cool]Alex: Грей ≠ Яндекс"
+    },
+    {
+      "id": "65d7461467406a250534cb70",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444507852,
+      "text": "зовите  того хлопца с ЭплИнсайдера"
+    },
+    {
+      "id": "65d7461467406a250534cb71",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1444507870,
+      "text": "ArchiM: ну по старой памяти ведь можно"
+    },
+    {
+      "id": "65d7461467406a250534cb72",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArchiM",
+      "datetime": 1444507891,
+      "text": "umputun: Lena iPaaad"
+    },
+    {
+      "id": "65d7461467406a250534cb73",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444507926,
+      "text": "umputun: У вас же новый мальчик"
+    },
+    {
+      "id": "65d7461467406a250534cb74",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Apacci",
+      "datetime": 1444507934,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb75",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444507935,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb76",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444507953,
+      "text": "umputun: который на место бобука метил)"
+    },
+    {
+      "id": "65d7461467406a250534cb77",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tigerrrr",
+      "datetime": 1444507954,
+      "text": "Артем?"
+    },
+    {
+      "id": "65d7461467406a250534cb78",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444508028,
+      "text": "python, это хорошо"
+    },
+    {
+      "id": "65d7461467406a250534cb79",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444508039,
+      "text": "Бодрый чувак!"
+    },
+    {
+      "id": "65d7461467406a250534cb7a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444508044,
+      "text": "Плющев ? не"
+    },
+    {
+      "id": "65d7461467406a250534cb7b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444508051,
+      "text": "yt"
+    },
+    {
+      "id": "65d7461467406a250534cb7c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444508055,
+      "text": "не"
+    },
+    {
+      "id": "65d7461467406a250534cb7d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444508060,
+      "text": "maktorin: да Плющев"
+    },
+    {
+      "id": "65d7461467406a250534cb7e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dubanoze",
+      "datetime": 1444508066,
+      "text": "Артем от Scorpions отходит"
+    },
+    {
+      "id": "65d7461467406a250534cb7f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1444508077,
+      "text": "umputun: Их обоих заметно тише тебя слышно!"
+    },
+    {
+      "id": "65d7461467406a250534cb80",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508097,
+      "text": "А кто-то с Мк-61"
+    },
+    {
+      "id": "65d7461467406a250534cb81",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1444508103,
+      "text": "dubanoze: он тоже там был??"
+    },
+    {
+      "id": "65d7461467406a250534cb82",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444508110,
+      "text": "да все отлично!"
+    },
+    {
+      "id": "65d7461467406a250534cb83",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "dubanoze",
+      "datetime": 1444508119,
+      "text": "тоже не тоже, а был"
+    },
+    {
+      "id": "65d7461467406a250534cb84",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1444508156,
+      "text": "dubanoze: прикольно, я тоже там зависал)"
+    },
+    {
+      "id": "65d7461467406a250534cb85",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1444508169,
+      "text": "У Плющева в полночь передача на Эхо Москвы"
+    },
+    {
+      "id": "65d7461467406a250534cb86",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Korot",
+      "datetime": 1444508186,
+      "text": "ассемблер на синклере был, да"
+    },
+    {
+      "id": "65d7461467406a250534cb87",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tigerrrr",
+      "datetime": 1444508198,
+      "text": "Так я кто пришел? Координаты есть?"
+    },
+    {
+      "id": "65d7461467406a250534cb88",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444508201,
+      "text": "Бобук Берлин берет"
+    },
+    {
+      "id": "65d7461467406a250534cb89",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444508218,
+      "text": "Б3-34 рулит!"
+    },
+    {
+      "id": "65d7461467406a250534cb8a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444508244,
+      "text": "Счеты?"
+    },
+    {
+      "id": "65d7461467406a250534cb8b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508245,
+      "text": "Скоро спустимся до Феликса."
+    },
+    {
+      "id": "65d7461467406a250534cb8c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444508268,
+      "text": "МС 0511"
+    },
+    {
+      "id": "65d7461467406a250534cb8d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aleos",
+      "datetime": 1444508278,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cb8e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444508279,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cb8f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1444508282,
+      "text": "прямтаки с журнала Радио схему брал?"
+    },
+    {
+      "id": "65d7461467406a250534cb90",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508293,
+      "text": "Вот санкции введут, вернёмся к РК-86"
+    },
+    {
+      "id": "65d7461467406a250534cb91",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "sakal",
+      "datetime": 1444508312,
+      "text": "чего писать, звоните!"
+    },
+    {
+      "id": "65d7461467406a250534cb92",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "m0n0",
+      "datetime": 1444508323,
+      "text": "я вот впервые столкнулся с https://ru.wikipedia.org/wiki/Специалист_(компьютер)"
+    },
+    {
+      "id": "65d7461467406a250534cb93",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Еvtomax",
+      "datetime": 1444508341,
+      "text": "vitaly_t: Китайцы обеспечат компами :-)"
+    },
+    {
+      "id": "65d7461467406a250534cb94",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1444508344,
+      "text": "umputun: Б3-21 нее, извини, но ты очень \u0026#34;старпер\u0026#34;"
+    },
+    {
+      "id": "65d7461467406a250534cb95",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Neuro",
+      "datetime": 1444508348,
+      "text": "Напросился"
+    },
+    {
+      "id": "65d7461467406a250534cb96",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444508364,
+      "text": "Про Киноманию что ли. Весь рунет на уши поставили"
+    },
+    {
+      "id": "65d7461467406a250534cb97",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444508369,
+      "text": "Урааа!"
+    },
+    {
+      "id": "65d7461467406a250534cb98",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "m0n0",
+      "datetime": 1444508370,
+      "text": "перебивать хексы из Моделист Конструктор в комп было круто"
+    },
+    {
+      "id": "65d7461467406a250534cb99",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valsor",
+      "datetime": 1444508372,
+      "text": "Привет уважаемый all!"
+    },
+    {
+      "id": "65d7461467406a250534cb9a",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "SolarWind",
+      "datetime": 1444508373,
+      "text": "Куча народу из Яндекса и некого спросить... блин"
+    },
+    {
+      "id": "65d7461467406a250534cb9b",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "23ua",
+      "datetime": 1444508385,
+      "text": "доколе!"
+    },
+    {
+      "id": "65d7461467406a250534cb9c",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444508386,
+      "text": "Никто не знает. Пока не надоест"
+    },
+    {
+      "id": "65d7461467406a250534cb9d",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1444508390,
+      "text": "вот таквот занчит 1/3 может отвечать зато что твориться в яндексе?"
+    },
+    {
+      "id": "65d7461467406a250534cb9e",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508404,
+      "text": "Не прогулял, пропил..."
+    },
+    {
+      "id": "65d7461467406a250534cb9f",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spitty",
+      "datetime": 1444508410,
+      "text": "SolarWind: никто в Яндексе не знает, кто делает Кинопоиск"
+    },
+    {
+      "id": "65d7461467406a250534cba0",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "j0gurt",
+      "datetime": 1444508436,
+      "text": "umputun: Руслан должен знать у кого спросить!"
+    },
+    {
+      "id": "65d7461467406a250534cba1",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "TigerShot89",
+      "datetime": 1444508437,
+      "text": "ой, кинопоиск*"
+    },
+    {
+      "id": "65d7461467406a250534cba2",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508506,
+      "text": "И кстати круто вышло в прошлый раз."
+    },
+    {
+      "id": "65d7461467406a250534cba3",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508514,
+      "text": "Мощнее чем ролик."
+    },
+    {
+      "id": "65d7461467406a250534cba4",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zheka",
+      "datetime": 1444508534,
+      "text": "на новый год надо ролик одновить :)"
+    },
+    {
+      "id": "65d7461467406a250534cba5",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444508536,
+      "text": "заработала таки шарманка!"
+    },
+    {
+      "id": "65d7461467406a250534cba6",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[ - ACCUMULATOR + }",
+      "datetime": 1444508579,
+      "text": "Эль-попитан!"
+    },
+    {
+      "id": "65d7461467406a250534cba7",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "maktorin",
+      "datetime": 1444508648,
+      "text": "я так и не понял что там обновилось до эль капитана  , новый зонтик это да :)"
+    },
+    {
+      "id": "65d7461467406a250534cba8",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Андрей Родионов",
+      "datetime": 1444508704,
+      "text": "elasticsearch сделали!!"
+    },
+    {
+      "id": "65d7461467406a250534cba9",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Андрей Родионов",
+      "datetime": 1444508719,
+      "text": "только дорого…предоплаты нет, поэтому самому проще с предоплатой поставить"
+    },
+    {
+      "id": "65d7461467406a250534cbaa",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1444508734,
+      "text": "Лябда на БЗ-34?"
+    },
+    {
+      "id": "65d7461467406a250534cbab",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tigerrrr",
+      "datetime": 1444508806,
+      "text": "Зацените 17гигабайтную фотку El Capitan (внизу выберите) \u003ca href=\"http://www.yosemite-17-gigapixels.com/\"\u003ehttp://www.yosemite-17-gigapixel...\u003c/a\u003e"
+    },
+    {
+      "id": "65d7461467406a250534cbac",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MustangDSG",
+      "datetime": 1444509017,
+      "text": "ping"
+    },
+    {
+      "id": "65d7461467406a250534cbad",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1444509018,
+      "text": "pong"
+    },
+    {
+      "id": "65d7461467406a250534cbae",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rechitskiy",
+      "datetime": 1444509067,
+      "text": "хахха, а я пишу в этот час с Я.Онлайна — продукта похороненого яндексом"
+    },
+    {
+      "id": "65d7461467406a250534cbaf",
+      "issue": 465,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Rechitskiy",
+      "datetime": 1444509091,
+      "text": "Кинопоиск уже обсудили?"
+    }
+  ]
 }

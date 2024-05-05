@@ -1,3 +1,4936 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d746a76ca09f3ef9a961c0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "[2cool]Alex: за эти 6 лет я понял почему они не проделывают этот путь за 5-6 лет. Изучая кучу непрофильных предметов и имея ограниченное время на то что действительно нужно, развиваться тяжело"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "[2cool]Alex: у меня например из всего обучения процентов 5 было по делу остальное бесконечная экономика"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "да ещё и сраный FA{L убил всю надежду на красный диплом"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "АФХД*"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "gekoreed",
+      "datetime": 1433001611,
+      "text": "Сударь: это отговорка, если кто-то говорит что не работает нормально потому-что ходит на пары / учится, дела не будет."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Сударь: я не говорю, что они 5-6 лет обязательно в вузе проводят. Например, я знаю человека, который почти 7 лет только и делал, что сидел дома и учился программировать. Сейчас он может написать простенькую программу на C++ без знания, как туда даже базу данных подключить. Тут вопрос не времени, а того, чтобы когда-то наконец выбрать что-то и следовать этому."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "gekoreed: работаю нормально, но серьёзной работы в моём городе найти трудно в сфере it, а в москву не накатаешься изматывает сильно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Сударь: зато он кучу времени убил на разработку очередного убийцы c++, написанного на c++. Названия не помню, но смысл в том, что он туда даже вклада особого не внёс - чатился в основном."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "[2cool]Alex: и как убил таки?)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961c9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Сударь: нет, они там что-то пишут. GUI вроде не совсем страшный получился, язык - очередная попытка уйти от C-like."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ca",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Но я об этой штуке слышал только от него, настолько она популярна"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961cb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "не понимаю людей которые распыляются на создание очередного ЯП или стандартов"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961cc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Ну это прекрасно, желание решить \u0026#34;ту самую проблему\u0026#34;"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961cd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "[2cool]Alex: а в чём собственно проблема?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ce",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Язык недостаточно хорош, поэтому программы такое говно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961cf",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Это как введение миллиона абстрактных слоёв, чтобы таки залить файл на ftp одной строчкой, а не тремя"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433001611,
+      "text": "Только ещё круче"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "[2cool]Alex: я смотрюна всё с другой стороны. Это программисты не достаточно хороши и чем мощнее им дают машины и костыли тем хуже они становятся,"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433001611,
+      "text": "ещё 20 лет назад люди имели меньше возможностей а делали более удивительные вещи"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tigerrrr",
+      "datetime": 1433001611,
+      "text": "С.и"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1433001611,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433001611,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433001617,
+      "text": "--\u0026gt; 8 insane things an intern will find only in a startup \u003ca href=\"http://prsm.tc/eHaBo0\"\u003ehttp://prsm.tc/eHaBo0\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "да ещё и сраный FA{L убил всю надежду на красный диплом"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "АФХД*"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961d9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "gekoreed",
+      "datetime": 1433005268,
+      "text": "Сударь: это отговорка, если кто-то говорит что не работает нормально потому-что ходит на пары / учится, дела не будет."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961da",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Сударь: я не говорю, что они 5-6 лет обязательно в вузе проводят. Например, я знаю человека, который почти 7 лет только и делал, что сидел дома и учился программировать. Сейчас он может написать простенькую программу на C++ без знания, как туда даже базу данных подключить. Тут вопрос не времени, а того, чтобы когда-то наконец выбрать что-то и следовать этому."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961db",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "gekoreed: работаю нормально, но серьёзной работы в моём городе найти трудно в сфере it, а в москву не накатаешься изматывает сильно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961dc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Сударь: зато он кучу времени убил на разработку очередного убийцы c++, написанного на c++. Названия не помню, но смысл в том, что он туда даже вклада особого не внёс - чатился в основном."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961dd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "[2cool]Alex: и как убил таки?)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961de",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Сударь: нет, они там что-то пишут. GUI вроде не совсем страшный получился, язык - очередная попытка уйти от C-like."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961df",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Но я об этой штуке слышал только от него, настолько она популярна"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "не понимаю людей которые распыляются на создание очередного ЯП или стандартов"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Ну это прекрасно, желание решить \u0026#34;ту самую проблему\u0026#34;"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "[2cool]Alex: а в чём собственно проблема?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Язык недостаточно хорош, поэтому программы такое говно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Это как введение миллиона абстрактных слоёв, чтобы таки залить файл на ftp одной строчкой, а не тремя"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433005268,
+      "text": "Только ещё круче"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "[2cool]Alex: я смотрюна всё с другой стороны. Это программисты не достаточно хороши и чем мощнее им дают машины и костыли тем хуже они становятся,"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433005268,
+      "text": "ещё 20 лет назад люди имели меньше возможностей а делали более удивительные вещи"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tigerrrr",
+      "datetime": 1433005268,
+      "text": "С.и"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961e9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433005268,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ea",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433005268,
+      "text": "--\u0026gt; 8 insane things an intern will find only in a startup \u003ca href=\"http://prsm.tc/eHaBo0\"\u003ehttp://prsm.tc/eHaBo0\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961eb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "online@conference.radio-t.com",
+      "datetime": 1433005268,
+      "text": "umputun has set the subject to: Радио-Т"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ec",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433005268,
+      "text": "rt-robot here"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ed",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433005274,
+      "text": "--\u0026gt; 8 insane things an intern will find only in a startup \u003ca href=\"http://prsm.tc/eHaBo0\"\u003ehttp://prsm.tc/eHaBo0\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ee",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433009847,
+      "text": "--\u0026gt; Подкаст выходного дня - импровизации на темы высоких технологий \u003ca href=\"http://radio-t.com\"\u003ehttp://radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ef",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1433010859,
+      "text": "say!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433010860,
+      "text": "Значение синуса в военное время может достигать \u0026#34;4\u0026#34;."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Stampas",
+      "datetime": 1433011678,
+      "text": "Привет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433012770,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433012771,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Insomnium",
+      "datetime": 1433013048,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433013049,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Insomnium",
+      "datetime": 1433013063,
+      "text": "say!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433013064,
+      "text": "Кто умеет льстить, умеет и клеветать."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Insomnium",
+      "datetime": 1433013073,
+      "text": "true story, bor"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961f9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433013733,
+      "text": "tst"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961fa",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod1",
+      "datetime": 1433014137,
+      "text": "Всем приветы"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961fb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bobomurod1",
+      "datetime": 1433014154,
+      "text": "рад быть с вами на одной волне"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961fc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433014288,
+      "text": "всем привеееееет :five: :peka:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961fd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433014342,
+      "text": "jabber такой милый) будь чат irc, слеза бы прям навернулась ._."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961fe",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mickalaj",
+      "datetime": 1433014509,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a961ff",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433014510,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96200",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433014655,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96201",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433014656,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96202",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433014666,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96203",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433014667,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96204",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433014671,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96205",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433014672,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96206",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433014873,
+      "text": "почему бы линк на аудиопоток не разместить на гланге радиот дот ком ?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96207",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1433014929,
+      "text": "Всем привет!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96208",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1433014932,
+      "text": "!say"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96209",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433014991,
+      "text": "o_O вот это музыка"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9620a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1433014997,
+      "text": "6APCI1K: таки есть"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9620b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433015032,
+      "text": "хуюзыка это"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9620c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1433015108,
+      "text": "6APCI1K: \u003ca href=\"http://4dropz.com/fHzSnk1V5ZKl\"\u003ehttp://4dropz.com/fHzSnk1V5ZKl\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9620d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mickalaj",
+      "datetime": 1433015245,
+      "text": "посоветуйте, пожалуйста, jabber клиент под android"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9620e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1433015296,
+      "text": "https://2ch.hk/es/src/291456/14329925162150.webm"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9620f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1433015411,
+      "text": "сегодня у нас 50% основного состава"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96210",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433015418,
+      "text": "\u003cumputun\u003e лишний клик же, впрочем возможно я придираюсь\n\u003c/umputun\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96211",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1433015421,
+      "text": "mickalaj, jtalk, xabber"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96212",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433015469,
+      "text": "Интересно, когда Амазон заявис сервис какой-нибудь \u0026#34;Биикап\u0026#34; когда дроны подобно пчёлам собирающим нектар будет летать до док станции до докстанции собирая бэкапы на физический диск от клиента к клиенту и унося в датацентр?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96213",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ikostet",
+      "datetime": 1433015486,
+      "text": "git pullgit pushgit pullgit push…— я коммичу!— нет, только не в мою ветку!!!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96214",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015511,
+      "text": "Только в моём городе сегодня маршрутка подоражала до 40 рублей?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96215",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433015533,
+      "text": "umputun: объявите весь список пжлта"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96216",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mickalaj",
+      "datetime": 1433015547,
+      "text": "mersenne: cпасибо"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96217",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ikostet",
+      "datetime": 1433015549,
+      "text": "выразим соболезнование Оляпке, которая только что разбила свой айфон"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96218",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015553,
+      "text": "aefimov: сёдня evgeney и грей"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96219",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433015573,
+      "text": "Сударь да"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9621a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015575,
+      "text": "aefimov: бобука опять не будет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9621b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1433015581,
+      "text": "звук есть?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9621c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1433015605,
+      "text": "Сударь: нет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9621d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433015605,
+      "text": "А, седня же не гиковский... гиговский"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9621e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015611,
+      "text": "таки да: что нет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9621f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1433015627,
+      "text": "Сударь: про маршрутку"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96220",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015681,
+      "text": "таки да: ааа, а ты в каком городе? просто был сегодня в стали так у них до фрязево дешевле доехать чем мне 2 остановки"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96221",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "таки да",
+      "datetime": 1433015717,
+      "text": "Сударь: в настоящее время МО, юг"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96222",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015754,
+      "text": "таки да: хотя точно в стали я ехал на автобусе без этой ебучей стрелки"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96223",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433015764,
+      "text": "Как кошерно померять в linux траффик на опрделённом порту или у определённого приложения?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96224",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433015821,
+      "text": "Могу кстати аккуратно набросить специально для umputun. В природе существует идеальный fitness band — называется xiaomi mi band. Живет на одной зарядке больше месяца, его родное приложение под андроит умеет больше чем его же родное под iOS. Стоимость — 1500 рублей. И есть открытый SDK. Короче в чем собственно наброс — этой штукой можно переводить телефон в беззвучный режим БЕЗ Apple Watch :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96225",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015836,
+      "text": "barlog: поставь pfsense и его в качестве прокси используй"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96226",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "23ua",
+      "datetime": 1433015846,
+      "text": "доколе!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96227",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433015847,
+      "text": "Никто не знает. Пока не надоест"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96228",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Sytar",
+      "datetime": 1433015870,
+      "text": "всем привет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96229",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433015879,
+      "text": "Сударь: а менее извращенский способ?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9622a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nem_",
+      "datetime": 1433015925,
+      "text": "звук квадратиками"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9622b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015928,
+      "text": "barlog: сказал чё пробовал"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9622c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1433015940,
+      "text": "barlog, vnstat можно попробовать"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9622d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "narqdalm",
+      "datetime": 1433015949,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9622e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433015950,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9622f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433015977,
+      "text": "\u003ca href=\"http://img0.joyreactor.cc/pics/post/%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D1%82%D0%BB%D0%B5%D0%BD-%D0%B1%D0%B5%D0%B7%D1%8B%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D1%8C-694960.png\"\u003ehttp://img0.joyreactor.cc/pics/p...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96230",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016015,
+      "text": "\u003ca href=\"http://zryandex.ru/\"\u003ehttp://zryandex.ru/\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96231",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433016052,
+      "text": "Кстати, уже не в первый раз, мягко говоря, сталкиваюсь. Пытаюсь по nix\u0026#39;ами скачать m3u файл и он как будто пытается весь поток качать. Загрузка, соответственно, не зевершается. P.S.: Linux, Chtomium"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96232",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "exe-dealer@yandex.ru",
+      "datetime": 1433016096,
+      "text": "как rhythmbox\u0026#39;у скормить \u003ca href=\"http://nn.radio-t.com/online\"\u003ehttp://nn.radio-t.com/online\u003c/a\u003e через гуй? У меня получается только через терминал rhythmbox http://nn.radio-t.com/online"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96233",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016117,
+      "text": "mersenne: не вижу, чтобы vnstat умел показывать про порт или процесс"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96234",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433016128,
+      "text": "скиньте, пожалуйста, m3u файл"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96235",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016139,
+      "text": "barlog: кто сейчас вообще трафик считает его ж завались"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96236",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016194,
+      "text": "Сударь: судя по тому, что хрен найдёшь в инете простое актуальное решение - никто. А потом фиг-что заюзаешь на плохом канали и дорогом интернете."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96237",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mersenne",
+      "datetime": 1433016197,
+      "text": "barlog, да не умеет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96238",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016205,
+      "text": "это не m3u файл"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96239",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016234,
+      "text": "Это просто редирект на поток, Location: \u003ca href=\"http://nn.radio-t.com/online\"\u003ehttp://nn.radio-t.com/online\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9623a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016276,
+      "text": "что было ужассно?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9623b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016278,
+      "text": "insomnium: mplayer есть?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9623c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016289,
+      "text": "О, филиал Разбора Полётов"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9623d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "23ua",
+      "datetime": 1433016315,
+      "text": "кажется, сегодня будет выпуск про джаву :("
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9623e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016322,
+      "text": "апчем говорят?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9623f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433016326,
+      "text": "@aefimov, deadbeef"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96240",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016352,
+      "text": "о, опять из конкурентного подкаста понаехавшие"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96241",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016355,
+      "text": "Сосиску надо класть в шерстяную руковичку"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96242",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1433016357,
+      "text": "Это Разбор Полетов???"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96243",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433016359,
+      "text": "Мне даже показалось что я попал в другой подкаст!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96244",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433016365,
+      "text": ":-)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96245",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016381,
+      "text": "у меня такойчувствительный сенсор что нажимается даже через чехол"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96246",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MustangDSG",
+      "datetime": 1433016385,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96247",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433016386,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96248",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1433016396,
+      "text": "пщщпду ш.щ"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96249",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Merraclius",
+      "datetime": 1433016399,
+      "text": "А API?))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9624a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016405,
+      "text": "OSGi"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9624b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1433016416,
+      "text": "google i/o"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9624c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016420,
+      "text": "кто обещал грея и умпутуна онли?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9624d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016427,
+      "text": "а вот на планшете сенсор мерзкий или плёнка штатная такая срёмная"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9624e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016442,
+      "text": "aefimov: планы изменились))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9624f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Merraclius",
+      "datetime": 1433016448,
+      "text": "про мощный забыли для начала))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96250",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serafim",
+      "datetime": 1433016460,
+      "text": "umputun: только что настроил тачайди на нос.... работает)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96251",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433016465,
+      "text": "да достали ваши рекламы конференций"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96252",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433016471,
+      "text": "Так начала ещё и нет официального."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96253",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016472,
+      "text": "да на эти конференции дай бог 5% IT индустрии ходит"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96254",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016479,
+      "text": "вазы все кривые"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96255",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016480,
+      "text": "че о них говорить?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96256",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016486,
+      "text": "Я девушку в метро видел как-то - носом листала вконтактик. Забавное зрелище."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96257",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "narqdalm",
+      "datetime": 1433016491,
+      "text": "на ноль главное не бросать её"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96258",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433016495,
+      "text": "Куда бобука дели?!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96259",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433016495,
+      "text": "кто хочет - тот и без сам знает"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9625a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016511,
+      "text": "barlog: на улице/в метро был мороз, у нее были перчатки?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9625b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "inhibitor",
+      "datetime": 1433016513,
+      "text": "блин опять Бобука нет((("
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9625c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "httpd",
+      "datetime": 1433016522,
+      "text": "унца что то громко не?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9625d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016526,
+      "text": "inhibitor: может и хорошо? он не терпит конкурентов"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9625e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016548,
+      "text": "#реклама"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9625f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016553,
+      "text": "barlog: думаю в метро не так уж холодно чтобы не иметь возможности снять перчатки"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96260",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016555,
+      "text": "rauch: да, зимой конечно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96261",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016572,
+      "text": "Сударь: а я не люблю перчатки снимать - лениво."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96262",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016603,
+      "text": "barlog: а у меня перчатки с кончиками которы сенсор ловит"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96263",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016631,
+      "text": "barlog: кажется ща другие уже и не делают"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96264",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016637,
+      "text": "Сударь: нет никаких сенсоров есть замыкание"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96265",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016648,
+      "text": "Сударь: ну вот не все такие себе ещё купили. Подозреваю не всем фасон нравится. Я обычные кожаные ношу."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96266",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016687,
+      "text": "Веселые у них темы, обсуждают какую Intellij IDEA надо скачивать, с bundled JDK или без. Чувствуется опытные ребяты"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96267",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016687,
+      "text": "barlog: так обычные дешёвые перчатки рублей по 100 а вообще я тоже юблю перчатки побольше и потолще"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96268",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "heyheyivan",
+      "datetime": 1433016703,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96269",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433016704,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9626a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433016708,
+      "text": "aefimov: :+1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9626b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433016709,
+      "text": "минутка проплаченных тем)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9626c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ipf",
+      "datetime": 1433016723,
+      "text": "про андроид уже говорили?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9626d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016731,
+      "text": "aefimov: ну ты-то точно знаешь какую качать. Поучи невежд."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9626e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Merraclius",
+      "datetime": 1433016733,
+      "text": "вот теперь все на своих местах))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9626f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433016738,
+      "text": "pechkin1007: у тебя чего число все время меняется? сын родился чыто ли?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96270",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433016745,
+      "text": "aefimov: это только кажется, что шуточки, а на ретине всякая говённо работает."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96271",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016752,
+      "text": "barlog: EAP, и качать не надо, там дельты :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96272",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016753,
+      "text": "rauch: ага 1007-ой)))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96273",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433016760,
+      "text": "какое число"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96274",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016770,
+      "text": "aefimov: так с бандлед JDK или нет?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96275",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433016781,
+      "text": "а какое было прошлое число?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96276",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016785,
+      "text": "barlog: с бандлед канечн"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96277",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433016789,
+      "text": "barlog: так на виндах везде все работет :D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96278",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016804,
+      "text": "а вообще было б прикольно заделать 1007 детей))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96279",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433016808,
+      "text": "aefimov: бандлед старая"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9627a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433016824,
+      "text": "Воу, какие люди в \u003cs\u003eголивудe\u003c/s\u003e radio-t"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9627b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433016832,
+      "text": "Ксюша сказала что ничего не показали, тему можно закрывать :-)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9627c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016839,
+      "text": "[2cool]Alex: они не просто так ее бандляд"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9627d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016847,
+      "text": "aefimov: у меня на топ макбуке с бандл JDK жутко тормозило. А толку от шрифтов не видно было."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9627e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433016853,
+      "text": "IDEA есть без bundled jdk? Эм, серьезно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9627f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433016863,
+      "text": "фегасе а как же project Soli Jacquard?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96280",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433016873,
+      "text": "insomnium, для линукса да"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96281",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016879,
+      "text": "myzone: винды и работа вообще не совместимые вещи. :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96282",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433016880,
+      "text": "Ничего нового угу"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96283",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016898,
+      "text": "а алкатель суки ваще свои телефоны не поддерживают"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96284",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016899,
+      "text": "barlog: у меня уже сменилось три топовых макбука, и  всегда на EAP bundled"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96285",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433016903,
+      "text": "barlog: черт, таки да :D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96286",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433016913,
+      "text": "insomnium: можно выпилить"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96287",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433016917,
+      "text": "Затем будет Андроид N,O,P..."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96288",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016918,
+      "text": "Do you know the Muffin Android, Muffin Android, Muffin Android?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96289",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433016921,
+      "text": "m3u файл https://yadi.sk/d/4DLHu9NXgxzvw"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9628a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Николай",
+      "datetime": 1433016925,
+      "text": "Так L тоже был сначала, потом Lollipop. Скорее всего, потом додумают"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9628b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433016936,
+      "text": "\u0026#34;што?\u0026#34; (с) Все 3 раза качал архив, и ни разу оно не было без jdk и ничего не спрашивало"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9628c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433016953,
+      "text": "я понимаю китайцы какие-нибудь с zte и huawei но грёбаный алкатель чё лягушатникам мешает обновлять прошивки"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9628d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016968,
+      "text": "aefimov: ну вот сравни с оракловой JDK и прозрей. Я тоже не сразу обратил внимание на тормоза."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9628e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433016975,
+      "text": "insomnium: я про EAP."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9628f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433016996,
+      "text": "aefimov: а это тебя так на работе любят, что так железки меняешь?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96290",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433017011,
+      "text": "А оно у них прям настолько отличается от stable, что просит кастомную jre/jdk?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96291",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433017016,
+      "text": "insomnium: а я про то, что её можно подменить"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96292",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017019,
+      "text": "barlog: там всех так любят  :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96293",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017052,
+      "text": "insomnium: они бандляд то, что оттестировали на всех платформах"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96294",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "insomnium",
+      "datetime": 1433017063,
+      "text": "А, ну подменить-то можно, я про изкоробочную поддержку с визардами, которых там нет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96295",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017067,
+      "text": "Когда чтобы установить твитер, тебя просят разрешение на микрофон, это пипец"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96296",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017075,
+      "text": "Так что действительно больная тема"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96297",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433017104,
+      "text": "timer встроенный есть, никто не пропустит ваш таймер"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96298",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433017129,
+      "text": "Сегодня обнаружил что на УралВагонЗавод, т.е. те что танк Армату выпускают почта на Жмейле. Не параноики."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96299",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017138,
+      "text": "А когда вы тормозите, андройд заряжается используя рекуперацию ваших тормозов"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9629a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "FSA",
+      "datetime": 1433017174,
+      "text": "Банальные рабы эппла рассказывают про андроид"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9629b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433017213,
+      "text": "aefimov: теперь понятно, почему доходы так упали :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9629c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017217,
+      "text": "FSA: прилагательное долго выбирал? =)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9629d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "negval",
+      "datetime": 1433017219,
+      "text": "Банановые"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9629e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433017232,
+      "text": "uninstall google search и параноики спокойны"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9629f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "FSA",
+      "datetime": 1433017258,
+      "text": "MniLL: не, это прилагательное для любых фанатов можно юзать"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433017266,
+      "text": "FSA: незаурядный раб андроида регулярно ходит слушать банальных рабов эппл."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Николай",
+      "datetime": 1433017281,
+      "text": "stud: скорее, поставить прошивку вообще без сервисов гугла"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433017298,
+      "text": "Ставим Убунту!!!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433017301,
+      "text": "Николай: тоже хороший вариант"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "FSA",
+      "datetime": 1433017301,
+      "text": "barlog: да банальные вещи просто говорят...."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433017335,
+      "text": "Пусть следит не госдеп, а ЮАР."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1433017395,
+      "text": "кстати, есть слухи о том, что Apple делает свой аналог Google Now"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1433017408,
+      "text": "picasa и есть"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433017413,
+      "text": "umputun: а почему вы решили что google tap now будет работать online c контекстом а не локально"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962a9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Bubuger",
+      "datetime": 1433017468,
+      "text": "а сервис фоточек где нельзя повернуть фоточку"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962aa",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017472,
+      "text": "Пикаса была, а гугла еще не было :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ab",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017551,
+      "text": "Надо как раньше — ничег оне спрашивая загрузить все, а потом сказать «чувак, мы тебе все загрузили! и клей принесли»"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ac",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017610,
+      "text": "никто не видет, или никто кроме гугла?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ad",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433017713,
+      "text": "\u003ca href=\"http://img0.joyreactor.cc/pics/post/%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-1972-695757.jpeg\"\u003ehttp://img0.joyreactor.cc/pics/p...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ae",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433017724,
+      "text": "--\u0026gt; Everything Google Announced at Google I/O 2015 \u003ca href=\"http://thenextweb.com/google/2015/05/28/everything-google-announced-at-google-io-2015-in-one-handy-list/\"\u003ehttp://thenextweb.com/google/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962af",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017725,
+      "text": "Не официальный менеджер пакетов же)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017728,
+      "text": "так что все ок)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433017828,
+      "text": "Холодильник посчитает что он лицензирован для другой страны и заблокируется."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017855,
+      "text": "Вот только не от гугла ОС для интернета вещей, пожалуйста"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433017860,
+      "text": "Чайник выхоидт в интернет и скачивает порно в 4к."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433017865,
+      "text": "кто угодно)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433017877,
+      "text": "barlog: и наливает в чашку"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433017899,
+      "text": "scorpion опять"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433017925,
+      "text": "))))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433017929,
+      "text": "а нет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962b9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433017937,
+      "text": "CSI Crime это"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ba",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433017963,
+      "text": "Но почему ipad? Можно же было на андроиде дешёвый планшетик привязать."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962bb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018002,
+      "text": "эй эй... до пиротов радио-т еще далеко :bm:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962bc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018017,
+      "text": "в после шоу сразу перешли"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962bd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018032,
+      "text": "aefimov: угу, сразу кофе с молоком, или чай — зависит от того, какой жанр порно скачал."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962be",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433018033,
+      "text": "чтобы звонить бесплатно надо было взломать телефонистку))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962bf",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433018046,
+      "text": "--\u0026gt; Google Opens Inbox To All, Adds Smart Reminders, Trip Bundles, Undo Send And More \u003ca href=\"http://social.techcrunch.com/2015/05/28/google-opens-inbox-to-all-adds-smart-reminders-trip-bundles-undo-send-and-more/\"\u003ehttp://social.techcrunch.com/201...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433018073,
+      "text": "Рекламко пошла"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433018079,
+      "text": "rauch: это ж хорошо а то послешоу вообще редкое явление"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aefimov",
+      "datetime": 1433018080,
+      "text": "Про мощный API"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018096,
+      "text": "Ну вот пошли фантазии)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018096,
+      "text": "50 оттенков кошечки"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433018107,
+      "text": "т.е. Видимо никто не смотрел презентацию google atap"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1433018140,
+      "text": "Голосование началось, варианты: :+1: :-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433018141,
+      "text": "-1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433018144,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962c9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018145,
+      "text": "-1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ca",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ggmarkes",
+      "datetime": 1433018146,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962cb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "@mellafon",
+      "datetime": 1433018146,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962cc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1433018149,
+      "text": "+1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962cd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433018150,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ce",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1433018150,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962cf",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018151,
+      "text": "стоп"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Aleksandr Sytar",
+      "datetime": 1433018151,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018152,
+      "text": ":+1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018152,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1433018157,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "denisbalyko",
+      "datetime": 1433018158,
+      "text": ":+1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Wanderer",
+      "datetime": 1433018159,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "alexmlw",
+      "datetime": 1433018160,
+      "text": "-1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018161,
+      "text": "+1 это за инбок или против?)))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serafim",
+      "datetime": 1433018166,
+      "text": "про барана \u003ca href=\"http://www.youtube.com/watch?v=1wV5jGPrfrI\"\u003ehttp://www.youtube.com/watch?v=1...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962d9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433018167,
+      "text": "За"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962da",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MikSer",
+      "datetime": 1433018175,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962db",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Labardan",
+      "datetime": 1433018177,
+      "text": ":-1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962dc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1433018183,
+      "text": "MailBox глючит как ни в себя"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962dd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "iClondike",
+      "datetime": 1433018188,
+      "text": "-1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962de",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433018210,
+      "text": "перешёл с inbox на ЬЫ Outlook"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962df",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ipf",
+      "datetime": 1433018214,
+      "text": "что за голосование?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433018218,
+      "text": "перешёл с inbox на MS Outlook"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AlexKorRnd",
+      "datetime": 1433018220,
+      "text": "+1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433018240,
+      "text": "Mr. Gooff: месье знает толк"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ipf",
+      "datetime": 1433018244,
+      "text": ":+1:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433018247,
+      "text": "google - зло"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "6APCI1K",
+      "datetime": 1433018266,
+      "text": "-1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433018275,
+      "text": "IRus: а ты попробуй - тогда уже говори"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433018277,
+      "text": "Mr. Gooff: а я кроме аутлука других клиентов никогда и не юзал"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433018279,
+      "text": ":-1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962e9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433018304,
+      "text": "Mr. Gooff: а у меня на работе это корпоративный стандарт, что web версия, что десктоп это полный пиздец"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ea",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433018331,
+      "text": "IRus: а вот андройдовский мне понравился. Сам был удивлён"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962eb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433018384,
+      "text": "Делает \u0026#34;2+2\u0026#34; но гламурно красиво."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ec",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433018388,
+      "text": "Mr. Gooff: но веб версии хоть можно без крови из глаз на него смотреть, Outlook на андроиде есть? :O пойду как посмотрю, спасибо"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ed",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018401,
+      "text": "IRus: копроративный"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ee",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018477,
+      "text": "don\u0026#39;t be evil (TM)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ef",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018516,
+      "text": "Это примерно как в России за МКАД"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433018536,
+      "text": "Там хватает школ под эгидой ООН. Да, не густо, но и не так уж мало."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018551,
+      "text": "Хотите вам расскажу"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018557,
+      "text": "Супер историю"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018560,
+      "text": "ПРо кард борд?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018578,
+      "text": "Заказал себе такой с амазона, через месяц он приехал"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018592,
+      "text": "Я его собрал, попробовал со своим старым айфон 4с"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018596,
+      "text": "Айфон оказался для него мал"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433018599,
+      "text": "--\u0026gt; Bye Bye Mandriva, She\u0026#39;s Being Liquidated \u003ca href=\"http://www.phoronix.com/scan.php?page=news_item\u0026amp;px=Mandriva-Liquidated\"\u003ehttp://www.phoronix.com/scan.php...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018632,
+      "text": "Ушел к младшему брату, у которого андройд 5\u0026#34;"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962f9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018641,
+      "text": "Андройд оказался в ремонте, оставил коробку у него"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962fa",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018669,
+      "text": "в итоге через неделю, когда телефон забрали из ремонта"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962fb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018676,
+      "text": "ыы"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962fc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018681,
+      "text": "за это время, к брату приходила бабушка"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962fd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018682,
+      "text": "змейка там клевая"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962fe",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018692,
+      "text": "и выкинула кардборд, решив что это мусор"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a962ff",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433018693,
+      "text": ":-("
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96300",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018702,
+      "text": ":okay:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96301",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018713,
+      "text": ":spk:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96302",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018725,
+      "text": ":hmhmhm:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96303",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018727,
+      "text": "MniLL: чувствуется, вы из интеллигентной семьи"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96304",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433018746,
+      "text": "Зато АльтЛинукс очередной вышел."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96305",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "stud",
+      "datetime": 1433018747,
+      "text": "debian забыли"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96306",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Mr. Gooff",
+      "datetime": 1433018762,
+      "text": "MniLL: по этому я с рождения запретил в моей комнате прибираться кому либо, кроме меня"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96307",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433018763,
+      "text": "--\u0026gt; Intel Gives Virtual Machines Container-Like Speed \u003ca href=\"http://prsm.tc/7tknoe\"\u003ehttp://prsm.tc/7tknoe\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96308",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018781,
+      "text": "Всё хорошо с Linux, жаль все дистрибутивы - говно. В одном одно не работает, в другом - другое."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96309",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018807,
+      "text": "В каком дистрибутиве серверном есть Tomcat 8? 2015 год. Середина."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9630a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018821,
+      "text": "barlog: от кстати да, ушел с mint`a после мата разработчиков в адрес пользователей на гитхабе... темы быстренько потерли"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9630b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433018875,
+      "text": "rauch: угу, у них своё видение."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9630c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018918,
+      "text": "barlog: не, там основной аргумент - мы тратим свое личное время на развитие продукта, хотя могли бы как и вы попить пиво с друзьями... так что идите е*сь конем"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9630d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433018946,
+      "text": "хотя обсуждение бага было, который вешал всю систему к чертям"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9630e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433019001,
+      "text": "barlog: нуне у всех семья из инженеров состоит, мамы всякие нужны мамы всякие важны"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9630f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019042,
+      "text": "Сударь: но должно быть банальное уважение к собственности детей — не понятно что это, надо спрашивать."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96310",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019064,
+      "text": "Глядите какие виртуалки, за 9$ дают 2Gb RAM. https://www.runabove.com/instances/intel-steadfast.xml"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96311",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019085,
+      "text": "Это в 4 раза лучше, чем у дропбокса"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96312",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "heyheyivan",
+      "datetime": 1433019085,
+      "text": "radio-docker"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96313",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433019099,
+      "text": "barlog: ну это да, я своих предков до сих пор никак не приучу. Теперь пытаюсь наказывать рублём выбросила купи новую. Хотя пок не получается"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96314",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019107,
+      "text": "И ещё обещают отсутвие шумных соседей."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96315",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serafim",
+      "datetime": 1433019192,
+      "text": "umputun: radio-d"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96316",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019202,
+      "text": "Недавно исследование было - в куче докеровских базовых сборок полно дыр."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96317",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433019213,
+      "text": "barlog: ну, бабушка у меня учитель с 50-и летним стажем, у нее проф болезнь. Она всегда считает что она всегда права. Бороться бесполезно. Ругаться тоже нельзя, возраст уже не тот."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96318",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019252,
+      "text": "MniLL: один рецпет только - съезжать."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96319",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433019268,
+      "text": "ну я так и сделал"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9631a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433019270,
+      "text": "MniLL: а мне с бабушкой повезло она строитель по профессии поэтому всё в дом всё в семью, а вот мама это источник убытков и разорения))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9631b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019491,
+      "text": "В каком месте докер быстрый?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9631c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "vitaly_t",
+      "datetime": 1433019583,
+      "text": "Отключим все устройства ввода/вывода и выдернем шнур питания."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9631d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019631,
+      "text": "Вот про производительсноть докера \u003ca href=\"http://domino.research.ibm.com/library/cyberdig.nsf/papers/0929052195DD819C85257D2300681E7B/$File/rc25482.pdf\"\u003ehttp://domino.research.ibm.com/l...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9631e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433019778,
+      "text": "barlog: поломал парсер урлов чатика"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9631f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433019802,
+      "text": "никаких фреймворков и никакого синтаксического сахара"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96320",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "heyheyivan",
+      "datetime": 1433019807,
+      "text": "ping"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96321",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433019808,
+      "text": "pong"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96322",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433019903,
+      "text": "А если они Runtime кидают?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96323",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1433019904,
+      "text": "https://github.com/evgenyigumnov/common/commit/4c0570e8a9a29c765e5e54ecc69a99c5454bdf0b"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96324",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020059,
+      "text": "А что он такого сделал, чтобы сам umputun сделал ему кодревью?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96325",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433020129,
+      "text": "а этот чувак работает на будама? в фарата системз?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96326",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020136,
+      "text": "umputun: https://github.com/evgenyigumnov/common/commit/c25b7ee6461f4beb55d7718b376227e91e0cfddd#diff-90927bbf74a44b2f68501983c727a9f1R223"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96327",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020137,
+      "text": ":D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96328",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020148,
+      "text": "rauch: уже нет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96329",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020182,
+      "text": "IRus: может код изначально был под 1.6"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9632a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020231,
+      "text": "barlog: и что? причем тут это?! он exceptions не обрабатывает"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9632b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433020246,
+      "text": "barlog: поскроль страницу, там много интересных изменений :peka:"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9632c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020276,
+      "text": "barlog: строчка желтым выделена"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9632d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020282,
+      "text": "IRus: я там увидел, что он поменял создание коллекций, вот и предположил."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9632e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433020283,
+      "text": "barlog: его только стоит: new Long(1) -\u0026gt; 1L"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9632f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020320,
+      "text": "rauch: barlog у меня тупо ощущение что чувак решил потроллить всех, и его гумнов не зовут"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96330",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020329,
+      "text": "IRus: ну может он на потом логирование отложил. Сперва всё сделает правильно, а в конце сделает логгирование."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96331",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020426,
+      "text": "barlog: ага, а на хабр уже вчера выкинул, а доделать собирается через пару лет, ну да"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96332",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rom4k",
+      "datetime": 1433020451,
+      "text": "https://github.com/evgenyigumnov/common/commit/4c0570e8a9a29c765e5e54ecc69a99c5454bdf0b"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96333",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020478,
+      "text": "IRus: тоесть сама идея добавлять логгирование не первым действием в код тебя не смутила? Ок. ;)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96334",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020548,
+      "text": "ну во первых логгирование там и не нужно, достаточно сделать GumnoException и оборачивать всякие IOException В GavnoException и прокидывать выше"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96335",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020579,
+      "text": "IRus: вот ты суровый."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96336",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020597,
+      "text": "и вообще я не хотел этот говно код обсуждать, но вот ты заставляешь"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96337",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020677,
+      "text": "Жаль только фиг найдёшь где используют Java 8 с продакшене."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96338",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020698,
+      "text": "ну вот у нас например"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96339",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433020766,
+      "text": "IRus: вы далеко, да и из желающих у вас работать наверняка очередь. Я про тех, у кого вакансии."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9633a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020779,
+      "text": "очередь, в оутсорс? :D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9633b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433020801,
+      "text": "не, у нас так себе компания но вот java8 почти сразу появилась"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9633c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433020851,
+      "text": "Гикометр зашкаливает!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9633d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433021106,
+      "text": "2 сферических умпутуна))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9633e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433021168,
+      "text": "да кто это \u0026#34;они\u0026#34;?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9633f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1433021168,
+      "text": "Ну е мое, я на понятие стримов потратил дня 2. Что там сложного то"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96340",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "jc-radio-t",
+      "datetime": 1433021238,
+      "text": "--\u0026gt; Печальное состояние сисадмина в эпоху контейнеров Хабрахабр \u003ca href=\"http://habrahabr.ru/post/258595/\"\u003ehttp://habrahabr.ru/post/258595/\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96341",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "@dmitr_y",
+      "datetime": 1433021255,
+      "text": "сегодня первая суббота месяца?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96342",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433021289,
+      "text": "То самое слово, оно не мат!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96343",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "negval",
+      "datetime": 1433021300,
+      "text": "\u0026#34;это в своем пордакшене\u0026#34;"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96344",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433021302,
+      "text": "Распоковывает он себя во временный каталог"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96345",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433021377,
+      "text": "шикарный анекдот"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96346",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433021380,
+      "text": "заместитель грея))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96347",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "rauch",
+      "datetime": 1433021386,
+      "text": "мне представляется, что никто ничего не понял"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96348",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433021527,
+      "text": "Если Spring Boot отконфигурить в xml - должно быстрее быть. Вперёд в Spring 3!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96349",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "undefine",
+      "datetime": 1433021536,
+      "text": "assertTrue(true)?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9634a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "umputun",
+      "datetime": 1433021554,
+      "text": "\u003ca href=\"http://4dropz.com/PpxGhHoKhkhC\"\u003ehttp://4dropz.com/PpxGhHoKhkhC\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9634b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "arhan",
+      "datetime": 1433021556,
+      "text": "Spring 2.5!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9634c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433021559,
+      "text": "barlog: откуда такая инфа, от Борисова что-ли?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9634d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433021593,
+      "text": "IRus: да вроде логично, если сканировать всё подряд не будет, то должно быть быстрее."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9634e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433021609,
+      "text": "umputun: а как же название метода, самодокументируемый код"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9634f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "negval",
+      "datetime": 1433021613,
+      "text": "А где Бобук?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96350",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "hawok",
+      "datetime": 1433021617,
+      "text": "umputun, что за color scheme?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96351",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433021627,
+      "text": "barlog: стоп-стоп-стоп, кто мешает все бины подключить ручками в java-config? ;)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96352",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433021635,
+      "text": "@Bean в помощь"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96353",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433021655,
+      "text": "отличий между xml и java config нету в этом плане разницы"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96354",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433021660,
+      "text": "IRus: ну или так. Просто xml страшнее."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96355",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433021676,
+      "text": "barlog: страшнее == быстрее?)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96356",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433021717,
+      "text": "IRus: нет, страшнее == страшнее. Был упомянут, чтобы напугать желающих ускороить Spring Boot. А ты всё испортил своим java config. :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96357",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433021735,
+      "text": "вообще сегодня отличный подкаст, много првильных вещей Умпутун говорит, прямо слушать приятно"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96358",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433021762,
+      "text": "сисьадминам)))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96359",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "arhan",
+      "datetime": 1433021769,
+      "text": ":D :D :D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9635a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433021859,
+      "text": "безысходность"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9635b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433021951,
+      "text": "\u003ca href=\"http://s.pikabu.ru/post_img/2013/03/14/1/1363209582_205659690.jpg\"\u003ehttp://s.pikabu.ru/post_img/2013...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9635c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433021997,
+      "text": "Development operations"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9635d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022018,
+      "text": "Как то я считал что DevOps это программер, который еще и разварачивает"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9635e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022024,
+      "text": "очень далеко от сисадмина"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9635f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022082,
+      "text": "DevOps — это программер, который ещё и разочаровывает. :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96360",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022106,
+      "text": ":-)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96361",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "arhan",
+      "datetime": 1433022109,
+      "text": "DevOps - это не профессия"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96362",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "arhan",
+      "datetime": 1433022118,
+      "text": "это \u0026#34;процесс\u0026#34;"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96363",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022157,
+      "text": "Сисадмины могут пить пиво"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96364",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022164,
+      "text": "если делать нечего ;-)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96365",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022186,
+      "text": "MniLL: иногда серверов столько, что DevOps занимет 100% рабочего времени - тогде это профессия."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96366",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022220,
+      "text": "хороший сисадмин, это тот, который ничего не делает (с)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96367",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022243,
+      "text": "MniLL: даже когда всё сломалось."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96368",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433022402,
+      "text": "barlog: а зачем.Всё тлен"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96369",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022459,
+      "text": "У Умпутуна работа - микросервис в мире энтерпрайза"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9636a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022567,
+      "text": "Только я считаю, что если Евгений сам разворачивает себе инфраструктуру, то он и есть DevOps?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9636b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022569,
+      "text": "Что-то ведущие сказки про подготовку программистов рассказывают. Все вакансии требут уже имеющиеся знания и опыт. Учат только имеющемуся говнокоду."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9636c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433022592,
+      "text": "Девелопер который сам и разворачивает"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9636d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433022600,
+      "text": "шедулеры!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9636e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433022781,
+      "text": "скоро за программистов и код кто нить напишет)))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9636f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022800,
+      "text": "Сударь: так уже пишут, программисты не нужны уже почти."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96370",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022825,
+      "text": "Любой PHP\u0026#39;шник с Frilance.ru - программист полного цикла."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96371",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433022832,
+      "text": "umputun: я fullstack, и ангулар умею и java хорошо"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96372",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433022846,
+      "text": "umputun: так что всё реально"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96373",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022857,
+      "text": "IRus: а AWS?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96374",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433022884,
+      "text": "barlog: нет"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96375",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433022911,
+      "text": "интересно когда профессия программиста закончит своё существование?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96376",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022913,
+      "text": "IRus: ну и куда ты без DevOps\u0026#39;а тогда? Выхоидт не фулстак. ;)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96377",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022931,
+      "text": "Сударь: да уже всё. Менеджер по продажам больше зарабатывает."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96378",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433022981,
+      "text": "barlog: стоп, тебе администрирование линукс, либо конкретно AWS? т.е. если я могу сервак настроить то я не девопс?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96379",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433022986,
+      "text": "barlog: я про другое например когда бухи сами себе будут буховский софт писать, художники сами будут разрабатывать себе графические редакторы и т.д."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9637a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433022988,
+      "text": "СЛУШАТЕЛЕЙ, КАРЛ, СЛУШАТЕЛЕЙ!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9637b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433023005,
+      "text": "девопс это методология"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9637c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023029,
+      "text": "IRus: конкретно AWS, нычне без облаков никуда. В крайнем случае своё облако поднять."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9637d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433023038,
+      "text": "но в пост-советском пространстве походу эта такая профессия"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9637e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023045,
+      "text": "Сударь: зачем бухам писать софт, если софт уже есть?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9637f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023096,
+      "text": "KostyaSha: послушай DevOps Deflope, там часто интервью с кем-нибудь, они обычно за пределами постсоветского пространства."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96380",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023112,
+      "text": "barlog: нувот когда программисты вымрут надо же будет этот софт менять он же зависит от внешних факторов"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96381",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433023136,
+      "text": "barlog смотрел когда еще начиналось, дальше пошла трансформация кому как хочется"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96382",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433023138,
+      "text": "Про 20 минут помоему перегиб, я помню проблему про необходиомсть наличия своего ссл сертефиката"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96383",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433023144,
+      "text": "для своего докера репозитория"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96384",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023238,
+      "text": "Сударь: да не надо софт уже менять, софт всё уже умеет."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96385",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023299,
+      "text": "barlog: даже сам менять структуру генерируемого xml файла для налоговой?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96386",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023324,
+      "text": "Сударь: да вроде есть же там редактор новых форм отчётности. Разве нет?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96387",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023354,
+      "text": "barlog: ну пока бухи сами с этим не справляются"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96388",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023370,
+      "text": "Сударь: так есть же \u0026#34;программисты\u0026#34; 1С"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96389",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023446,
+      "text": "barlog: ну вот я и говорю про то время когда бухи плюнут и спросят себя почему бы мне самому не написать конфигурацию, а не ждать 1сника"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9638a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433023480,
+      "text": "надо порно в докере смотреть просто"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9638b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023525,
+      "text": "Сударь: это из области: когда пассажиры плюнут и сами поведут маршрутку. Разделение труда - это полезно и правильно."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9638c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023561,
+      "text": "barlog: ну по сути многие люди уже сами водят машину."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9638d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433023588,
+      "text": "Слава докеру!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9638e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433023600,
+      "text": "бедный слава"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9638f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023628,
+      "text": "barlog: даже бухи чаще едут на своей машине а не нанимают водителя"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96390",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023650,
+      "text": "Сударь: ок, меняем маршрутку на самолёт."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96391",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433023700,
+      "text": "barlog: это не подходит очень немногим самолёт по карману, а научиться летать думаю не труднее чем программировать"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96392",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433023825,
+      "text": "В железе тоже могут быть заклдаки! Железо надо самим делать тоже."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96393",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "arhan",
+      "datetime": 1433023887,
+      "text": "deaspora"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96394",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024007,
+      "text": "barlog: программирование не требует дополнительных вложений, а чтобыделать железо нужно как минимум инструменты иметь"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96395",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024053,
+      "text": "Как в HipChat подсвечивать исходники?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96396",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024065,
+      "text": "как hipchat vs flowdock?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96397",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024071,
+      "text": "В Slack исходники только сниппетами."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96398",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024102,
+      "text": "gitter.im волшебен"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a96399",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433024109,
+      "text": "umputun: гиттер рулит! :) а я говорил :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9639a",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "gAmUssA",
+      "datetime": 1433024116,
+      "text": "https://gitter.im/razbor-poletov/razbor-poletov.github.com"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9639b",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "@dmitr_y",
+      "datetime": 1433024292,
+      "text": "эта фигня работает даже с названием вифи точек"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9639c",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433024337,
+      "text": "сисадмин писал рендер текста"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9639d",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "myzone",
+      "datetime": 1433024376,
+      "text": "тот самый случай, когда try { doSmth() } catch(Throwable t) { /* do nothing here */ } не помешало бы :D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9639e",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024389,
+      "text": "pechkin1007: не сисадмин, а DevOps, не путай!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a9639f",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024480,
+      "text": "А ссылку киньте?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024486,
+      "text": "да тупо старые базы для контейнеров"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024491,
+      "text": "opennet"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024503,
+      "text": "факт в том что старые образы надо удалять :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024509,
+      "text": "Ааа, это где исследование на старые пакеты в докеровских контейнерах?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024518,
+      "text": "\u003ca href=\"http://www.opennet.ru/opennews/art.shtml?num=42322\"\u003ehttp://www.opennet.ru/opennews/a...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024632,
+      "text": "umputun: потому что не тру делать обновления внутри, immutable servers же"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024641,
+      "text": "На сайте докера в good practices написано, что не надо делать внутри контейнера apt-get update"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024649,
+      "text": "у докера есть проверки когда они принимают образ"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024670,
+      "text": "а вот второго шага чистить старое - нету, да и как ты удалишь старое, вдруг кто-то юзает"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963a9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024724,
+      "text": "barlog это фаулера было, \u003ca href=\"http://martinfowler.com/bliki/ImmutableServer.html\"\u003ehttp://martinfowler.com/bliki/Im...\u003c/a\u003e"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963aa",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024726,
+      "text": "У меня вопрос на отвлечённую тему - 28 кг для тумбочки - это нормально? Решил тумбочку купить и увидел вес, теперь сомневаюсь."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ab",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024754,
+      "text": "barlog: она же на полу стоять будет какая разница сколько она весит"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ac",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024770,
+      "text": "Сударь, смотря на какой этаж нести :)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ad",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024801,
+      "text": "зафорсил перестройку - разломал всем и все, профит"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ae",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024808,
+      "text": "KostyaSha: ну один разок донести и больше не напрягаться, мне кажется в тумбочке важны другие параметры"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963af",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024835,
+      "text": "Сударь: какие?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "@dmitr_y",
+      "datetime": 1433024840,
+      "text": "Сударь: пол картонный может проалится :D"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024854,
+      "text": "закругленные углы! чтобы пальцами не биться)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024871,
+      "text": "barlog: габариты чтобы поместилась с учётом остальной мебели и вместительность ну и чтоб глаз радовала"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024906,
+      "text": "barlog: и побольше полочек чтоб удобнее сортировать содержимое было"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433024917,
+      "text": "Сударь: впринципе правильно, но это же тумбочка - в любой угол передвинуть можно, хоть в центре поставить. Но вот 28 кг..."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024942,
+      "text": "barlog: не совсем вот например у меня квартира маленькая каждый сантиметр на счету"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433024958,
+      "text": "umputun: как часто пересборки?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433024986,
+      "text": "barlog: один комод вообще пришлось на журнальный столик ставить"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433025020,
+      "text": "Сударь: почему не наоборот?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963b9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433025037,
+      "text": "barlog: потому что комодик маленький а столик большой"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ba",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433025058,
+      "text": "MC всё("
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963bb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025066,
+      "text": "почему не будет, его же уже раз продолжали разрабатывать"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963bc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025080,
+      "text": "теперь еще раз кто-то видимо сменится"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963bd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025094,
+      "text": "нет, его хотел мейнтейнить, но автор не принимал ничего и исчез"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963be",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025114,
+      "text": "потом как-то договорились и новая команда продолжила (на грани форка было)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963bf",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433025124,
+      "text": "просто мс стал идеальным там нечего изменять"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433025131,
+      "text": "Сударь: так может это тумбочка?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433025137,
+      "text": "pechkin1007: а баги фиксить?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025138,
+      "text": "я так тоже думал пока с новой командой не пообщался"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433025149,
+      "text": "какие баги в мс"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025154,
+      "text": "кодировки"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433025160,
+      "text": "это фича"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025163,
+      "text": "бомбящие UI и виджеты"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433025173,
+      "text": "уи иделаен"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433025179,
+      "text": "pechkin1007: например возникающие от обновления окружающего мира, дыры безопасности, не?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963c9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433025184,
+      "text": "там нечего менять"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ca",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433025189,
+      "text": "barlog: нет тумбочка это с дверкой а у меня выдвижные поочки ну такой китайский пластиковый для всяких игрушек и т.д. в любом магазине продаётся"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963cb",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "pechkin1007",
+      "datetime": 1433025199,
+      "text": "дело не в мс дело в людях)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963cc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025217,
+      "text": "по либам не помню что юзает, явно могут быть проблемы"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963cd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433025221,
+      "text": "Сударь: эээ, да с ящиками тоже тумбочка. Я так думал всегда. Комод - когда ящищки широкие, с двумя ручками."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963ce",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433025273,
+      "text": "barlog: \u003ca href=\"http://womanadvice.ru/sites/default/files/aleksandra/1_komod_plastikovyy.jpg\"\u003ehttp://womanadvice.ru/sites/defa...\u003c/a\u003e вот такой тока блядь розовый"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963cf",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433025300,
+      "text": "розовый комод с комповыми потрохами))"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025313,
+      "text": "pechkin1007: https://www.midnight-commander.org/query?status=testing\u0026amp;status=reopened\u0026amp;status=assigned\u0026amp;status=new\u0026amp;status=accepted\u0026amp;group=status\u0026amp;milestone=4.8"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433025333,
+      "text": "все фронтэндщики сейчас покраснели от злости)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433025338,
+      "text": "KostyaSha: This Connection is UntrustedYou have asked Nightly to connect securely to www.midnight-commander.org, but we can\u0026#39;t confirm that your connection is secure.Normally, when you try to connect securely, sites will present trusted identification to prove that you are going to the right place. However, this site\u0026#39;s identity can\u0026#39;t be verified.What Should I Do?If you usually connect to this site without problems, this error could mean that someone is trying to impersonate the site, and you shouldn\u0026#39;t continue."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433025339,
+      "text": "Сударь: тебя название сайта не смутило перед покупкой? ;)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d4",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025381,
+      "text": "[2cool]Alex: обнови CA?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d5",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433025390,
+      "text": "barlog: покупали не на сайте просто мамка в магазине увидела и купила или говорит в помойку всё твоё барахло или сейчас же покупаем эту розовую херню"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d6",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433025391,
+      "text": "KostyaSha: Может быть"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d7",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "KostyaSha",
+      "datetime": 1433025393,
+      "text": "или браузер если CA bundled"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d8",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "negval",
+      "datetime": 1433025414,
+      "text": "Слишком много Java было!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963d9",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "barlog",
+      "datetime": 1433025470,
+      "text": "negval: java много не бывает!"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963da",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "negval",
+      "datetime": 1433025483,
+      "text": "Нет, бывает1"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963db",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "IRus",
+      "datetime": 1433025958,
+      "text": "umputun: ты же записываешь послешоу? можно будет получить запись сегодняшнего послешоу?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963dc",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Сударь",
+      "datetime": 1433025972,
+      "text": "хм у меня партиции всегда с какими то патрициями ассоциируются"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963dd",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "tapot",
+      "datetime": 1433026223,
+      "text": "записать даст, \u0026#34;но какая то фигня в итоге получается\u0026#34;(с)"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963de",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "EvgeneyG",
+      "datetime": 1433026479,
+      "text": "гиковское послешоу?"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963df",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433026654,
+      "text": "Стыдно, когда видно."
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963e0",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "[2cool]Alex",
+      "datetime": 1433026658,
+      "text": "А так у всех Пи"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963e1",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433026797,
+      "text": "Походу у этого хазелкаста, не как у монги, когда Шардинг это просто набор реплик, которые по ключу шардяд"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963e2",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433026896,
+      "text": "Походу у них там каждая нода хранит свой набор ключей, плюс кучу рандомных"
+    },
+    {
+      "id": "65d746a76ca09f3ef9a963e3",
+      "issue": 446,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "MniLL",
+      "datetime": 1433026929,
+      "text": "хм"
+    }
+  ]
 }

@@ -1,3 +1,2383 @@
 {
-  "chat": []
+  "chat": [
+    {
+      "id": "65d407e3b3e930dadf63ddb1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1576353000,
+      "text": "ping"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576353000,
+      "text": "\u003cem\u003epong\u003c/em\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1576353011,
+      "text": "на месте"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "joenule",
+      "datetime": 1576353095,
+      "text": "какой состав сегодня \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e ?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1576353122,
+      "text": "никто не знает"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1576353755,
+      "text": "title какой-то не тот"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1576353833,
+      "text": "у меня не получается screenshot загрузить сюда\u003cbr/\u003eпроблемы опять-таки тоьлко у меня?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576353920,
+      "text": "ведущие понятно что не опаздывают, но их все ждут"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddb9",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576353969,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Serg94260270_twitter\" class=\"mention\"\u003e@Serg94260270_twitter\u003c/span\u003e в прошлый раз за-то раньше начали, еле успел"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddba",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354054,
+      "text": "на хабре 90% - это болотная?! на бобука вчера напали как стервятники! Всем плохо живётся при режиме.. хотят  другой режим!"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddbb",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576354081,
+      "text": "privet Odesse"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddbc",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Y M",
+      "datetime": 1576354102,
+      "text": "отлично слышим"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddbd",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgeniy",
+      "datetime": 1576354103,
+      "text": "Отлично слышно"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddbe",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Y M",
+      "datetime": 1576354104,
+      "text": "уровни хороши"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddbf",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "bubuger",
+      "datetime": 1576354112,
+      "text": "два красных свистка"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc0",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576354120,
+      "text": "Без Бобука?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576354166,
+      "text": "первая тема рамблер?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1576354273,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e В админке чата Add Members -\u0026gt; Invite to group via link"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Y M",
+      "datetime": 1576354284,
+      "text": "кстати, как найти чатик? В поиске телеги по radiot или radio-t ничего нет"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1576354308,
+      "text": "\u003ca href=\"https://t.me/radio_t_podcast\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://t.me/radio_t_podcast\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576354310,
+      "text": "\u003cp\u003eradio-t 171 members подкаст radio-t. com View in TelegramPreview channel If you have Telegram, you can view and join radio-t right ...\u003c/p\u003e\u003cp\u003e_Telegram: Contact \u003cspan data-link-type=\"mention\" data-screen-name=\"radio_t_podcast_\" class=\"mention\"\u003e@radio_t_podcast_\u003c/span\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "qqalexqq",
+      "datetime": 1576354383,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e В админке чата Add Members -\u0026gt; Invite to group via link"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354419,
+      "text": "дк теперь мы все разделимся на два чатика"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354491,
+      "text": "а нельзя обьединить сообщения этих чатов, чтоб они дублировались в оба!?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddc9",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1576354523,
+      "text": "\u003ca href=\"https://t.me/radio_t_chat\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://t.me/radio_t_chat\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddca",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576354524,
+      "text": "\u003cp\u003eradio-t chat 107 members, 33 online View in Telegram If you have Telegram, you can view and join radio-t chat right ...\u003c/p\u003e\u003cp\u003e_Telegram: Contact \u003cspan data-link-type=\"mention\" data-screen-name=\"radio_t_chat_\" class=\"mention\"\u003e@radio_t_chat_\u003c/span\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddcb",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576354675,
+      "text": "у бобука отходняк посли новостей про  nginx"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddcc",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354681,
+      "text": "а чем отличаются radio_t_podcast и radio_t_chat"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddcd",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354684,
+      "text": "?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddce",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576354701,
+      "text": "pervij pro podcast, vtoroj pro chat"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddcf",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1576354821,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd0",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576354860,
+      "text": "Лешу уже можно в постоянные авторы подкаста добавить"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "justteddy",
+      "datetime": 1576354869,
+      "text": "++"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576354873,
+      "text": "или в постоянные гости))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576354899,
+      "text": "==\u0026gt;  --\u0026gt; Официальный кат! - \u003ca href=\"http://news.radio-t.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://news.radio-t.com\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354911,
+      "text": "Интересно, сколько стоит нанять такого чувачка, как Алексей!?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1576354914,
+      "text": "Всем привет"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Мельников Дмитрий",
+      "datetime": 1576354928,
+      "text": "круглый не гиковский состав :)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1576354929,
+      "text": "Злого или хорошего?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576354945,
+      "text": "хорошего (текущего)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddd9",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576354948,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"taime\" class=\"mention\"\u003e@taime\u003c/span\u003e хорошего"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddda",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1576354954,
+      "text": "текущего?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dddb",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Sergey Levitin",
+      "datetime": 1576354976,
+      "text": "зачем нам текущий леща"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dddc",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1576354988,
+      "text": "Он частый"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dddd",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Yelshat Duskaliyev",
+      "datetime": 1576354992,
+      "image_url": "https://files.gitter.im/radio-t/chat/OV6O/Screen-Shot-2019-12-14-at-11.02.17-PM.png",
+      "text": "\u003ca href=\"https://files.gitter.im/radio-t/chat/OV6O/Screen-Shot-2019-12-14-at-11.02.17-PM.png\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003e\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddde",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576355058,
+      "text": "==\u0026gt; [Обновлено в 23:31] В офисе Nginx прошел обыск по иску Рамблера. Сысоев и Коновалов отпущены из отделения полиции / Блог компании ITSumma / Хабр - \u003ca href=\"https://habr.com/ru/company/itsumma/blog/479942/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/ru/company/itsumma/blog/479942/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dddf",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576355107,
+      "text": "я как раз - зижу nginx починяю"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde0",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1576355356,
+      "text": "В «кремниевой долине» было важно где написал программу дома или на работе"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Tema",
+      "datetime": 1576355361,
+      "text": "В сериале .."
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576355425,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e а nginx не opensource изначально?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576355525,
+      "text": "то есть как рамблер не приделах, если рамблер что-то хочет"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexey Agafonov",
+      "datetime": 1576355712,
+      "text": "Сегодня есть traeffik caddy haproxy и тд, если что."
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576355751,
+      "text": "\u0026#34;эта сторона\u0026#34; обратное говорила еще в 2011 году"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576355757,
+      "text": "не факт что в рабочее время"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576355777,
+      "text": "==\u0026gt; Что значит наезд Rambler Group на Nginx и основателей и как это отразится на онлайн-индустрии - \u003ca href=\"https://habr.com/ru/post/480040/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/ru/post/480040/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576355782,
+      "text": "nginx eto bolche chem server"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dde9",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576355785,
+      "text": "eto jazik"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddea",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Denis E.",
+      "datetime": 1576355804,
+      "text": "К модуле-писателям под Nginx тоже омон с автоматами приедет?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddeb",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576355807,
+      "text": "ага трудовую инспекцию натравить должностные обязанности расширили а на бумаге не оформили и не доплатили))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddec",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576355859,
+      "text": "vse servaki na katorih nginx zaberut omon"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dded",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576355908,
+      "text": "за ни за что на 5 лет сажают, а тут 6 лет грозит"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddee",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1576356127,
+      "text": "У veeam в этом году был подобный конфликт с разработчиком в питерском офисе. Кто-то в курсе как там разрешилось?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddef",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1576356178,
+      "text": "Вот я пишу например код на своем компе для 2х копаний одна из них Роснефть и чо"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf0",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576356207,
+      "text": "ага, на собеседовании при найме про github спрашивают, а выходное собеседование - у следователя? хороший работодатель!"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel",
+      "datetime": 1576356253,
+      "text": "\u003ca href=\"https://vc.ru/legal/71598-eks-sotrudnik-veeam-software-otsudil-u-byvshego-rabotodatelya-23-mln-rubley-za-narushenie-avtorskih-prav-na-prilozhenie\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://vc.ru/legal/71598-eks-sotrudnik-veeam-software-otsudil-u-byvshego-rabotodatelya-23-mln-rubley-za-narushenie-avtorskih-prav-na-prilozhenie\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576356256,
+      "text": "\u003cp\u003eАнтон Мамичев должен получить компенсацию за то, что его убрали из списка авторов сервиса. Аудио Приморский районный суд в Петербурге встал на сторону разработчика Антона Мамичева в споре о нарушении авторских прав на интеллектуальную собственность. Ответчики — швейцарская компания с российскими ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eЭкс-сотрудник Veeam Software отсудил у бывшего работодателя 23 млн рублей за нарушение авторских прав на приложение — Право на vc.ru\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576356395,
+      "text": "Рамблер выстрелил себе по яйцам"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Flash",
+      "datetime": 1576356524,
+      "text": "Я согласен с Алексеем, я сам уже было думал, что рамблер уже не существует."
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1576356535,
+      "text": "Lenta ru не написали"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1576356552,
+      "text": "Бобук"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Lenny",
+      "datetime": 1576356567,
+      "text": "Ваще молодец :)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576356622,
+      "text": "бобук молоток"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddf9",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576356641,
+      "text": "а у Плющева на эхе он уже это обсуждал?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddfa",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576356647,
+      "text": "в начале рамблер был классный"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddfb",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576356669,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"no0ker\" class=\"mention\"\u003e@no0ker\u003c/span\u003e завтра обсудят"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddfc",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1576356677,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eLenta ru не написали\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eим запретили, ты ж понимаешь\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddfd",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576356677,
+      "text": "там же еще много сделано для PostgreSQL"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddfe",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576356678,
+      "text": "круто"
+    },
+    {
+      "id": "65d407e3b3e930dadf63ddff",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "kdvperm",
+      "datetime": 1576356679,
+      "text": "Хммм да Бобук + к уваджению да"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de00",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576356822,
+      "text": "А Умпутуну не дали 10% за поддержку?)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de01",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576356851,
+      "text": "Рамблера"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de02",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576356983,
+      "text": "=))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de03",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgeniy Radchenko",
+      "datetime": 1576357137,
+      "text": "unit"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de04",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Petrov",
+      "datetime": 1576357164,
+      "text": "Unit"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de05",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576357246,
+      "text": "замнут - забудут"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de06",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576357272,
+      "text": "Игорь эмигрирует"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de07",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576357295,
+      "text": "да бизнес в России и так уже лежит и его херачат ногами очень больно"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de08",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576357352,
+      "text": "СКОлвково?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de09",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576357361,
+      "text": "что за Ско?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de0a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576357407,
+      "text": "\u003ca href=\"https://ru.wikipedia.org/wiki/SCO\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://ru.wikipedia.org/wiki/SCO\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de0b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576357409,
+      "text": "\u003cp\u003eThe SCO Group — американская компания, разрабатывающая системное и прикладное программное обеспечение. Ранее была известна как Caldera Systems и занималась разработкой и внедрением своего дистрибутива GNU/Linux. В 2000 компания купила у Santa Cruz Operationruen права на операционные системы ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eSCO — Википедия\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de0c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576357431,
+      "text": "тот тип видимо Breaking Bad не смотрел и неразедаемые бочки"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de0d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576357476,
+      "text": "Захотят - документы с подписями задним числом появятся"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de0e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576357513,
+      "text": "10% надо было дать"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de0f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "umputunsCAT",
+      "datetime": 1576357622,
+      "text": "Грей молчал бы с украинскими каментами, страна где рейдеры отнимают овощи у фермеров...."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de10",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576357693,
+      "text": "==\u0026gt; Apple and Spotify’s podcasts come to Echo devices in the US – TechCrunch - \u003ca href=\"http://techcrunch.com/2019/12/13/apple-and-spotifys-podcasts-come-to-echo-devices-in-the-u-s/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://techcrunch.com/2019/12/13/apple-and-spotifys-podcasts-come-to-echo-devices-in-the-u-s/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de11",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576357735,
+      "text": "hi everyone!"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de12",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576357748,
+      "text": "sup bro!"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de13",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1576357879,
+      "text": "а почему в гугле нет радио-т?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de14",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576357897,
+      "text": "==\u0026gt; Apple\u0026#39;s $6,000 Mac Pro has $400 wheels. And yes, they cost extra. - \u003ca href=\"https://mashable.com/article/apple-mac-pro-400-wheels/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://mashable.com/article/apple-mac-pro-400-wheels/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de15",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576357913,
+      "text": "есть в планах про Reinvent 2019 Амазон0вский поговорить?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de16",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576358090,
+      "text": "\u003ca href=\"https://www.amazon.com/Acer-2-50GHz-Windows-Certified-Refurbished/dp/B01MTAG2G9/ref=sr_1_1?keywords=laptop+i7\u0026amp;qid=1576358054\u0026amp;refinements=p_36%3A-40000\u0026amp;rnid=386442011\u0026amp;s=computers-intl-ship\u0026amp;sr=1-1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.amazon.com/Acer-2-50GHz-Windows-Certified-Refurbished/dp/B01MTAG2G9/ref=sr_1_1?keywords=laptop+i7\u0026amp;qid=1576358054\u0026amp;refinements=p_36%3A-40000\u0026amp;rnid=386442011\u0026amp;s=computers-intl-ship\u0026amp;sr=1-1\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de17",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358091,
+      "text": "\u003cp\u003eUnable to connect using required security protocol. To access the page requested, please upgrade or use a different browser or mobile device to ensure that your experience on Amazon will be uninterrupted. To install or update a supported browser please visit any of the browsers websites: You may ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eA notice to our users\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de18",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576358181,
+      "text": "Это не подкат - это чистый секс. Ржу в голос)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de19",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576358302,
+      "text": "У MKHD ролик на MBP рендерился 20мин   а на $50k MacPro  5"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de1a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576358318,
+      "text": "в одном из обзоров показывал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de1b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576358360,
+      "text": "\u003ca href=\"https://youtu.be/DOPswcaSsu8\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://youtu.be/DOPswcaSsu8\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de1c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358361,
+      "text": "\u003cp\u003e2 weeks with the cheese grater Mac Pro has been rock solid so far. .. MKBHD Merch: \u003ca href=\"http://shop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://shop\u003c/a\u003e. MKBHD. com Video Gear I use: \u003ca href=\"http://kit\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttp://kit\u003c/a\u003e. co/MKBHD/video-gear#recom. .. Tech I\u0026#39;m using right now: \u003ca href=\"https://www\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www\u003c/a\u003e. amazon. com/shop/MKBHD Intro Track: S. W.A. N. by Bobby Feeno Playlist of MKBHD Intro music: ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eMac Pro Unboxing \u0026amp; Second Impressions: The Power is Back! - YouTube\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de1d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576358428,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e sli у mad назывался CrossFireX"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de1e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1576358454,
+      "text": "я не запомню )"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de1f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576358459,
+      "text": "ok"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de20",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576358522,
+      "text": "А за такие деньги нельзя надеяться, что колёсики не сломаются? А гарантия на них сколько?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de21",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "promokit",
+      "datetime": 1576358527,
+      "text": "1,5 TB RAM - $48 000 \u003ca href=\"https://take.ms/1C20Z\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://take.ms/1C20Z\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de22",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358528,
+      "text": "\u003cp\u003e ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eMonosnap\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de23",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576358659,
+      "text": "праздник для chrome"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de24",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1576358816,
+      "text": "\u003ca href=\"https://habr.com/ru/company/atlasbiomed/blog/479602/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/ru/company/atlasbiomed/blog/479602/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de25",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358819,
+      "text": "\u003cp\u003eАтлас запустил новый продукт — Полный геном. Теперь мы можем исследовать не только отдельные точки в геноме, как в генетическом тесте, но и прочитать всю последовательность нуклеотидов генома. В этой статье рассказываем, что это и зачем это нужно. Внимание! Мы подарим Полный геном одному из наших ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eЧто такое Полный геном и зачем он нужен / Блог компании «Атлас» / Хабр\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de26",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1576358845,
+      "text": "\u003ca href=\"https://habr.com/ru/company/atlasbiomed/blog/479602/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/ru/company/atlasbiomed/blog/479602/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de27",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358847,
+      "text": "\u003cp\u003eАтлас запустил новый продукт — Полный геном. Теперь мы можем исследовать не только отдельные точки в геноме, как в генетическом тесте, но и прочитать всю последовательность нуклеотидов генома. В этой статье рассказываем, что это и зачем это нужно. Внимание! Мы подарим Полный геном одному из наших ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eЧто такое Полный геном и зачем он нужен / Блог компании «Атлас» / Хабр\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de28",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1576358923,
+      "text": "\u003ca href=\"https://atlas.ru/wgs?utm_source=podcast\u0026amp;utm_medium=special\u0026amp;utm_campaign=radio-t1219\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://atlas.ru/wgs?utm_source=podcast\u0026amp;utm_medium=special\u0026amp;utm_campaign=radio-t1219\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de29",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358924,
+      "text": "\u003cp\u003eЗа этим стоит наука Над тестом «Полный геном» работает профессиональная команда врачей, биологов, программистов и биоинформатиков. Алгоритм анализа данных секвенирования соответствует рекомендациям GATK, руководствами ACMG и AMP, а также актуальным научным ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eТест Полный геном\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de2a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ASAELG",
+      "datetime": 1576358929,
+      "text": "они за ваши деньги посравнивают вас с наполеном, фуфел это всё"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de2b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576358929,
+      "text": "\u003ca href=\"https://futurism.com/neoscope/bone-marrow-transplant-semen-only-donors-dna\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://futurism.com/neoscope/bone-marrow-transplant-semen-only-donors-dna\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de2c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576358929,
+      "text": "\u003cp\u003eChris Long is an IT worker in the Washoe County Sheriff’s Department in Reno, Nevada. But all the DNA in his semen belongs to a German man he’s never met. That’s because Long received a bone marrow transplant from the European stranger four years ago — and the unexpected impact it has had on his ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eBone Marrow Transplant Changes Man\u0026#39;s Semen To Donor\u0026#39;s DNA | Futurism\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de2d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576358992,
+      "text": "какой обьем днк индивида?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de2e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576359036,
+      "text": "Подарок к новому году: узнать, что твой отец не твой отец..."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de2f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359039,
+      "text": "на сколько флэху то брать?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de30",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359044,
+      "text": "обьем забора? палец отрезают"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de31",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1576359054,
+      "text": "100 гигабай"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de32",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359085,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eобьем забора? палец отрезают\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eа разве не эпителий слизистой ротовой полости?\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de33",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359093,
+      "text": "гигабит? там же не 8 бит а 4 основания"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de34",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1576359164,
+      "text": "\u003cblockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eобьем забора? палец отрезают\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eа разве не эпителий слизистой ротовой полости?\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eобразец слюны\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de35",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359177,
+      "text": "мне всегда было интересно, неужели в каждой клетки одинаковый код?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de36",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359196,
+      "text": "вам видают днк в биологическом формате"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de37",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359208,
+      "text": "вам видают днк в биологическом формате"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de38",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359217,
+      "text": "у некоторых людей это PHP код"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de39",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359224,
+      "text": "ваш клон"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de3a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576359233,
+      "text": "скоро введут забор анализов на предрасположенность к алкоголизму для справки на права"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de3b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359236,
+      "text": "\u003cblockquote\u003e\n\u003cblockquote\u003e\n\u003cblockquote\u003e\n\u003cp\u003eобьем забора? палец отрезают\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eа разве не эпителий слизистой ротовой полости?\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eобразец слюны\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eв слюне нет ДНК =)\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de3c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359250,
+      "text": "eem"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de3d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359251,
+      "text": "jestj"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de3e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576359252,
+      "text": "так что теперь у фсб будут образцы днк всех водителей"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de3f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359267,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eмне всегда было интересно, неужели в каждой клетки одинаковый код?\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eконечно, да\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de40",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576359284,
+      "text": "а мы за эту базу ещё и заплатим порядка 5000 только за нарколога"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de41",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359339,
+      "text": "есть исследования по ГМО продуктам, части днк из продуктов попадая в кровь встраиваются в ядра клеток.. Так что я думаю информация в клетках постоянно метаморфирует"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de42",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359366,
+      "text": "touchID как  apple  заюзают"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de43",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Serg",
+      "datetime": 1576359377,
+      "text": "А в чем опасность если данные о геноме попадут в чужие руки?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de44",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576359384,
+      "text": ":facepalm:"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de45",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576359393,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"macwords\" class=\"mention\"\u003e@macwords\u003c/span\u003e рукалицо ГМОфобия среди представителей it-тусовки"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de46",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359421,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Serg94260270_twitter\" class=\"mention\"\u003e@Serg94260270_twitter\u003c/span\u003e взломают  email"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de47",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359451,
+      "text": "\u003ca href=\"https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D1%8E%D0%BD%D0%B0\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D1%8E%D0%BD%D0%B0\u003c/a\u003e\u003cbr/\u003eБобук, в слюне нет днк.\u003cbr/\u003eкак и в поте =)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de48",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576359453,
+      "text": "\u003cp\u003eМатериал из Википедии — свободной энциклопедии Слюна́ (лат.  saliva) — прозрачная бесцветная жидкость, жидкая биологическая среда организма, выделяемая в полость рта тремя парами крупных слюнных желёз (подчелюстные, околоушные, подъязычные) и множеством мелких слюнных желёз полости рта. В полости ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eСлюна — Википедия\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de49",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576359460,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"Serg94260270_twitter\" class=\"mention\"\u003e@Serg94260270_twitter\u003c/span\u003e ну например у тебя есть алергическая реакция на что-то и вдруг ты очень важный пост стал занимать, а кому-то захотелось сильно, чтобы ты его не занимал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de4a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359469,
+      "text": "но есть нюанс, что эпителий ротовой полости - слущивается."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de4b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359487,
+      "text": "и да, остаточное количество этих клеток может там находится."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de4c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359493,
+      "text": "так же, как и в моче, например =)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de4d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359523,
+      "text": "а если после соития слюна"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de4e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359529,
+      "text": "xD"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de4f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359581,
+      "text": "\u003cul\u003e\n\u003cli\u003eнужно еще понимать, что есть такое понятие, как химеризм.\u003c/li\u003e\n\u003c/ul\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de50",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ASAELG",
+      "datetime": 1576359586,
+      "text": "рекламодатель конечно получше, чем азино777, но такое..."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de51",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359598,
+      "text": "и для полноценного анализа нужен забор разных биологических материалов."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de52",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359599,
+      "text": ":))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de53",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576359604,
+      "text": "даже не эпителий. Белых кровяных клеток там в три раза больше чем эпителия"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de54",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359657,
+      "text": "сигнатура есть у днк по видам?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de55",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359660,
+      "text": "заливать днк на github"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de56",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359664,
+      "text": "100gb"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de57",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359678,
+      "text": "биомашинный код"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de58",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359685,
+      "text": "bild tulza - anja"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de59",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359687,
+      "text": "да там же ПЦР - как можно определить, чья слюна... ну, вы чего..."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de5a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359688,
+      "text": "Your DNA has been forked"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de5b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359693,
+      "text": "сорцы утеряны"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de5c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576359702,
+      "text": "==\u0026gt; The 20 best gadgets of 2019 - \u003ca href=\"https://www.theguardian.com/technology/2019/dec/08/the-20-best-gadgets-of-2019-bose-frames-applewatch-iphone-vax-rega-samsung-sonos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.theguardian.com/technology/2019/dec/08/the-20-best-gadgets-of-2019-bose-frames-applewatch-iphone-vax-rega-samsung-sonos\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de5d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576359705,
+      "text": "билд тулзы там сами бутстраппятся"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de5e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359714,
+      "text": "никто там под микроскопом не будет смотреть, и не разбирать хромосомальный состав..."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de5f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576359738,
+      "text": "битс для школоты"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de60",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576359751,
+      "text": "никто этого и не делает, там процесс сильно тупее и дешевле"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de61",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576359753,
+      "text": "AirPods3"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de62",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1576359769,
+      "text": "Xiaomi )))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de63",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359824,
+      "text": "это называется динамическое усиление баса"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de64",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576359854,
+      "text": "хорошо с этим у jbl"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de65",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359859,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eдаже не эпителий. Белых кровяных клеток там в три раза больше чем эпителия\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eда там микрофлоры наверняка больше, чем твоих клеток =)\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de66",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576359870,
+      "text": "Здоровые наушники в 21 веке !?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de67",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359885,
+      "text": "брать слюну для анализа - это анализировать генокод твоей микрофлоры =)))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de68",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1576359893,
+      "text": "\u003cblockquote\u003e\n\u003cp\u003eэто называется динамическое усиление баса\u003c/p\u003e\u003c/blockquote\u003e\n\u003cp\u003eраньше это называлось тонкомпенсация\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de69",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576359895,
+      "text": "неужели шарлатанство 21 века"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de6a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359947,
+      "image_url": "https://d3k0ryy13u1ku5.cloudfront.net/samelib/timthumb.php?src=https://d3k0ryy13u1ku5.cloudfront.net//media/k2/items/src/d0d5caef53a97465ee5797663b3cd459.png\u0026w=550\u0026zc=1\u0026q=90",
+      "text": ""
+    },
+    {
+      "id": "65d407e3b3e930dadf63de6b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576359956,
+      "text": "\u003ca href=\"https://www.lamborghini-tractors.com/en-eu/tractors/open-field/2291-spark-vrt\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.lamborghini-tractors.com/en-eu/tractors/open-field/2291-spark-vrt\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de6c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576359958,
+      "text": "\u003cp\u003eDCR Deutz Common Rail. High pressure common rail injection system, with two lubricated injection pumps integrated in the engine block, and an innovative combustion chamber configuration for superlative power and torque over a wide range of engine ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eSpark VRT - Tractors open field - Lamborghini Trattori\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de6d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim I.",
+      "datetime": 1576359977,
+      "text": "трпктор от Tesla?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de6e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1576360041,
+      "text": "Окей бумер"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de6f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576360225,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e тебя не услышали"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de70",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "mellafon",
+      "datetime": 1576360523,
+      "text": "Лампа прикольная слушал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de71",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576360577,
+      "text": "хорошо звучит если с лампой на выходе трансформатор стоит"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de72",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576360598,
+      "image_url": "https://cdn.pocket-lint.com/r/s/1200x/assets/images/147718-speakers-review-review-sonos-ikea-symfonisk-book-shelf-wi-fi-speaker-initial-review-product-images-image2-6z72t9l4ej.jpg",
+      "text": ""
+    },
+    {
+      "id": "65d407e3b3e930dadf63de73",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576360656,
+      "text": "тёплий ламповий звук"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de74",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576360674,
+      "text": "вот там хороший басс компрессор в jbl"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de75",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "AltaVista333",
+      "datetime": 1576360961,
+      "text": "Вопрос в том, 249 грамм заводских или в тот момент когда товарищ майор его будет взвешивать."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de76",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361251,
+      "text": "омг любая термокружка держит температуру несколько часов"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de77",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361322,
+      "text": "остальные пиксели можно дожечь под те что прожглись"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de78",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Kaspars Riņķevičs",
+      "datetime": 1576361324,
+      "text": "неоставляите порно на паузу"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de79",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576361347,
+      "text": "=)))))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de7a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361352,
+      "text": "это у плазмы болезнь была"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de7b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1576361381,
+      "text": "и у лед такая же ("
+    },
+    {
+      "id": "65d407e3b3e930dadf63de7c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361420,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e лед это просто светодиодная подсведка если матрица из диодов то уже oled или amoled"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de7d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361472,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"bobuk\" class=\"mention\"\u003e@bobuk\u003c/span\u003e но в отличие от плазмы хотя бы чёрный не выгорает))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de7e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Grigory Bakunov",
+      "datetime": 1576361482,
+      "text": "черный не выгорает да, эт правда"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de7f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "spaun2002",
+      "datetime": 1576361699,
+      "text": "Как человек, который чинил boss наушники заявляю - в них стоят динамики стоимостью $1 каждый"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de80",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361821,
+      "text": "электровелов сейчас как грязи"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de81",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361866,
+      "text": "за 2000 паундов можно найти и электродвухподвес"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de82",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton Samarchyan",
+      "datetime": 1576361876,
+      "text": "У нас в apple store продают зарядку Apple Watch от Belkin вроде как которая позволяет заряжать AirPods и iPhone"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de83",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1576361916,
+      "text": "CycleToWork - это прикольная схема. По ней можно каждые два-три года выкидывать текущий и покупать новый велосипед"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de84",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576361982,
+      "text": "только у меня что-то со звуком?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de85",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1576361992,
+      "text": "не только"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de86",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576361994,
+      "text": "трансляция начала помирать"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de87",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Anton Samarchyan",
+      "datetime": 1576361996,
+      "text": "У меня тоже звук пропал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de88",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576361996,
+      "text": "звук забулькал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de89",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1576361999,
+      "text": "пропадает..."
+    },
+    {
+      "id": "65d407e3b3e930dadf63de8a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1576362001,
+      "text": "Звук глючит жутко"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de8b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576362004,
+      "text": "звук заикается"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de8c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1576362008,
+      "text": "лагает"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de8d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ilsur Valiullin",
+      "datetime": 1576362022,
+      "text": "Со звуком плохо"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de8e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Logunov",
+      "datetime": 1576362023,
+      "text": "звук лагает +1"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de8f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zuriy",
+      "datetime": 1576362026,
+      "text": "тоже звук пропадает"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de90",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "aloraman",
+      "datetime": 1576362041,
+      "text": "в прошлый раз такое было когда пришлось перезапускать трансляцию"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de91",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Umputun",
+      "datetime": 1576362062,
+      "text": "с мей стороны пуля вылетела"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de92",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576362065,
+      "text": "Idv3 трансляции кстати странное \u0026#34;andrew_vroomans-always_summer-1 - RADIO-T\u0026#34;"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de93",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Veklychev",
+      "datetime": 1576362066,
+      "text": ":( все пропустили"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de94",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Valentin",
+      "datetime": 1576362066,
+      "text": "звук брак"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de95",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1576362080,
+      "text": "А это у всех так моргает звук?"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de96",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Logunov",
+      "datetime": 1576362082,
+      "text": "звук стал норм"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de97",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Evgeniy",
+      "datetime": 1576362089,
+      "text": "сейчас норм"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de98",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zuriy",
+      "datetime": 1576362094,
+      "text": "норм"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de99",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Krasnikov",
+      "datetime": 1576362102,
+      "text": "не, снова пропал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de9a",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "zuriy",
+      "datetime": 1576362108,
+      "text": "опять пропал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de9b",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Алексей Макторин",
+      "datetime": 1576362116,
+      "text": "звук упал"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de9c",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ingr1",
+      "datetime": 1576362117,
+      "text": "совсем пропаль"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de9d",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Logunov",
+      "datetime": 1576362120,
+      "text": "\u003ca href=\"https://stream.radio-t.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://stream.radio-t.com/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de9e",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Veklychev",
+      "datetime": 1576362120,
+      "text": "я не могу себя перебороть и перейти с гармин на эплвотч. Потому что 7 дней, а не два"
+    },
+    {
+      "id": "65d407e3b3e930dadf63de9f",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Alexander Kozlov",
+      "datetime": 1576362121,
+      "text": "о, норм инфа стала) Idv3"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea0",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1576362121,
+      "text": "завис звук у меня в наушниках ))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576362127,
+      "text": "шеф, все пропало"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576362146,
+      "text": "стрим перезапустился"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576362148,
+      "text": "бобук только про зависание наушников сказал и они зависли"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Maxim Logunov",
+      "datetime": 1576362151,
+      "text": "переподключиться к трансляции -- работает"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576362161,
+      "text": "похоже бобуку пора воду заряжать и продавать =)"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "host",
+      "author_name": "Sergey Petrenko",
+      "datetime": 1576362171,
+      "text": "переподключайтесь, ага"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Andrii Veklychev",
+      "datetime": 1576362171,
+      "text": "Уже хорошо слышно"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Расим Тумалиев",
+      "datetime": 1576362178,
+      "text": "вроде отпустило"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dea9",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576362200,
+      "text": "==\u0026gt; Темы слушателей 680 - \u003ca href=\"https://radio-t.com/p/2019/12/10/prep-680/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://radio-t.com/p/2019/12/10/prep-680/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deaa",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Pavel Vishnyakov",
+      "datetime": 1576362212,
+      "text": "\u003cspan data-link-type=\"mention\" data-screen-name=\"wzooff\" class=\"mention\"\u003e@wzooff\u003c/span\u003e правильный вариант, к сожалению - двое часов. Garmin для  всего спорта и Apple как нормальные повседневные часы"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deab",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576362261,
+      "text": "дааа!)) beep -1bit"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deac",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576362295,
+      "text": "длительность в секундах тон в полутонах"
+    },
+    {
+      "id": "65d407e3b3e930dadf63dead",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "grimskin",
+      "datetime": 1576362298,
+      "text": "здрасте, ямаховский звуковой процессор шел далеко не на всех спектрумах"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deae",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ASAELG",
+      "datetime": 1576362340,
+      "text": "Здесь мог быть грустный анекдот.\u003cbr/\u003eПриходит сын генерала к папе.\u003cbr/\u003e— Пап, у меня сайт не работает, мне нужен новый сервер.\u003cbr/\u003e— Какой сервер?\u003cbr/\u003e— Nginx нужен."
+    },
+    {
+      "id": "65d407e3b3e930dadf63deaf",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ASAELG",
+      "datetime": 1576362352,
+      "text": "\u003ca href=\"https://habr.com/ru/post/480216/#comment_21007908\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://habr.com/ru/post/480216/#comment_21007908\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb0",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576362354,
+      "text": "\u003cp\u003e11 марта 2019 года американская компания F5 Networks купила российскую компанию Nginx (зарегистрирована на Виргинских островах) за сумму около 670 миллионов долларов. Судя по информации, которая есть в открытом доступе, компания Nginx с момента основания имела три раунда инвестирования примерно на ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eРубикон пройден: nginx / Хабр\u003c/em\u003e\u003c/p\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb1",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "macwords",
+      "datetime": 1576362359,
+      "text": "звуковой сопроцессор был дорогой опцией для тех кто умел паять"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb2",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576362406,
+      "text": "\u0026#34;мы сто не потянем\u0026#34; =))))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb3",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Rustam Shavaliev",
+      "datetime": 1576362437,
+      "text": "давайте хотя бы первые пятьдесят, \u003cspan data-link-type=\"mention\" data-screen-name=\"umputun\" class=\"mention\"\u003e@umputun\u003c/span\u003e  =)))"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb4",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "ArturK777",
+      "datetime": 1576362476,
+      "text": "изолента на вебку"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb5",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1576363279,
+      "text": "\u003ca href=\"https://news.ycombinator.com/item?id=21774299\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://news.ycombinator.com/item?id=21774299\u003c/a\u003e \u003cspan data-link-type=\"mention\" data-screen-name=\"ksenks\" class=\"mention\"\u003e@ksenks\u003c/span\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb6",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Nikita Andreev",
+      "datetime": 1576363321,
+      "text": "\u003ca href=\"https://news.ycombinator.com/item?id=21774299\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://news.ycombinator.com/item?id=21774299\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb7",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "listener",
+      "author_name": "Ildus",
+      "datetime": 1576363346,
+      "text": "\u003ca href=\"https://www.theatlantic.com/science/archive/2018/02/the-more-gender-equality-the-fewer-women-in-stem/553592/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\" class=\"link \"\u003ehttps://www.theatlantic.com/science/archive/2018/02/the-more-gender-equality-the-fewer-women-in-stem/553592/\u003c/a\u003e"
+    },
+    {
+      "id": "65d407e3b3e930dadf63deb8",
+      "issue": 680,
+      "type": "chat",
+      "author_type": "bot",
+      "author_name": "радио-т бот",
+      "datetime": 1576363347,
+      "text": "\u003cp\u003eThe issue doesn’t appear to be girls’ aptitude for STEM professions. In looking at test scores across 67 countries and regions, Stoet and Geary found that girls performed about as well or better than boys did on science in most countries, and in almost all countries, girls would have been capable ...\u003c/p\u003e\u003cp\u003e\u003cem\u003eThe More Gender Equality, the Fewer Women in STEM - The Atlantic\u003c/em\u003e\u003c/p\u003e"
+    }
+  ]
 }
