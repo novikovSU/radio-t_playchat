@@ -1,5 +1,7 @@
 # Playchat for Radio-T
 
+**!!! Проект переехал в https://github.com/radio-t/radio-t_playchat**
+
 Любительский проект постоянного слушателя подкаста [Радио-Т](https://radio-t.com). URL:  https://playchat.radio-t.com .
 
 ## Цели
