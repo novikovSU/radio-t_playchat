@@ -1,0 +1,64 @@
+<html lang="en" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system')}"
+  x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+  x-bind:class="{'dark': darkMode === 'dark' || (darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Радио-Т</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        },
+        darkMode: 'class'
+      }
+    </script>
+    <!-- Alpine Plugins -->
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/focus@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+
+<body x-data="{ issue: '', cc: [] }" class="">
+    <div x-init="
+        $watch('issue', value => document.title = 'Радио-Т №' + value)
+        issue = new URLSearchParams(location.search).get('i') || 'none'
+        if (issue !== 'none') {
+          const response = await fetch('/data/' + issue + '/' + issue + '_cc.json')
+          if (response.status === 404) {
+            return
+          }
+          const { subs } = await response.json()
+          if (subs.length < 1) {
+            return
+          }
+          let line = { author: subs[0].author, text: '' }
+          for (const sub of subs) {
+            if (line.author !== sub.author) {
+              cc.push(line)
+              line = { author: sub.author, text: sub.text }
+            } else {
+              line.text += ' ' + sub.text
+            }
+          }
+          cc.push(line)
+        }
+      " class="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
+        <div class="w-full max-w-3xl p-4 bg-white shadow-md bg-white dark:bg-gray-700 dark:text-gray-200 print:!text-black">
+            <h1 class="text-2xl text-center p-4 font-bold" x-text="'Радио-Т №'+issue"></h1>
+            <template x-for="sub in cc">
+                <div class="m-3">
+                    <strong x-text="sub.author+':'"></strong>
+                    <span x-text="sub.text"></span>
+                </div>
+            </template>
+        </div>
+    </div>
+</body>
+
+</html>
